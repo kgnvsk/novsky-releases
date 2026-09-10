@@ -1,15 +1,15 @@
 {
-  "version": "0.1.58",
-  "notes": "# Novsky 0.1.58 — навигация и серверы\n\n- Одна кнопка «Назад» вверху вложенных страниц. На главную можно перейти через логотип или «Флот».\n- Во Флоте появился выбор сервера рядом с поиском. Фильтр сохраняется при возврате со страницы агента.\n- Серверу можно дать понятное имя: выбери его во Флоте и открой «Название и настройки сервера» либо «Настройки → Серверы».\n- Файл `.novsky-agent` можно перетащить в зону импорта. Подсветка и движение иконки показывают, куда его отпустить; выбранное имя и ошибки формата видны сразу.\n\nОбновления приложения доступны через GitHub в «Настройки → Обновления приложения». Данные и подключения сохраняются, серверные агенты не переустанавливаются.\n\nЭто временный pilot без нотариализации Apple. Обновления подписаны постоянным ключом Novsky. При первом запуске скачанного DMG macOS может потребовать стандартное разрешение в «Конфиденциальность и безопасность» — [инструкция Apple](https://support.apple.com/en-us/102445). arm64 — Apple Silicon, x64 — Intel.\n",
-  "pub_date": "2026-09-10T12:49:34.301Z",
+  "version": "0.1.59",
+  "notes": "Novsky 0.1.59\n\n- Исправлена отправка сообщений в режиме ремонта: можно продолжать разговор без выбранного агента; выбор цели ремонта теперь объяснён рядом с полем сообщения.\n- Установка и управление сервером работают через существующего SSH-пользователя с sudo. Поддерживается sudo с паролем и без него; пароль хранится зашифрованным.\n- Кнопки мастера установки больше не перекрывают поля при прокрутке.\n- Помощник учитывает возраст статуса, правильно повторяет обновления Claude/Codex, понимает дополнительные формулировки ремонта и видит полный доступный каталог заметок и скиллов. Улучшена очистка секретов в результатах инструментов.\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
+  "pub_date": "2026-09-10T18:30:36.049Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.58/Novsky-0.1.58-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJDVmRQUTR0cHZWNXQxRTU3aUNzZlJCY0dFM2xOWndnZ0VuWUtyZlREalBSeE1TYTZ5QTViSnJrbWZZV3d5MEFaT1lKR05PTEdQMWRxZWRoWWMySWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDQ0MDYzCWZpbGU6Tm92c2t5LTAuMS41OC1hcm02NC5hcHAudGFyLmd6CjArT3RncmpDZHZTK3ZyempERTAwc2lXZzFuRGYvb1p4Rm9ERXU3SHg0QnFDYmQxanpjUnRuWVBLN1JCckNyZDdxVzFrTm9aelRyNlFkUXA4Mlp6SkNRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.59/Novsky-0.1.59-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFlcGJqaVltVWxIOXVGNW1rb0JEcVZYWGJnMkt5RlNRbVZyYmt1SmRSK281ek9xQTJJbi8xalE4R2FabloyYmhiWlZvNkNyVXVaRXBiOWhyZHNJQWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDY0NzIxCWZpbGU6Tm92c2t5LTAuMS41OS1hcm02NC5hcHAudGFyLmd6CjhybXljWjZnSGZqaVVRdlRSK2poSjdodktzL0tJMlJraDVwWlpsNTZTTXhEZkc0WnFVY1kxbExtMFlMdnplL2l6ZnIwc3hoeTBxdEppR1FCcXRrYkJBPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.58/Novsky-0.1.58-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdnUVJCVXVDM3lTRVk0NkhsaUxjcENTZ1dPbk50dDhYTW16eHZTVkNlVXRobEZhRm5VYlNiTGkxMTVqZGtTN3VqQms3VlEwN2l3Zk5YUEZPM3JDdUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDQ0MTQ5CWZpbGU6Tm92c2t5LTAuMS41OC14NjQuYXBwLnRhci5negpIaDFMZG9halUxeWlGaEh2Z0ZvZStUcE1BcHE5ZkxxUUdZczZJNlA4ek41TTA3NVh3Ym1MSXY2TzViUHM3OUpzcmNxc0N4RHVkdHJRNXo4MXdJekNDZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.59/Novsky-0.1.59-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9kM3UybjhvSmpMN2xjcmc3ZSs0dEIyY1k2clFFY0hwUVlpZ3o2eGhFa0k4TWVFNDVYV2g1UGxCRnhnRXZkL0xzcUFSOWFwNHhQU0lJTWpQZytOdmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDY0Nzk5CWZpbGU6Tm92c2t5LTAuMS41OS14NjQuYXBwLnRhci5negpwWjkxN0RRZE1jTmxFUDdFQXIwb3ZKbGI4S25qeThXVmJJTlRqakF4anJUbTFiTUNjN0ttQ3dpMlpDVkJpcGMza09ZRmRKQ1NCUTVtU0JyTnBHYmZCUT09Cg=="
     }
   }
 }
