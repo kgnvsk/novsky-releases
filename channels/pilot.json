@@ -1,15 +1,15 @@
 {
-  "version": "0.1.60",
-  "notes": "Novsky 0.1.60\n\n- В чат помощника можно добавить фото кнопкой, вставкой или перетаскиванием. Перед отправкой доступны превью и удаление; можно отправить фото без текста. Принятые изображения сохраняются в истории разговора.\n- Настройки стали компактнее: одно действие обновления, короткая строка поддержки и сворачиваемые сведения о приложении. На самой странице настроек больше нет дублирующего баннера обновления.\n- В карточках задач видны дата и время постановки и завершения. Если источник не записал время, это указано явно.\n- Убрана фраза «Чим допомогти?» рядом с маскотом. Помощник остаётся доступен по клику на него.\n- Включены исправления 0.1.59: разговор в режиме ремонта без выбранной цели, установка через SSH-пользователя с sudo, кнопки мастера без перекрытия полей и уточнённая диагностика агентов.\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
-  "pub_date": "2026-09-10T20:42:17.037Z",
+  "version": "0.1.61",
+  "notes": "Novsky 0.1.61\n\n- Помощник ищет контекст по агентам, серверам, задачам, проектам и их документам, общим знаниям, памяти агентов, скиллам и справке Novsky. Оба движка — локальный Claude Code и Codex — используют общий поиск через MCP.\n- Ответы могут содержать ссылки на источники. По клику открывается сохранённый текст с датами; длинные источники можно дочитать и перейти к соответствующему разделу приложения. Черновик сообщения сохраняется при просмотре источников.\n- Поиск различает доступные, неполные и недоступные источники, учитывает возраст данных и предлагает продолжить просмотр остальных записей. Отмена останавливает последующие запросы; чтения серверов имеют общий лимит параллельности.\n- Проекты и память читаются из существующих данных без подготовки, миграции или переиндексации на сервере. Права ремонта и управления остаются в выбранном владельцем режиме.\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
+  "pub_date": "2026-09-10T22:23:43.268Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.60/Novsky-0.1.60-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlCTVV3OHQxZ0MxOS9PaUpWSkNMZWFBaTdvbnRoeEdhWURsUno1K0dPRmpxVXl5V08wSDVrMC9zTURMNk8xN1hmVU5OckxnQzVxUXQvNUJVVVFYTHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDcyNzk5CWZpbGU6Tm92c2t5LTAuMS42MC1hcm02NC5hcHAudGFyLmd6CmFKbWdDbkZBblhLZlJBbjhaVm9XQTI4V29BOTFIcnpIZENUVHNlcC9CTFVKM2w1WE9sUjNHemQ0aUtxa1lWNWRLQWcya0dCZVYyWjFvWVI5bWo5d0JRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.61/Novsky-0.1.61-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnIvUnIyUmJYUnRJZTcza0RtMEEvbHJTYlpKNGVmYUV4MHlSUHVQbDZWMDFUNEdGSzJCdy93UWpzRHJYcXkyTHA5RWJNTEtUdDRwWlZydEZLb0lTMHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDc4OTE2CWZpbGU6Tm92c2t5LTAuMS42MS1hcm02NC5hcHAudGFyLmd6CmRYOWt5Sk9qcFJLYWpoQjRnTkphRTkydVFXYjlDMitYWkVDbVhkMU9rQU11dzd5WkFZZHNETHU3ZWRXWmJWN0srS2YrZk0vcXZjeDBqV2NBemZtNkRnPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.60/Novsky-0.1.60-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNWSkNIdVA0bStEWnphV3VxSVJZRUlOQXNBRWo4WWZidFZyNHYycE4zWkV5cTNoUExBQS96aFBWOXFmZjF3OHNESUVzSU0xVGdQZFUvKzNhSEtYclE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDcyODgzCWZpbGU6Tm92c2t5LTAuMS42MC14NjQuYXBwLnRhci5negpteTJzdFlCVEJISXA3OUZ0VWc0NW0xMnAzVzBOaDYxbC9rejB2MEhWcGhaZnRKWGRSMGR3ZytPakNIOUIxMUxNMGNlRkFudWQyazQ0YlBWUkk1cDBBQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.61/Novsky-0.1.61-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdzWDU4eGhtKzNtQUpobHN3bU5Ea2xnRXErbmtCa3NqdXFqSFRKOWg5M016ZkZYb0R5WGIvaDFCdDl4TFIvSStURGtBOW5QSmw2WFA4bTJFWmZVckFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDc5MDAyCWZpbGU6Tm92c2t5LTAuMS42MS14NjQuYXBwLnRhci5negplNWIzQTlROVN3Rll2RWsrcXpHeDQwK1UvZTZlM3AvV2RlcFNvU0JIb2dKbGRkSGxYSDZWeU9oblg0T1cvaFBCTXA5dm1oZUNqUWl4Z1NkQlZQZUdCQT09Cg=="
     }
   }
 }
