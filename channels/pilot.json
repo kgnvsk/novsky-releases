@@ -1,0 +1,15 @@
+{
+  "version": "0.1.57",
+  "notes": "# Novsky 0.1.57 — тестовый канал обновлений\n\nNovsky получает обновления приложения через GitHub. Новую версию можно проверить в «Настройки → Обновления приложения» и установить с перезапуском. Перед заменой сохраняется резервная копия приложения и его данных.\n\nЭто первая сборка с подключённым тестовым каналом. Её нужно установить вручную вместо старой локальной версии. Сохрани папку данных Novsky: подключённые агенты останутся во флоте. Следующие версии будут доступны внутри приложения; GitHub-аккаунт не нужен.\n\nСкачай DMG для своего Mac: arm64 — Apple Silicon (M1/M2/M3 и новее), x64 — Intel.\n\n**Временный pilot без нотариализации Apple.** Архивы обновлений подписаны постоянным ключом Novsky и проверяются до установки. При первом запуске macOS может попросить отдельно разрешить приложение через «Системные настройки → Конфиденциальность и безопасность». [Инструкция Apple](https://support.apple.com/en-us/102445).\n\nОбновление Novsky сохраняет подключения и не переустанавливает серверных агентов. Файл передачи агента `.novsky-agent` импортируется отдельно и не входит в публичные установщики.\n",
+  "pub_date": "2026-09-10T12:05:10.687Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.57/Novsky-0.1.57-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhBODUzSjhLcjZaWmliRUh4S0gzckRIdjNEM2ozaUIzRENJcjlvTFZzNHFSdXFwdGVXeU43MXg2bVhaYnU4blYzdk9rb2lQUEVzN2FOQTlvZERlb0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDQwNzkzCWZpbGU6Tm92c2t5LTAuMS41Ny1hcm02NC5hcHAudGFyLmd6Cld5OVU1bU1CcEJaemc3MlVrM2hucFEyMHZHNUgrMG85QWVaM2V4alNNMVN3V3lvQXhrWFc5SzhuVldDWS9pME5HakFCWU1CbDl1UmFmNU1udzZZZ0RRPT0K"
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.57/Novsky-0.1.57-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm4vNTNwY1Z5UEp6WU11N1BKUTZYY3g4aUtMc3c3SUF3N2loVHJFTmJHd2ZnQUJMbW1FY1ovREdzUnl4RzN1cjhFckpYdUxSRDMybWV0ZWhlc3RPbUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDQwOTc2CWZpbGU6Tm92c2t5LTAuMS41Ny14NjQuYXBwLnRhci5negpWSC9pQlEyU2NTalFoZ2tsRWhFYUlRNCtaY1NLV0FqTUVXNWxlVGIyN1RrUnAzZ2I5b1NCa0FLMGE3QW5JQWVoNkJUZGd1eVlxdUdrNXlIcFdWVTRBZz09Cg=="
+    }
+  }
+}
