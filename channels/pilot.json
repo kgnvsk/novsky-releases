@@ -1,15 +1,15 @@
 {
-  "version": "0.1.61",
-  "notes": "Novsky 0.1.61\n\n- Помощник ищет контекст по агентам, серверам, задачам, проектам и их документам, общим знаниям, памяти агентов, скиллам и справке Novsky. Оба движка — локальный Claude Code и Codex — используют общий поиск через MCP.\n- Ответы могут содержать ссылки на источники. По клику открывается сохранённый текст с датами; длинные источники можно дочитать и перейти к соответствующему разделу приложения. Черновик сообщения сохраняется при просмотре источников.\n- Поиск различает доступные, неполные и недоступные источники, учитывает возраст данных и предлагает продолжить просмотр остальных записей. Отмена останавливает последующие запросы; чтения серверов имеют общий лимит параллельности.\n- Проекты и память читаются из существующих данных без подготовки, миграции или переиндексации на сервере. Права ремонта и управления остаются в выбранном владельцем режиме.\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
-  "pub_date": "2026-09-10T22:23:43.268Z",
+  "version": "0.1.62",
+  "notes": "Novsky 0.1.62\n\n- Помощник получил настоящий терминал: может читать журналы, менять конфигурацию, устанавливать пакеты, восстанавливать и перезапускать процессы. Локальные Claude Code и Codex используют общий инструмент через MCP и существующее подключение Novsky к серверу, включая sudo.\n- В режиме ремонта или управления доступ к терминалу выбранной машины подтверждается один раз на текущий запрос. Видны сервер, учётная запись, каталог и первая команда. Последующие команды этого запроса выполняются без повторного подтверждения.\n- Команды показывают вывод, время и код завершения в чате. Долгое выполнение можно остановить; при потере соединения результат помечается как неизвестный, действие не повторяется автоматически. История команд сохраняется после перезапуска приложения.\n- Поиск контекста по агентам, задачам, проектам, памяти и скиллам работает вместе с терминалом. Перед изменениями помощник должен проверить текущее состояние, сохранить резервную копию и после ремонта проверить результат.\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
+  "pub_date": "2026-09-10T23:24:58.624Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.61/Novsky-0.1.61-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnIvUnIyUmJYUnRJZTcza0RtMEEvbHJTYlpKNGVmYUV4MHlSUHVQbDZWMDFUNEdGSzJCdy93UWpzRHJYcXkyTHA5RWJNTEtUdDRwWlZydEZLb0lTMHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDc4OTE2CWZpbGU6Tm92c2t5LTAuMS42MS1hcm02NC5hcHAudGFyLmd6CmRYOWt5Sk9qcFJLYWpoQjRnTkphRTkydVFXYjlDMitYWkVDbVhkMU9rQU11dzd5WkFZZHNETHU3ZWRXWmJWN0srS2YrZk0vcXZjeDBqV2NBemZtNkRnPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.62/Novsky-0.1.62-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmd5NFhzWUxuSFhEWDlGT3BzVGFpbE5nYlVHT1gyNENERVpkY3k1eVpnem9JOUtJajNEbjN6emFhaXEybU04TGx4UFBMVGhyUVJFdzd6OENDMlNjUEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDgyNTI0CWZpbGU6Tm92c2t5LTAuMS42Mi1hcm02NC5hcHAudGFyLmd6CjY4aVVLZEdXRmhGZ0VCd0poeGV2NXZUdXlYdExQcSt2OER0R2gySVRGcTJzZDRVUW8yUENaT1Z5MXc4RWxERHZVOGJKa3lKUFpRSTAzMXBqdmh1NEFnPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.61/Novsky-0.1.61-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdzWDU4eGhtKzNtQUpobHN3bU5Ea2xnRXErbmtCa3NqdXFqSFRKOWg5M016ZkZYb0R5WGIvaDFCdDl4TFIvSStURGtBOW5QSmw2WFA4bTJFWmZVckFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDc5MDAyCWZpbGU6Tm92c2t5LTAuMS42MS14NjQuYXBwLnRhci5negplNWIzQTlROVN3Rll2RWsrcXpHeDQwK1UvZTZlM3AvV2RlcFNvU0JIb2dKbGRkSGxYSDZWeU9oblg0T1cvaFBCTXA5dm1oZUNqUWl4Z1NkQlZQZUdCQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.62/Novsky-0.1.62-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtzMFNsSDFlT0tSaFVBNlZ1N2c0bmZqaGZINnJnQjBKYXBLVkJUaFlEdG1uVTdRUngyaXNoWkovUWZCZ2FDd3FWSGxUSEk4dXRWY3YrcXFrVGQxRUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDgyNjA5CWZpbGU6Tm92c2t5LTAuMS42Mi14NjQuYXBwLnRhci5negpKNjNQZWMzWUNIVEM3WHUreitHM3habUp6cDlqRU4wNHRKZWpPNTBkY3JpZ05YbDRHclF2Q3ZpMW9vK3RWMnRaODZtUStpbFhMMlUrYXZRNFd0RUpDZz09Cg=="
     }
   }
 }
