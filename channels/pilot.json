@@ -1,15 +1,15 @@
 {
-  "version": "0.1.64",
-  "notes": "Novsky 0.1.64\n\n- Работа над общим проектом из обычного чата с агентом теперь фиксируется в проекте: отдельные задачи, авторы, время и результаты. Повторная доставка сообщения не создаёт дубликат; чужой вклад и устаревшая версия защищены от перезаписи.\n- Если агент ответил, но не сохранил результат в проекте, задача показывает проблему сохранения. Личная переписка не переносится в общий проект автоматически.\n- Добавлены отдельный запуск и отмена проектной задачи через координатора. Сохранение задачи само по себе не запускает агентов.\n- Владелец может получить сохранённые результаты и файлы прошлых делегирований и закрыть их после просмотра.\n- Усилена изоляция делегированных процессов Claude и Codex, исправлен запуск современных версий Codex и остановка дочерних команд при отмене.\n- При потере соединения сохранённые проекты остаются доступны для чтения с отметкой о неактуальных данных.\n\nПроверено на пяти агентах одного сервера, включая работу из Telegram, передачу файлов, независимую проверку результата и отмену.\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
-  "pub_date": "2026-09-11T09:53:23.645Z",
+  "version": "0.1.65",
+  "notes": "Novsky 0.1.65\n\n- При создании проекта обязательно выбери координатора из редакторов. Он ведёт общую работу; окончательное принятие результатов остаётся за владельцем.\n- Координатора и состав команды можно заменить одним сохранением. Если агент переустановлен, его доступ восстанавливается явным переподключением. Старые проекты и их результаты сохраняются.\n- В чате помощника одна кнопка: отправка, остановка во время работы, затем снова отправка. Положение и размер не меняются, черновик и вложения сохраняются.\n- Перед использованием новых настроек на ранее подключённом сервере открой «Проекты» и нажми «Подготовить проекты», если приложение это предлагает. Сам выбор координатора не запускает задачи.\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
+  "pub_date": "2026-09-11T12:14:18.467Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.64/Novsky-0.1.64-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtYMEFIYmhib3dVZktBTmNiSkRMUFVaQXFjbEpBcDQ3dE9idkRuaXVVenplVlo5U1FuUlRuMmVyZFdWRmlTYUlwTkhqZFZpSFk3MHNaMFFuaDYzWWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTIwMjY1CWZpbGU6Tm92c2t5LTAuMS42NC1hcm02NC5hcHAudGFyLmd6Cjk5Q1oxTW0zZ3NyWXA2QURZZmJFbzNmY2RxL1ZZUE9iNGptQ0VMU3pLMytTQ0tQL3Z3WEQ5azB5UVlHUnVhZFNWd0VZLytYY0VrRVRocXZNN0U3VEJnPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.65/Novsky-0.1.65-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9sRXVYMm5VVmpnbzgrYlpVRDFId3FERGRxU1VPdFFlVGgycXZ4K0swdUJEQys3Y25ZSmhjRm9uaTNxb1NaMWFINmRqRWpSZE9HMXVzckRBamZFZmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTI4NjQzCWZpbGU6Tm92c2t5LTAuMS42NS1hcm02NC5hcHAudGFyLmd6CnVjUVJUQ3Q5YUYxYkc0alpuOUxTb3F0NHlNaC9YR2pSOHdCa3F3VzRTTXdhb0twYndldlYzc2pZZm9IQ2VnQVg3YWxQc2g1ai9FSG1vN212djByYURBPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.64/Novsky-0.1.64-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnBMdldPWGhLYk5xV2xENjg3UTcvWHJVaHpXQkpRYlo1b0I5dG9YdDJOYmdWMlQxbXM4dDU4OC9HUlZCK1JVeVFLT1h0K1o3ajFlSVJ6bEpCYlBjQmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTIwMzY4CWZpbGU6Tm92c2t5LTAuMS42NC14NjQuYXBwLnRhci5negp4cktUUVUwai9uS0M2Q0Z4K3I4RHMxdmlVU3BSMU0xaWlhbjViYUJsM1V0MHB1Nm1DYU1NdDBQQjN2MTFrd28wc014TEhBUlI2SklONEtiK3BGaHlBUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.65/Novsky-0.1.65-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9RbCtzcXhsWktZelJVekcrakFUWFkxSEt1Z25FUEhUbVVjeG01aEI1TXNZODIvRHZqdDliL3ZMM2JFbTBzbkp2dTdWRzV0Qnp1MkVRN1lhL0pvMXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTI4NzkwCWZpbGU6Tm92c2t5LTAuMS42NS14NjQuYXBwLnRhci5negpvRVVWeGRhdVozUm1tdmF5eSs3V3hrd3owNjlTejl2OW1hL2xlVzhkMDgvT0taTXpXZjZtczZoSWRnakxmTWp0NVpMTmQzR25wcnRGdmJpdjgwTytDdz09Cg=="
     }
   }
 }
