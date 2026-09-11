@@ -1,15 +1,15 @@
 {
-  "version": "0.1.66",
-  "notes": "Novsky 0.1.66\n\n- Во «Флоте» можно переключаться между карточками и компактным списком. Приложение запоминает выбранный вид; поиск и фильтр по серверу работают в обоих режимах.\n- В списке видны агент, модель, сервер и состояние. Сохранены смена модели, переход к установке, прогресс и ошибки.\n- Обзор проекта собран в ровные разделы: состояния задач, короткие превью, материалы, участники и история. Предыдущие события раскрываются по нажатию.\n- В «Мозге» общие знания и память агентов занимают всю ширину. Участники расположены компактными рядами, длинные имена аккуратно переносятся.\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
-  "pub_date": "2026-09-11T13:45:55.712Z",
+  "version": "0.1.67",
+  "notes": "Novsky 0.1.67\n\n- В мастере установки появилась опция «Устанавливаю не себе»: отдельно имя, Telegram username и ID владельца, отдельно контакты администратора для настройки и тестирования.\n- Владелец остаётся владельцем. Проверить первую переписку и завершить установку можно из указанного аккаунта администратора.\n- Claude и Codex получают доступ для обоих участников. В нативном runtime ответы, файлы и история администратора привязаны к его чату; согласия владельца остаются за владельцем.\n- Повтор установки и обновление сохраняют актуальные права: отозванный доступ администратора не выдаётся заново.\n\nПилотная сборка macOS для Apple Silicon и Intel. Опция применяется при новой установке агента.\n",
+  "pub_date": "2026-09-11T16:22:49.618Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.66/Novsky-0.1.66-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5LMjJoTmRHNlJyS055QVJRdi94QnVyQzBWQ0cvdE5ZdmFBYnk2blIxR0hNNjA5Z0xIYTdMalArR0VxREZyVzlWNjNFZnVXdUoyaEkwS3YrczQvcVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTM0MjQwCWZpbGU6Tm92c2t5LTAuMS42Ni1hcm02NC5hcHAudGFyLmd6Cnp2Vlh2NWgwUzZlMzMwSmZyUTVwQTNWOXgzcGZBVnd4NXVaTmlkOFQwMUJMSmUxSmlsZHh0T3V1WEdlWU1raU1IbktaRS9COFV0ZCsxUE52U095c0FRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.67/Novsky-0.1.67-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmkrTjZzdzUxSVM3MVJYUjJheXZOVEtkRlpYTzc2M2MvcmtwSUVoSy9LZVFaSUFYc3BuNEltTW1hV1JrUmM4cWFzWFZsYTVyNVJrZW1IUEdqcVptaEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTQzNTM4CWZpbGU6Tm92c2t5LTAuMS42Ny1hcm02NC5hcHAudGFyLmd6CnZLR3Q0a3FUNzJQaDQzekVzSXBjWml4MTdnWlpiM3ZwMi8vWmZUZkZTSzN6ZW5CYUtWTWJ6TWcvZzVRR01URkx1elg3K0YvaC9oUTNjMkI2K0JuSkJ3PT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.66/Novsky-0.1.66-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdjVkpyTEc0bXhqKzdrMnJwN0pKbXUzR0dBTk05YW5lejJ6NDdNVGhLS3JOMlNUenBoMXh4dkNEVXZkQXhZUFo1VGpkU2ZVOUlLd0R1S25yZldNRUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTM0MzMzCWZpbGU6Tm92c2t5LTAuMS42Ni14NjQuYXBwLnRhci5nego2cERIdXpQWmFUU2JIY2hSRk96RlpPZ3NqWm5NSEFLYWFzcWVTSFlQYnRUOGdHSHAyUnY1RUhlK0JlSE9wL202ZXlOclU2MVV3ZkhpNklqd3FSSmtCdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.67/Novsky-0.1.67-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRSbmJDQXBpQ3pOVTVzZ3BITGNRZC9sMndBd3V4Z0hrYklGYnpqczBqbHdHdzBISXYyYVJHdFpxdC9FaDVXbFF6alZrWTRRSmxFUlVkVGxZSjN2TFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTQzNjI4CWZpbGU6Tm92c2t5LTAuMS42Ny14NjQuYXBwLnRhci5negpjd3k2NkFSUnc2OThBcUsrRTQ3T2w4RnVtSFdlQWcwYkJiNkVFUk1EazZlT2Jhb0RUUmI3TkdmVHBMU2ZVVU1ERXVVL1J2MCtuek9nd1QxLy9UM3FCdz09Cg=="
     }
   }
 }
