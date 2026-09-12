@@ -1,15 +1,15 @@
 {
-  "version": "0.1.74",
-  "notes": "Novsky 0.1.74\n\n- Исправлено окно активации: после подтверждения покупки поле ключа закрывается сразу. Ключ также можно отправить по Enter.\n- Помощник видит незавершённые установки, даже если агент ещё не появился во флоте. Их можно выбрать в режиме ремонта и в быстром действии «Починить агента».\n- Помощник читает ошибку и журнал, помогает устранить причину через терминал и продолжает установку с остановившегося этапа. Поддерживаются Claude Code и Codex, серверные и локальные установки.\n- Восстановление проверяет, что прежний установщик остановился, а каталог не занял другой агент. Секреты скрываются и в журнале, и в результатах поиска помощника.\n\nКоды входа и подтверждение подключения вводятся на странице установки.\nОбновление: «Настройки → Проверить обновления».\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
-  "pub_date": "2026-09-12T14:14:40.002Z",
+  "version": "0.1.75",
+  "notes": "Novsky 0.1.75\n\n- Скиллы снова видны у агентов в приватном режиме и у агентов, подключённых с готового сервера. Каталог учитывает отдельные папки Claude Code и Codex.\n- Если сервер недоступен или часть каталога не прочиталась, раздел скиллов показывает это явно. Сообщение «добавь первого агента» больше не появляется при существующем флоте.\n- При подключении готового агента Novsky определяет его Telegram-логин, даже если username не записан в конфигурации. Недостающие логины у уже подключённых агентов дозаполняются автоматически.\n\nПриватный режим сохраняется: задачи и переписки владельцев не загружаются. Изменение скиллов доступно только для поддерживаемых установок и выбранных агентов.\n\nОбновление: «Настройки → Проверить обновления».\nПилотная сборка macOS для Apple Silicon и Intel.\n",
+  "pub_date": "2026-09-12T14:38:53.207Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.74/Novsky-0.1.74-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmkvY1V5VHMySnRsRnJvY2hUMFdOdlJuTkNSSTB5ME1YUklZaE5UenQxU1N2bW9EM3dDR2tKYW83aXQ4b25Wa29oTVFhZUtROTlQb2ZWcWlFR3JvUXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjIyMjUyCWZpbGU6Tm92c2t5LTAuMS43NC1hcm02NC5hcHAudGFyLmd6CjVVQmUraW9JcHovVlM2bDFwbDRmLzFVb3hBbUk0Wkhpd3FYWUZHTktrZ0hNbmQ5UkhHdUpYZk5CR2tLVFJQOVYzQU1GclRPYzBYK0cwL0RJbjQwaUN3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.75/Novsky-0.1.75-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdxUUF4ZzZ2WVIzc0hlYjF3Z1N4Q0VXWHY2bThQU2R4bHNiTkc2UkMwNVQvZ2U5UzNvM3lRT3grbVA4SzcrRWlkL3NQZ3BGQmpIRnhhbm5rWGVYOUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjIzNTQ1CWZpbGU6Tm92c2t5LTAuMS43NS1hcm02NC5hcHAudGFyLmd6Cmt1YnpkQlF3OEU2dXIzNHd1QkRXS1NPdWRLQUo5Ky9yWCt5VXRiaVpQM04vMlRaNUR4UlFpQjlUcDZ3WmtlQjVxL0d1L21EcENNdG9nSkhNeDYxSEF3PT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.74/Novsky-0.1.74-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFNaDFPc050RTJrUDRPdGpGbXV2aEdFckdCNlB2RmVreE9ETkpna2h6anJSeG9pbmlHb0pnWlloTTZROUpXRGgxQjdkdlVKZDFHZ1dhQ3VPTHU5c0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjIyMzY2CWZpbGU6Tm92c2t5LTAuMS43NC14NjQuYXBwLnRhci5negphRWNVb2pYRXZuYjM0ZVo5d05adnVjT09IWDM3Y1RDTllFdWpQWDErM0lVTGlwN1pHM1lqRXZ4aTRCdWNUaVJhUEY3WTRqbUdhclRaZnR3VzZwaVlEdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.75/Novsky-0.1.75-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlnUjBpdmZWWmRGeFBOSmdncHRkUXpxWjFHYkxhQmh0bm1saFNzbkVjYkQrcUMzbnY4RjFoZFBJNzFwNVF2MSs0RnB4K08wanVXTTZEV2VRYkFVM0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjIzNjgwCWZpbGU6Tm92c2t5LTAuMS43NS14NjQuYXBwLnRhci5negpScmt0Y3BBc1krc2lkOGYyZGV3NURXYjdHVklVR0R3eml1anM3bldvMUloaVFqWENlTnZSb2FyRmZoQzU2K3A5UWx1RXAxZEFjSE1Gc25nVWk2eVVBUT09Cg=="
     }
   }
 }
