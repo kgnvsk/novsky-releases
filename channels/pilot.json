@@ -1,15 +1,15 @@
 {
-  "version": "0.1.68",
-  "notes": "Novsky 0.1.68\n\n- Готового агента можно подключить в полном или приватном режиме. В приватном режиме Novsky показывает техническое состояние, а личную историю получает только по отдельному запросу. Общие материалы и задачи проектов остаются доступны участникам.\n- Повторное подключение и импорт применяют выбранный режим без создания дубликата агента.\n- В настройках Novsky и помощника появился мониторинг: выключен, наблюдение или автоматическое восстановление. Проверки выполняются скриптом, пока Novsky открыт, без регулярных обращений к модели.\n- Автовосстановление проверяет занятость, состояние службы и сведения об авторизации перед перезапуском. Повторные попытки ограничены; результат ремонта сохраняется в техническом журнале.\n- Исправлены проверки занятости при входящих задачах от других агентов и сбор большой истории. Неполные данные больше не означают, что агент свободен.\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
-  "pub_date": "2026-09-12T03:31:01.525Z",
+  "version": "0.1.69",
+  "notes": "Novsky 0.1.69\n\n- Исправлено отображение модели во флоте при включённом мониторинге и в приватном режиме. Novsky показывает модель из актуальной конфигурации агента.\n- Периодические проверки получают технические сведения без чтения личных переписок и без запросов к модели. Данные о диске и перезапусках сохраняются.\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
+  "pub_date": "2026-09-12T04:28:58.410Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.68/Novsky-0.1.68-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFPL1h2MjE2MVdrRVg4MmdzbmpnSjNNcVc2REhnNjV6N2pIOWErZzdkQVdSakVXc1UxT0dsYXk4dzdySnU1M2w0OStlMDZ5eDJuRzkwOUpDWkIxS3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTgzNDUyCWZpbGU6Tm92c2t5LTAuMS42OC1hcm02NC5hcHAudGFyLmd6ClNqUUFESktUelF0MHAzYmkyaDNQei9pMFh3QldvdTFXTElTTlprUFNnWThHUFZXUlp6aXZ4UEJXTHJHZTVoSnBXNm1sWkMrR0VuRk42ZGpCaDVUQUR3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.69/Novsky-0.1.69-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1nSHRuSVNYMHY1dmwydEtqeEJmWklVV0oreWVrcmx2OGt6dk9nVCt2QjNQWUV1SDg0VmM4eHlHZEZVL1cybTh2eWE1WjhUOTJKbjdJbzZDZDZLWndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTg2NDQ0CWZpbGU6Tm92c2t5LTAuMS42OS1hcm02NC5hcHAudGFyLmd6CkJCUmRldzB0dnN5cllHYzJadDVTSEFLaC9ESVViUjlPTjFFM0x3Yk5tb2p4NFdDbHFjU2dBeU84MlFhclkxR2MvckNoeFIrNUp6aHg4WUIwMWMwMEN3PT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.68/Novsky-0.1.68-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnQ0TkFGc1lUTHg5alVBYUVUOGpGazlPZVhuR1JOMS8weU5xU2VMYmx0R1B5dXowNVo5MEo5ZkdxK292c0EybW5EVERSTlp1Wkw2a2pMRHZpUVVjckFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTgzNTkyCWZpbGU6Tm92c2t5LTAuMS42OC14NjQuYXBwLnRhci5negowWXZGZGlFNGJQMjlsNUlGcDB3VytTZXVodzdPRWFROGVEWVY3Vmd1VGhFa1FOaW1DWWhmWXh4QlQ5MC9tNXlPVDhZaVRWaERzYTYwaWtVdS95akNCdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.69/Novsky-0.1.69-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnVsNWs0ZHpjQTNGanlmaTZ2V0NtdWt5M1lQUzF6YUJtais2TUdxeVBaWmNhbmxnZzF2b1FjdDRTTlZpbnN2Z0lNYmsyYnV2c0pqdFdNUFZlclluRlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTg2NTQ4CWZpbGU6Tm92c2t5LTAuMS42OS14NjQuYXBwLnRhci5nego5U2d2bTBTc0dScndCVUgvamxpZVd0cXBWbCtUVzNhTFFhNkJZdE83UnNCV2dVNHI5RTJkcFgzT2paVDFuT0ZUbGt2bEVnREtCRlZSNUMzMWZtNVFCQT09Cg=="
     }
   }
 }
