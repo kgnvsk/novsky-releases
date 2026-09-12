@@ -1,15 +1,15 @@
 {
-  "version": "0.1.71",
-  "notes": "Novsky 0.1.71\n\n- В обзоре агента появилась отдельная кнопка «Убрать из Novsky». Она отключает агента от этого приложения и его мониторинга. Сам агент продолжает работать: служба, файлы, память и общие проекты сохраняются.\n- Действие доступно для установленных и подключённых готовых агентов в полном и приватном режимах. Сохранённое подключение к серверу позволяет добавить агента снова.\n- Удаление самого агента теперь явно подписано «Удалить с сервера» или «Удалить с этого компьютера». Перед отключением Novsky просит подтверждение с именем агента.\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
-  "pub_date": "2026-09-12T09:26:22.557Z",
+  "version": "0.1.72",
+  "notes": "Novsky 0.1.72\n\n- Исправлена установка дополнительного Claude-агента с нового компьютера: Novsky обнаруживает существующего бота на сервере и создаёт для нового отдельный аккаунт. Повтор остановившейся установки сохраняет этот выбор.\n- Исправлено подключение помощника через Codex на Mac, где Codex ещё не запускался. После подготовки помощника можно войти в свой аккаунт.\n\nОбновление устанавливается через «Настройки → Обновления». После перезапуска повтори остановившийся этап установки агента или подключение помощника.\n\nПилотная сборка macOS для Apple Silicon и Intel.\n",
+  "pub_date": "2026-09-12T12:39:57.281Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.71/Novsky-0.1.71-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpreEw1WE56TTJPMzQ3R3RMYXdSck40NzJneVJZVDl3aVpWZWJPN1FZT0NmcVNkdjhTYlFoK2FsT1FHUXJCaDAveXhwRnNEcmt0ejNmVkl6eFFvRXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjA0NjQxCWZpbGU6Tm92c2t5LTAuMS43MS1hcm02NC5hcHAudGFyLmd6CjMzcDl0RzZJSGRIODZUYWdPRWhuaEtLM3VWd1NrbjlFWUJQQWVIdkZXWUhWVXd1OWhnSExBZ0RvUmZCRFErbUFKU3pLSFcyNGdkc1R2NnJzckxNZEFRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.72/Novsky-0.1.72-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJWRitySnhFU0ZvaWlKb0RoVm5LbDFCOFUxd3BOc3RzQ2V3ay9KTVpOdmlEY0JVTWFtL2FteGhiZkhLam9ndlU0eUh4Ty8yNlBaZVBneURJc0ZjSUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjE2MDg3CWZpbGU6Tm92c2t5LTAuMS43Mi1hcm02NC5hcHAudGFyLmd6CjhHTDBWSkVubUNZRVNHRTA5WjNUU1JVNU5IRFpzZEg2WmNaQ3RxNHlVVlRXNDI0NVdTM2NWZi9LRlFTRmRIMENlVFhMNWNaRmZ4MG9UL3R6SGM1NURRPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.71/Novsky-0.1.71-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnR1dGRPMVJ4MHBSVlRSdGFFT0FQVGxGb28xRzhZK1g3OGtHSk13R1hZeGtDbkkwa2pnbEcrOUd6dUNsTHVtcmRaY2QzdlYrc2VZL20yb201cXZQcXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjA0ODQ3CWZpbGU6Tm92c2t5LTAuMS43MS14NjQuYXBwLnRhci5negpHYUJZL3JxdWdLc0dmejRobDNmTUhIMVBNdlloTUo3YWVvNk9rRXNWVjNmOFhSWldGSG94VzgzRXBjdUZIQUxzaGNBUWhHdXJhWjQ3T21GbnJlQVZEdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.72/Novsky-0.1.72-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJwNTA3TVMxZjFmc1YwazBYc2YxdDVOMjRHeEhOd1VlU1JaY0RFN0UwYVVKNnE4dVlwUjlLSU1xYmNzOWwyR0FlVkFIdGI0a0NYT1lxdmpwMjFJeHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjE2MjQ4CWZpbGU6Tm92c2t5LTAuMS43Mi14NjQuYXBwLnRhci5negp0RWV1UnZEQjhuNnlVUDl1UkRERHhEMVVIU1RyNDFwbW4vS3pBK2l4V0UzaldJTkd2dk9kVU5kSHBibk5ZTUt2c0ZqVFVRVE5WRis5aXlBNG5rL05BQT09Cg=="
     }
   }
 }
