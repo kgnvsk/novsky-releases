@@ -1,15 +1,15 @@
 {
-  "version": "0.1.75",
-  "notes": "Novsky 0.1.75\n\n- Скиллы снова видны у агентов в приватном режиме и у агентов, подключённых с готового сервера. Каталог учитывает отдельные папки Claude Code и Codex.\n- Если сервер недоступен или часть каталога не прочиталась, раздел скиллов показывает это явно. Сообщение «добавь первого агента» больше не появляется при существующем флоте.\n- При подключении готового агента Novsky определяет его Telegram-логин, даже если username не записан в конфигурации. Недостающие логины у уже подключённых агентов дозаполняются автоматически.\n\nПриватный режим сохраняется: задачи и переписки владельцев не загружаются. Изменение скиллов доступно только для поддерживаемых установок и выбранных агентов.\n\nОбновление: «Настройки → Проверить обновления».\nПилотная сборка macOS для Apple Silicon и Intel.\n",
-  "pub_date": "2026-09-12T14:38:53.207Z",
+  "version": "0.1.76",
+  "notes": "Novsky 0.1.76\n\n- Після повтору через помічника попередня спроба веде до поточної установки. Зупинка й видалення доступні для актуальної спроби.\n- Необов’язковий вхід у Codex можна пропустити після помилки й завершити встановлення основного агента.\n- Помічник відновлює збережений результат після помилки зв’язку та зберігає чернетку; виконані дії не повторюються автоматично.\n- Виправлено встановлення Codex для другого агента на сервері: CLI доступний його користувачеві, вхід у ChatGPT окремий для кожного власника.\n\n- Підключення автоматичного бекапу через звичайне повідомлення агенту: «Хочу підключити бекап».\n- Вхід у власний GitHub через браузер, створення приватного репозиторію та перевірка першого завантаження. Паролі й API-ключі до бекапу не входять.\n- GitHub CLI встановлюється разом з агентом. Команда зупинки залишається доступною під час підключення.\n- Випуск узгоджено зі спільним механізмом бекапу Claude Code та Codex.\n\nТестовий канал macOS для Apple Silicon та Intel. Збірка має підпис updater; нотаріалізація Apple ще не підключена.\n",
+  "pub_date": "2026-09-13T18:24:54.753Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.75/Novsky-0.1.75-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdxUUF4ZzZ2WVIzc0hlYjF3Z1N4Q0VXWHY2bThQU2R4bHNiTkc2UkMwNVQvZ2U5UzNvM3lRT3grbVA4SzcrRWlkL3NQZ3BGQmpIRnhhbm5rWGVYOUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjIzNTQ1CWZpbGU6Tm92c2t5LTAuMS43NS1hcm02NC5hcHAudGFyLmd6Cmt1YnpkQlF3OEU2dXIzNHd1QkRXS1NPdWRLQUo5Ky9yWCt5VXRiaVpQM04vMlRaNUR4UlFpQjlUcDZ3WmtlQjVxL0d1L21EcENNdG9nSkhNeDYxSEF3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.76/Novsky-0.1.76-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNWL0Q0YURmd295ZVBOOVN0REp3bEpaZnBuek1GOTBERGFVdWU4YzlFRExjVnZxdDNDdlRrY2ROYWtKZnVCajUwSVFweURvbk9aSFRSRlEvZVFQd3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzIzMDU2CWZpbGU6Tm92c2t5LTAuMS43Ni1hcm02NC5hcHAudGFyLmd6CkZrWWpkcmdSanNaNFFocEM0NTRBdmdUWDlpczBLKy9jR1pJQ2pSWmxVUkF5K1J1ZE43S2p5NldOSFFBZzV2b0lKTENJblBlc3Exb0tVM3kwc0lHR0RBPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.75/Novsky-0.1.75-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlnUjBpdmZWWmRGeFBOSmdncHRkUXpxWjFHYkxhQmh0bm1saFNzbkVjYkQrcUMzbnY4RjFoZFBJNzFwNVF2MSs0RnB4K08wanVXTTZEV2VRYkFVM0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MjIzNjgwCWZpbGU6Tm92c2t5LTAuMS43NS14NjQuYXBwLnRhci5negpScmt0Y3BBc1krc2lkOGYyZGV3NURXYjdHVklVR0R3eml1anM3bldvMUloaVFqWENlTnZSb2FyRmZoQzU2K3A5UWx1RXAxZEFjSE1Gc25nVWk2eVVBUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.76/Novsky-0.1.76-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdYekVGdStJYjcwVURzRXpCNFhiVTJaRmxvVE14Y2NuZTllZlpBaDk3eDZwQ0lta3hrMisrOWZuQzFJMGU0cjJzYXVZNE1ZaUxpZ1N0Yy9EeU13a3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzIzMTUyCWZpbGU6Tm92c2t5LTAuMS43Ni14NjQuYXBwLnRhci5negpjOWQrMzFPS1VEZUk4cTZERDI5Ly9qVmJkM1lMaDhKSjZFOFpLK0F3UFVZYnZPVU9SaXhMSjFrVWhybllJMW51S25jZWdJVFZyK0lEQ3UvaXdZZDVDQT09Cg=="
     }
   }
 }
