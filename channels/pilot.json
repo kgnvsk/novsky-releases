@@ -1,15 +1,15 @@
 {
-  "version": "0.1.79",
-  "notes": "Novsky 0.1.79\n\n- У помічника зʼявився вибір моделі та рівня мислення. Помічник веде власну розмову, тому раніше мовчки брав модель за замовчуванням акаунта і змінити її з Novsky було неможливо. Список моделей береться з підключеного локального CLI.\n- Моніторинг агентів приймає кілька агентів одразу: галочки, «обрати всіх» і одна дія на всіх обраних. Агентам без підтвердженого SSH-підключення автовідновлення не вмикається, і Novsky каже, скільки їх пропущено.\n\nТестовий канал macOS для Apple Silicon та Intel. Збірка має підпис updater; нотаріалізація Apple ще не підключена.\n",
-  "pub_date": "2026-09-14T14:21:11.693Z",
+  "version": "0.1.80",
+  "notes": "Novsky 0.1.80\n\n- Помічник тепер каже, чому не вдалося підключитися або виконати запит: на якому кроці й з якої причини. Раніше будь-який збій показував одну й ту саму фразу без пояснення, а вивід рушія просто відкидався. Сирий вивід процесу не потрапляє в чат: він лишається в локальному файлі ~/.novsky/logs/owner-assistant.log.\n- Помічник більше не вважає Codex вибором за замовчуванням. При першому відкритті він питає, до чого підключати: Codex чи Claude Code.\n- У майстрі встановлення прибрано поля @username власника та адміністратора. Права завжди визначалися числовим Telegram ID; username є не в кожного, а порожнє значення ламало установку на кроці ядра.\n",
+  "pub_date": "2026-09-14T19:52:15.318Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.79/Novsky-0.1.79-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlGeGtSODhqUDRXLzRHcTJLak5UQlNoWGt0VThCVnFNM2hYeGhmZ3h2NTBUbmM0MUNUd3Jsc0hXaTAwbHFQbnhRVElyeC90eUl3Q3NKRFc1aCtLc3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mzk1MzY3CWZpbGU6Tm92c2t5LTAuMS43OS1hcm02NC5hcHAudGFyLmd6CjdUdmxwNkwzalIvMVQza2NxelQzYlAzVzI5ZmNoUHR4OC9vNElPQU16VE5ZbUsyeUt2YVg3bkl2NlAxM1FWY1Z5L3VtS2k2WXhFUi9EVllYbkpRQ0RBPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.80/Novsky-0.1.80-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1ZZ29Bc1I2N0duZ1Jyd3hneG5pSHExNmVLZzAyRkNvK0YyTEhFaktZTVJaaFVudmVHMHp3c2VkK1hOZjJCVm9TdndDblZ0cW1LSE4zUUhLNGNpMkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDE1MzMxCWZpbGU6Tm92c2t5LTAuMS44MC1hcm02NC5hcHAudGFyLmd6ClRRUTdSVEM2TnVPdXNWRkp2WVVubUtGZm1MUzVVQ0xaU3FKRVNpQnRIR0IrWVhVWHV3VkdrODgxZEYyNVBlUnlQSHhuYm9IaitORnBMeGdEU1d2Y0R3PT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.79/Novsky-0.1.79-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdzT3NPbVVqaldNSVVqOVo1aHVRMk9ESUdqL090VHhRQW05d2VibFNFaHNPcjVuT3hNWmUxS0JrZFZvSmQ5ZURyL1dJWWVnNXFpZ2lGM0RCVENxcndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mzk1NDQyCWZpbGU6Tm92c2t5LTAuMS43OS14NjQuYXBwLnRhci5negpENDViMWFMMks4WGJ4ZE41VStBYU03cjdKZlU5YUZvVi8zbzhFMVcrT281aFRpaDhHMTBqY2E2cWVFYmJ1ZlRsc0dEeWlQZXVnZ2ZsUDh1Ull5dE9Cdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.80/Novsky-0.1.80-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJiREJML3NLYlBIeEpHWUo5OXoxQjY3aGI0Sm9zWmZvd1R5QUR3aE1kbDFYRGNvdzl1cGJJcXBLTE5BaFRac3ZOcnVnMDN5UDlVMTZWQ3k2NVgzMXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDE1NDE0CWZpbGU6Tm92c2t5LTAuMS44MC14NjQuYXBwLnRhci5negptWDNjQUVuR1FjQWgvZi9IeUZTSzIvcnFVelhIc29iOGdjZjUwcGVQd0FKSzlHNGlWWnUzYTViUE1zZUdPcTY0RUkvMGNsTEFRaEpsVjRWdlhnMlBDdz09Cg=="
     }
   }
 }
