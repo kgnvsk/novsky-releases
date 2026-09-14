@@ -1,15 +1,15 @@
 {
-  "version": "0.1.84",
-  "notes": "Novsky 0.1.84\n\n- Журнал установки тепер зберігає, що саме сказала команда, яка впала на етапі: останні рядки її stderr і саму команду в скороченому вигляді, без секретів. Раніше лишався один останній рядок, і причину на кшталт «SyntaxError» не можна було відновити ні власнику, ні помічнику.\n- Помічник знає: SyntaxError від `python3 -c` на скрипті, який надсилає сам Novsky, це дефект Novsky, а не сервера. Він каже, що потрібне оновлення застосунку, замість повторів етапу й пошуку причини на сервері.\n",
-  "pub_date": "2026-09-14T21:27:49.992Z",
+  "version": "0.1.85",
+  "notes": "Novsky 0.1.85\n\n- Коли є нове оновлення, внизу бічної панелі поруч із перемикачем мови зʼявляється значок. Один клік по ньому встановлює оновлення й перезапускає Novsky, без переходу в налаштування. Під час встановлення значок показує хід, при помилці її причину.\n",
+  "pub_date": "2026-09-14T21:40:38.061Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.84/Novsky-0.1.84-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxlR25ZY2FjTVltcSs3RnNXdmFmK0tEOURQSm9BK1JkbDlJM0R0OXY2aXdjWDRqSGRlRjdZaEF5ZUlVNzcyVmVkZmlkb3Q1ZFVqUnMyNjdYeGJlVGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDIxMDgzCWZpbGU6Tm92c2t5LTAuMS44NC1hcm02NC5hcHAudGFyLmd6Ck9MMW1hSnhHbUQ4b0U2MWYyd2xtUWR1TmhRQmUrbnF5L05QZ0hPaDQvc2paN0hVc0dOdU9DZGNKVnVpMC9UZnJ4WmlYZFA5cGVSK0FpODh6WGtjT0FnPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.85/Novsky-0.1.85-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFwT21nc0ZmRUF0S2RUL0RyVHpEUlhMaWxNR3hySFgvY3ZvRzdYZVdpMVJibCsxMlE5NnQ0L3YydE5oSVFqSEFJNTVVblVQQU84ZTZNRHRTSVJxN1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDIxODQ3CWZpbGU6Tm92c2t5LTAuMS44NS1hcm02NC5hcHAudGFyLmd6CnRPMXpyZDBCODlCYmh5VjM2R2tjU3JGdXhXOUZNSmhLelg4Wnh0ZVQyYlQwOXVHd3RwRDA2RGdBV281UkVmVWVDS3hyZzJ2TEFYbkdPU3NjQzhuNEN3PT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.84/Novsky-0.1.84-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFUcXZEejE0c20vcE9DUFo1RzBTMDFkSEh6R0xWSHRYTVBrSExzQnR4eXVNSUg3OWRWbEhkOXNZK0hKMGxVZFNHakJkZW5KN296VG9udGNKc2RWdWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDIxMTYzCWZpbGU6Tm92c2t5LTAuMS44NC14NjQuYXBwLnRhci5negpqZlJvTDlBdTFQTkRDdnd4aHhQa3I2dCs2ZW9hdzZxTitJa0VhSTBQYzQxQ3JQYjAwM2xKcmpNQXBIeDQ5RThnNGhFSE1mTTB5c3pFbG9UdjAzQWZDdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.85/Novsky-0.1.85-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm95UjFJbFZ3a2F4ZE4vNzRnSlByU09RTGJTdEtpMk9yeUt3VmpWL0tFVVUxYXpyV3pPS2xYQURJU3J3S1VmQ1VwTGRzVkNybFdsZjVNRENoM09aVEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDIxOTI0CWZpbGU6Tm92c2t5LTAuMS44NS14NjQuYXBwLnRhci5negorejhMUnE4RFc5R082QVIyM2FZUGwxM2l1cCt1eWZDRE1PRkhFTXEzY2MwV0pOS1B3dW5pV3AxZWxXQkdCMmdSamZ4aEFRWjhrVWtnNVNmcEVxTXJBUT09Cg=="
     }
   }
 }
