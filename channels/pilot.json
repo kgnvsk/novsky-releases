@@ -1,15 +1,15 @@
 {
-  "version": "0.1.86",
-  "notes": "Novsky 0.1.86\n\n- Етап «Захист сервера (ufw, fail2ban)» знову проходить на серверах, куди Novsky заходить не як root, а через sudo. sudo прибирає змінну з адресою SSH-сесії, скрипт захисту не знаходив IP оператора й відмовлявся ставити базовий захист, щоб не заблокувати вас самих. Тепер Novsky дістає адресу з процесу сесії й передає її явно; ваш IP, як і задумано, виключається з обмеження SSH.\n",
-  "pub_date": "2026-09-14T22:20:44.899Z",
+  "version": "0.1.87",
+  "notes": "Novsky 0.1.87\n\n- Коли необовʼязковий етап установки не проходить, на картці збою є кнопка «Пропустити етап»: установка продовжується з наступного етапу. Раніше так можна було пропустити лише вхід у Codex; тепер це стосується кожного необовʼязкового етапу, зокрема захисту сервера та ключа Novsky.\n",
+  "pub_date": "2026-09-14T22:27:34.077Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.86/Novsky-0.1.86-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmwrRDUyY2lQdFl0RzhQazVKNjltS2JJeEVSVTlqT3A2WDFpR0Z1VVFBQzNhT1pkZE9aN2dmTXZEdzBxZnF3bGwvZnM0cnJVN0IwL1JISmRZRnJlUlFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDI0MjQ3CWZpbGU6Tm92c2t5LTAuMS44Ni1hcm02NC5hcHAudGFyLmd6ClBBbmgxVTFFQ3VGQzJLRnhXT0dMTmQ5VWVORkdzV2JGY3FTTjU2MEFIc243bVh2SGhGMTc1bkhsTkVYK1YxZFRmblBveGZQSGhJRW5UTjJybjNMT0J3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.87/Novsky-0.1.87-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZCMUZRYzNvajlFa2FvcTkrVE5MMGV5MGlUR3JqUUFVb0ZCRm4ydXVzbzJkUjFSRXJVS3cvdm5UVEYrK0VWR3pvMDgxN2Y3azhKbDBiLzRnZXpQWHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDI0NjM2CWZpbGU6Tm92c2t5LTAuMS44Ny1hcm02NC5hcHAudGFyLmd6Cm9UQUlOOFp1U1Bsakt0UHFHTnprNmlUSVFtMjZoWjJkVTdJbVhqL2VkU2UwejgzNXhzY084UmN5SEEyNjl1aHZzNmJIRHpQeVhhSXRDUDB4MGxweEJBPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.86/Novsky-0.1.86-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnBKdWpqQnRFcWFCTGFaOHQxOWs1MXNzWFpldnE4dG5jYjVrU1BhTjZjN2pvQmlEYWtFQmxXK1k1dklDYWxqZVNRa2o4OUpmQ3U1U1BqNVVSbWxJMmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDI0MzI0CWZpbGU6Tm92c2t5LTAuMS44Ni14NjQuYXBwLnRhci5negpiYWRwNVVId3dqTmpjVUNVRzRtQ3paSkxDTk93c0kwYkxaRG1wYnptYnhodW1kSVFpb2RJRmxZZWxQWis4dER1MDVWMUJFQ1VWQVhhREFtbEx3NHlDZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.87/Novsky-0.1.87-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmp6QjltTzZsTUtucjVieTljRXdlaDNldVp6ZnBQY3lXY1JCYzNzL3FKdFJIekIyS24zY1FRVmZ6R2QxZjIyU3BHNmdBZ3BiNE1KTzdJa1p2ZWtPZ3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDI0NzEzCWZpbGU6Tm92c2t5LTAuMS44Ny14NjQuYXBwLnRhci5negpKQXg0N2hqMXBDUGJpSWlRd0hGeTZIV2t5MXBScjcwcGUvMFNROEJRclI4MlYyNncweUlybTZPMEpOZ0RPVjdRVWlCZkNHY08zRERyWVhacXIrWUlEdz09Cg=="
     }
   }
 }
