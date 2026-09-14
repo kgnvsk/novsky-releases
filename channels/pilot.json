@@ -1,15 +1,15 @@
 {
-  "version": "0.1.87",
-  "notes": "Novsky 0.1.87\n\n- Коли необовʼязковий етап установки не проходить, на картці збою є кнопка «Пропустити етап»: установка продовжується з наступного етапу. Раніше так можна було пропустити лише вхід у Codex; тепер це стосується кожного необовʼязкового етапу, зокрема захисту сервера та ключа Novsky.\n",
-  "pub_date": "2026-09-14T22:27:34.077Z",
+  "version": "0.1.88",
+  "notes": "Novsky 0.1.88\n\n- Novsky перевіряє оновлення не лише при запуску, а й далі: кожні пів години й коли ви повертаєтесь у вікно. Реліз, опублікований поки застосунок був відкритий, тепер показує плашку та значок у бічній панелі без перезапуску.\n",
+  "pub_date": "2026-09-14T22:41:08.624Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.87/Novsky-0.1.87-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZCMUZRYzNvajlFa2FvcTkrVE5MMGV5MGlUR3JqUUFVb0ZCRm4ydXVzbzJkUjFSRXJVS3cvdm5UVEYrK0VWR3pvMDgxN2Y3azhKbDBiLzRnZXpQWHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDI0NjM2CWZpbGU6Tm92c2t5LTAuMS44Ny1hcm02NC5hcHAudGFyLmd6Cm9UQUlOOFp1U1Bsakt0UHFHTnprNmlUSVFtMjZoWjJkVTdJbVhqL2VkU2UwejgzNXhzY084UmN5SEEyNjl1aHZzNmJIRHpQeVhhSXRDUDB4MGxweEJBPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.88/Novsky-0.1.88-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5GN21YMno4b1VDRjJWSzdzT25YZkduSEZwelJWa2tIM2NLUUlTcmRTZ2VpL0hGZXZnQk5FejhkMjdRRDBiblIxbFpXc0ZSdXpqbFZURFl5eHgwM1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDI1Mjg5CWZpbGU6Tm92c2t5LTAuMS44OC1hcm02NC5hcHAudGFyLmd6Cnl2VWNiMVoveTVKdVBrZTRxSWFHdnZjemVvOGZUblhKRDlBRWdkQ2NUT2k2SC9YWVZSYXlNUThpUkVRd21UZk1sOUV3cHUvcXBNY1VQNENla0NCUERnPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.87/Novsky-0.1.87-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmp6QjltTzZsTUtucjVieTljRXdlaDNldVp6ZnBQY3lXY1JCYzNzL3FKdFJIekIyS24zY1FRVmZ6R2QxZjIyU3BHNmdBZ3BiNE1KTzdJa1p2ZWtPZ3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDI0NzEzCWZpbGU6Tm92c2t5LTAuMS44Ny14NjQuYXBwLnRhci5negpKQXg0N2hqMXBDUGJpSWlRd0hGeTZIV2t5MXBScjcwcGUvMFNROEJRclI4MlYyNncweUlybTZPMEpOZ0RPVjdRVWlCZkNHY08zRERyWVhacXIrWUlEdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.88/Novsky-0.1.88-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNpY1psaEM2K0htYWpGQUNLOHNvaGNsNUJFdXQ2N09OL3N0MnRsOUFhOVpoMzZSVStHYzBrNnFIOFVJQThwZzY2Y2kvSVNranJaRS8wenJYVXZIQWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDI1NjEyCWZpbGU6Tm92c2t5LTAuMS44OC14NjQuYXBwLnRhci5negpDeFUxdy9lVjNGcUdpQXJOcGd4WGRhalN0WEJDQjgyMlc2d3QxUG5oeXpxQVF0b0ZqN0lxZEF1OGMySVpIRWtQMlNkL05vYlJsSWtaNVVOOVk5NktEZz09Cg=="
     }
   }
 }
