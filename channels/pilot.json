@@ -1,15 +1,15 @@
 {
-  "version": "0.1.80",
-  "notes": "Novsky 0.1.80\n\n- Помічник тепер каже, чому не вдалося підключитися або виконати запит: на якому кроці й з якої причини. Раніше будь-який збій показував одну й ту саму фразу без пояснення, а вивід рушія просто відкидався. Сирий вивід процесу не потрапляє в чат: він лишається в локальному файлі ~/.novsky/logs/owner-assistant.log.\n- Помічник більше не вважає Codex вибором за замовчуванням. При першому відкритті він питає, до чого підключати: Codex чи Claude Code.\n- У майстрі встановлення прибрано поля @username власника та адміністратора. Права завжди визначалися числовим Telegram ID; username є не в кожного, а порожнє значення ламало установку на кроці ядра.\n",
-  "pub_date": "2026-09-14T19:52:15.318Z",
+  "version": "0.1.81",
+  "notes": "Novsky 0.1.81\n\n- У помічника на Codex зʼявилася модель за замовчуванням: gpt-5.6-sol із глибоким мисленням. Раніше без вибору модель брав сам CLI, і на новому Mac це був gpt-5.4, який ChatGPT-акаунтам недоступний: кожен запит падав з «model is not supported». Вибір у налаштуваннях так само має пріоритет.\n- Керований Codex оновлено до 0.154.0. Установка тепер памʼятає, під яку версію її зроблено: після оновлення Novsky з новою версією рушій перевстановлюється сам при наступному підключенні.\n",
+  "pub_date": "2026-09-14T20:08:23.681Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.80/Novsky-0.1.80-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1ZZ29Bc1I2N0duZ1Jyd3hneG5pSHExNmVLZzAyRkNvK0YyTEhFaktZTVJaaFVudmVHMHp3c2VkK1hOZjJCVm9TdndDblZ0cW1LSE4zUUhLNGNpMkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDE1MzMxCWZpbGU6Tm92c2t5LTAuMS44MC1hcm02NC5hcHAudGFyLmd6ClRRUTdSVEM2TnVPdXNWRkp2WVVubUtGZm1MUzVVQ0xaU3FKRVNpQnRIR0IrWVhVWHV3VkdrODgxZEYyNVBlUnlQSHhuYm9IaitORnBMeGdEU1d2Y0R3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.81/Novsky-0.1.81-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxjc1lHMTVpVXR0dXoxd3JHTVJCOXBQQ3VWdXNaOEJweUdDYlY5Y0hRSHNXc1FPOFFqSmw3RXRkQ0R1TDdveUdKaEtkM3dNTnkxd3djMjhvL1EycFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDE2MzAxCWZpbGU6Tm92c2t5LTAuMS44MS1hcm02NC5hcHAudGFyLmd6CnlLb0tPd01nQ2R1ZURKb3dWTndvQTVyNUNHb0FPb05hNENzemhFOFdTdGN6dGlpd3dUTzNKNUc0TXhBLzNodkhHYW9ZY29yd3JVcnRIVlRQNE90L0RnPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.80/Novsky-0.1.80-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJiREJML3NLYlBIeEpHWUo5OXoxQjY3aGI0Sm9zWmZvd1R5QUR3aE1kbDFYRGNvdzl1cGJJcXBLTE5BaFRac3ZOcnVnMDN5UDlVMTZWQ3k2NVgzMXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDE1NDE0CWZpbGU6Tm92c2t5LTAuMS44MC14NjQuYXBwLnRhci5negptWDNjQUVuR1FjQWgvZi9IeUZTSzIvcnFVelhIc29iOGdjZjUwcGVQd0FKSzlHNGlWWnUzYTViUE1zZUdPcTY0RUkvMGNsTEFRaEpsVjRWdlhnMlBDdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.81/Novsky-0.1.81-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZiWk11dXNVY2hoNmFUajh3amQ4NGpnaU5lNVBvWlB2TDRhY0RWS3piNEJmSDV0Q1J4SzBWSFV1Yjh3WHNBeUxnbDBaUmhEUXBBNXpxN3E5bG1TV0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDE2Mzc2CWZpbGU6Tm92c2t5LTAuMS44MS14NjQuYXBwLnRhci5negpXY2VYS29VVDcrNFN1SzhzSzBKS0FuSHBKV1pRS083NUM0Y2Z6dVlBdU5JTDhXQ1RpbmpmdUtFQ3lwenI0cXRQUCs1OFNPd2huUG9hRE13Z2hnZXBEUT09Cg=="
     }
   }
 }
