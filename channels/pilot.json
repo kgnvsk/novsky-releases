@@ -1,15 +1,15 @@
 {
-  "version": "0.1.78",
-  "notes": "Novsky 0.1.78\n\n- Виправлено встановлення на чистий сервер: системні файли, які створює інсталятор, більше не залишаються приватними для root. Раніше етап «Системні пакети та Node.js» падав із «репозиторій не підписаний», а етап браузера — з відсутнім модулем Playwright або нечитабельним знімком екрана.\n- Якщо етап уже падав раніше, повтор тепер сам відновлює права на ключ репозиторію; окремо заходити на сервер не треба.\n- Підказка до помилки більше не радить перевіряти мережу, коли проблема в ключі репозиторію.\n\nТестовий канал macOS для Apple Silicon та Intel. Збірка має підпис updater; нотаріалізація Apple ще не підключена.\n",
-  "pub_date": "2026-09-14T13:39:32.161Z",
+  "version": "0.1.79",
+  "notes": "Novsky 0.1.79\n\n- У помічника зʼявився вибір моделі та рівня мислення. Помічник веде власну розмову, тому раніше мовчки брав модель за замовчуванням акаунта і змінити її з Novsky було неможливо. Список моделей береться з підключеного локального CLI.\n- Моніторинг агентів приймає кілька агентів одразу: галочки, «обрати всіх» і одна дія на всіх обраних. Агентам без підтвердженого SSH-підключення автовідновлення не вмикається, і Novsky каже, скільки їх пропущено.\n\nТестовий канал macOS для Apple Silicon та Intel. Збірка має підпис updater; нотаріалізація Apple ще не підключена.\n",
+  "pub_date": "2026-09-14T14:21:11.693Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.78/Novsky-0.1.78-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRBSVhsVkY5M2JmZStzbFg0VnlpODNZM1B2KzBTbFpBRVBRM2dIWXgrSTEyVEZrWW1kREJtVUxWQUpLZWJCelVSTTE4clNxSXpRTlorUE1UeGFIZEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzkzMDY3CWZpbGU6Tm92c2t5LTAuMS43OC1hcm02NC5hcHAudGFyLmd6CjdHNi8wV24zM2tGZzZjck5kamtpbGVKcWNINEpZY09neTlTbGM0QkdnbGQrLzZTdFBsVE92THROOEdQazZ3a2JGVmJBMEs3eVExSnUybjRkWE9ObEFRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.79/Novsky-0.1.79-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlGeGtSODhqUDRXLzRHcTJLak5UQlNoWGt0VThCVnFNM2hYeGhmZ3h2NTBUbmM0MUNUd3Jsc0hXaTAwbHFQbnhRVElyeC90eUl3Q3NKRFc1aCtLc3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mzk1MzY3CWZpbGU6Tm92c2t5LTAuMS43OS1hcm02NC5hcHAudGFyLmd6CjdUdmxwNkwzalIvMVQza2NxelQzYlAzVzI5ZmNoUHR4OC9vNElPQU16VE5ZbUsyeUt2YVg3bkl2NlAxM1FWY1Z5L3VtS2k2WXhFUi9EVllYbkpRQ0RBPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.78/Novsky-0.1.78-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9mR1JyLzVQNDUvbTN2a1ZaT1dpVUE5dTNMWTVONzFJQk1LVHh4MXhsdDVQckNLWkhsWVRXSFozRldxREFjNVBBTlF2ajZKek9mTTZWU0JoL21ML3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzkzMTQ1CWZpbGU6Tm92c2t5LTAuMS43OC14NjQuYXBwLnRhci5negoxWGpzcEE5Q2RmVmRjaDhoMHhTTlpQZ3BBSGttY3NpMCtlcmxQUjFLREtWekUzb3JzUG1KMkZEUGhLKzh6dnU0RkZtd3UvVElDRm1jR3NIYmtML21Edz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.79/Novsky-0.1.79-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdzT3NPbVVqaldNSVVqOVo1aHVRMk9ESUdqL090VHhRQW05d2VibFNFaHNPcjVuT3hNWmUxS0JrZFZvSmQ5ZURyL1dJWWVnNXFpZ2lGM0RCVENxcndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mzk1NDQyCWZpbGU6Tm92c2t5LTAuMS43OS14NjQuYXBwLnRhci5negpENDViMWFMMks4WGJ4ZE41VStBYU03cjdKZlU5YUZvVi8zbzhFMVcrT281aFRpaDhHMTBqY2E2cWVFYmJ1ZlRsc0dEeWlQZXVnZ2ZsUDh1Ull5dE9Cdz09Cg=="
     }
   }
 }
