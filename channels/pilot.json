@@ -1,15 +1,15 @@
 {
-  "version": "0.1.90",
-  "notes": "Novsky 0.1.90\n\n- Оргструктура тепер будується для одного сервера, а не спільна на всі: у панелі праворуч зʼявився вибір сервера, він запамʼятовується в адресі сторінки так само, як фільтр у Флоті. Заплановані блоки без сервера видно на кожному сервері, доки їх не встановлено.\n",
-  "pub_date": "2026-09-15T11:10:14.303Z",
+  "version": "0.1.91",
+  "notes": "Novsky 0.1.91\n\n- Моделі Claude тепер підписані назвами: Opus 5 (1M), Fable 5.1, Sonnet 5, Haiku 4.5 — у виборі моделі, у рядку поточної моделі агента, у Флоті й в оргструктурі. Раніше Opus було видно лише як «Default (recommended)», а замість назви стояв технічний ідентифікатор на кшталт claude-fable-5.\n",
+  "pub_date": "2026-09-15T21:02:42.909Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.90/Novsky-0.1.90-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm4vN3liak91UzVFc2RjMHQrdDhzQUZrb00xVDFMb2Y5R21qQU9qSUVWbzEvN0xFS1NTVkFTQXNDSDU3WkwrNG16Q01rR1BHTmxHYUJ6ZkYzMkw4aEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDcwMjg0CWZpbGU6Tm92c2t5LTAuMS45MC1hcm02NC5hcHAudGFyLmd6CndJaXptajVuallwM1pvbTJ2VXJSbVR1WS9Kb3BIcDV4Z3BMNHJkSmNleXNPSUF5V29jV01qTHZEazF3T1FnWHJ4MnphR3hGTXNrMlljY05vbzJGTkJRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.91/Novsky-0.1.91-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmc1NnYvR203RlEzeHVWUmRmY01mc3R4Q2NWaDRWdzQ3TkE5TEhqOUc3S2tkV0RTTjZXZXpnMWl6MUsvdUlwd2lZWVBnaFI5VnVmLzRzNkY1UnJReFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTA2MDY0CWZpbGU6Tm92c2t5LTAuMS45MS1hcm02NC5hcHAudGFyLmd6ClZTaXBaeEV5czdieCszbXlpNWVHSWt3QVlPQlMxamJmcmFDNHJZcmhwbVdTU1Zmalg4MjY4UVB3QUNRcVZ4ZFl6b3ZGTExOeHNkU2N1TDBLK2FxaER3PT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.90/Novsky-0.1.90-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRXekw5YlNwY00rWnpmcXc1RXJNYVB4MnU0Skc5UFdaS2NtVUFSVE8vTG9McmJXN2FRRzZPay9teTRjOFNMNGxOTXljSzFSTzRtMlRBalBaNXJjZ1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDcwMzYxCWZpbGU6Tm92c2t5LTAuMS45MC14NjQuYXBwLnRhci5nego1ZDdYOXhBVDZ5aC9kbWZIeHV4MHNxbjV6MmdkTnVKWS9rYmcyUEFZRS9Od3dpR1pvVGw4Nk15SzlsMXlPb3NZSHE0R0FtZ1J5eXVPUjJaMHJLNlJDQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.91/Novsky-0.1.91-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1uK3E4clpZS0hBeFVMZmIvSmFYc2JsclhEMFNUTDhEbW4vTmxzR3M0Z2FZTVE5TmNVQjJjWW9Gd0xmN1ZuVld5a1c2ajl1dTBjN0QyRTNTeHVVa1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTA2MTQxCWZpbGU6Tm92c2t5LTAuMS45MS14NjQuYXBwLnRhci5negpFYjJvRFNmbWlYZGJMVWZvckk0YTZhcHJZL05oUTNFbmliVnI0dG9Sa0ozNUFaTklOd1ZjZDBGWmszS3lLcXc0bk5zc1lHeWl6L3hFTHZ3cnpjeTFDdz09Cg=="
     }
   }
 }
