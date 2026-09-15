@@ -1,15 +1,15 @@
 {
-  "version": "0.1.89",
-  "notes": "Novsky 0.1.89\n\n- Установка преміум-агента тепер активує корпоративні сесії сама: новий етап «Корпоративні сесії» одразу після запуску служби затверджує політику доступу за замовчуванням від імені власника, вмикає ізоляцію, другу фазу та допуск співробітників за протоколом кита. Раніше кит ставився повністю, але бот відповідав лише власнику, а всім іншим писав, що корпоративний режим недоступний. Етап можна пропустити, якщо він не пройшов; продукти без корпоративних сесій його не помічають.\n",
-  "pub_date": "2026-09-14T23:28:30.027Z",
+  "version": "0.1.90",
+  "notes": "Novsky 0.1.90\n\n- Оргструктура тепер будується для одного сервера, а не спільна на всі: у панелі праворуч зʼявився вибір сервера, він запамʼятовується в адресі сторінки так само, як фільтр у Флоті. Заплановані блоки без сервера видно на кожному сервері, доки їх не встановлено.\n",
+  "pub_date": "2026-09-15T11:10:14.303Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.89/Novsky-0.1.89-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnBQRENOcG53V2ZJY0tCYWIrQWJmNFdzbldYWXBqUmFUYnlRK0xMOGtCTzJ4TjczRTJmME5XTldyWElvaDFpaVBPTW9CQU5oR1hEN0lhcFJkalFaVHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDI4Mjg1CWZpbGU6Tm92c2t5LTAuMS44OS1hcm02NC5hcHAudGFyLmd6CmY4OFNBSE9JdDZwUEM0M1BTNjBKV3dtdzNCVjBxd2dGcFBrNThLbEJVQTEzbGEzaHVaL0pUS0l4citOeFJGRjBwb0NCclliMWlmMFpZd1l4VE5Jc0F3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.90/Novsky-0.1.90-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm4vN3liak91UzVFc2RjMHQrdDhzQUZrb00xVDFMb2Y5R21qQU9qSUVWbzEvN0xFS1NTVkFTQXNDSDU3WkwrNG16Q01rR1BHTmxHYUJ6ZkYzMkw4aEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDcwMjg0CWZpbGU6Tm92c2t5LTAuMS45MC1hcm02NC5hcHAudGFyLmd6CndJaXptajVuallwM1pvbTJ2VXJSbVR1WS9Kb3BIcDV4Z3BMNHJkSmNleXNPSUF5V29jV01qTHZEazF3T1FnWHJ4MnphR3hGTXNrMlljY05vbzJGTkJRPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.89/Novsky-0.1.89-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9TZ0lzQ2xaUUtYejEyRXFYWXgzRUQ5Nk1FdzhYbS9KUkovZmtKRmNud2xmOEVScm9ETVJtNDdxZ3AxL3k5TUNZWk1Mb00wam9WdWo1MHpvTU9sZUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDI4Mzc0CWZpbGU6Tm92c2t5LTAuMS44OS14NjQuYXBwLnRhci5negpPVUVoZ0xjZkp0aEFtTEFPUkQwcVR4b3FIY1hKWmdYQVp3UUtJWFlpZVJRbS9SdSt6N1dpMUJiaG1CR0JOMjhzb3RKa3NxOGppL1pmVE11clk5SWVBZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.90/Novsky-0.1.90-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRXekw5YlNwY00rWnpmcXc1RXJNYVB4MnU0Skc5UFdaS2NtVUFSVE8vTG9McmJXN2FRRzZPay9teTRjOFNMNGxOTXljSzFSTzRtMlRBalBaNXJjZ1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDcwMzYxCWZpbGU6Tm92c2t5LTAuMS45MC14NjQuYXBwLnRhci5nego1ZDdYOXhBVDZ5aC9kbWZIeHV4MHNxbjV6MmdkTnVKWS9rYmcyUEFZRS9Od3dpR1pvVGw4Nk15SzlsMXlPb3NZSHE0R0FtZ1J5eXVPUjJaMHJLNlJDQT09Cg=="
     }
   }
 }
