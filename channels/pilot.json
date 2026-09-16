@@ -1,15 +1,15 @@
 {
-  "version": "0.1.93",
-  "notes": "# Novsky 0.1.93 — ліцензовані кити локально на Claude\n\n- **Локальна установка.** Будь-який ліцензований кит (Premium і всі ролі) тепер ставиться на цей Mac і для рушія Claude, не лише для Codex. Архів кита несе окремий нативний пакет для кожного рушія (`codex/` і `claude/`); розпакувальник бере пакет свого рушія. Потрібен кит, опублікований разом із цим релізом.\n- **Плагіни Claude.** Після встановлення кита Novsky сам реєструє маркетплейси кита та ставить його плагіни у власну конфігурацію агента (Claude Code не робить цього з одних лише налаштувань). Невдалий плагін лише записується в журнал установки — агент працює далі.\n- **Навички.** Першосторонні навички кита рендеряться на цьому компʼютері з іменем агента, власника та бота, як на сервері.\n",
-  "pub_date": "2026-09-16T02:57:18.514Z",
+  "version": "0.1.94",
+  "notes": "# Novsky 0.1.94 — передача агента з сервера без root-входу\n\n- **Передача агента.** «Передати агента» тепер працює і для серверів, до яких Novsky підключений не як `root`, а як користувач із sudo (наприклад, сервери з `PermitRootLogin no`). Файл передачі несе окремий ключ цього користувача та його sudo-пароль; одержувач після імпорту керує сервером так само, як відправник. Раніше такий експорт завершувався помилкою «Не вдалося створити файл передачі».\n",
+  "pub_date": "2026-09-16T12:20:48.151Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.93/Novsky-0.1.93-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpkcml6U3pDRU1TSHVhR1dTSE9PZ3A5TTNJc1o1TDhPZ2hXUjlUOXRXMFlYM2lKVHpWUFRhd09lUUF4UFNyN3U1M3pzVVJhMFVFMi81Q1lrVDFWT1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTI3MjQxCWZpbGU6Tm92c2t5LTAuMS45My1hcm02NC5hcHAudGFyLmd6CnhBamFSVlh1WXpneHQ3MktjaUZuakxjcWNQYWZLbDdtRzFkZnNlYkRXYzBDTmhnVUViSllsdWZiZmpsdnlmZ1Z3ZGFCdEVRVU9sVUdpVVlzWE1jckJnPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.94/Novsky-0.1.94-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJSK0xFTmx6Mlp3QWJCcktBbXpFeW0wQXl1RVlCU0NPaVUzc0MrWVEwV1lNcUtrQUwzajh1S2tjOVhyS21yT2U4OURtNzlNTmJndHMrd1c3QUg2VndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTYxMDM1CWZpbGU6Tm92c2t5LTAuMS45NC1hcm02NC5hcHAudGFyLmd6Cm1XTVc1VHRWdi82eVBQNXZIaWkvMGx1dnVVcW0wc2ptQlk2ank2S09QS2ovdTdEaFB3WGk3eDJUc1Z3UC9LQUYxdGdUczRvL1IwTGZpM3dJTGVBekJ3PT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.93/Novsky-0.1.93-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9hVm1VVDRTMHY3dnpESVV6NkNmeEFybllNQ1RoRWJjam1NYzAwdkZaUU5iTTdYMGRsRmkwR24rR0lDMmduU25RMFFtYWFUNGZ3K0M1b1FTckpOaFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTI3MzE2CWZpbGU6Tm92c2t5LTAuMS45My14NjQuYXBwLnRhci5negp2LzVvTDN3NWZ4SVNDZnpMNEJvQnRrcVZxTEMxS2VUWHdKSXZ3Zi9LODlyb3g1RVZicnluOGtESEdabjNBWXpaZFhEdm05STk3VzlWVldMMExxcVVEUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.94/Novsky-0.1.94-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZVdmlLV2dIWUhJamVLSTdoRnFpek9jUnRuQWxyUXNjRUdPM09hbGVLMldCeGR5UTluSmcyNW1zNW5haXhQTDVxVVFHY2JXQ0ptVjZTZ25qVVN5c0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTYxMTIxCWZpbGU6Tm92c2t5LTAuMS45NC14NjQuYXBwLnRhci5negpxVDlpcjloRldvY09HVWVxNlBiVWFLVXRxQWR5NVZvOWZRSkdRMUJpUlVPemloQkpLRWUzempocjVRRXJjRUZVc01ueStVMUtPSjhvNHBqTnhVMG1BZz09Cg=="
     }
   }
 }
