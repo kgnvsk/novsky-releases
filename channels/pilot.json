@@ -1,15 +1,15 @@
 {
-  "version": "0.1.92",
-  "notes": "# Novsky 0.1.92 — ніч 16.09.2026\n\n- **Підключення.** Перевірка готовності приймає попередній хеш файлів кита: після публікації нового кита вкладка «Підключення» більше не відповідає 409 ні агентам на попередньому релізі, ні агентам на новому.\n- **Помічник.** Якщо локальний Claude Code або Codex старіший за версію, яку ставить Novsky (або не повідомляє версію), помічник бере керований рантайм і каже про це, а не падає на підключенні. Моделі Opus 5 (1M) і Fable 5.1 (1M) знову у виборі при Claude. У довідці помічника зʼявився плейбук ремонту агента на сервері. Термінал помічника не дає перемикати корпоративні сесії правкою `.env`.\n- **Локальна установка.** Будь-який ліцензований кит ставиться на цей Mac для рушія Codex (потрібен кит, що несе локальний установник; публікується разом із цим релізом). Claude поки лише базовий агент.\n- **Codex-сервер.** У майстрі доступна стадія захисту сервера (ufw, fail2ban), як для Claude.\n- **Стан агента.** Звіт здоровʼя без поля авторизації (кастомний healthcheck, як у VidPilot) більше не показує «Потрібен вхід у Claude».\n- **Оргструктура.** Серверні помилки звʼязків перекладені в англійському та російському інтерфейсі.\n",
-  "pub_date": "2026-09-16T00:41:37.938Z",
+  "version": "0.1.93",
+  "notes": "# Novsky 0.1.93 — ліцензовані кити локально на Claude\n\n- **Локальна установка.** Будь-який ліцензований кит (Premium і всі ролі) тепер ставиться на цей Mac і для рушія Claude, не лише для Codex. Архів кита несе окремий нативний пакет для кожного рушія (`codex/` і `claude/`); розпакувальник бере пакет свого рушія. Потрібен кит, опублікований разом із цим релізом.\n- **Плагіни Claude.** Після встановлення кита Novsky сам реєструє маркетплейси кита та ставить його плагіни у власну конфігурацію агента (Claude Code не робить цього з одних лише налаштувань). Невдалий плагін лише записується в журнал установки — агент працює далі.\n- **Навички.** Першосторонні навички кита рендеряться на цьому компʼютері з іменем агента, власника та бота, як на сервері.\n",
+  "pub_date": "2026-09-16T02:57:18.514Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.92/Novsky-0.1.92-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnV4S2E0TTEycUtBTkhobzVnN0l3akxmUzM3ZHJsSDUzMGFLVWdhQ2dRdlA5WDlxeXZqakZGbXIycUJFSUluaHhIbTVaOUJHM29qODZaaDc2VGZHWXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTE4OTIzCWZpbGU6Tm92c2t5LTAuMS45Mi1hcm02NC5hcHAudGFyLmd6CmhrVkVtMG5vVW9SYlZNNTF5RENEbU93eFFxMEpDWndFbEkraFl1bUhzTHErNVdNQXFyVG5xbzZORGJSc0I3ZjdMVVcyK0wzN2U5Wm1ZRXEreTE2RkF3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.93/Novsky-0.1.93-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpkcml6U3pDRU1TSHVhR1dTSE9PZ3A5TTNJc1o1TDhPZ2hXUjlUOXRXMFlYM2lKVHpWUFRhd09lUUF4UFNyN3U1M3pzVVJhMFVFMi81Q1lrVDFWT1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTI3MjQxCWZpbGU6Tm92c2t5LTAuMS45My1hcm02NC5hcHAudGFyLmd6CnhBamFSVlh1WXpneHQ3MktjaUZuakxjcWNQYWZLbDdtRzFkZnNlYkRXYzBDTmhnVUViSllsdWZiZmpsdnlmZ1Z3ZGFCdEVRVU9sVUdpVVlzWE1jckJnPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.92/Novsky-0.1.92-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmcxaG1JOFdBR0pFZlRWcFl1SkQxbkRJcHRHMHNsQk45SGEyRzg4Y3NZbUhnTHNLR2VCUW5xalFhbzlJTFR4RFVUbVFjR05JQnhCZVBWMHVzbFhjM0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTE5MDA2CWZpbGU6Tm92c2t5LTAuMS45Mi14NjQuYXBwLnRhci5negpJTU1tazZ3QjJoazlBelhlSFc2bXQ4SjVydm44WTlqZFdEWm10K1dndXdJNGVVam93Um5MU2xvTjhZS0V4OTV2dDV1aU5jc0hMYmJnb0xqTzJRMVZCQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.93/Novsky-0.1.93-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9hVm1VVDRTMHY3dnpESVV6NkNmeEFybllNQ1RoRWJjam1NYzAwdkZaUU5iTTdYMGRsRmkwR24rR0lDMmduU25RMFFtYWFUNGZ3K0M1b1FTckpOaFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTI3MzE2CWZpbGU6Tm92c2t5LTAuMS45My14NjQuYXBwLnRhci5negp2LzVvTDN3NWZ4SVNDZnpMNEJvQnRrcVZxTEMxS2VUWHdKSXZ3Zi9LODlyb3g1RVZicnluOGtESEdabjNBWXpaZFhEdm05STk3VzlWVldMMExxcVVEUT09Cg=="
     }
   }
 }
