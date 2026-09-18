@@ -1,15 +1,15 @@
 {
-  "version": "0.1.94",
-  "notes": "# Novsky 0.1.94 — передача агента з сервера без root-входу\n\n- **Передача агента.** «Передати агента» тепер працює і для серверів, до яких Novsky підключений не як `root`, а як користувач із sudo (наприклад, сервери з `PermitRootLogin no`). Файл передачі несе окремий ключ цього користувача та його sudo-пароль; одержувач після імпорту керує сервером так само, як відправник. Раніше такий експорт завершувався помилкою «Не вдалося створити файл передачі».\n",
-  "pub_date": "2026-09-16T12:20:48.151Z",
+  "version": "0.1.95",
+  "notes": "# Novsky 0.1.95 — тимчасово без цін, встановлення за ключем\n\n- **Ціни й покупку в застосунку тимчасово приховано.** У майстрі нового агента немає цін і кнопки «Купити» — платний шаблон активується лише ключем («У мене є ключ» → «Активувати»).\n- **Codex: власник може зняти постійні підтвердження з конкретної людини.**\n",
+  "pub_date": "2026-09-18T13:41:21.751Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.94/Novsky-0.1.94-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJSK0xFTmx6Mlp3QWJCcktBbXpFeW0wQXl1RVlCU0NPaVUzc0MrWVEwV1lNcUtrQUwzajh1S2tjOVhyS21yT2U4OURtNzlNTmJndHMrd1c3QUg2VndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTYxMDM1CWZpbGU6Tm92c2t5LTAuMS45NC1hcm02NC5hcHAudGFyLmd6Cm1XTVc1VHRWdi82eVBQNXZIaWkvMGx1dnVVcW0wc2ptQlk2ank2S09QS2ovdTdEaFB3WGk3eDJUc1Z3UC9LQUYxdGdUczRvL1IwTGZpM3dJTGVBekJ3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.95/Novsky-0.1.95-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhJMGpJdDZOWFM4MnZDcVZBYi9BNkpQVzJ0UklrQXlsNVVmckkvRjZlOEdUS1BpeUo5dXNxS1Q1dVlxK2RtRUlVR2U0bUN3cGNDbFZrM1d3bDVmT3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzM4NzU0CWZpbGU6Tm92c2t5LTAuMS45NS1hcm02NC5hcHAudGFyLmd6CkhtNU1LWGtSSEVMMTE1TUFxd2xkMm42aVBGZDNibC9kblk4RnNic1laQytDWVpHVVE2d2M1NHFSejM1MC80V2FUbjVyU212TU9KSHZIUHk3bHJCSkJRPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.94/Novsky-0.1.94-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZVdmlLV2dIWUhJamVLSTdoRnFpek9jUnRuQWxyUXNjRUdPM09hbGVLMldCeGR5UTluSmcyNW1zNW5haXhQTDVxVVFHY2JXQ0ptVjZTZ25qVVN5c0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTYxMTIxCWZpbGU6Tm92c2t5LTAuMS45NC14NjQuYXBwLnRhci5negpxVDlpcjloRldvY09HVWVxNlBiVWFLVXRxQWR5NVZvOWZRSkdRMUJpUlVPemloQkpLRWUzempocjVRRXJjRUZVc01ueStVMUtPSjhvNHBqTnhVMG1BZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.95/Novsky-0.1.95-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFaczVkTVFqcEFhOE5MMElIdzllQkV0Q0tkdzFCNWcwUW9jTTRtdGttci9HRjRCaklaRVVWVm9xNnNFUXQ0NFdLVWl4UFNEVUkvMno5SmQvZXdUcWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzM4ODM5CWZpbGU6Tm92c2t5LTAuMS45NS14NjQuYXBwLnRhci5negozUEJjYzNiOGIxVmJwUG85cUJyUEV5QXhrNEJOdEhISFpUVzdGdmQ5SnV6MnFIZEVRSGUyLzRsQXVxWkR4NGZPREtCcEc0TllpVjZKc1dJbHl2dTRDZz09Cg=="
     }
   }
 }
