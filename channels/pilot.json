@@ -1,15 +1,15 @@
 {
-  "version": "0.1.98",
-  "notes": "## 0.1.98 — третій прохід UI/UX\n\n- У списку флоту можна обрати кілька агентів і перезапустити їх або оновити кит одразу всім; результат по кожному видно під панеллю.\n- ⌘K відкриває флот і ставить курсор у пошук агента, ⌘N — майстер нового агента.\n- «Оновити кит» тепер питає підтвердження, бо бот мовчить кілька хвилин.\n",
-  "pub_date": "2026-09-18T22:27:50.913Z",
+  "version": "0.1.99",
+  "notes": "## 0.1.99 — четвертий прохід UI/UX\n\n- Novsky тримає одне SSH-зʼєднання на сервер і пускає всі команди через нього: захищені сервери більше не відбивають застосунок як «недоступний» після кількох відкритих вкладок.\n- Помилки підключення пояснюються словами («сервер відхилив зʼєднання на порту 22») замість коду; невдала перевірка стану — окремий рядок у картці «Стан».\n- Огляд агента: спостереження й перевірка Telegram в одній картці стану, колонки починаються на одній висоті, картка стану їде за стрічкою при прокрутці.\n- Налаштування, довідка, мозок, проєкти й скіли — одна центрована колонка; у списку флоту один рядок заголовків замість підписів у кожній клітинці.\n",
+  "pub_date": "2026-09-18T23:45:36.831Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.98/Novsky-0.1.98-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnE3ZWVNYVEwUzlhejVwZGdJWnY0a3F4OFFYS214Qkg0Tjhqa1lKblZ4Mnh3N3VtZTJHVGFtU2VMRGhyQ05ia1NjZ2YvakxlL0ZCN1RNYUptSUhpU0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzcwMzU5CWZpbGU6Tm92c2t5LTAuMS45OC1hcm02NC5hcHAudGFyLmd6CkxRQUgvaVUraFRXV0VUV1ZGaFJOWEIrVE1oMmlHQ1VtbUErSkc3cnd6cWNpZFljaEVEZU1idk1UNnc4VzRoZFdxVHFsdnVGbThFS1AzRzVFejZmQ0NBPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.99/Novsky-0.1.99-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmt5YTQyYTYzelp2cm1VZlFYb2h2NVpjMzcxYVp5blUwaTNkM1hvOVJrOVVvQVhNN0VRQjlBbDErT1U5VUFFdCtyaUFPOTk0RmhJa1BMaGdoMmdicUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Nzc0ODY1CWZpbGU6Tm92c2t5LTAuMS45OS1hcm02NC5hcHAudGFyLmd6CjZXQmgyM08wdGRmMkxDcW9QeU5GcDB1NXM4dkdkb1lBdVcwblRoRnJDRkdYNVBLQVF6VEdHNWVZV25vdTgycUtXNnM5Zm1XdkZDL1hWQW9WUlk4b0FRPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.98/Novsky-0.1.98-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9uZVR0RVZXR2FBWGNUNUQ2WE1KTnMyNjh6d09yc2lSay93T0ZDZUcvQmhpdHdabUhRUmw3bWgrN2ZYNWpSSGNXYllqZWpJSXFRbzR2UjZURHBLZUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzcwNDYyCWZpbGU6Tm92c2t5LTAuMS45OC14NjQuYXBwLnRhci5negpZZ21WMzU0dDhqZEx3U3hja09OS3VVNEtKY0ptNWQ2NWg4THlILzVMVmdoRVVYYXdJUXVKMlIzRTlqU3RwbzkxbWZES1ZyY2pLQWQ4Q0I2UlVpS0dDUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.99/Novsky-0.1.99-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmh6N2p3cEcyTVNYZFRYY2J2cUNNVSs3aHBuL0dORk90NDFDZ2RJTktJWmEydTJHaEV6NFpsNjRxd1cwSEN4Ti9NSWtDY1dvMHlZRFB4cldMOUdKRlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Nzc1MDg4CWZpbGU6Tm92c2t5LTAuMS45OS14NjQuYXBwLnRhci5negpsMGF1b2ZzZ0FGM2kyYlBRMFRTZUdlcmhRRFJmd1Q5S2dyaWYxcE9waEtFMFVjVDNRSUJWK1AzVnRraDgrc1VKeFlDb3hyMGFYWUJUMTBjbjNGNXJEdz09Cg=="
     }
   }
 }
