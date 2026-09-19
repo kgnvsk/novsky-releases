@@ -1,0 +1,11 @@
+{
+  "version": "0.1.99",
+  "notes": "Novsky 0.1.99 — перший пілотний випуск для Windows 11 x64.\n\n- Встановлення для поточного користувача без WSL та окремого Bun.\n- Підключення, встановлення й обслуговування агентів на віддалених Ubuntu-серверах.\n- Локальний помічник через власний обліковий запис Claude Code або Codex.\n- Окремий канал оновлень Windows зі збереженням даних і відновленням після невдалої установки.\n\nВстановлення агентів безпосередньо на Windows-компʼютері та локальний термінал помічника поки недоступні.\n\nІнсталятор ще не має сертифіката Microsoft Authenticode, тому Windows може показати попередження про невідомого видавця. Підпис оновлень Novsky перевіряється окремо.\n",
+  "pub_date": "2026-09-19T17:09:36.392Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.99/Novsky-0.1.99-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpNQUkxVzZEWjJPOGNOM2JOclNiN3krcFRWZFZJSEYrdzBIejZISW9qR2dHVUkycmUvYno4RUxPYzY2djczUUlvNHpTNEhXNm1Ra1hPUnBXN3FOUUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODM3NjIzCWZpbGU6Tm92c2t5LTAuMS45OS13aW5kb3dzLXg2NC1zZXR1cC5leGUKU2VveUl2T3dVdUhuL1g5ME5uNlZDam41RGYzV3dQaEFoMTNKRmlWNkFzbnM3d3V4UG9VaTczc1RoR1JkUEcvYkd1cGFOVm9KTTVZVGxnSVIrS3gvQXc9PQo="
+    }
+  }
+}
