@@ -1,15 +1,15 @@
 {
-  "version": "0.1.104",
-  "notes": "Novsky 0.1.104\n\n• У списку флоту обраних агентів тепер можна видалити однією дією: «Видалити…» відкриває вікно, яке каже, що станеться з кожним (знесемо із сервера, відключимо від Novsky чи приберемо з плану), і чекає слова «так».\n• Без слова кнопка не активна; Escape і «Скасувати» закривають вікно, вибір лишається.\n\nОновлення для macOS Apple Silicon та Intel у тестовому каналі.\n",
-  "pub_date": "2026-09-21T21:12:15.952Z",
+  "version": "0.1.105",
+  "notes": "Novsky 0.1.105\n\n• У «Завданнях» звичайного бота тепер видно запити всіх людей, яких власник пустив до бота, а не лише власника; автор підписаний імʼям з Telegram.\n• Корпоративні агенти без змін: співробітники, як і раніше, видні через корпоративні завдання.\n• Відповідь бота в чат цієї людини зараховується як доставка; у Codex-агентів завдання підписані відправником.\n\nОновлення для macOS Apple Silicon та Intel у тестовому каналі.\n",
+  "pub_date": "2026-09-21T22:49:42.634Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.104/Novsky-0.1.104-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9RM2c4L2xoVE1QbzF4VjJmOWl0LzJYcndnL0Z4RVBNU2o1ZW9EYktIUHg0djZzTksrWEludHR5bXZycVJQVWgxb1BQY1BETXRSMjFLQzY0Q3FUMGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDI0OTg0CWZpbGU6Tm92c2t5LTAuMS4xMDQtYXJtNjQuYXBwLnRhci5nego2anh3T0JFUVhHV1Y3bEttWUtBNFFLTVRqREV1dDhMRkRWSHg2ZlJ2L2J6bVg0NFJ3ZHJQOWRMVGtma0FSaStWMndKUVN4NVFnSTAwVWdQY3B3bENEQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.105/Novsky-0.1.105-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9HRS9qK1lpWlA1RTdHWGplbE9RMWlITkR6MWxpTHoxRjk4UXVkUHdxckhVQzZrSWZWUnhWUmpyK0tQcDVvZ0pRek92Q21yRkp3YkVML1d1bmp2NXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDMwODcwCWZpbGU6Tm92c2t5LTAuMS4xMDUtYXJtNjQuYXBwLnRhci5negowdFpJMzRuVThGMGxmTHpkMFlCU0pCM3FqdDRiYWtvUVNKWTJrUk9Lc1Q0eUF3M1VQckFtWTBJWlVqaDFBMVdRSGxIb2g1VUI2WTBLSjhoeDBQRitCUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.104/Novsky-0.1.104-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5icXJvUW1TUzFhUk16dkRpYkIrbWxYRG5HZU1yOTBid0ZkaCtNZ3RHOUlkWkU2MHNDUTU4R2ZZb09XTFlLdnpIeVRubjlLQzJ4QS9sb2llUS9lY1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDI1MDg4CWZpbGU6Tm92c2t5LTAuMS4xMDQteDY0LmFwcC50YXIuZ3oKRXdrRWlWYUtxbDlBakhDYkRPWlh0N2dUYkdoaWs0Yi9pSjd6QUZFZWlEY3h2ZGZtaEk0OHZKVEEybmtZWG5MSC9ZL2pqYW1ETFJZcGg1OWZxRGtLQnc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.105/Novsky-0.1.105-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZ6UlZDSmhGd0lBVlMzblhObnJjVXRISkFINnB0TXBDZUJCbTA5M1lUQ1BwWHJzcjVucCt1ZTh3ZWxGWmc1TDh4dFB0YzlsL2UxcHpoNm9YYkVtUEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDMwOTYxCWZpbGU6Tm92c2t5LTAuMS4xMDUteDY0LmFwcC50YXIuZ3oKdFdnZTRZdHRwdUxRbmQwWU0vOWlTUHFJN3JudWMyVUxXbUVsUzd0V1lSWmpKTlN6dlRwOGhIcXJjU0xjSUZiT0ZySFE0UlpPZnRVRGtLUjNUd1hlQXc9PQo="
     }
   }
 }
