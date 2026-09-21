@@ -1,15 +1,15 @@
 {
-  "version": "0.1.102",
-  "notes": "Novsky 0.1.102\n\n• Активація китів лише за ключем: прибрано ціни, купівлю та повідомлення про оплату.\n• Для власника достатньо Telegram ID. Виправлено повторне встановлення зі старим китом, що вимагав username.\n• Збережено виправлення встановлення Codex, привітання та перевірки відповіді в Telegram.\n• Обʼєднано раніше випущені виправлення в основній гілці проєкту.\n\nОновлення для macOS Apple Silicon та Intel у тестовому каналі.\n",
-  "pub_date": "2026-09-21T15:16:12.627Z",
+  "version": "0.1.103",
+  "notes": "Novsky 0.1.103\n\n• Локальна збірка кита завжди бере останній опублікований випуск: Novsky сам підтягує теги release/* з репозиторію кита і збирає з новішого, а не з того, на чому стоїть checkout.\n• Так само для Codex-китів.\n• Каталог без тегів випусків збирається, як і раніше.\n\nОновлення для macOS Apple Silicon та Intel у тестовому каналі.\n",
+  "pub_date": "2026-09-21T20:49:02.633Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.102/Novsky-0.1.102-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnVOYzErRTAxM0dMUHNQM2RDUzQyTzY2SlkxR3ZTRGhsaFM0WlBZWFNySjAvYVU3aU1EVy9yQk1UYTdNS0UwdVJOOEVXUlppOWk0a3RsMWZXNDA5MXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDAzNTYyCWZpbGU6Tm92c2t5LTAuMS4xMDItYXJtNjQuYXBwLnRhci5negorQldmUDlRQUhvR3l5cWtBY0ova2o0cXQ4eTUvLzBaRnBGemRzSUdTSms5d3h3a3lzSENlSzh5Q05RRys5SjBLZC93ZlpQM0lnNkx4cXFDZkpuUm5Cdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.103/Novsky-0.1.103-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpXTm9BNmthL2FoOUR2WThuNUZ0UStKdmhkYXN0Wk9XdmxtREl5Y3MvdElSeCtWR1c3emR6b21pK1JvYjUwc2s3Um1vcUw0OFJHMThoWGZZNnZZYkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDIzMzMxCWZpbGU6Tm92c2t5LTAuMS4xMDMtYXJtNjQuYXBwLnRhci5negpydHVqZi9JL3U4L05LQ3VSNDBQZlkvT1BweTNqTkxtWFFUd2NKYk9Va0hHNzNLV2ZqbGF5Z0E5ZGgvNVhYQXlWTEllV25PcFV3SHhDa3ZyYTg2emtDdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.102/Novsky-0.1.102-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtFK0s2dGlnczFhU0RTOTlNeTZ2Q2lZRW1Tek9zTEM2RmVCZk1rNjVHQlh1VzNtTldUSXZNSENLN3gvbVBKK2xXMEVNakU4MzEzYTlPYzRnZE9tdHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDAzNzMyCWZpbGU6Tm92c2t5LTAuMS4xMDIteDY0LmFwcC50YXIuZ3oKOTF3Ulg0R0MwUituNFU1cEpwcTFMeHNQQUtnbU9nYjFXVVFiVWlsRUNJS1FxV08yS2dCRmkxU1BJcFpma1lKRDI1K3NwRlZacmI5aGNIWjNRQ0VZQnc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.103/Novsky-0.1.103-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRvOHk1aWw0VU1mcXh5Wjh2andNM2N6d1NaNEZueWFDRHE0WkxmL3Q4SURVbG5iRktqYXZpV2tmcXAxTCtSR05qMUNUZ2hRSGlnQWx4RjBIUitEeEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDIzNDE1CWZpbGU6Tm92c2t5LTAuMS4xMDMteDY0LmFwcC50YXIuZ3oKWlVhOHc0TmFlOWlPcDVsTStKYzVQSEJqWTljUFBHZjFwQVlwSTFyZkVmTmYyT1VoTmtQME1ER0tRYnZFbVpFS0l6UE5WNklkT0lqTXp2UXVwVUJ6Q3c9PQo="
     }
   }
 }
