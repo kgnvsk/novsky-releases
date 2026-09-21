@@ -1,15 +1,15 @@
 {
-  "version": "0.1.100",
-  "notes": "Виправлено встановлення Codex-агентів за ключем: Novsky завантажує кит обраного рушія замість архіву Claude. Перевірка цілісності архівів збережена.\n\nПошук у памʼяті за змістом автоматично вмикається під час встановлення Codex, якщо додано ключ OpenAI. Окрему галочку прибрано. Оновлення наявних агентів зберігає їхні налаштування памʼяті.\n",
-  "pub_date": "2026-09-21T10:48:52.292Z",
+  "version": "0.1.101",
+  "notes": "Novsky 0.1.101\n\nВиправлено перевірку відповіді Codex у Telegram: установник бачить підтвердження відповіді власнику або адміністратору та автоматично продовжує встановлення. Приватний моніторинг не показує переписку.\n\nПовторне встановлення після збою відновлює перевірений кит перед налаштуванням захисту сервера.\n\nНативний runtime отримав привітання на /start та окреме знайомство з власником. Для вже встановлених агентів потрібне відповідне оновлення runtime; Dzen8 оновлено окремо.\n",
+  "pub_date": "2026-09-21T11:35:46.842Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.100/Novsky-0.1.100-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScms3Vnk1cjBOZlJDZERQTFVPQlNrYXFKL1Z6RkI3Ly9lQWt3MjZiWXpnQnFkYVdMWEl5WEV1bGJodDVHZ3hPTjUrTjh5aWJ5cDBiaExLMUtQZG45OFFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTg3NTQwCWZpbGU6Tm92c2t5LTAuMS4xMDAtYXJtNjQuYXBwLnRhci5negp5bzFDazdXVmZjMWVkZWE5MUdXWEk2em9aRUdxMGttT0ZEekNpRHVYZWdtNFFiclh6cjdqTDdPRDBxZlJIYXFPMExoc1VSRU13WjIrTkRWWlhUMURCZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.101/Novsky-0.1.101-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhqQXhveU5vY3oyUnZHazNFcERYR2FEcnNkT1lwcWVwY3lSWEMyWmtER0JDQUN1NTVaV3FqMnh0RUxCaDRWdkErQ3lFN3liYVowL20vMzJIUzBLTHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTkwMzYyCWZpbGU6Tm92c2t5LTAuMS4xMDEtYXJtNjQuYXBwLnRhci5negpVQkltbTdvSzFlV1BKbndFY2dZdFpTeHdueXN0MDRQcGI0UURwamxWZjNEY2VhMXcwOEFqRTRlVHQzY0hSSWdhSk13ZnFnUm1oejlXSTFRTjBNR3pEZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.100/Novsky-0.1.100-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJIRjNKaTMyV0NxaWRxWURMR3h1NFRXYkhzZk44bTZYZCtpQVVrYU1xS2dWazdTQnR2T3pkd2Y3ZTNYU05NeVo4cXBZU0FyK3lCSEhiUnFDSXJSV1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTg3NjYxCWZpbGU6Tm92c2t5LTAuMS4xMDAteDY0LmFwcC50YXIuZ3oKc0IyaXhaMmhqbm1EbzZBL1lIZ0wrT1IxRUhjZFpZS1ltVmhqRFNWQTZGVVFsTi9qVHErRnNVZDdRRE5iRFE4aXNNeXpkb2V3emtrRW9Hckkrc1laQ2c9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.101/Novsky-0.1.101-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnA4ZGw0NXRBaTh4ZE0yVjZoMGNkUlpIdi9ONlRjWTVPYkxEZDl5THA1QnpkTmNDMG5oa2dQQTA0SkF5YUJVcnVoRkptUjhqNWJUa29zWWhhYjFPOUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTkwNTA4CWZpbGU6Tm92c2t5LTAuMS4xMDEteDY0LmFwcC50YXIuZ3oKYk9aa1BURW96R21DSzNQMDY3Q2dhNDgxWHZnUmlFNzRlSFpsU1F5cGpVUjByNG5FM3hhU205V2dBaXpua2NwaUpWK3pYSDV3VHRqdGs2QTNuaGkwQkE9PQo="
     }
   }
 }
