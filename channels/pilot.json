@@ -1,15 +1,15 @@
 {
-  "version": "0.1.106",
-  "notes": "Novsky 0.1.106\n\n• Нові Codex-агенти встановлюються з моделлю GPT-5.6 Sol і середнім рівнем міркування.\n• У блоці моделі Codex-агента зʼявився вибір рівня міркування; він застосовується разом із моделлю, з резервною копією та перезапуском, як і раніше.\n\nОновлення для macOS Apple Silicon та Intel у тестовому каналі.\n",
-  "pub_date": "2026-09-21T23:10:26.737Z",
+  "version": "0.1.107",
+  "notes": "Novsky 0.1.107\n\n• Після оновлення застосунку спільна робота агентів на серверах оновлюється сама: більше не треба натискати «Оновити налаштування» чи «Підготувати проєкти», а «Новий проєкт» доступний одразу після короткого оновлення.\n• Картка з кнопкою «Повторити» зʼявляється лише тоді, коли оновлення не вдалося, з поясненням.\n• У завданнях «Часткові дані» замінено на зрозуміле «Історія читається частинами».\n\nОновлення для macOS Apple Silicon та Intel у тестовому каналі.\n",
+  "pub_date": "2026-09-21T23:26:48.608Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.106/Novsky-0.1.106-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdDUGtOWDR6U3NaZVN3UVpUYU9JaStHYXdDSThwcW9rYnVPV21zRDF2dFg3WGFqaWVoM3A1bnppRGp3MkRBR3ZJWXhrSFRuL0Z0dU5nbUhjaVB5WndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDMyMDgxCWZpbGU6Tm92c2t5LTAuMS4xMDYtYXJtNjQuYXBwLnRhci5negpMOFhaWVB4UmZGMjBiZEFTcjcxSXM5NmlCMXBoakVMVEl4TjNNS2IzK1hmOW9mUWRXRkhjWnZwK05BelZPYmdiRlZvUHphVGRFOWtoZGRkeUVETXpCZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.107/Novsky-0.1.107-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnV6K0pzM29sdkVJWGd5dzBhUTdYMlFaWW81VDhzWklhWTBudGZJdDNGcXgwQ1hab3VTNHhZc3VSakY2K2VpM2dKZ1Y1RVh0VkJTdkdmbDFFUDR0UVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDMzMDk2CWZpbGU6Tm92c2t5LTAuMS4xMDctYXJtNjQuYXBwLnRhci5nego1eHhjUDdKREJRVU94RFpsQTljSzJNNWczUnVEV3UvMzd2RnVrOWxLdmtKQThDRWRhV2R4Rk8vMHdUOGZ4ckhwVVZJTlY0RlRaNU91YTVMVzhDdXFEdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.106/Novsky-0.1.106-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxOR3pmM2RmR0tacm5sNzBOTjlXUnlnUzBaM3pMM25Va2NYWkJkdkdISGpFNzZpWDNVUWdWcDBETVNZYVFlNDAyZjROMmpKekJ1TkFHSUFsbzJaU0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDMyMTcwCWZpbGU6Tm92c2t5LTAuMS4xMDYteDY0LmFwcC50YXIuZ3oKdUgyVnppWktia2pKNGZDSXdza3JRdmFPNmhSRUJxSVY0djI3UmQxdEYvWmtodTc3NTJGbGlCcUFJcnpLRElJVmU0NkN6NDIwTlpxc0ZpNzBOd2o2QWc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.107/Novsky-0.1.107-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlSTHgwcVBybGpEU21aclY5YU9vWlgvVTBqaGh2NFVXUnFTeVdzeGVlVzZLQXN3b1hEUVVPdS9TRGZ2VHpIaVJ4RWJjcVFnMjErc3ZrMTlCQjdyWFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDMzMTg0CWZpbGU6Tm92c2t5LTAuMS4xMDcteDY0LmFwcC50YXIuZ3oKUW5qeTYzaStVRFBra21RVUx6UFFmeGErbTFibXloRUYwOGd1N1JCbCtJZmh4cFYzZGdtQVlXY3lwbXpLM25sNndmaDA5dHBlSUZHZ3FiSVVDZUJpRGc9PQo="
     }
   }
 }
