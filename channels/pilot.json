@@ -1,15 +1,15 @@
 {
-  "version": "0.1.107",
-  "notes": "Novsky 0.1.107\n\n• Після оновлення застосунку спільна робота агентів на серверах оновлюється сама: більше не треба натискати «Оновити налаштування» чи «Підготувати проєкти», а «Новий проєкт» доступний одразу після короткого оновлення.\n• Картка з кнопкою «Повторити» зʼявляється лише тоді, коли оновлення не вдалося, з поясненням.\n• У завданнях «Часткові дані» замінено на зрозуміле «Історія читається частинами».\n\nОновлення для macOS Apple Silicon та Intel у тестовому каналі.\n",
-  "pub_date": "2026-09-21T23:26:48.608Z",
+  "version": "0.1.108",
+  "notes": "Novsky 0.1.108\n\n• Граф нотаток у «Мозку» можна масштабувати кнопками «+» і «−», а також щипком чи Ctrl+колесом навколо курсора.\n• Перетягування порожнього місця пересуває граф.\n\nОновлення для macOS Apple Silicon та Intel у тестовому каналі.\n",
+  "pub_date": "2026-09-21T23:39:42.277Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.107/Novsky-0.1.107-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnV6K0pzM29sdkVJWGd5dzBhUTdYMlFaWW81VDhzWklhWTBudGZJdDNGcXgwQ1hab3VTNHhZc3VSakY2K2VpM2dKZ1Y1RVh0VkJTdkdmbDFFUDR0UVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDMzMDk2CWZpbGU6Tm92c2t5LTAuMS4xMDctYXJtNjQuYXBwLnRhci5nego1eHhjUDdKREJRVU94RFpsQTljSzJNNWczUnVEV3UvMzd2RnVrOWxLdmtKQThDRWRhV2R4Rk8vMHdUOGZ4ckhwVVZJTlY0RlRaNU91YTVMVzhDdXFEdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.108/Novsky-0.1.108-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJuc2JIQmxmRXlMb01mQ2RxVHpxaVJFcU1hQ0lXSHJ3Y2tpeHZ0alIrYnNxSy9IakpxU2tBNXhvWUdCY2RRU0FnN0ZGQXcxWUMwN3lqMzhXZGhuTHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDMzODgxCWZpbGU6Tm92c2t5LTAuMS4xMDgtYXJtNjQuYXBwLnRhci5nego1QmE5TXhQaDdwT1VkMG9zaFBYZDVjblc1REtDQUk2ajRDTUJZRHlSLzM3YmFPamRLcDU5d0RQV0hPcHpFbEJIUml6Smx1d2Fub2VGTVR2NDJNNE9Bdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.107/Novsky-0.1.107-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlSTHgwcVBybGpEU21aclY5YU9vWlgvVTBqaGh2NFVXUnFTeVdzeGVlVzZLQXN3b1hEUVVPdS9TRGZ2VHpIaVJ4RWJjcVFnMjErc3ZrMTlCQjdyWFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDMzMTg0CWZpbGU6Tm92c2t5LTAuMS4xMDcteDY0LmFwcC50YXIuZ3oKUW5qeTYzaStVRFBra21RVUx6UFFmeGErbTFibXloRUYwOGd1N1JCbCtJZmh4cFYzZGdtQVlXY3lwbXpLM25sNndmaDA5dHBlSUZHZ3FiSVVDZUJpRGc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.108/Novsky-0.1.108-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRQUEVQVVBFSktJRGdFTTJtQ1h4NHNWTXdYOGpwZ2I1TzQxOXFxc1ZKSnRIZWoyQnhhUmcrUmxLR3ZFb1dxY2lhL3lRalRaaXJVRWV6ZXQ5cllKOVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDMzOTYzCWZpbGU6Tm92c2t5LTAuMS4xMDgteDY0LmFwcC50YXIuZ3oKTnRRMXB6UGxYM3hGb0pRMXpyU1pxb1E1LzY4eDEwVmdiTjVVVXhVRnJtUkY3ZXZYelNrUXhXdFhFTHNRS3VIbkxkQXZEbmJXOWEyNnhLY2FQWnRaQnc9PQo="
     }
   }
 }
