@@ -1,15 +1,15 @@
 {
-  "version": "0.1.108",
-  "notes": "Novsky 0.1.108\n\n• Граф нотаток у «Мозку» можна масштабувати кнопками «+» і «−», а також щипком чи Ctrl+колесом навколо курсора.\n• Перетягування порожнього місця пересуває граф.\n\nОновлення для macOS Apple Silicon та Intel у тестовому каналі.\n",
-  "pub_date": "2026-09-21T23:39:42.277Z",
+  "version": "0.1.109",
+  "notes": "## 0.1.109\n\n- «Мозок»: спільні знання тепер зберігаються і розсилаються окремо для кожного сервера. На сторінці обирається сервер; файли отримують лише його агенти, встановлені Novsky у повному режимі, а новий агент на сервері одразу отримує знання свого сервера.\n",
+  "pub_date": "2026-09-22T00:09:41.643Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.108/Novsky-0.1.108-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJuc2JIQmxmRXlMb01mQ2RxVHpxaVJFcU1hQ0lXSHJ3Y2tpeHZ0alIrYnNxSy9IakpxU2tBNXhvWUdCY2RRU0FnN0ZGQXcxWUMwN3lqMzhXZGhuTHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDMzODgxCWZpbGU6Tm92c2t5LTAuMS4xMDgtYXJtNjQuYXBwLnRhci5nego1QmE5TXhQaDdwT1VkMG9zaFBYZDVjblc1REtDQUk2ajRDTUJZRHlSLzM3YmFPamRLcDU5d0RQV0hPcHpFbEJIUml6Smx1d2Fub2VGTVR2NDJNNE9Bdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.109/Novsky-0.1.109-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxBWGpqOFVEQVc1MlRDcTVMZlo2eFh2Wk5DVGNVaHFJNmFyZktUQnpMQVpMaXpHQzl3bVdIN2x6QzRmbDUrbFBqemIxTkswcHdiWmcraXBKSFZLZ0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDM1NjQxCWZpbGU6Tm92c2t5LTAuMS4xMDktYXJtNjQuYXBwLnRhci5negozSnJEZEhyaFBTME1valhaLzFvdWQ1dGdNd1pobmVSZlZzMWtZYk1ucFlVeWQ0TEdQQjd5OWxqK2NQT2JzYW1KZjBJWEJ1R1Q0M1hqK0RkQllDTjNEdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.108/Novsky-0.1.108-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRQUEVQVVBFSktJRGdFTTJtQ1h4NHNWTXdYOGpwZ2I1TzQxOXFxc1ZKSnRIZWoyQnhhUmcrUmxLR3ZFb1dxY2lhL3lRalRaaXJVRWV6ZXQ5cllKOVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDMzOTYzCWZpbGU6Tm92c2t5LTAuMS4xMDgteDY0LmFwcC50YXIuZ3oKTnRRMXB6UGxYM3hGb0pRMXpyU1pxb1E1LzY4eDEwVmdiTjVVVXhVRnJtUkY3ZXZYelNrUXhXdFhFTHNRS3VIbkxkQXZEbmJXOWEyNnhLY2FQWnRaQnc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.109/Novsky-0.1.109-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRqYmdGUGxBZ2U4UUVnUmU3dURycUt6dHRpU3NLeFZvd25aZkluQUNKZ1hTLzNOaERWMHlXLzdlaGZDLzNvd1dFUjNLWXpzdlVKN21UdWJPNmpVcmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDM1NzE5CWZpbGU6Tm92c2t5LTAuMS4xMDkteDY0LmFwcC50YXIuZ3oKS3RFSnNFdmxodFpPVUh2bkJlb3JLdXlkNVpBandqRWhLMzBPaThyS1JFeGxTKzh2TWVYVnV4bnhvVFUyT1ZnaHFSeUl2VXdjOE4xVmgzUkxoNTZjQUE9PQo="
     }
   }
 }
