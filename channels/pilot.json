@@ -1,15 +1,15 @@
 {
-  "version": "0.1.115",
-  "notes": "Нова вкладка «Розклад» у кожного агента: тиждень по годинах з усіма його регулярними задачами — кронами, нагадуваннями й таймерами. Видно, що агент робить уночі, зранку, вдень і ввечері; час — агента, одним натиском перемикається на ваш.\n\n- Часті перевірки (кожні кілька хвилин) — окремою смужкою над календарем, службові задачі кита й інші задачі сервера — окремими списками, нічого не пропущено.\n- Назви задач — людські: агенти дають їх самі; поки назви немає, показується коротка фраза з опису задачі.\n- Якщо cron сервера ігнорує вказаний часовий пояс, вкладка про це попереджає і показує справжній час запуску.\n",
-  "pub_date": "2026-09-22T20:22:20.345Z",
+  "version": "0.1.116",
+  "notes": "Картка задачі у вкладці «Розклад» — тільки те, що потрібно людині: назва, коли, що робить, куди, найближчі запуски і текст нагадування. Без коду, шляхів і технічних приміток.\n\n- Поки агент не дав задачі назву, показується коротка фраза з її опису: вступ на кшталт «Через 15 хв:» пропускається, закоментовані старі рядки крона більше не вважаються описом.\n",
+  "pub_date": "2026-09-22T20:41:20.314Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.115/Novsky-0.1.115-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtsc2Q1WkUxbkRuWWIrcGlTRm9MUjlMNCtKeWNVRjBWOUJuMHdhdW93eWtPY2puVlFDL0U5LzR2RnNKQ3crWTAzLytFbUg2Z1lYUjhVRlhidGZzcHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTA4NDMxCWZpbGU6Tm92c2t5LTAuMS4xMTUtYXJtNjQuYXBwLnRhci5negpkUzh2UEpNT3krQkFjZmQ0c2dKUFdORXNjVlZrMUszU1JUcWU1eG41NlNkU2s4cFVub0tlbVRsU00zZEExQ295NGVKYjQwYytidHNjdHdFWHhTSGdBZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.116/Novsky-0.1.116-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdUWElvV3A0TDZEaFdjY05nVTdJWjJDVWk5eTBnSG9pZUd5aHFhYmU4TlUwbmQ3cUZRVjJDYnYvTHhzRk4rVUhGUmNPNW5wTzRqZG12cnpzT0VQZlF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTA5NDYzCWZpbGU6Tm92c2t5LTAuMS4xMTYtYXJtNjQuYXBwLnRhci5negpWUXMyNW1qNDNScTNMZFdteHp1cGZvS2drZld1YS84Y1V4SitSVUpRVnI1NzFWbE9iZ3JhQkVMQlZyRW1NTGR3ODFUSWMyRlVRWVk1eU5tNnJrRUZDZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.115/Novsky-0.1.115-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnBXcFRIeGhIVzhZYTdKWmRiZUJpWGxmVFlETUhtUEp0bGNYSytjcXBldWY0RUpxSWlHNTV3ajlVcDNqNjZjSkJTNGZVTlY1WXZuT2ltODR6eUNjV0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTA4NTEyCWZpbGU6Tm92c2t5LTAuMS4xMTUteDY0LmFwcC50YXIuZ3oKSkhKeEtobUdKSEFxMzZ1VkdsVHVaTlFOMHRZS1JPRDZkMzBlVHo1eUJncVNrUG0zWFRBM3lobUE4eHgrTDB5NU9iVXNxZi9TdTZrMW9CYlZxQVoyRFE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.116/Novsky-0.1.116-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNHYTZvbFJzQXhTVXdGeUh3L2tsZkRFOFNMK2hSYiticitsZ3ZiVnpYdEVmaXBEZStOWmhweG9lZTFXTndtdFNtZkxnaUJNUkhrb2oxWFR2L2tJbmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTA5NTQzCWZpbGU6Tm92c2t5LTAuMS4xMTYteDY0LmFwcC50YXIuZ3oKVU5IdGR1elp6M015U0VOeithdzZpeWFqbUp2RDJHQ05jVHN2ZWJ1Ylh3aVNJT054NDFwazg2bmFuOS8vMWxwRllNbE42b0lZK0prT3hTWUQrVzNoQ3c9PQo="
     }
   }
 }
