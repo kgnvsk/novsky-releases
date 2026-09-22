@@ -1,15 +1,15 @@
 {
-  "version": "0.1.110",
-  "notes": "## 0.1.110\n\n- Codex-агенти: нагадування без назви завдання більше не губиться — середовище саме дає йому ідентифікатор і повертає його у відповіді. Відмова інструмента тепер пояснює моделі, що саме було не так, замість загального повідомлення про надсилання файлу. Підказка для Google-команд попереджає не передавати `--account`.\n",
-  "pub_date": "2026-09-22T11:54:49.890Z",
+  "version": "0.1.111",
+  "notes": "## 0.1.111\n\n- Установка та оновлення Codex-агентів: якщо крок установника кита не вдався, у журналі розгортання тепер видно останні рядки його відповіді з причиною, а не лише «Не вдалося завершити налаштування Codex».\n",
+  "pub_date": "2026-09-22T12:11:09.306Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.110/Novsky-0.1.110-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdXNnlVMjJTTCtaVUpjb1FmZC9XaHBRY2dtSW5jS1c3U0RTWGNjSlNTS2h6aitwM25JcHlzVTRiVXIwTklpMkcvRHU0Zzc3ZlIyY2JEOUM2VEpEa2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDc3OTgzCWZpbGU6Tm92c2t5LTAuMS4xMTAtYXJtNjQuYXBwLnRhci5negpmZ050N3VGTnFaMUM3Q3BtbmZsMFJTQzBvN29kOGYrTkw0aEJ4SUdqSE8rWWtLc2ZXQ2IrSjhyeFdySkh0TFVzWmluZXoxLytTQzdpY0NtQzlSdWNBdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.111/Novsky-0.1.111-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhDQ2FsWFYvcHludlFnSksrSUg5R1hla3lUdjI5a0ZPWFAxbkVpTFVzclFkVVp1Z01xZXR1RWlYdjM0MnRlMzkvM1pZcW81VEs2WUZwZEh4UGNNaHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDc4OTY1CWZpbGU6Tm92c2t5LTAuMS4xMTEtYXJtNjQuYXBwLnRhci5negpTcVN5T2s1ZUZ1SVNCS1ZrMXR2RC8rRysxOVprVHJ3NEpNVzB5WlpzdXU0MzZiaWNxeTk0RDZFZkMwcy9FMlJHVlB6TFc5b0ZBc1E2Ty9nazBITWFCZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.110/Novsky-0.1.110-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhIK1BxL25jZWpia2ZIK04vL0ZFRVJlUlZSc0xGL1hzT0VHa1pqS0VVNmttQ3ZXaExSS0hvbDZSQTY0c1N0cnFKSG5mN3JEbVIvdDZlL0xqTTlKa0FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDc4MDYzCWZpbGU6Tm92c2t5LTAuMS4xMTAteDY0LmFwcC50YXIuZ3oKalNJbERIV2FYdWx1UU1QQW9RWW03Uks0a0huRFpxaVdkTjZkNm9iZlM1Rmg1eUErZEhOUVcwUkxXVHIvT1ZkcW5CWFBFREM1eWdtSFc5bWJ2elA4RHc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.111/Novsky-0.1.111-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5nZTdNOFpjVm15SUZoRjFPT2pOMGdNV3U4ellJbHczdjZDZWIrdGRBQk1BMEJUMkRVZ1dZQzlIT3M3SytoZ2NVYThsK1ZaRURRMjVaUWd1K0V6ZlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDc5MDQ2CWZpbGU6Tm92c2t5LTAuMS4xMTEteDY0LmFwcC50YXIuZ3oKcnRZMWlvOXMySXhEZDNYeUxHU0lUeWVUQjNCZXh2VUNjVmorV0FZencrZzhxSHhMVEUrL2xiWjYvRjJtcXIwcTVHdStOZXpIZFVWUzZJVStCeHl6Qmc9PQo="
     }
   }
 }
