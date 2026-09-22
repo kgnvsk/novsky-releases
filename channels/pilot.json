@@ -1,15 +1,15 @@
 {
-  "version": "0.1.109",
-  "notes": "## 0.1.109\n\n- «Мозок»: спільні знання тепер зберігаються і розсилаються окремо для кожного сервера. На сторінці обирається сервер; файли отримують лише його агенти, встановлені Novsky у повному режимі, а новий агент на сервері одразу отримує знання свого сервера.\n",
-  "pub_date": "2026-09-22T00:09:41.643Z",
+  "version": "0.1.110",
+  "notes": "## 0.1.110\n\n- Codex-агенти: нагадування без назви завдання більше не губиться — середовище саме дає йому ідентифікатор і повертає його у відповіді. Відмова інструмента тепер пояснює моделі, що саме було не так, замість загального повідомлення про надсилання файлу. Підказка для Google-команд попереджає не передавати `--account`.\n",
+  "pub_date": "2026-09-22T11:54:49.890Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.109/Novsky-0.1.109-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxBWGpqOFVEQVc1MlRDcTVMZlo2eFh2Wk5DVGNVaHFJNmFyZktUQnpMQVpMaXpHQzl3bVdIN2x6QzRmbDUrbFBqemIxTkswcHdiWmcraXBKSFZLZ0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDM1NjQxCWZpbGU6Tm92c2t5LTAuMS4xMDktYXJtNjQuYXBwLnRhci5negozSnJEZEhyaFBTME1valhaLzFvdWQ1dGdNd1pobmVSZlZzMWtZYk1ucFlVeWQ0TEdQQjd5OWxqK2NQT2JzYW1KZjBJWEJ1R1Q0M1hqK0RkQllDTjNEdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.110/Novsky-0.1.110-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdXNnlVMjJTTCtaVUpjb1FmZC9XaHBRY2dtSW5jS1c3U0RTWGNjSlNTS2h6aitwM25JcHlzVTRiVXIwTklpMkcvRHU0Zzc3ZlIyY2JEOUM2VEpEa2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDc3OTgzCWZpbGU6Tm92c2t5LTAuMS4xMTAtYXJtNjQuYXBwLnRhci5negpmZ050N3VGTnFaMUM3Q3BtbmZsMFJTQzBvN29kOGYrTkw0aEJ4SUdqSE8rWWtLc2ZXQ2IrSjhyeFdySkh0TFVzWmluZXoxLytTQzdpY0NtQzlSdWNBdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.109/Novsky-0.1.109-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRqYmdGUGxBZ2U4UUVnUmU3dURycUt6dHRpU3NLeFZvd25aZkluQUNKZ1hTLzNOaERWMHlXLzdlaGZDLzNvd1dFUjNLWXpzdlVKN21UdWJPNmpVcmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDM1NzE5CWZpbGU6Tm92c2t5LTAuMS4xMDkteDY0LmFwcC50YXIuZ3oKS3RFSnNFdmxodFpPVUh2bkJlb3JLdXlkNVpBandqRWhLMzBPaThyS1JFeGxTKzh2TWVYVnV4bnhvVFUyT1ZnaHFSeUl2VXdjOE4xVmgzUkxoNTZjQUE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.110/Novsky-0.1.110-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhIK1BxL25jZWpia2ZIK04vL0ZFRVJlUlZSc0xGL1hzT0VHa1pqS0VVNmttQ3ZXaExSS0hvbDZSQTY0c1N0cnFKSG5mN3JEbVIvdDZlL0xqTTlKa0FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDc4MDYzCWZpbGU6Tm92c2t5LTAuMS4xMTAteDY0LmFwcC50YXIuZ3oKalNJbERIV2FYdWx1UU1QQW9RWW03Uks0a0huRFpxaVdkTjZkNm9iZlM1Rmg1eUErZEhOUVcwUkxXVHIvT1ZkcW5CWFBFREM1eWdtSFc5bWJ2elA4RHc9PQo="
     }
   }
 }
