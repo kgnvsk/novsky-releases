@@ -1,15 +1,15 @@
 {
-  "version": "0.1.112",
-  "notes": "## 0.1.112\n\n- Оновлення Codex-агентів без простою: перед зупинкою служби Novsky перевіряє план кита (зміни у керованих файлах зупиняють етап, поки агент ще працює), а якщо пізніший крок не вдався — служба запускається знову на попередній версії, і це видно в журналі розгортання.\n",
-  "pub_date": "2026-09-22T12:37:06.674Z",
+  "version": "0.1.113",
+  "notes": "## 0.1.113\n\n- Зміна моделі Claude працює на агентах зі свіжою обгорткою кита. Такий агент після перезапуску продовжує свою Telegram-сесію, а продовжена сесія лишалась на старій моделі; тепер Novsky явно передає нову модель і перевіряє, що запущений бот її отримав.\n",
+  "pub_date": "2026-09-22T18:35:57.582Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.112/Novsky-0.1.112-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxhUjBrYllOeVFzSExUQmNzNjFKd3lSbkNsaHdUbjFqMkhJRmw5MkZFTjhwVW5TWllNZHpuUFZPR3I1bDZiSnNaekdvRldyYVM1djJDdDhnbkczdGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDgwNTI4CWZpbGU6Tm92c2t5LTAuMS4xMTItYXJtNjQuYXBwLnRhci5negpQNkt6M2hDYWpUM0dUZEFBcDZTU1Y2UG1odndvWFQyK3Q3Mit0QUo5aHZlSnNzUHhvWHhTejNxY3djL1JPRjIrVFZ4U2NXeDViTVF4cEN3cFM3c01CUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.113/Novsky-0.1.113-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmg3RlRlcDBneEU0a1ppcXk3KzMxNEhuRkxRd2E1NGdRaW4vWC8xUnpKdWNxK3lkNnFVK2I0SjFoSUNCS0wvNERaUk43NDYwbDM3THFIMllaZlMrdlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTAxOTk0CWZpbGU6Tm92c2t5LTAuMS4xMTMtYXJtNjQuYXBwLnRhci5negp3MVN4aW5oZ1JpWlNTaFlybXVYcWJ6b044TEdFbVhGZHkyemtobFJJUXlUTHJoaTRUdlVMNkJjNTFYcG5WQWNqd1EvS1M3ZCt2cnA5Zk1WbXNXTDJCZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.112/Novsky-0.1.112-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5jaEpzRFUrQTdZR0E2aCtZTlJhUXViVHpKdjB4SVhBWFQ2WkR0dWhWNFVweUdtQXE1bzd3K2RtSCtUbGw2N0pxMyt3UnNnZGdqcFRIY0lGOHgxQUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDgwNjAyCWZpbGU6Tm92c2t5LTAuMS4xMTIteDY0LmFwcC50YXIuZ3oKZ3hxSmZES3JMaURHdHNoN0o0VTFxUTlCZ0JNdDNJZy9XRysrNlZacFNNb0Y2K0VURXdMdEhjVmVQWkF3NlUwUjA2Q0h4VWkySG4yODVvWTBRZTJBQmc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.113/Novsky-0.1.113-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnF2K3JxUlMyNzc3RkJxZG5YOVlvRS9DMUFqdjdUV1VhZmpMMFVLQmNsWlJ0eEYzSFN2REcwQnZnZFN2Q2VHTXMzZ1VxSkdqUEdOVFpDMVJCV2JIQkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTAyMDg5CWZpbGU6Tm92c2t5LTAuMS4xMTMteDY0LmFwcC50YXIuZ3oKYmtFaGdtRVpWNkxJb29kZ3ZvWHh3am95alhsNGVWT09iUWxyUVZna0hxOXd3dlE2Tjhkd3BNTjhGZXJTN2FOL1diYjZHaGd6WnF0c1BhdE1mUSszQ3c9PQo="
     }
   }
 }
