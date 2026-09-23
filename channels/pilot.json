@@ -1,15 +1,15 @@
 {
-  "version": "0.1.117",
-  "notes": "Codex-агенти та їхні помічники більше не зупиняються, щоб просити дозвіл, — як і Claude-агенти.\n\n- Основна розмова агента, задачі команди та локальні агенти на Claude працюють без запитів «Дозволити?» у Telegram. Закритими лишаються тільки облікові дані та приватний стан агента — це обмежує профіль доступу, а не питання власнику.\n- Агент без кита отримав доступ до мережі.\n",
-  "pub_date": "2026-09-23T07:43:53.114Z",
+  "version": "0.1.118",
+  "notes": "Люди і ролі агента; сервер, де власник заборонив оновлення, більше не оновлюється.\n\n- У налаштуваннях агента з'явився розділ «Люди і ролі». Там власник, суперадміни й адміністратори з іменами з Telegram. Суперадмін має права власника агента, але не бачить особистого листування власника з ботом, його профілю й особистих нотаток. Призначити або зняти суперадміна можна одним перемикачем. Роль працює в корпоративних агентах із китом від 23.09.2026.\n- Якщо на сервері стоїть заборона оновлень кита, «Оновити кит» зупиняється ще до будь-яких змін і пише, чому.\n",
+  "pub_date": "2026-09-23T11:04:40.210Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.117/Novsky-0.1.117-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhJSDYyV2ZzRlptdk1lVVc2dXVHWTJHemdnQkNWMGI1aHVUMGxkOG9xRkxDM1lVYU1pdFQrdkk5c0UrOE9CdEpBampZbUZxQkFMSUlweFBNcWJPUXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTQ5MzE5CWZpbGU6Tm92c2t5LTAuMS4xMTctYXJtNjQuYXBwLnRhci5negp5M1ZVeENnRi96RkhjeStWSDRFbjZiSHJzNTI1QXNxT3lvQ3hVaThGc0lRMW1ZbUpMNmtFaGYwcGRtdWdOd0tVeTBoNHR4L1U4OXM2NUxJL2NqNi9Cdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.118/Novsky-0.1.118-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFycFZOWVBCcHBudHAvcUIvd0hIWjVZcDVPY0pnYW1JcXhYZytGdGZYa3kyS3ZZTkxxUmRLdERFRTlRdlZ4L3cxejRTTFhRUkRJZkNtUnJ4Mzk4K2d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTYxMzc2CWZpbGU6Tm92c2t5LTAuMS4xMTgtYXJtNjQuYXBwLnRhci5nego5R3JuNHFkbWZ4MkpZQWtzVHduZ1hycjcvZU14TTlxakNhU3g0ZXpsU0MxSWo2UmZ0SzlTNkFmTWQyeTZ1NzI5VW52VW5ITjJSTXI3WHZqRkwzQkVCZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.117/Novsky-0.1.117-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnQ5RXNKbVhnTklIWjZLanBNSjBsT2hhdFJhSnpydzEwem5waEFKeUNRNzJNV3pjY1Z0UTk2cnpXYUNGZlVIeWI4WWRVM0toeUU4MGIwNXpQOFZzRUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTQ5Mzk1CWZpbGU6Tm92c2t5LTAuMS4xMTcteDY0LmFwcC50YXIuZ3oKZDlHK0hZbE9KMktvNUtta3RMcHRHR3FRTk9USVRLZk5UNnRBUTRaalJ5N0ZJSi91WE5zcmVPYlpuVDltMDY1cWIvbFhLSHhoclNZV0JvMyt0cDVDQ3c9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.118/Novsky-0.1.118-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtOUExVTFlKZllsZDJmVzFkS2xKRmtpK21oQTR4UkxEdHRTdzZSNVVuUVNBR1BRcmVFajBrdjJHaERWTlBNaVpQRTdacmtKZklqU2E3ay93SzkwNHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTYxNDU5CWZpbGU6Tm92c2t5LTAuMS4xMTgteDY0LmFwcC50YXIuZ3oKb0tRSDhBQTZEWllralZ6ZHpKM0hmVzIyOHJ1VS94dk1jR0gyUk9VQW5NTzJxU213Y1Z3M3dNVTlkamJscVVxQnR2RFJLanYrQ2JKbDlZSm9jQ01nQUE9PQo="
     }
   }
 }
