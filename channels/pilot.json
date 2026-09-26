@@ -1,15 +1,15 @@
 {
-  "version": "0.1.122",
-  "notes": "Розділ «Підключення» більше не просить оновити кит в агентів на актуальних випусках, зокрема на китах від 23.09 і в Codex-агентів з 21.09: Novsky перестав перевіряти файли, які йому не потрібні. На Mac скасування команди в терміналі власника тепер показує «скасовано», а не «результат невідомий», а готова задача команди агентів більше не позначається помилково як незавершена.\n",
-  "pub_date": "2026-09-26T08:03:17.853Z",
+  "version": "0.1.123",
+  "notes": "Кожен агент на сервері тепер має власну папку кита: встановлення, оновлення чи видалення другого агента більше не зачіпає основного. Розділ «Підключення» перевіряє агента за правилами кита і не просить зайвого оновлення. Другі агенти на сервері стануть доступні з виходом нового кита, а до того Novsky відмовляє ще до будь-яких змін на сервері.\n",
+  "pub_date": "2026-09-26T11:17:55.994Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.122/Novsky-0.1.122-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxud3RoS0p1N1MzS0U0VzkyL3IyOUlKNjVIbS9DVkVSWFVhdkhzT0JWS0tTRG9lUWJySEFZT2VNUXo3bm1wdXM0S1pTL3ZNZG1ITm9jbVkxMHdocGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDA5MjYwCWZpbGU6Tm92c2t5LTAuMS4xMjItYXJtNjQuYXBwLnRhci5negpYUFdwUFl2WkVBRmxETmowWGNRVVZndEpyQTlidUlHblg3NTJmN21PUTR4TTJnT05aMWRHVEdndVZPQ0o2QTFEcVVhQ0Q2ZFpMR0pMOENVZEM1M1dDdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.123/Novsky-0.1.123-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnEyWDEreGt2RXRISkpDMEowY05vbEZreGdoc1dPL0hJbjFxRDFna210NDVTTDJQZlF5aWplc0F0TkIreFhNZy9nYSt5a1c1M091Mk5mdXRzY1g1MVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDIxMzM5CWZpbGU6Tm92c2t5LTAuMS4xMjMtYXJtNjQuYXBwLnRhci5negpPT1J0Z1RpdWlCZHFMSmc0bkE1N0duMG55VmxVUFRpRm9KN1plcVlQV0syR1NvOVJack5xT2IrdHBmcHFybGU2bXVlNHRiYnJxS2MzeC9jeWp1bm9Ddz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.122/Novsky-0.1.122-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnN3UysxYThjVng0MnVzMmZLTWgwZVl1alVMMGtBZjJqRjVYNFlTZzR6VkszQ0VkbEJhOVllUjJpTlBpYUFyREw0THNjOG5pb0ZnYVdlVldpM0wyc0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDA5NzQ0CWZpbGU6Tm92c2t5LTAuMS4xMjIteDY0LmFwcC50YXIuZ3oKL2NZUGJnK3IxRXMxb0VBblVSdWVtemZzWHd0RVVXYk9xdnl3b2ZtM2QxcXNxZDI3RTVuTGdCRCs5dFo1VlFsemY3MnEzU2hHVDI1QlplekN3Y05tQWc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.123/Novsky-0.1.123-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnQxSGR1V1JDblAwRmVwaTMyNFBJMXZ3THNhU1QwaE8xZVVJK0NZU0xFU0VzdjBRVWxUZVRGZ2JYZDMyNG5taDJFWWVhR3h5bU1TZjZOY1BWOU1RQndJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDIxNDQwCWZpbGU6Tm92c2t5LTAuMS4xMjMteDY0LmFwcC50YXIuZ3oKZkpBdVJTSUxkanVxeDFBUjh6NFlXK1ppOFg5RnZ4OGlieFNGdm9mZUhYUjRFL1c2MFJKaHh1MW9nbWtsUk9LenV2MmphR0M3blhIS0huTlBZb1k2REE9PQo="
     }
   }
 }
