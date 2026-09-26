@@ -1,15 +1,15 @@
 {
-  "version": "0.1.121",
-  "notes": "Після повного перевстановлення сервера Novsky знову підключається: якщо його ключ не підходить, використовується пароль — лише після перевірки відбитка сервера; фонові перевірки пароль не надсилають. Під час встановлення будь-якого агента можна вибрати вже збережений сервер, виправити ім'я користувача, а новий пароль зберігається тільки після того, як сервер його прийняв; після збою підключення пароль можна ввести заново при повторі. Нова дія «Забути сервер без підключення» нічого не змінює на самому сервері. Якщо видалення агента не може підключитися до сервера, Novsky пропонує прибрати агента без підключення. Ключ передачі агента тепер завжди читається, а скидання сервера знімає всі доступи, які Novsky там залишав.\n",
-  "pub_date": "2026-09-26T01:35:51.877Z",
+  "version": "0.1.122",
+  "notes": "Розділ «Підключення» більше не просить оновити кит в агентів на актуальних випусках, зокрема на китах від 23.09 і в Codex-агентів з 21.09: Novsky перестав перевіряти файли, які йому не потрібні. На Mac скасування команди в терміналі власника тепер показує «скасовано», а не «результат невідомий», а готова задача команди агентів більше не позначається помилково як незавершена.\n",
+  "pub_date": "2026-09-26T08:03:17.853Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.121/Novsky-0.1.121-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9ZL2NmQUIvcUtpZkVkSDNtWmlpUjNGK2dUOVVNdUVEVHpsOUFadENIMW5DbmdxZnM1bThqUTlJdTV1TS9vV242c3lOeWI0dEVmaDF1QXNvcmIveWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzg2NDEzCWZpbGU6Tm92c2t5LTAuMS4xMjEtYXJtNjQuYXBwLnRhci5negpPeHRHMk80ZzF1TkJ6UVNEOUFPUklNckhmRkZXWnBUaVFlRTEvWnkwZVVlOVcrS0czTjBPRFRjY0tZTzZFY1YzNDhSS2xTQXdLV1ZTbFVlRHljTnFCQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.122/Novsky-0.1.122-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxud3RoS0p1N1MzS0U0VzkyL3IyOUlKNjVIbS9DVkVSWFVhdkhzT0JWS0tTRG9lUWJySEFZT2VNUXo3bm1wdXM0S1pTL3ZNZG1ITm9jbVkxMHdocGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDA5MjYwCWZpbGU6Tm92c2t5LTAuMS4xMjItYXJtNjQuYXBwLnRhci5negpYUFdwUFl2WkVBRmxETmowWGNRVVZndEpyQTlidUlHblg3NTJmN21PUTR4TTJnT05aMWRHVEdndVZPQ0o2QTFEcVVhQ0Q2ZFpMR0pMOENVZEM1M1dDdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.121/Novsky-0.1.121-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlKWUErMW0rZWNYNFBKNysrUnpkVDkzYUhTeTNOaDhkTmMxOFJiYWI5bkFHbGhvQkUwKzE5QTlqeFNDMXFzbUl4Tk91TUIwc3hScXBMYXJadHlKdlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzg2NTIzCWZpbGU6Tm92c2t5LTAuMS4xMjEteDY0LmFwcC50YXIuZ3oKZ0piTjFvSjRjM2cxUllRK25kblY4Q2lhbEpkdTE0M2RJd09uU0U3KzVpZCsyaUpMeTV2bWpkMk9WRnZ3aWNVN2w1YlpVZHZ2NUg4SlRFaGlnZENoQ2c9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.122/Novsky-0.1.122-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnN3UysxYThjVng0MnVzMmZLTWgwZVl1alVMMGtBZjJqRjVYNFlTZzR6VkszQ0VkbEJhOVllUjJpTlBpYUFyREw0THNjOG5pb0ZnYVdlVldpM0wyc0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDA5NzQ0CWZpbGU6Tm92c2t5LTAuMS4xMjIteDY0LmFwcC50YXIuZ3oKL2NZUGJnK3IxRXMxb0VBblVSdWVtemZzWHd0RVVXYk9xdnl3b2ZtM2QxcXNxZDI3RTVuTGdCRCs5dFo1VlFsemY3MnEzU2hHVDI1QlplekN3Y05tQWc9PQo="
     }
   }
 }
