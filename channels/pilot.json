@@ -1,15 +1,15 @@
 {
-  "version": "0.1.124",
-  "notes": "Novsky тепер оновлює агентів з увімкненим режимом компанії: «Оновити кит» більше не відмовляє. Перед оновленням співробітників ставимо на паузу, бота зупиняємо лише тоді, коли він вільний, а після запуску перевіряємо його й знову відкриваємо доступ. Якщо щось пішло не так до запуску оновленого бота, повертається попередня версія; якщо після — оновлення зупиняється в безпечному стані, і його завершує повтор етапу «Запуск служби». На сторінках входу в Claude і ChatGPT зʼявилися кнопки «Отримати нове посилання» та «Отримати новий код»: старі діють лише кілька хвилин. Кожен новий бот одразу під наглядом монітора. В огляді агента зʼявилися «Користь» і надійність (розділ ще в розробці). Заплановані запуски та відповіді компанії в Codex-агентів переживають перезапуск.\n",
-  "pub_date": "2026-10-01T16:54:22.228Z",
+  "version": "0.1.125",
+  "notes": "Оновлення кита тепер видно там, де ти його запустив. Після «Оновити кит» ти лишаєшся в налаштуваннях агента: у рядку «Кит» зʼявляється один рядок із поточним кроком і смужкою прогресу. Окрема сторінка з етапами більше не відкривається сама. Якщо оновлення зупинилось, причина й підказка показані в тому ж рядку, а етапи відкриваються за посиланням «Переглянути етапи». На огляді агента під час оновлення видно той самий рядок.\n\nЯкщо встановлення довго чекало на твій код входу в Claude або ChatGPT, воно більше не падає з «Not connected»: після відповіді Novsky сам відновлює зʼєднання з тим самим сервером і продовжує з того місця, де зупинився. Нічого не запускається вдруге, а сервер із іншим цифровим відбитком не приймається.\n",
+  "pub_date": "2026-10-01T21:43:02.954Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.124/Novsky-0.1.124-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFhVlVNTVpGZTBVT3F0TElYVy96cjJoUG9jSm9Lb3cvYm1hWUZRRXV1MzBBMlNIenVSVWZra0tnckVOV0pIejdFT3VScjlzczg4UnVZUlZ1TXZOOGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODczMzgwCWZpbGU6Tm92c2t5LTAuMS4xMjQtYXJtNjQuYXBwLnRhci5negpTNGdCRmM3TS9hbiswN2V3dmJHT05pN1dhU0tQcVJxdGdoaGFlUmxoNFJibTVaOTVIQ2NKSzRiOWFsNTFUTzlrWlhNRExXVEVqR3ZDL1lmQlI2UXFBZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.125/Novsky-0.1.125-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnVXb2FCZXg1ejVGdThFaHlzY1JRWGNINVU2NWZJY2RDdDBUTENnQUZUWExNZllzZmZ0U2tBM0NJZlJ4dnc3aGRGWlFTUGdldysrNzkwU3F1bkhaa1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODkwNDQwCWZpbGU6Tm92c2t5LTAuMS4xMjUtYXJtNjQuYXBwLnRhci5negp1aDY0VnU1NXJTRjErelhkNzFqK3BsMUw3VzBxTkdCZW5iNHhHWUFRV0IrSktlMW16Z3lDWmk3MVNNYy9wOEFGaU82ekpkRkJMenF5MC9wc1BlS0ZEQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.124/Novsky-0.1.124-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScml2bHZhZEJhak53VE83VnZxMXJnSVlNM1cvc0ZDclFXWjFkQUVxMGQwdFNERWlwRC9xRkhvcFBkVGZPcUdIdWZnSFhMMUQ0VkthUzR6Vll4Z0RMa1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODczNDg1CWZpbGU6Tm92c2t5LTAuMS4xMjQteDY0LmFwcC50YXIuZ3oKSWd3aXV4Y3ErM2lOdCt3ZGZ6MCt6Umh5S2VhRmNHSWNKSC9jd0pSVkxFWnJxUEJwNlEzcmlrSU94ejdEMTBmUkk2WWIyZGlsTHMvamc5Wm9VSzNBQ3c9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.125/Novsky-0.1.125-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxQNXovM0phVmlsMDBUMEdid0JzUnJNeU1HcWx1NjVnbW1PZnpLcDByYlJKK1U0OHEza3A2R3BpVHAzZmhWajhuSTdPUmdGTUw1MVhBeVk0T1I0M0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODkwNjc1CWZpbGU6Tm92c2t5LTAuMS4xMjUteDY0LmFwcC50YXIuZ3oKbW43Q1pHbzkybitSU3VsQnNhNlVnVFNSWmt4UTRtWXZodU93UEJpU09adDAzczRvbEYwdGZvUDRHOWw5Ri9TaU1HMXdUMlhZQ2VHbFFhQlpXaE4yQ1E9PQo="
     }
   }
 }
