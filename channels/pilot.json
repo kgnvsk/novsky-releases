@@ -1,15 +1,15 @@
 {
-  "version": "0.1.125",
-  "notes": "Оновлення кита тепер видно там, де ти його запустив. Після «Оновити кит» ти лишаєшся в налаштуваннях агента: у рядку «Кит» зʼявляється один рядок із поточним кроком і смужкою прогресу. Окрема сторінка з етапами більше не відкривається сама. Якщо оновлення зупинилось, причина й підказка показані в тому ж рядку, а етапи відкриваються за посиланням «Переглянути етапи». На огляді агента під час оновлення видно той самий рядок.\n\nЯкщо встановлення довго чекало на твій код входу в Claude або ChatGPT, воно більше не падає з «Not connected»: після відповіді Novsky сам відновлює зʼєднання з тим самим сервером і продовжує з того місця, де зупинився. Нічого не запускається вдруге, а сервер із іншим цифровим відбитком не приймається.\n",
-  "pub_date": "2026-10-01T21:43:02.954Z",
+  "version": "0.1.126",
+  "notes": "Novsky отримав новий вигляд. Усі екрани перебудовано в одному стилі: світле вікно, білі картки із заголовком усередині, одна синя головна кнопка, у списках вибраний рядок синій, а праворуч — те, що вибрано. Колонки на кожному екрані починаються й закінчуються на одній лінії, тому місце більше не пропадає. Функції ті самі: змінилися вигляд і розташування.\n\nОгляд агента тепер дашборд: відповіді за днями, швидкість, надійність, наступний рубіж і те, що заплановано далі.\n\nМайстер нового агента показує кроки праворуч: видно, що вже вибрано і що знадобиться під час установки. «Назад» і «Далі» завжди на одному місці.\n\nПомічник Novsky може працювати з окремим акаунтом Claude або ChatGPT. У його налаштуваннях натисни «Увійти в інший». Акаунт цього компʼютера й твої звичайні сесії не змінюються, а повернутися можна кнопкою «Повернути акаунт цього компʼютера».\n\nПід час установки агента на цей компʼютер знову зʼявляється підказка про вхід у Claude: Novsky чекає, поки ти підтвердиш вхід у браузері, і продовжує сам.\n\nЯкщо завдання, доручене іншому агентові, не вдалося, тепер видно причину: агент використав усі кроки, вхід у Claude відхилено, вичерпано ліміт або сервіс не відповів. Картка того, хто доручав, більше не повертається в «Чекає агента» через підзавдання, яке не вдалося.\n",
+  "pub_date": "2026-10-02T21:06:18.045Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.125/Novsky-0.1.125-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnVXb2FCZXg1ejVGdThFaHlzY1JRWGNINVU2NWZJY2RDdDBUTENnQUZUWExNZllzZmZ0U2tBM0NJZlJ4dnc3aGRGWlFTUGdldysrNzkwU3F1bkhaa1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODkwNDQwCWZpbGU6Tm92c2t5LTAuMS4xMjUtYXJtNjQuYXBwLnRhci5negp1aDY0VnU1NXJTRjErelhkNzFqK3BsMUw3VzBxTkdCZW5iNHhHWUFRV0IrSktlMW16Z3lDWmk3MVNNYy9wOEFGaU82ekpkRkJMenF5MC9wc1BlS0ZEQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.126/Novsky-0.1.126-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNseHZLYktsNmg5YnFNbldia3c0RzFJQjIyK3FOamozZWZiQmVRQkhuNy96S3dZVC9FL1YwSGlIcHVjWXNuQm9wbVdnaGhpUVNMRGxEajZ4d1hPd1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTc0NTAyCWZpbGU6Tm92c2t5LTAuMS4xMjYtYXJtNjQuYXBwLnRhci5negoyMDI4UFNRenUzQmZlTDMya3Y3VGRmc2RiQXFwS3BCRGdwTWlUTDlmR2QyakprTGdKUDVNZXJGdS9uTHplYkltZW1lMHhPZnBjRXkxcHpwMXpvMDNCUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.125/Novsky-0.1.125-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxQNXovM0phVmlsMDBUMEdid0JzUnJNeU1HcWx1NjVnbW1PZnpLcDByYlJKK1U0OHEza3A2R3BpVHAzZmhWajhuSTdPUmdGTUw1MVhBeVk0T1I0M0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODkwNjc1CWZpbGU6Tm92c2t5LTAuMS4xMjUteDY0LmFwcC50YXIuZ3oKbW43Q1pHbzkybitSU3VsQnNhNlVnVFNSWmt4UTRtWXZodU93UEJpU09adDAzczRvbEYwdGZvUDRHOWw5Ri9TaU1HMXdUMlhZQ2VHbFFhQlpXaE4yQ1E9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.126/Novsky-0.1.126-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnIxcHU3SFhFaEM0UURxVXNEZTB2aDlwNFNXK1pvbEpVc3J4amFzcUdpOTdHMXlLeHVkV0tMS0s3RjZRdlhPa3N2MGsybmJ0cVNkanQ5cHpuTTFFVXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTc0NTg5CWZpbGU6Tm92c2t5LTAuMS4xMjYteDY0LmFwcC50YXIuZ3oKWlRPSGliUElwSlhoOEs4VkMyUytRbWFacUVjRU9NTDZBMUtYaWVJaytRZHhpa3BTN1pBY0xER0JOcDRDcW9XK0tIb1l0aUNXT3RoOUpKVDU5Z2JzQ2c9PQo="
     }
   }
 }
