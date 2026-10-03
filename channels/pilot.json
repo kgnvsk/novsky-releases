@@ -1,15 +1,15 @@
 {
-  "version": "0.1.126",
-  "notes": "Novsky отримав новий вигляд. Усі екрани перебудовано в одному стилі: світле вікно, білі картки із заголовком усередині, одна синя головна кнопка, у списках вибраний рядок синій, а праворуч — те, що вибрано. Колонки на кожному екрані починаються й закінчуються на одній лінії, тому місце більше не пропадає. Функції ті самі: змінилися вигляд і розташування.\n\nОгляд агента тепер дашборд: відповіді за днями, швидкість, надійність, наступний рубіж і те, що заплановано далі.\n\nМайстер нового агента показує кроки праворуч: видно, що вже вибрано і що знадобиться під час установки. «Назад» і «Далі» завжди на одному місці.\n\nПомічник Novsky може працювати з окремим акаунтом Claude або ChatGPT. У його налаштуваннях натисни «Увійти в інший». Акаунт цього компʼютера й твої звичайні сесії не змінюються, а повернутися можна кнопкою «Повернути акаунт цього компʼютера».\n\nПід час установки агента на цей компʼютер знову зʼявляється підказка про вхід у Claude: Novsky чекає, поки ти підтвердиш вхід у браузері, і продовжує сам.\n\nЯкщо завдання, доручене іншому агентові, не вдалося, тепер видно причину: агент використав усі кроки, вхід у Claude відхилено, вичерпано ліміт або сервіс не відповів. Картка того, хто доручав, більше не повертається в «Чекає агента» через підзавдання, яке не вдалося.\n",
-  "pub_date": "2026-10-02T21:06:18.045Z",
+  "version": "0.1.130",
+  "notes": "Агентів на старших версіях кита знову можна оновити з Novsky: оновлення більше не зупиняється на перевірці старої персони, бо Novsky передає оновлювачу кит, який замінює.\n\nПомічник Novsky тепер завжди під рукою: кругла кнопка з маскотом у кутку вікна, а також ⌘J. На кнопці видно, коли помічник працює, чекає на тебе або натрапив на помилку.\n\nЗавдання показують, коли їх створено, почато й завершено. Розклад агента читається звичайними словами, зокрема окремо будні й вихідні та щогодинні запуски в межах вікна часу. На оргструктурі зʼявилася тонка сітка, яка зникає при віддаленні. Крок Codex у майстрі зʼявляється лише тоді, коли його потрібно налаштувати.\n",
+  "pub_date": "2026-10-03T12:22:19.909Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.126/Novsky-0.1.126-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNseHZLYktsNmg5YnFNbldia3c0RzFJQjIyK3FOamozZWZiQmVRQkhuNy96S3dZVC9FL1YwSGlIcHVjWXNuQm9wbVdnaGhpUVNMRGxEajZ4d1hPd1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTc0NTAyCWZpbGU6Tm92c2t5LTAuMS4xMjYtYXJtNjQuYXBwLnRhci5negoyMDI4UFNRenUzQmZlTDMya3Y3VGRmc2RiQXFwS3BCRGdwTWlUTDlmR2QyakprTGdKUDVNZXJGdS9uTHplYkltZW1lMHhPZnBjRXkxcHpwMXpvMDNCUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.130/Novsky-0.1.130-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRXU2w1SldqVXB1M3BvUlpCbXVrWVRGRmxvNVBmMGNOeERta1BzaGMzWHo5Mm42QTBaVUhxNW9qN0Q5eWNsRVlRNFNiU3ZSczdiWU9YcEdGV0k4YVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDE0ODI5CWZpbGU6Tm92c2t5LTAuMS4xMzAtYXJtNjQuYXBwLnRhci5negpTT0pzMnhEeFgvUDE5SjA4bWpSR05aSU0wR2dRalRYbzMzYk1TeHd1Um96WmtxNEZuOHY3dVJGSVpwYmFxL1RKb0EzQ082NC9vdEVWeDFDdlFoM2pDQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.126/Novsky-0.1.126-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnIxcHU3SFhFaEM0UURxVXNEZTB2aDlwNFNXK1pvbEpVc3J4amFzcUdpOTdHMXlLeHVkV0tMS0s3RjZRdlhPa3N2MGsybmJ0cVNkanQ5cHpuTTFFVXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTc0NTg5CWZpbGU6Tm92c2t5LTAuMS4xMjYteDY0LmFwcC50YXIuZ3oKWlRPSGliUElwSlhoOEs4VkMyUytRbWFacUVjRU9NTDZBMUtYaWVJaytRZHhpa3BTN1pBY0xER0JOcDRDcW9XK0tIb1l0aUNXT3RoOUpKVDU5Z2JzQ2c9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.130/Novsky-0.1.130-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmppUmVndHMrSGhEOVRzSjRMTERJZGdTMUFIT0h0WmU3MzBzSllLcFVaa0ZvZjkvYnl1ekYrbmxGYTBpYW0vd0RmYnBBdTdxTHhlaFJTcFNCa2I0NmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDE0OTA2CWZpbGU6Tm92c2t5LTAuMS4xMzAteDY0LmFwcC50YXIuZ3oKNmd4Mll0QzBBYjlxZGJrZFk1SmEyN3hPWUwyREp0VSt2QVF4azYxdDVzbVJVTU55TjFPV1J5WmlVYTFaeHp5ZzlvQjRXTlRjM3Q2Vkp5TjZHQjVFRHc9PQo="
     }
   }
 }
