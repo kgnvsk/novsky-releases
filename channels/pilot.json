@@ -1,15 +1,15 @@
 {
-  "version": "0.1.130",
-  "notes": "Агентів на старших версіях кита знову можна оновити з Novsky: оновлення більше не зупиняється на перевірці старої персони, бо Novsky передає оновлювачу кит, який замінює.\n\nПомічник Novsky тепер завжди під рукою: кругла кнопка з маскотом у кутку вікна, а також ⌘J. На кнопці видно, коли помічник працює, чекає на тебе або натрапив на помилку.\n\nЗавдання показують, коли їх створено, почато й завершено. Розклад агента читається звичайними словами, зокрема окремо будні й вихідні та щогодинні запуски в межах вікна часу. На оргструктурі зʼявилася тонка сітка, яка зникає при віддаленні. Крок Codex у майстрі зʼявляється лише тоді, коли його потрібно налаштувати.\n",
-  "pub_date": "2026-10-03T12:22:19.909Z",
+  "version": "0.1.134",
+  "notes": "Novsky 0.1.134\n\n- «Підключення» знову відкриваються для агентів, оновлених сьогоднішнім китом: Novsky знає нові версії його інструментів.\n",
+  "pub_date": "2026-10-04T19:45:11.760Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.130/Novsky-0.1.130-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRXU2w1SldqVXB1M3BvUlpCbXVrWVRGRmxvNVBmMGNOeERta1BzaGMzWHo5Mm42QTBaVUhxNW9qN0Q5eWNsRVlRNFNiU3ZSczdiWU9YcEdGV0k4YVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDE0ODI5CWZpbGU6Tm92c2t5LTAuMS4xMzAtYXJtNjQuYXBwLnRhci5negpTT0pzMnhEeFgvUDE5SjA4bWpSR05aSU0wR2dRalRYbzMzYk1TeHd1Um96WmtxNEZuOHY3dVJGSVpwYmFxL1RKb0EzQ082NC9vdEVWeDFDdlFoM2pDQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.134/Novsky-0.1.134-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnM4VDdhUGZ1UkFxRWR0RDF3bFkreDhmTExiN0xsMDZKMnF0d3R2RExoVXBCMG1mTDFsVlViZXgzQlkxUWdKclQ3WEl4N0tROUFFTVZvQmFQNmpkZEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTQyOTI5CWZpbGU6Tm92c2t5LTAuMS4xMzQtYXJtNjQuYXBwLnRhci5negp2Smo2clByV2NQQWN5WG4wcGhWbmV0Zy9Ra3JzNzA3cHVrUEdxRGZCTENWNHhYck1iUkU3cWc4SDl5K01RSDVVTzl1ZmdPVGp5d05yUjhQeWxtTDRCUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.130/Novsky-0.1.130-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmppUmVndHMrSGhEOVRzSjRMTERJZGdTMUFIT0h0WmU3MzBzSllLcFVaa0ZvZjkvYnl1ekYrbmxGYTBpYW0vd0RmYnBBdTdxTHhlaFJTcFNCa2I0NmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDE0OTA2CWZpbGU6Tm92c2t5LTAuMS4xMzAteDY0LmFwcC50YXIuZ3oKNmd4Mll0QzBBYjlxZGJrZFk1SmEyN3hPWUwyREp0VSt2QVF4azYxdDVzbVJVTU55TjFPV1J5WmlVYTFaeHp5ZzlvQjRXTlRjM3Q2Vkp5TjZHQjVFRHc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.134/Novsky-0.1.134-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5JRGNmNDQ1WWVOb0cweCtSdDIwTnJGTTRkWm1yRCtKbHdGVmY3T3RMQ0RmWlRpZU9TcFhDR2pGWE9GUUl6azh3MmlTR2trN1h2V1I5TkdPUmxMcWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTQzMDA4CWZpbGU6Tm92c2t5LTAuMS4xMzQteDY0LmFwcC50YXIuZ3oKdkVPY2ZNVjlZRHpiaXNrRW9RMElmSXZ4N1NhcXlHNmV1WGo4YnBKZ0ZFUVpCK0w0VEVlbFVQbS9zMHoyUWludEJUYVZCeFZLVmRYanZTN1ZzVlk1REE9PQo="
     }
   }
 }
