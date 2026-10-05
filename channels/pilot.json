@@ -1,15 +1,15 @@
 {
-  "version": "0.1.136",
-  "notes": "Приватний режим агента тепер означає «лише стан і керування»: Novsky не відкриває його завдання, памʼять, розклад, тексти субагентів і скілів — ні у вкладках агента, ні у флоті, ні в асистента. Термінал асистента недоступний на сервері, де живе приватний агент. Підключення й перенесення агента тепер починаються в повному режимі.\n\nЕкран більше не зсувається вгору з порожнечею внизу на довгому списку завдань.\n",
-  "pub_date": "2026-10-05T01:48:47.424Z",
+  "version": "0.1.137",
+  "notes": "Асистент тепер працює з вбудованим моніторингом агентів: пояснює, що саме той перевіряє і коли перезапускає службу, і змінює режим моніторингу тільки через нього. Зависла черга повідомлень тепер видно окремо — «Черга повідомлень зависла» або «Повідомлення чекає, а бот давно нічого не пише»; такі випадки моніторинг показує, але сам службу не перезапускає.\n\nВстановлення й оновлення агента більше не запускають команди Claude, коли вхід у Claude от-от оновиться: так вхід не губиться. Якщо саме зараз невдалий момент, етап просить повторити за кілька хвилин.\n",
+  "pub_date": "2026-10-05T05:15:06.387Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.136/Novsky-0.1.136-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRXNXUxdFJwN0V6UmRDRDJ5OGdsTkxxVllXUVo3bjdlUjNoelphL2NSUjA4enhzQ3gvS0crNlpGYldxVVdJWWNkWjA0N0UzVWdFNU1TSWo2UE04MkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTY0Mjg0CWZpbGU6Tm92c2t5LTAuMS4xMzYtYXJtNjQuYXBwLnRhci5negpOenMxT1V0MHVPVlpKdDRvRFBMM3hXVUNqMHU0c3prUVk1cDkvRGJ2bHZUMGtaSWZ6T1ViRk9tczdzLzQvVWkvbFQyS2drcmgxdVRVY2dDTUpBR0dBZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.137/Novsky-0.1.137-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm54bnI2T3lWaVJLUnZXcmVHaDdObnU3N3QrQ2J0MGFTcHg2c0FScUQ0SjNJVWV3RlJYeHNKazV0MGp4czZUdUhsckkzVE5CblNqUkw3S3ZjOFNSNWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTc2NTg1CWZpbGU6Tm92c2t5LTAuMS4xMzctYXJtNjQuYXBwLnRhci5nego2Z2JQTDhvMjNsTVFoRDVLL3hibHdpaXNoMVJ6TlNnRTVsd1RMU2JzSVBvMTR0K3BSTHhkNlM5N1BCcVNRWXJ1R1QwZ0Ewa0tVYzQwL1ptRDJRRXVCdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.136/Novsky-0.1.136-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNiQnZvQXVsTlVKN1ljSnFVSHJiMUNSMUpYMCszUUlqYUQyMzdiNUlSVWRrYTVoQlUrS1EwTHlYcStvZi9WRWRwVFNXTG5hUDVBK3BNdXJJNU5JWFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTY0MzYxCWZpbGU6Tm92c2t5LTAuMS4xMzYteDY0LmFwcC50YXIuZ3oKMnJ3YkRFMm5aZmFFZ2VWL0p3azJVOVp6UDBTSzJWWHF4S3hDWUIzeFRQdmRpSmRBd3kzeWpOMUdaRys3NklyVlNpbkVITXpqQ1U3QlhBM2I3RlplQVE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.137/Novsky-0.1.137-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNsVW1leTdpenlETFNqZVdOcll6RWVFT2Z6TFhUY1lwcDRiVVZLdmp4ZUVyRXoycGMxR1Vub0Z1VU4ydG0xdkNQQUMrSGplbEs4Um5CQXNjL2dJNkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTc2NjU5CWZpbGU6Tm92c2t5LTAuMS4xMzcteDY0LmFwcC50YXIuZ3oKT0w5Y2NYbk1Lcis3MlJFV1lwYXNDOE9zWU5obUwzZVF5NENoRGpkS01QcENMT3J6SDM1TjRnZGpKOHpHelYwZXk0QmE3akducTE4WmN0dDdZSlZEQXc9PQo="
     }
   }
 }
