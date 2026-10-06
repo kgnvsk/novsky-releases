@@ -1,15 +1,15 @@
 {
-  "version": "0.1.143",
-  "notes": "У власному чаті з агентом можна підготувати доступ до робочого календаря та інших підтримуваних ресурсів. Агент перевіряє підключений акаунт, просить вибрати потрібний ресурс і надсилає підтвердження. Для цього власнику не потрібні роль супер­адміна чи окремий доступ до Novsky.\n\nДодавання ресурсу не відкриває його всім працівникам: доступ для конкретної людини або групи підтверджується окремо.\n",
-  "pub_date": "2026-10-06T13:51:10.382Z",
+  "version": "0.1.144",
+  "notes": "Власник може користуватися всіма встановленими інструментами агента, звертаючись до нього в групі чи темі. Відповіді й файли залишаються в тому самому чаті. Разове доручення власника не змінює постійних прав інших учасників.\n",
+  "pub_date": "2026-10-06T15:58:41.294Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.143/Novsky-0.1.143-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFPbi90RzEyRTZlcDdhd2IvSEdVLzNCRFI5aEMzWVEwWVdhb0lNNlJhMHhQWXh1VktValhreHJtMkg2VVRMWDlnbUk2YUhJMWd3RklUZTlKNzRRUVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjk0NDA5CWZpbGU6Tm92c2t5LTAuMS4xNDMtYXJtNjQuYXBwLnRhci5nego2MXFzUEdNLzhhckZhU2d6bldMZ3hnSUlKNVl3MVFJRFFZWTVqTC9wb1dzcEhGYVdPS1ZSdE8yUW9pdFJkcmkrMkdjU29GdHg4ZWFhL3VGd1hXMlFCdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.144/Novsky-0.1.144-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdTN2NNejk4aEdVL0pYRmxVWFNUd05LeFNldEcrRElnTEhCckxrY3JpQS9VZjhCSUVWZVhPYldTK2xQRDBTOTRVZzAzV2Y5Z0JHNlUrL1NmaXZkY1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzAxNjM0CWZpbGU6Tm92c2t5LTAuMS4xNDQtYXJtNjQuYXBwLnRhci5negp1SHVISUZCdW5EaWRkSHFHRFEzNXE1ZTVRL25RQlM1ZnMxbEloc0xOcGdGcy83WW5UeTA3UVNOcnBDalVCMDgxeEZOMWovMFIyS1UyWjhOZnJ0WmtBdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.143/Novsky-0.1.143-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdjcTliVndheFIrVHZYSGRqTkg1ZEtjdURqVzNOZGVhTHU3aGt3ZXRqRm5ONjBXM0J4bUNzUFhqNTF5b2tDTndjdldBcGx6UVQzUFlNbFo2WUQzWEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjk0NDg2CWZpbGU6Tm92c2t5LTAuMS4xNDMteDY0LmFwcC50YXIuZ3oKVytBVFVDTFBEMVZLRHVLNjZtejJOMU5XRDRGSUc5ZXRFczZqNkVPbnFWTHlaQnRYZTA0QjJKeENjU2gyOC9ma3hwK1Joam1iYjlycW12eXNsT2IvQUE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.144/Novsky-0.1.144-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlTRGJ1Zk5sS0VjT2dzTm5LeENwMHFtdWxqMDZSZEE4aHFYZWptdzBrYUZ5Mnljbmx4QUdOTjhFK1Z0L1p3aTZ3cjhCd1NtbFhJTGJsN3hLYzBnRndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzAxNzgwCWZpbGU6Tm92c2t5LTAuMS4xNDQteDY0LmFwcC50YXIuZ3oKbTlYWDRvcXNOT3FnSFBISCtoWU5aZUZIekhTaTNjYk1tVzlOeTJCdCtPYlJ3RXYwY1VSSjNrS2YzV24wV3YwNXd0dXBwU0NXZytlbHR0U0ZCK25DQ1E9PQo="
     }
   }
 }
