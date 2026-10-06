@@ -1,15 +1,15 @@
 {
-  "version": "0.1.140",
-  "notes": "Помічник перевіряє актуальний стан особистої та корпоративної черги й збережені паузи після ліміту. Перезапуск служби та тестове повідомлення Telegram більше не подаються як доказ відповіді моделі. Під час ремонту помічник перевіряє причину, використовує наявні інструменти й називає конкретну відсутню дію або доступ. Приватний режим зберігає захист вмісту.\n",
-  "pub_date": "2026-10-06T09:27:29.067Z",
+  "version": "0.1.141",
+  "notes": "Помічник Novsky може підключити чинного агента з доданого файлу .novsky-agent. Пароль вводиться окремо, поза перепискою; після перевірки сервера ти підтверджуєш бота та режим доступу. Після імпорту помічник може перевірити стан і виконати дозволений ремонт.\n\nДіагностика лімітів тепер враховує збережений строк відновлення, який міг утримувати чергу після зміни тарифу.\n",
+  "pub_date": "2026-10-06T10:39:30.814Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.140/Novsky-0.1.140-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnF5QkZ0Y3RTbXRGYWZhWG5OQ3E5TTFUVkpkVU1Oc1E2cTNnQnQyNFR5YUFTbTExaE56Qlo4UGQ5STh3MkNrUndoczd5WnY2QU5Udms0dGhXREVXV2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjc4NTE3CWZpbGU6Tm92c2t5LTAuMS4xNDAtYXJtNjQuYXBwLnRhci5negoyMHEwejByZmR2amIwSzhmcFg5SG16eFhUZkcwVjdSRzB2K0FIVWM4aGl3RjBYWURNY25Sc1FtSkJMTmpQWlVId3FQQjF0OUIrUW40VUh0dFJlU0ZDUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.141/Novsky-0.1.141-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNKNWNDWU91YURkaDZkaXBuZklSWXJtQmlaRDZIR0FhMGhBQ0dNSkJYcUtSNEZ3eGxrbHIyQ2FuUFU3aTA1S2xNNVUvNWp1WFl1WGRaT2xRcEtBa0FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjgyOTU0CWZpbGU6Tm92c2t5LTAuMS4xNDEtYXJtNjQuYXBwLnRhci5negpwTUVmcEQxWk1waXY5My96SEZoWXd3cGVhZitVRURFWUJwb1c2cWhyYmt0MHhGVkNYQnhSU1I0STFPMEs2WTJtY05yblpiVUZrOFFCZkpmdHl2czBCQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.140/Novsky-0.1.140-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxMaUhkcVlGRUhoU0N6RnFoUXM4U3puVUwxUXkyTm9DQ2JycElIdVVQaWUwenlORUE5enlHdzdYaXZXTTFMWEJCQUxwS2svMExYRXVBSlBTWlIrckFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjc4NjQ3CWZpbGU6Tm92c2t5LTAuMS4xNDAteDY0LmFwcC50YXIuZ3oKcDNJMkxUb3RoWWdvS2Rhek1KK1pQWmRkaEJkbVdvYW11U0JVN3QwT3F2VTRDSWlKTXR6clNFU2JqVFNYSGUvMkVIQzNtQ043UE92MiszbXYwT2dURGc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.141/Novsky-0.1.141-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxBSmVieDhVbFRBUkFQOUpvYnNaWExYaFpvcFJoSXA4eTU2a284NHBaUEgzd0tBVjhtR1JwU25LWXpFUExmb0hqYVREbUc0ODY2cWNEaW1VK2N1a0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjgzMDMxCWZpbGU6Tm92c2t5LTAuMS4xNDEteDY0LmFwcC50YXIuZ3oKS0JDZmpzYi9kRTBkWEltTzhjK2ExVzJuTHhQT1dTbmJTT1hxajVsT29MY21OVEJsZjBNREFxT2Q3NnlDeFkwcXFkQm9HM2xpUW9FaUJZQmJUMWExRFE9PQo="
     }
   }
 }
