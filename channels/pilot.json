@@ -1,15 +1,15 @@
 {
-  "version": "0.1.146",
-  "notes": "Задачі й переписки агентів тепер підтягуються одразу. Novsky дочитує історію агента цілком за один раз, а не шматками по кілька мегабайт на кожне оновлення екрана, і спершу бере розмови з власником, потім фонові завдання.\n\nІсторія оновлюється й у фоні, раз на хвилину, навіть коли вікно згорнуте або відкрита інша сторінка. Повертаючись у вікно, ви одразу бачите свіже, без перезапуску програми.\n\nНа сервері агента читання стало легшим: менше памʼяті, а Novsky більше не починає історію спочатку через надто великі закладки читання.\n",
-  "pub_date": "2026-10-07T08:57:22.620Z",
+  "version": "0.1.147",
+  "notes": "«Повторити вхід» більше не обриває робочий вхід агента. Раніше Novsky спершу виходив з облікового запису Claude, і цей вхід переставав діяти. Якщо новий вхід не завершувався, агент виглядав підключеним, але не відповідав. Тепер поточний вхід лише відкладається вбік, а бот на час входу зупиняється. Після нового входу бот запускається на ньому. Якщо вхід не завершився, попередній повертається цілим, і бот працює далі.\n\nВхід знаходить Claude на сервері, навіть коли профіль користувача не підхоплює його теку. Замість незрозумілого «No screen session found» сторінка показує справжню причину.\n",
+  "pub_date": "2026-10-07T14:10:16.843Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.146/Novsky-0.1.146-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnBxSjhiNXM1VlpGZ242amlvR0tCdmFGeVN0N3hOWHpYUnR0VWsrVWhDU1ExOW5BeWFxM2YyTDI0a0g1dGU5THZPT3F6NVJDUlBQWUVzM095N1FqTWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzQyMDE5CWZpbGU6Tm92c2t5LTAuMS4xNDYtYXJtNjQuYXBwLnRhci5negpVdmRiZjY3UmJ0Qi9oZkoraXA5aVNLQUg5VGJsU2lZVkhwR2dwdVk4dmozQnovRWhmd2M0cFZyQTcrOXcxK3l1UWRsaFA3alMvVk5HSHljbTlkKytBUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.147/Novsky-0.1.147-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRvVEpCeGxwelJlckVIRnZydUk4VUxmUVU5bWVpZm1jNXVzS2wvSEtaeXEvWitIVDhwbVRPY2VFcjhFNnRGckw0djY2YzBBdUNJUzRRMXBsOUdiWVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzgxODA3CWZpbGU6Tm92c2t5LTAuMS4xNDctYXJtNjQuYXBwLnRhci5negpaak9rSG5wNlh2aFNCUmVCak1zUkNEUDVQWFZLRHNiSXhOOWQxWkFuTHllWEpRaWgxeVZOcHJHU1FIVHN2dmZ0RDl1d3ZtVE0vN0E5U0JMdjdnR25Bdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.146/Novsky-0.1.146-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJXZndkbEJzbGYvZ1c4YVlLV0tDQWxjMnV6c2RXSHc1UzIzMTc5ejVUVXN6LzJBZFErRml0bFdOSGgyM095VTlBQVI0alB5dy9wMXE3dTJRdU5yQVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzQyMTIwCWZpbGU6Tm92c2t5LTAuMS4xNDYteDY0LmFwcC50YXIuZ3oKTU9MVE5xNkNWM1NZc3NPd052SUhpQVc2NllKbHFVZ2MrYlFnOHU1ekZqYmFtTHFHZ1IvbXZlQ2RhNzJnT1RkNmR1dGo1alNwQVl4Ni9hNVlZMzFpQkE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.147/Novsky-0.1.147-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmk5MnN0Zk5HMGRSbURSWTl6dG9KMWw5TDFBV3plZjJIVWFxcWozTjNNLzljaThsYXh1aWg3emgrU0JWNDExWDE2cHJOaWpzeVc0d1pyeG4wVEp5alFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzgxOTIxCWZpbGU6Tm92c2t5LTAuMS4xNDcteDY0LmFwcC50YXIuZ3oKT0FPUmQyWkRUbkpLUVZJT1IxL1kvQnliM0VJNE9nNDFQMXRPY0NETnp4MTQ4M0JWdnV4eWlBL0phNzlsdFFOeXNVWWpKU2lpdVBwM0RYVCtRcFBQQ2c9PQo="
     }
   }
 }
