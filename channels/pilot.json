@@ -1,15 +1,15 @@
 {
-  "version": "0.1.148",
-  "notes": "Після «Повторити вхід» сторінка агента одразу показує новий вхід. Раніше Novsky ще кілька хвилин писав «Потрібен вхід», бо чекав, поки бот сам оновить звіт про свій стан. Тепер бот оновлює звіт одразу після входу, а Novsky перечитує стан агента щойно вхід чи оновлення кита завершилися.\n",
-  "pub_date": "2026-10-07T14:52:25.301Z",
+  "version": "0.1.149",
+  "notes": "«Потрібен ти» кличе тебе лише тоді, коли агент чекає саме на тебе. Це його питання до тебе, або робота, що впала чи зависла і після якої людина так і не отримала відповіді. Відповіді без підтвердженої доставки та повідомлення, на які агент вирішив не відповідати, там більше не накопичуються: їх видно в самих завданнях. Решту можна прибрати кнопкою «Готово» в завданні або «Прибрати всі», а випадково прибране — «Повернути».\n\nСторінка агента читає лише цього агента і відкривається за кілька секунд. Повільні сервери інших агентів більше не роблять її дані «неповними».\n\nУ «Люди і ролі» видно всіх, кого агент пускає, а не лише адміністраторів.\n\nЗвʼязки в оргструктурі застосовуються тихо й повторюються самі. Novsky скаже про них, лише якщо сам не впорається, і назве сервер, агента та що зробити. Для серверів з багатьма агентами застосування більше не обривається за 90 секунд.\n\nАгенти мають аватарки зі свого Telegram замість першої літери.\n\nУ «Спільних знаннях» з'явилися папки й архів. Архівний файл зберігається в Novsky, але агенти його не отримують, доки не повернеш. Нотатку агента можна одним натиском передати у спільні знання його сервера.\n\nЗавдання, на яке агент вирішив не відповідати (наприклад, повідомлення в групі без звертання до нього), тепер так і підписане.\n\nСтатистика й завдання знову видно в агентів, у яких Novsky їх раніше не знаходив.\n",
+  "pub_date": "2026-10-07T21:03:09.119Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.148/Novsky-0.1.148-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlkNmtzZXlQUzdlZi9RMngwdmI4TFl0VjhWdEY5cWM3dlNSM0RSYUc5VHo1NUZYc2d3MG5Db01DcXdtNkdlTFRiMUxuVCtKeWRRRmIrMHZhd292SFFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzg0NDEwCWZpbGU6Tm92c2t5LTAuMS4xNDgtYXJtNjQuYXBwLnRhci5negpvdjNITEpyWGtvWDRFZFMwV0ZnUDhiQUx5NndrNkNWcEM1QzE4YXhoK1NNdWk1YlFCa0ZIMFF1cDhtOUYrdkpvOWp2d1hNRFlHV21IMlRpRGRwWlBCQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.149/Novsky-0.1.149-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmoybndhSU9yVjlaOGN1NS9NY0kvS1JreWxsYzVINkpDVjV3WFcxTm96Kyt4bXpmOUJqeDVRbys0YWV6L1EzeVNwRENjdU92eWtsSXJNUjVvQ2tYL3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDA2MjEyCWZpbGU6Tm92c2t5LTAuMS4xNDktYXJtNjQuYXBwLnRhci5negpUZE1ScDdncU82Z1pyUzNnOXVORjVxUXlPQXdnUHYyaTJ0WnVUS1dyVUo0N1BZTkJ1TE5ydFBYZXY0OWtLYzZKN29NRW1QZkd0ZmtnK1o1cUJFNTNEQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.148/Novsky-0.1.148-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnR6cEt0YzNFUHJpK1FLclNhWmx6dU9qU3F3SHllRHBuNHBacUIxbDc1NFZvR1hOZGhOTTg4WVpjb3Z1dkNLV3dEMXovNkFiT1NBRnhFai9acHgzV1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzg0NTEzCWZpbGU6Tm92c2t5LTAuMS4xNDgteDY0LmFwcC50YXIuZ3oKSWYxMTJHZlB2V0NES0lUV1hMckF0Ym0zV2N5ZE44WFYxKzJielZEcUdvSGIxc1BRUDVNUHNyK1plR2hqelUxVU9LNXFZOXRMYkloV2hEZm9MZDhRRGc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.149/Novsky-0.1.149-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1KelJWc252cm9iUHQ4L0VHL1dkb1NCMXZVSU5Bd1p6UUNLb2M2L2JrViswS0UxTGkyVzB0ekhxRUUxY0t2cTY5dTZjOWlWL2tqUnUvNmFBY3lCcFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDA2MjkzCWZpbGU6Tm92c2t5LTAuMS4xNDkteDY0LmFwcC50YXIuZ3oKMnhwWjZhSmlNV0hMVkhScm95b29pUTgyMjQyd1VCVFNSTFNxMGcxWTFGeTNEdDJpUkRyTGp0Q3hzSUtBV1VZSXR5OXlBTUR0QlJUT2NjN0g4eXVlQmc9PQo="
     }
   }
 }
