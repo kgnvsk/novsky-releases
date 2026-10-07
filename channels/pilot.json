@@ -1,15 +1,15 @@
 {
-  "version": "0.1.145",
-  "notes": "У чаті тепер можна попросити агента зберегти постійне правило для цієї групи або теми. Агент покаже конкретні дії та робочі ресурси; власник підтвердить картку там само. Разове «так, зараз» залишається дозволом на одну дію. Правило можна змінити або скасувати через нову картку.\n\nДля цього потрібен актуальний кит із корпоративними сесіями. Особисті акаунти та памʼять власника учасникам не передаються.\n",
-  "pub_date": "2026-10-06T21:07:57.979Z",
+  "version": "0.1.146",
+  "notes": "Задачі й переписки агентів тепер підтягуються одразу. Novsky дочитує історію агента цілком за один раз, а не шматками по кілька мегабайт на кожне оновлення екрана, і спершу бере розмови з власником, потім фонові завдання.\n\nІсторія оновлюється й у фоні, раз на хвилину, навіть коли вікно згорнуте або відкрита інша сторінка. Повертаючись у вікно, ви одразу бачите свіже, без перезапуску програми.\n\nНа сервері агента читання стало легшим: менше памʼяті, а Novsky більше не починає історію спочатку через надто великі закладки читання.\n",
+  "pub_date": "2026-10-07T08:57:22.620Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.145/Novsky-0.1.145-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmg4ampZMnFUMEFpY0tHQkRtK2pFekJiclo2U3NYbjlvVU5uVk9xbjFIQ05DOVBLY0JaMFBuUTdYWDNiNXI1YkNjQkUwcXd6eGs0em5TUG9zQVovWUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzIwMTA0CWZpbGU6Tm92c2t5LTAuMS4xNDUtYXJtNjQuYXBwLnRhci5negowVTZDVnYvWkpIdSs5MWJHUW5JT1QzMmVKdUVkOUh1UVJMMUx0N2YraWFTUmV2MW94RVg4V1NEZmkrNzArNXpFTG05OVNNSUNLdUFNWTBQVlhGdnBCdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.146/Novsky-0.1.146-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnBxSjhiNXM1VlpGZ242amlvR0tCdmFGeVN0N3hOWHpYUnR0VWsrVWhDU1ExOW5BeWFxM2YyTDI0a0g1dGU5THZPT3F6NVJDUlBQWUVzM095N1FqTWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzQyMDE5CWZpbGU6Tm92c2t5LTAuMS4xNDYtYXJtNjQuYXBwLnRhci5negpVdmRiZjY3UmJ0Qi9oZkoraXA5aVNLQUg5VGJsU2lZVkhwR2dwdVk4dmozQnovRWhmd2M0cFZyQTcrOXcxK3l1UWRsaFA3alMvVk5HSHljbTlkKytBUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.145/Novsky-0.1.145-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlpdTB2NlFxTUJ1aXNMVE1yaGNZUmZFUmZHTldTcmdUSEVSOWVndm02cDVReDRkN2JqWUxCb29pY3FZWmZsVWRwTVFqcmlBeWhrUjF0ZjFoUVBlM3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzIwNjQ1CWZpbGU6Tm92c2t5LTAuMS4xNDUteDY0LmFwcC50YXIuZ3oKVWJ2L2VBNC85Q3djMUtiNnVKdHRVV3paVTQwZm9tQ2J5TU9MT0xaYTJMQVlVV25JWG0zVC9SUitWSDlKamlzY3NvbWQ5TG44U0xZdG1XQWNwMitzRGc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.146/Novsky-0.1.146-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJXZndkbEJzbGYvZ1c4YVlLV0tDQWxjMnV6c2RXSHc1UzIzMTc5ejVUVXN6LzJBZFErRml0bFdOSGgyM095VTlBQVI0alB5dy9wMXE3dTJRdU5yQVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzQyMTIwCWZpbGU6Tm92c2t5LTAuMS4xNDYteDY0LmFwcC50YXIuZ3oKTU9MVE5xNkNWM1NZc3NPd052SUhpQVc2NllKbHFVZ2MrYlFnOHU1ekZqYmFtTHFHZ1IvbXZlQ2RhNzJnT1RkNmR1dGo1alNwQVl4Ni9hNVlZMzFpQkE9PQo="
     }
   }
 }
