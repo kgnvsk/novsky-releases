@@ -1,15 +1,15 @@
 {
-  "version": "0.1.149",
-  "notes": "«Потрібен ти» кличе тебе лише тоді, коли агент чекає саме на тебе. Це його питання до тебе, або робота, що впала чи зависла і після якої людина так і не отримала відповіді. Відповіді без підтвердженої доставки та повідомлення, на які агент вирішив не відповідати, там більше не накопичуються: їх видно в самих завданнях. Решту можна прибрати кнопкою «Готово» в завданні або «Прибрати всі», а випадково прибране — «Повернути».\n\nСторінка агента читає лише цього агента і відкривається за кілька секунд. Повільні сервери інших агентів більше не роблять її дані «неповними».\n\nУ «Люди і ролі» видно всіх, кого агент пускає, а не лише адміністраторів.\n\nЗвʼязки в оргструктурі застосовуються тихо й повторюються самі. Novsky скаже про них, лише якщо сам не впорається, і назве сервер, агента та що зробити. Для серверів з багатьма агентами застосування більше не обривається за 90 секунд.\n\nАгенти мають аватарки зі свого Telegram замість першої літери.\n\nУ «Спільних знаннях» з'явилися папки й архів. Архівний файл зберігається в Novsky, але агенти його не отримують, доки не повернеш. Нотатку агента можна одним натиском передати у спільні знання його сервера.\n\nЗавдання, на яке агент вирішив не відповідати (наприклад, повідомлення в групі без звертання до нього), тепер так і підписане.\n\nСтатистика й завдання знову видно в агентів, у яких Novsky їх раніше не знаходив.\n",
-  "pub_date": "2026-10-07T21:03:09.119Z",
+  "version": "0.1.150",
+  "notes": "У «Розкладі» картка задачі показує її повний текст так, як його написано, з усіма рядками, а не лише назву з першого рядка. Довгий текст прокручується всередині картки.\n\nУ «Мозку» список памʼяті агентів показує агентів сервера, вибраного вгорі.\n",
+  "pub_date": "2026-10-08T10:54:25.583Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.149/Novsky-0.1.149-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmoybndhSU9yVjlaOGN1NS9NY0kvS1JreWxsYzVINkpDVjV3WFcxTm96Kyt4bXpmOUJqeDVRbys0YWV6L1EzeVNwRENjdU92eWtsSXJNUjVvQ2tYL3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDA2MjEyCWZpbGU6Tm92c2t5LTAuMS4xNDktYXJtNjQuYXBwLnRhci5negpUZE1ScDdncU82Z1pyUzNnOXVORjVxUXlPQXdnUHYyaTJ0WnVUS1dyVUo0N1BZTkJ1TE5ydFBYZXY0OWtLYzZKN29NRW1QZkd0ZmtnK1o1cUJFNTNEQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.150/Novsky-0.1.150-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRPb21RbysrVnd3aTFOUUs2eVhMVnBxWlJHNGxac2htUmpVcmE4bitjUUVrM0wvMXhMaUxWZ0VBZjZmLytJMDJzZmFkWStONS9EU0daWnBUVHdVTEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDE2NDA5CWZpbGU6Tm92c2t5LTAuMS4xNTAtYXJtNjQuYXBwLnRhci5negpXbkpLL2lDVHhtUElRcmwvRGFvcnBPc3V3QzBjQm5oa1dUQlFrRmNEMnhab2oxQ3l5RDZmRExyYVpDUjdDemQ1S1VJeWpqWFVIY1ZRS1E1UEFlYkNCZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.149/Novsky-0.1.149-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1KelJWc252cm9iUHQ4L0VHL1dkb1NCMXZVSU5Bd1p6UUNLb2M2L2JrViswS0UxTGkyVzB0ekhxRUUxY0t2cTY5dTZjOWlWL2tqUnUvNmFBY3lCcFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDA2MjkzCWZpbGU6Tm92c2t5LTAuMS4xNDkteDY0LmFwcC50YXIuZ3oKMnhwWjZhSmlNV0hMVkhScm95b29pUTgyMjQyd1VCVFNSTFNxMGcxWTFGeTNEdDJpUkRyTGp0Q3hzSUtBV1VZSXR5OXlBTUR0QlJUT2NjN0g4eXVlQmc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.150/Novsky-0.1.150-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm44cGNSZllkajRaaTZicWpkSG8zSTFjU1k4cDJsWFUrN3pTWEN6czB1Q21UbWV5SkpFL2lZQ0xHNEVMRlgwL3QzWVN2OE5kUkZGUUxhRFhkeXFiY0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDE2NDg2CWZpbGU6Tm92c2t5LTAuMS4xNTAteDY0LmFwcC50YXIuZ3oKMUIybS9mclNMdHQvem5pcTY5MHliSVNpYXhBVktiSCtxbG44UVFGK3VscWY4Vkp0OEJGWE1qeEVoRFV5cWJSS1hzWlFnNW1nclI3UkZ5SFpSYThTQVE9PQo="
     }
   }
 }
