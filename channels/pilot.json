@@ -1,15 +1,15 @@
 {
-  "version": "0.1.157",
-  "notes": "Якщо застрягле завдання проєкту дійшло до тебе, бот координатора один раз повідомляє про це в Telegram (агенту потрібне свіже оновлення кита). Суперагент тепер просить дозвіл на мікрофон і розпізнавання мовлення, а його ядро щільніше й реагує на тебе. У «Завданнях» більше немає технічних вставок, а запуски за розкладом згортаються. Агенти з вимкненим режимом компанії знову показують розмови всіх людей і груп. Агента тепер лагодить помічник: «Допомога → Відновити агента» відкриває його з уже вибраним агентом.\n",
-  "pub_date": "2026-10-09T20:24:52.640Z",
+  "version": "0.1.158",
+  "notes": "Граф у «Мозку» тепер показує твої власні знання: кожна тема — окремий вузол із назвою, її нотатки довкола, а службові нотатки кита (Hot Cache, Wiki Map тощо) більше не заважають. Пізня відповідь агента іншій людині («надішлю, щойно буде готово», а потім сам результат) тепер з'являється в її завданні.\n",
+  "pub_date": "2026-10-09T22:11:43.716Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.157/Novsky-0.1.157-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnYrWm5YRjF1TXN4Mi9rZ3ozWUFEc24rc1Zqb0NWRjZ5U3VsSEpDTmNMQnhMdndEUkVKMFFSamdtMFRkS096TkZaTUNrSlN2MGo2cllzTndpSDJ3UmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTc2Njg0CWZpbGU6Tm92c2t5LTAuMS4xNTctYXJtNjQuYXBwLnRhci5negpUV0lPWnZSQlBZaTh2TmtqMGFjYk9HLzZqVEExYmVURjV1cmQ0TVpJY3BWcTNkZEhwck02S2E4cUdpQlhWeFNPUXZlKytTbGxzejFCTTBzMUFzMG5Ddz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.158/Novsky-0.1.158-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5wKzhIUlpsZnJ0RC9hSUxQbmtNOU5MOU1zcFJzZWxGZXlXaWw2WndmNGpKUVU2bVhSSDBTS0xSSlp5ald4anE4Y1l3d2c4TVYwZVlOZW5XKzdhdmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTgzMTUyCWZpbGU6Tm92c2t5LTAuMS4xNTgtYXJtNjQuYXBwLnRhci5negpRTUptVEp4dVgwTmluOXRNUURVZTdiWHp2bC9NKzR1SlN5czFoT2RKZVJHcFhTVUlpelRWRHZFOXQ1ODEveXNPYVg0cUkzNTA1K0F0aXBqTE1FY0NDUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.157/Novsky-0.1.157-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmljRXJzSEkxMUVpK2xpS3JIQXBRdWVCM1FhaVB2U2FXekdTUndHNTIxN1hZaXlneVRnd0EwVWRzV0VhL20vVVNqUHlmcTA5TnJGcnZjdlVTNlo5aEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTc2NzY2CWZpbGU6Tm92c2t5LTAuMS4xNTcteDY0LmFwcC50YXIuZ3oKMW0vN1YrRHg1bGFuclpLaDVxNVF5NUo1K0xzZHB2a0hjNDNZSTkzdlNsWHRSTHJadXpMLzdFK0hLb21mN3QxZVM1bGlKMldWQ2lHREhGSEo3eWtIQ0E9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.158/Novsky-0.1.158-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRrVmhyZTF6cUYwUWkyd3ZVMjJvU2tFbHM1TnRwbm4wNnp3N00vTXVCdmpYdzJMWmpjTi9RVk9GQUxKTGJTendjL1BqNVpvMkpCSkxxd0F3Q0NyWEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTgzMjYwCWZpbGU6Tm92c2t5LTAuMS4xNTgteDY0LmFwcC50YXIuZ3oKSURTUVE2bWNIQ0hJT0tXdm9Oc0hSQkN0dzkvbEVVTEtzNC95U0VEL1RGc3Uzb0piMExBQnBRUkMzNnUyeXE4VjhOOGgyK2g5Y3ovSkx6SUVab3BFRGc9PQo="
     }
   }
 }
