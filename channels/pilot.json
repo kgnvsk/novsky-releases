@@ -1,15 +1,15 @@
 {
-  "version": "0.1.151",
-  "notes": "Помічник Novsky більше не ставить, не копіює й не переносить агентів: ні другого бота на тому ж сервері, ні копії на інший сервер чи в інший Telegram-бот. Кожен новий агент встановлюється через Novsky зі своїм одноразовим ключем.\n\nЛагодити, оновлювати й перевстановлювати наявного агента помічник допомагає, як і раніше: ставить йому потрібні програми й навички, робить резервну копію налаштувань на тому ж сервері перед ремонтом і повертає її.\n",
-  "pub_date": "2026-10-08T12:07:16.803Z",
+  "version": "0.1.152",
+  "notes": "Агент-керівник тепер керує доступами агентів під ним так само, як людина керує доступами людини. Скажи своєму головному агенту, наприклад, «закрий Маші доступ до таблиці зарплат у бухгалтера» — бот бухгалтера надішле тобі точну зміну, і вона спрацює після одного натискання «Підтвердити». Агенти нижче й їхні адміністратори не можуть скасувати рішення згори; змінити його може лише той керівник, який його ухвалив, або агент над ним. Агент може змінювати доступи лише тим, хто під ним в оргструктурі на тому самому сервері, а не тим, хто над ним чи поруч.\n\nАгент нижче не бачить нічого закритого в агентів над ним: на серверах, де працює кілька агентів, їхні домашні папки тепер закриті один від одного.\n\nЩоб агент приймав зміни згори, йому потрібен свіжий кит; про агента зі старим китом Novsky скаже прямо і нічого в ньому не змінить.\n\nПовідомлення, які ти пишеш агенту в Telegram, знову видно в «Завданнях». З 5 жовтня Novsky пропускав запити до агентів на новому рушії (як у Кеша): тепер він перечитає їхню історію один раз і покаже всі пропущені запити разом з відповідями.\n",
+  "pub_date": "2026-10-09T00:40:55.207Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.151/Novsky-0.1.151-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnM2UndkZE03OW5VNUhNSGppRFpobklQRDAxeFh4ditNNGtmKzRTUzRDd3gvUVlrRTJWVklTQllFS29LS05NelpjR0dZMmZwcTduQ2UwV3lMeHN0Z1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDYwMjM4CWZpbGU6Tm92c2t5LTAuMS4xNTEtYXJtNjQuYXBwLnRhci5negpYRGRSdTFIMmsyZHpYcmExNjNiOFdiS0NBM1ZRYUJvR0JsZkVuSE9UcUdQUXhmMzlNVFlaSWZZOHlPOUg0ay93SEQ4UEZxZEhmYWxJTVpBZWcxeW5DZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.152/Novsky-0.1.152-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZhQmZsSWZUc0V3OVZ5WHhxaW9YVlhRbmF3SDViQk5Na0JXL2FXUjRtYjNxak1nZjNieHN2TUtPYktnR1k2SERoK0RXZ3ZRQW16Sit0N21wYmFyOWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTA1ODU1CWZpbGU6Tm92c2t5LTAuMS4xNTItYXJtNjQuYXBwLnRhci5negpUWWJBWEYwVTJETnp2ZFM0cnUvbVh2Z2FMTjJ1bWg2ek04OG9nazJpZHk3VWhRNlIzUmIyWlQ4NUhqcDNXMW9va2R0TG8rNUFCMSt5L1lMYmNTVUpDdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.151/Novsky-0.1.151-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnMzbU5HT3NmSTMxSytTNmJrM1VYTklTUkQ1ZXQvemZyUFZ5eW9qaXFvNkRPVkkxSHE1ZFFIU01hRnJYLzdqOGkyUjMva3c3TUJMaGRqZUlNMEFoSmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDYwMzE3CWZpbGU6Tm92c2t5LTAuMS4xNTEteDY0LmFwcC50YXIuZ3oKZVZFQlhaWG5oS0xMU3hjUWxOMWx3UjNKYXd3b3B3Nms2bGsrdWxvMERoTDBFT2xnai9qbTFsOXZrR2ZpRGFZdWY3Y1FNS3RndlNQekpsK0M3elBWQUE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.152/Novsky-0.1.152-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1PYlR2dzZjNTROZENxMmNHUTFIRThvYWx3WnYxYnlLaUpzWEsyaHBPVXdLejN5TDd1Z1hITjAwL1kxS0tpZzJKb3VnVStFekg3Mk9BQWZXeW5wVndRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTA1OTYwCWZpbGU6Tm92c2t5LTAuMS4xNTIteDY0LmFwcC50YXIuZ3oKRmlSTjJuQU91WjU3bjU4TUpsc1d1MlJXcFpxcUNoVEVBMzd5b3JzL1gybEx0dWc0ZUVjdGM0M0Zmb1orRlRUbmEzUkV2QVhrWTRNTXFLanlhN2ExQXc9PQo="
     }
   }
 }
