@@ -1,15 +1,15 @@
 {
-  "version": "0.1.158",
-  "notes": "Граф у «Мозку» тепер показує твої власні знання: кожна тема — окремий вузол із назвою, її нотатки довкола, а службові нотатки кита (Hot Cache, Wiki Map тощо) більше не заважають. Пізня відповідь агента іншій людині («надішлю, щойно буде готово», а потім сам результат) тепер з'являється в її завданні.\n",
-  "pub_date": "2026-10-09T22:11:43.716Z",
+  "version": "0.1.160",
+  "notes": "Голосом у чаті: поруч із «Надіслати» тепер є мікрофон. Натисни, говори, натисни ще раз, і сказане з'явиться в полі повідомлення. Розпізнає модель NVIDIA Parakeet v3 просто на цьому Mac: безкоштовно, без інтернету, запис нікуди не надсилається. Модель (≈ 490 МБ) завантажується один раз, коли ти погодишся. Той самий мікрофон працює на сторінці суперагента.\n\nГраф у «Мозку» тепер працює як дошка оргструктури: колесо миші наближає туди, де курсор, полотно тягнеться мишею, усе вміщається без прокрутки, а назви не налазять одна на одну. Наведення підсвічує сусідів, клік показує картку теми чи нотатки, подвійний клік відкриває її, а «Поруч із нотаткою» показує лише її оточення.\n",
+  "pub_date": "2026-10-10T09:04:04.194Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.158/Novsky-0.1.158-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5wKzhIUlpsZnJ0RC9hSUxQbmtNOU5MOU1zcFJzZWxGZXlXaWw2WndmNGpKUVU2bVhSSDBTS0xSSlp5ald4anE4Y1l3d2c4TVYwZVlOZW5XKzdhdmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTgzMTUyCWZpbGU6Tm92c2t5LTAuMS4xNTgtYXJtNjQuYXBwLnRhci5negpRTUptVEp4dVgwTmluOXRNUURVZTdiWHp2bC9NKzR1SlN5czFoT2RKZVJHcFhTVUlpelRWRHZFOXQ1ODEveXNPYVg0cUkzNTA1K0F0aXBqTE1FY0NDUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.160/Novsky-0.1.160-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9tYzBnUytjVWtzRERpMzhBKzZuL1RzTlF1NEwwYU1NMUxzQ2gxNHZGVGIxU1dINE5naTBXOG9UZXdCYmtqVWJ3QzU2VXk5RWpxMDhvKzM1QzlLWmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjAwMzA4CWZpbGU6Tm92c2t5LTAuMS4xNjAtYXJtNjQuYXBwLnRhci5negp0TllUaG1OMmdPcFRIMlZsMXM0OEJBOXovTmRmZmRmenVNUnZtc1RzVUEzTGhGUEJFc1g2YTdXZG1VTHJUVkk3RnlMRnljVHlKdHMrdHNkOGlxN2RCUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.158/Novsky-0.1.158-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRrVmhyZTF6cUYwUWkyd3ZVMjJvU2tFbHM1TnRwbm4wNnp3N00vTXVCdmpYdzJMWmpjTi9RVk9GQUxKTGJTendjL1BqNVpvMkpCSkxxd0F3Q0NyWEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTgzMjYwCWZpbGU6Tm92c2t5LTAuMS4xNTgteDY0LmFwcC50YXIuZ3oKSURTUVE2bWNIQ0hJT0tXdm9Oc0hSQkN0dzkvbEVVTEtzNC95U0VEL1RGc3Uzb0piMExBQnBRUkMzNnUyeXE4VjhOOGgyK2g5Y3ovSkx6SUVab3BFRGc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.160/Novsky-0.1.160-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnR5MXF4cWNhWmVIYnNHMkEwWUlEU0t2YWE1SkI4aXZSQlExR2VPeUJIVDB4Mzgrd296ZWYvZkNnZ2JNTGxWcEdNOUxQOWJVTDhQT2lLdkNoZWZZZFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjAwMzg5CWZpbGU6Tm92c2t5LTAuMS4xNjAteDY0LmFwcC50YXIuZ3oKZlFIeGxmYm5nWWpWc3J5VXl6NHc0dS9nRDlxV2xuOHJOOURtTW9RRVI3dXdRUDlQV0dnUEt5NnNaNmgwVDQ2SnRzUFd4dzdnUTMrcW0rb0tJMHhPQWc9PQo="
     }
   }
 }
