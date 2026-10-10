@@ -1,15 +1,15 @@
 {
-  "version": "0.1.162",
-  "notes": "Novsky 0.1.162\n\n- Агенти рідше «забувають»: список колег і правила доручень приходять агенту один раз на початку розмови, а не з кожним повідомленням. Розмова агента заповнюється удвічі повільніше, і стиснень, у яких губиться контекст, стає менше.\n",
-  "pub_date": "2026-10-10T14:30:22.569Z",
+  "version": "0.1.163",
+  "notes": "Novsky 0.1.163\n\n- Оновлення Novsky більше не перезапускає агентів, коли змінюється лише клієнт команди: агент не втрачає роботу посеред задачі.\n",
+  "pub_date": "2026-10-10T17:23:43.944Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.162/Novsky-0.1.162-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdUTHNCK2JaUnF0OVo0cmxMQVYzYU00Z0lKMFc4Tnp6cGZJK1RWU3dQYUZjbXJveE5LYzRjU3VpVTQrMFViaG9OZFBVenBlaUdZMXVqaUc5S2hOV2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjQxOTg3CWZpbGU6Tm92c2t5LTAuMS4xNjItYXJtNjQuYXBwLnRhci5negpsZnRYRWZqVXFVallaRnlZTXhnRTRMVm5WQy8wdG5EbmVZbE9Ca3dDNVoyZy80MlBHaVkxV1VUZlBUNTd1VGsvbG5POGhXWG9zYW9aWUlSb28wUHpEQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.163/Novsky-0.1.163-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1DbVBIUVRYVUpFMUV1dCs4ZDRtcEJ2aWpqeVFaWHU2WWFJMnpPK2dBaWU3Z3NpRjZVZ3hoUzhnMSsvTUh6OFRQU1BDdnhkakd1UjJDY0tIcFBOa1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjUxNTI0CWZpbGU6Tm92c2t5LTAuMS4xNjMtYXJtNjQuYXBwLnRhci5negpYNFZaanU0QkZDNlFHckFDZ0Y3L2Rwc0dUYklVSktJU0l6RDVVOS84bndSUnhQWmhPUjZETUZiNjZvOXk0Mit6aXpUbnFBNEcwemM5WktqM0hRb1FDQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.162/Novsky-0.1.162-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxjWE9HUlphMVpQNlNtaWVIQ3p5UWJ5KzZTak14aFd1T0hDSUlMeEY2WHBtQmVPOUJzL1RPdW00emJodFdiWnhKaDJYTDJmYnpOMks4Q25aaHM1d1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjQyMTAxCWZpbGU6Tm92c2t5LTAuMS4xNjIteDY0LmFwcC50YXIuZ3oKLzV3VVdxMG5MZE5qRDUwSnRKWElFTlFjaGV0UklvYjVZOEZkMlFQYjh4dVBzcUpPLzVRZDBpNXZ5dDlJVnM5cDd5OWVXL3k4ZjM2NXQ1SXArL1hVQXc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.163/Novsky-0.1.163-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9sQjhkQmNlbHhBandmZ0gvbThWRUIvb2ZjOWQ3U0VuZlI5SS9xWjV2cm11YTlxbE9FVVZ4U0NpNE1BcFU5bEpqQzczbUI4YzhjMHU5cklObXNET0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjUxNjc4CWZpbGU6Tm92c2t5LTAuMS4xNjMteDY0LmFwcC50YXIuZ3oKR00vMzBSNG4weWphVEtBQ3dreXRBSnFqbTNWY2Vsdy92RTV4UlNxTkVaSE9EQVd3YitNdThJck9ZVVh4MDkwN3ExVXlwVFU3OXFRaXlEOWM5bHVmQlE9PQo="
     }
   }
 }
