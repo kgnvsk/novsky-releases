@@ -1,15 +1,15 @@
 {
-  "version": "0.1.160",
-  "notes": "Голосом у чаті: поруч із «Надіслати» тепер є мікрофон. Натисни, говори, натисни ще раз, і сказане з'явиться в полі повідомлення. Розпізнає модель NVIDIA Parakeet v3 просто на цьому Mac: безкоштовно, без інтернету, запис нікуди не надсилається. Модель (≈ 490 МБ) завантажується один раз, коли ти погодишся. Той самий мікрофон працює на сторінці суперагента.\n\nГраф у «Мозку» тепер працює як дошка оргструктури: колесо миші наближає туди, де курсор, полотно тягнеться мишею, усе вміщається без прокрутки, а назви не налазять одна на одну. Наведення підсвічує сусідів, клік показує картку теми чи нотатки, подвійний клік відкриває її, а «Поруч із нотаткою» показує лише її оточення.\n",
-  "pub_date": "2026-10-10T09:04:04.194Z",
+  "version": "0.1.161",
+  "notes": "Поки ти говориш у мікрофон, поруч із таймером рухається жива хвиля: вона росте, коли говориш голосніше, і стихає, коли мовчиш. На сторінці суперагента поле вводу тепер унизу й в один рядок, мікрофон видно одразу, а підказки лише про агентів. На питання на кшталт «у якого агента найбільше повідомлень за тиждень» помічник тепер одразу відповідає з тієї ж статистики, що й «Огляд агента», і каже, якщо якісь цифри неповні чи приблизні. Агент, який став приватним, не показує своїх цифр. Застрягле завдання проєкту більше не надсилає повідомлення в Telegram, воно лишається в Novsky.\n",
+  "pub_date": "2026-10-10T11:23:18.831Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.160/Novsky-0.1.160-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9tYzBnUytjVWtzRERpMzhBKzZuL1RzTlF1NEwwYU1NMUxzQ2gxNHZGVGIxU1dINE5naTBXOG9UZXdCYmtqVWJ3QzU2VXk5RWpxMDhvKzM1QzlLWmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjAwMzA4CWZpbGU6Tm92c2t5LTAuMS4xNjAtYXJtNjQuYXBwLnRhci5negp0TllUaG1OMmdPcFRIMlZsMXM0OEJBOXovTmRmZmRmenVNUnZtc1RzVUEzTGhGUEJFc1g2YTdXZG1VTHJUVkk3RnlMRnljVHlKdHMrdHNkOGlxN2RCUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.161/Novsky-0.1.161-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhVdmQ5NDFPWnVZQWMwZERabm9MTDZiTTJSN0FwUjFTZUg0V3p0eXMyQWZoMFZFSjRTN000d1QxOHRBWG1JQW1IUVZ3UDNyMDRzSFkydUxQNUNuRHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjI4NzE4CWZpbGU6Tm92c2t5LTAuMS4xNjEtYXJtNjQuYXBwLnRhci5negpoeDBTVWREM0tudVdQbVlob1F4ZnVlc0tLTzgrV1IrOEs4L0c3WWE3bDZQRXZiZ0JMWWRaMXdoRkt0akpVSWdRKzE1ajVtNHhQVnROdEdHaTZoTXlEUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.160/Novsky-0.1.160-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnR5MXF4cWNhWmVIYnNHMkEwWUlEU0t2YWE1SkI4aXZSQlExR2VPeUJIVDB4Mzgrd296ZWYvZkNnZ2JNTGxWcEdNOUxQOWJVTDhQT2lLdkNoZWZZZFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjAwMzg5CWZpbGU6Tm92c2t5LTAuMS4xNjAteDY0LmFwcC50YXIuZ3oKZlFIeGxmYm5nWWpWc3J5VXl6NHc0dS9nRDlxV2xuOHJOOURtTW9RRVI3dXdRUDlQV0dnUEt5NnNaNmgwVDQ2SnRzUFd4dzdnUTMrcW0rb0tJMHhPQWc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.161/Novsky-0.1.161-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhHWjNEcFhnbVBJOVNhNTBQQnQ5OXk5RVVhdGw5cVhoRjN2TGJsRlYzWUwvS05RSyt3Tkd4K3ErVUQ1R1pzRGJqbEhQcUR6bTErYWQxM0hISU9kVXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjI4ODIwCWZpbGU6Tm92c2t5LTAuMS4xNjEteDY0LmFwcC50YXIuZ3oKRGxyWm41c3ozYzVnVTIzZXhXZGh4SDlBOTVGQjZrVm5zWDNkWXk4Z0x0d0dvL3NKSjIxdGlrR3FCUlVvaDgzWHJaUjA1bWxISG0xb2EvTUV4MDQyREE9PQo="
     }
   }
 }
