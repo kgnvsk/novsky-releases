@@ -1,15 +1,15 @@
 {
-  "version": "0.1.164",
-  "notes": "Novsky 0.1.164\n\nВиправлено встановлення локальних Claude-агентів на Mac: після успішного входу агент коректно розпізнає обліковий запис і продовжує запуск Telegram. В окремому профілі агента без системної в'язки ключів вхід зберігається штатним захищеним файловим способом, без помилкового вікна про відсутню в'язку.\n\nТакож у цьому оновленні — виправлення завантаження вкладки «Завдання» зайнятого агента та збереження блокування резервних копій під час оновлення.\n\nПовтор незавершеної установки оновлює програму агента, зберігаючи вхід і налаштування. Результат кнопки доступу не вважається новим дозволом власника.\n\nЯкщо установка зупинилася після входу, онови Novsky і натисни «Повторити з цього етапу».\n",
-  "pub_date": "2026-10-15T17:52:47.909Z",
+  "version": "0.1.165",
+  "notes": "Novsky 0.1.165\n\nУ картках завдань видно фото з повідомлень і відповідей агента. Голосові позначені «(голосове)», а збережений текст розшифровки залишається в заголовку. Збережені голосові можна відкрити й прослухати.\n",
+  "pub_date": "2026-10-16T23:50:59.006Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.164/Novsky-0.1.164-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxvSC8zUjRBc0QvcUI1VVBkN05DQ0Y2TVRjejFNNmpUSmFwN0FRZ3doQzJxZzl4em8vTk5YNVlNTnlpdnZYZkcreHQvS2NhN0I1eUJKWFN4R0hXeXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDg2NTE4CWZpbGU6Tm92c2t5LTAuMS4xNjQtYXJtNjQuYXBwLnRhci5negovcUtJbkFFZkJXOGZONU5KRWlXZlVCYVZoOGg0M0x5L09HN3plZE9VMFZFZGhxbDdIZDVsaFZFYkZaOTMrQjNiUVNjMVlYd1hIWjZMck85WU1NNmFEQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.165/Novsky-0.1.165-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnY3aVpvQjRVSEdMdkw5UHNGRndXeTZDaytGdmFYWjFHWWdtM1h6K1JGUjZ3c2g5aFBZQkQ4QnNWREdicmUvNk9WYUdHVWZwWEJ6RWhNY2lBUGV2YWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTk0MjY4CWZpbGU6Tm92c2t5LTAuMS4xNjUtYXJtNjQuYXBwLnRhci5negpyWERxMmtuSUxKVS9FT1hFQmRIeXR6VE8zZVBhVS9sVUxpaUlvZnQ3ZTBsQURvSzR1bFlsNHRvTUNkME96RDUvN3FkOXozR2pxODhadEw0SWtpdWRCQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.164/Novsky-0.1.164-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhJSkVQTVRoSjlKaFRrWGJSU2RpbHVTY3hKSXVZd1RKR28vRkVBM090RXNucHk4RzYvcUNOSGxhU2FPVHJ1WHBLeUdVMGFXVU1ST2gvRWFRTHZWb3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDg2Njk0CWZpbGU6Tm92c2t5LTAuMS4xNjQteDY0LmFwcC50YXIuZ3oKenhGUG5ob3pGcHdWR1ZZNWU2UUsyL3AxajUrYU92TCtOMmRoMHRjWlFHNmRzbWlOaW5nR3FIaUZXaWdsaU1HOTMycXV6dUk3OTlLakowalhXeU82Qmc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.165/Novsky-0.1.165-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNCcE5YSThaOHNPVUtOV2tqOFpsQ205cHkybnI4Yi9HMDhVa0NnNXRxT2J5VlhoUkU0WFdwdGtzZE9KdXdPRzFvUm1PTzduUFZqbnFMT2xWaTQ2QndRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTk0NTQwCWZpbGU6Tm92c2t5LTAuMS4xNjUteDY0LmFwcC50YXIuZ3oKUGZKSEFQVHJTOUVDVVZ4amhQdS85TzRwdXdFTE9uMGkyLzhuczdvWHRodXViSlhvUmh0cVMrbnhuMlJyUFluZTYrTjJSS0JsN3Fmbkx2dkhzNnQ4RHc9PQo="
     }
   }
 }
