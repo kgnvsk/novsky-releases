@@ -1,11 +1,11 @@
 {
-  "version": "0.1.99",
-  "notes": "Novsky 0.1.99 — перший пілотний випуск для Windows 11 x64.\n\n- Встановлення для поточного користувача без WSL та окремого Bun.\n- Підключення, встановлення й обслуговування агентів на віддалених Ubuntu-серверах.\n- Локальний помічник через власний обліковий запис Claude Code або Codex.\n- Окремий канал оновлень Windows зі збереженням даних і відновленням після невдалої установки.\n\nВстановлення агентів безпосередньо на Windows-компʼютері та локальний термінал помічника поки недоступні.\n\nІнсталятор ще не має сертифіката Microsoft Authenticode, тому Windows може показати попередження про невідомого видавця. Підпис оновлень Novsky перевіряється окремо.\n",
-  "pub_date": "2026-09-19T17:09:36.392Z",
+  "version": "0.1.167",
+  "notes": "Novsky 0.1.167\n\n- Восстановлены оставшиеся исправления из старых черновиков: ночные бэкапы в 22:00 по Лиссабону, отдельный профиль обычного администратора Claude и проверка восстановления обновлений.\n- Откат сохраняет новые входящие сообщения и останавливается, если обнаружены неподтверждённые изменения пользовательских файлов.\n- Помощник проверяет опасные команды терминала; операторский MCP поддерживает создание агентов через Telegram Managed Bots.\n- Добавлена пилотная сборка Linux в формате .deb. Linux обновляется установкой нового пакета.\n\nОбновление существующих агентов этим выпуском не запускалось.\n",
+  "pub_date": "2026-10-17T04:33:07.016Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.99/Novsky-0.1.99-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpNQUkxVzZEWjJPOGNOM2JOclNiN3krcFRWZFZJSEYrdzBIejZISW9qR2dHVUkycmUvYno4RUxPYzY2djczUUlvNHpTNEhXNm1Ra1hPUnBXN3FOUUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODM3NjIzCWZpbGU6Tm92c2t5LTAuMS45OS13aW5kb3dzLXg2NC1zZXR1cC5leGUKU2VveUl2T3dVdUhuL1g5ME5uNlZDam41RGYzV3dQaEFoMTNKRmlWNkFzbnM3d3V4UG9VaTczc1RoR1JkUEcvYkd1cGFOVm9KTTVZVGxnSVIrS3gvQXc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.167/Novsky-0.1.167-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmp0T28wRmh6ditqZVJQbkowZEQyekp6cWtlYmZJZkNoTFpmcnVhRzh1blYyVVc4ZUVMZk56dkg2eTFuWi83cUZoRGpNd01neTk5K2Q1eU9JbnJsblFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjExNTI2CWZpbGU6Tm92c2t5LTAuMS4xNjctd2luZG93cy14NjQtc2V0dXAuZXhlClFNMWFaN0NUeTF0SU9JeFcyNlJuUFJHNElFUXFPaVFWL1NPczNxKzhOU2hzNFNXWURCZVEweEIxaUdEYkdFR2prQUk0dmlobkpORzh5MGpkWXRnbkRRPT0K"
     }
   }
 }
