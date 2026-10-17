@@ -1,15 +1,15 @@
 {
-  "version": "0.1.165",
-  "notes": "Novsky 0.1.165\n\nУ картках завдань видно фото з повідомлень і відповідей агента. Голосові позначені «(голосове)», а збережений текст розшифровки залишається в заголовку. Збережені голосові можна відкрити й прослухати.\n",
-  "pub_date": "2026-10-16T23:50:59.006Z",
+  "version": "0.1.166",
+  "notes": "У завданнях із голосових повідомлень показуємо збережений текст транскрипції, який отримав агент, із позначкою «(голосове)». Попередні записи також перечитуються. Аудіоплеєр прибрано з вхідних голосових; фотографії залишаються видимими.\n",
+  "pub_date": "2026-10-17T00:51:05.599Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.165/Novsky-0.1.165-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnY3aVpvQjRVSEdMdkw5UHNGRndXeTZDaytGdmFYWjFHWWdtM1h6K1JGUjZ3c2g5aFBZQkQ4QnNWREdicmUvNk9WYUdHVWZwWEJ6RWhNY2lBUGV2YWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTk0MjY4CWZpbGU6Tm92c2t5LTAuMS4xNjUtYXJtNjQuYXBwLnRhci5negpyWERxMmtuSUxKVS9FT1hFQmRIeXR6VE8zZVBhVS9sVUxpaUlvZnQ3ZTBsQURvSzR1bFlsNHRvTUNkME96RDUvN3FkOXozR2pxODhadEw0SWtpdWRCQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.166/Novsky-0.1.166-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdCQmtTa1FGZkNmZlU0TTNIVjVmTktiLzRQcDFQNW9yZEgybXYwa1pxbGFpcFk4NHdNWGRHZmxHUmRkNEM2cjdvWjE5bWUxeDFJYXJVVEoydmQ2UkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTk4MDU4CWZpbGU6Tm92c2t5LTAuMS4xNjYtYXJtNjQuYXBwLnRhci5negpWcHdzZWtWeHliazVwVG9KbmRYb0srdjd1RXBvT0tjc053Yk5pUXgxdll1d3liQUNxNExzU0J5WlpqMFA3WW9HMDA2QU5zY1B5TU1mOEN4cXErbFdDQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.165/Novsky-0.1.165-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNCcE5YSThaOHNPVUtOV2tqOFpsQ205cHkybnI4Yi9HMDhVa0NnNXRxT2J5VlhoUkU0WFdwdGtzZE9KdXdPRzFvUm1PTzduUFZqbnFMT2xWaTQ2QndRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTk0NTQwCWZpbGU6Tm92c2t5LTAuMS4xNjUteDY0LmFwcC50YXIuZ3oKUGZKSEFQVHJTOUVDVVZ4amhQdS85TzRwdXdFTE9uMGkyLzhuczdvWHRodXViSlhvUmh0cVMrbnhuMlJyUFluZTYrTjJSS0JsN3Fmbkx2dkhzNnQ4RHc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.166/Novsky-0.1.166-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZ3MlJUSkhsb0l0U2xCL0g1WksvTVk0eW80bERGMHFzYi9kc1ZHRDA5Z0Q1RnBmSXVrR0hhVHViWktvUTROR2d2Z0w2SU5BUHRnb3JjdXBxbjVOUUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTk4MTc5CWZpbGU6Tm92c2t5LTAuMS4xNjYteDY0LmFwcC50YXIuZ3oKMUNjbGh1ZGYyNTcvVHo5WFFzejdtbUhpQXM3N0xTYTFTRGk0eUVQS0JVM2V1MGZHenpmdzlXRlc0ZHJtRHVNRTNpYmJVMlRvSFBjSlVvblJ4WW5qQUE9PQo="
     }
   }
 }
