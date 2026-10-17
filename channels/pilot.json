@@ -1,15 +1,15 @@
 {
-  "version": "0.1.166",
-  "notes": "У завданнях із голосових повідомлень показуємо збережений текст транскрипції, який отримав агент, із позначкою «(голосове)». Попередні записи також перечитуються. Аудіоплеєр прибрано з вхідних голосових; фотографії залишаються видимими.\n",
-  "pub_date": "2026-10-17T00:51:05.599Z",
+  "version": "0.1.167",
+  "notes": "Novsky 0.1.167\n\n- Восстановлены оставшиеся исправления из старых черновиков: ночные бэкапы в 22:00 по Лиссабону, отдельный профиль обычного администратора Claude и проверка восстановления обновлений.\n- Откат сохраняет новые входящие сообщения и останавливается, если обнаружены неподтверждённые изменения пользовательских файлов.\n- Помощник проверяет опасные команды терминала; операторский MCP поддерживает создание агентов через Telegram Managed Bots.\n- Добавлена пилотная сборка Linux в формате .deb. Linux обновляется установкой нового пакета.\n\nОбновление существующих агентов этим выпуском не запускалось.\n",
+  "pub_date": "2026-10-17T04:21:55.757Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.166/Novsky-0.1.166-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdCQmtTa1FGZkNmZlU0TTNIVjVmTktiLzRQcDFQNW9yZEgybXYwa1pxbGFpcFk4NHdNWGRHZmxHUmRkNEM2cjdvWjE5bWUxeDFJYXJVVEoydmQ2UkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTk4MDU4CWZpbGU6Tm92c2t5LTAuMS4xNjYtYXJtNjQuYXBwLnRhci5negpWcHdzZWtWeHliazVwVG9KbmRYb0srdjd1RXBvT0tjc053Yk5pUXgxdll1d3liQUNxNExzU0J5WlpqMFA3WW9HMDA2QU5zY1B5TU1mOEN4cXErbFdDQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.167/Novsky-0.1.167-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnBaNmg4UnExcUtRcTZPZG9STHpQYlEwK3RCMXNJZi9Wcll6UGx6b0ZuaXpTSUZDbXd3QW14eVJwZWpHODZOaGsxZENRS3JzaGlhVnZNYzFMNkdHV1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjEwNTAyCWZpbGU6Tm92c2t5LTAuMS4xNjctYXJtNjQuYXBwLnRhci5negp2M2NRbmpreGpJSkhTNlpCa1ZxSTZLZ0tNYzd3TlVoOXFEVzZjSjVwZ1ZyTVQxZW9TMnl0a283MXVxMzlISlYyRjRSenJFZTMyTVlUcW1hRnUyZjJCUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.166/Novsky-0.1.166-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZ3MlJUSkhsb0l0U2xCL0g1WksvTVk0eW80bERGMHFzYi9kc1ZHRDA5Z0Q1RnBmSXVrR0hhVHViWktvUTROR2d2Z0w2SU5BUHRnb3JjdXBxbjVOUUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTk4MTc5CWZpbGU6Tm92c2t5LTAuMS4xNjYteDY0LmFwcC50YXIuZ3oKMUNjbGh1ZGYyNTcvVHo5WFFzejdtbUhpQXM3N0xTYTFTRGk0eUVQS0JVM2V1MGZHenpmdzlXRlc0ZHJtRHVNRTNpYmJVMlRvSFBjSlVvblJ4WW5qQUE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.167/Novsky-0.1.167-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtwUzNXV2pyWS9ybm5nMGdnY0RhK0dubDh5RTFST0tsbFdiSGtIeVRmeTFkNDNzOGhpZTFCbjFCVWl6cm96VmVVbDU5Ym52TXlTaDI3M3dzZ0h6SUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjEwNTkxCWZpbGU6Tm92c2t5LTAuMS4xNjcteDY0LmFwcC50YXIuZ3oKdnhuazVoU3N0U0xCdmQ1ZlVmNXVUYXZPeUtEVFlObFN5TWd6NzlGWTBoejhIbW5qMncyUUU0a3hhS21VZWljU2tpZW5nRmpMdGgzV0IxblhNdlY3Q3c9PQo="
     }
   }
 }
