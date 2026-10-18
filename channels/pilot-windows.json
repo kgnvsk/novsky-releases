@@ -1,11 +1,11 @@
 {
-  "version": "0.1.167",
-  "notes": "Novsky 0.1.167\n\n- Восстановлены оставшиеся исправления из старых черновиков: ночные бэкапы в 22:00 по Лиссабону, отдельный профиль обычного администратора Claude и проверка восстановления обновлений.\n- Откат сохраняет новые входящие сообщения и останавливается, если обнаружены неподтверждённые изменения пользовательских файлов.\n- Помощник проверяет опасные команды терминала; операторский MCP поддерживает создание агентов через Telegram Managed Bots.\n- Добавлена пилотная сборка Linux в формате .deb. Linux обновляется установкой нового пакета.\n\nОбновление существующих агентов этим выпуском не запускалось.\n",
-  "pub_date": "2026-10-17T04:33:07.016Z",
+  "version": "0.1.168",
+  "notes": "Novsky 0.1.168\n\n- Вкладка «Задачи»: раздел «Заплановано» сворачивается кнопкой «Згорнути» и снова открывается кнопкой «Показати»; выбор запоминается. В заголовке видно, сколько задач запланировано.\n- Из «Заплановано» уходят напоминания, которые уже сработали. Раньше у агентов с большой перепиской они оставались там навсегда.\n\nОбновление существующих агентов этим выпуском не запускалось.\n",
+  "pub_date": "2026-10-18T11:16:05.174Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.167/Novsky-0.1.167-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmp0T28wRmh6ditqZVJQbkowZEQyekp6cWtlYmZJZkNoTFpmcnVhRzh1blYyVVc4ZUVMZk56dkg2eTFuWi83cUZoRGpNd01neTk5K2Q1eU9JbnJsblFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjExNTI2CWZpbGU6Tm92c2t5LTAuMS4xNjctd2luZG93cy14NjQtc2V0dXAuZXhlClFNMWFaN0NUeTF0SU9JeFcyNlJuUFJHNElFUXFPaVFWL1NPczNxKzhOU2hzNFNXWURCZVEweEIxaUdEYkdFR2prQUk0dmlobkpORzh5MGpkWXRnbkRRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.168/Novsky-0.1.168-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9SUWxmNFo3UjZzejVLSlJLU09mYkFBMXp0OFVCOERXVzRtZGpPK2NON3JCNHRtVVlaaFdibGIwaTJDRjhTTkZ0SXJmRG1wY1M3N2ovSFU1d0JiK2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzIyMTQxCWZpbGU6Tm92c2t5LTAuMS4xNjgtd2luZG93cy14NjQtc2V0dXAuZXhlCk1WR3FBN0Y5QlRtdEgxM0hTckh4VmRlSkRnQ3hiQy9pdjhETjN2bWNRWTZqaEtZdDBzcS8rV2hVSFM2Uzc1WU0zOUhhelEwTC9BT2ZWUHZCK002MEN3PT0K"
     }
   }
 }
