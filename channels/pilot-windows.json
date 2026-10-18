@@ -1,11 +1,11 @@
 {
-  "version": "0.1.169",
-  "notes": "Novsky 0.1.169\n\n- Вкладка «Задачи» у агентов, подключённых без установки, снова показывает самые свежие задачи. После полного перечитывания истории там оставалась старая тысяча задач, а новые выпадали (у Кнопы было видно только сентябрь).\n- Чтобы пропавшие задачи вернулись, Новски один раз перечитает историю таких агентов. Пока перечитывание идёт, начатые задачи не помечаются прерванными.\n\nОбновление существующих агентов этим выпуском не запускалось.\n",
-  "pub_date": "2026-10-18T15:10:37.218Z",
+  "version": "0.1.170",
+  "notes": "Novsky 0.1.170\n\n- Сборщик задач на сервере больше не загружает в память файлы и фото из корпоративных запросов, только их текст. У агентов с большим числом вложений (у одного было 317 МБ) он перестаёт падать по памяти, а вкладка «Задачи» обновляется без перебоев. Журнал его базы теперь обрезается до 64 МБ.\n- Проверка «занят ли агент» перед обновлением кита больше не считает работой забытые ответы, о которых уже отправлено уведомление и по которым ничего не происходит. Такие запросы остаются незакрытыми и видны, но обновление больше не ждёт их вечно.\n\nОбновление существующих агентов этим выпуском не запускалось.\n",
+  "pub_date": "2026-10-18T21:40:24.713Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.169/Novsky-0.1.169-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5jZDBYa3RoRE9WaHl3NkxsYUJEL2lKVHc5NUtLWi9rQjFGbkhpWEdBdCtCM2FxNXo4c1BGYWMvMFZRMUpMcTljcUJtcCtubGd1M3N3SDBXRlJBRnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzM2MTcyCWZpbGU6Tm92c2t5LTAuMS4xNjktd2luZG93cy14NjQtc2V0dXAuZXhlCmNPOXRsL1RNaEpoWkZxVlhPSWNOUGxjUjZhTXQraWt0TlpyVmtNQmZzWGxQK0wxTnZwVkMrSHZTeko3RjcvNlpWNGlkSTNxU2JnMGQ0cUpTdEpIdEFnPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.170/Novsky-0.1.170-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnBaaGFFSnlMZC9DV2hyWGxjTHpZUWwxUWk4b1ZBbzZFZ2tLRHNnN2FxZWZNeDdGOFc4Z092bnh4cCs2KzkxQXAvSG43V3locS91aDZOVnlTQTE0NEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzU5NTczCWZpbGU6Tm92c2t5LTAuMS4xNzAtd2luZG93cy14NjQtc2V0dXAuZXhlCmVsd05ZK2hCdjZIUm11MkFHVnlMVElYdmV6SE9YK2puVHdURXA0djNnazhBUC9LSFpjNUJ0K3JnakMvSURiaUE3OFdiMDZNS2RRU00ycjlUVC9FL0RnPT0K"
     }
   }
 }
