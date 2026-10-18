@@ -1,15 +1,15 @@
 {
-  "version": "0.1.168",
-  "notes": "Novsky 0.1.168\n\n- Вкладка «Задачи»: раздел «Заплановано» сворачивается кнопкой «Згорнути» и снова открывается кнопкой «Показати»; выбор запоминается. В заголовке видно, сколько задач запланировано.\n- Из «Заплановано» уходят напоминания, которые уже сработали. Раньше у агентов с большой перепиской они оставались там навсегда.\n\nОбновление существующих агентов этим выпуском не запускалось.\n",
-  "pub_date": "2026-10-18T11:08:06.418Z",
+  "version": "0.1.169",
+  "notes": "Novsky 0.1.169\n\n- Вкладка «Задачи» у агентов, подключённых без установки, снова показывает самые свежие задачи. После полного перечитывания истории там оставалась старая тысяча задач, а новые выпадали (у Кнопы было видно только сентябрь).\n- Чтобы пропавшие задачи вернулись, Новски один раз перечитает историю таких агентов. Пока перечитывание идёт, начатые задачи не помечаются прерванными.\n\nОбновление существующих агентов этим выпуском не запускалось.\n",
+  "pub_date": "2026-10-18T15:08:00.205Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.168/Novsky-0.1.168-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtpdktYSXhxRHNZVE1PK3lzRGVGR3BOQXhSakZEUVppcVlzamh5aWk3RVRaR3dMVXAwVmFrSU9aZis0ZktrcnFJSzJLVnByZlJwOElWem1TN2RLMGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzIxNTQ2CWZpbGU6Tm92c2t5LTAuMS4xNjgtYXJtNjQuYXBwLnRhci5negp0c3M3UUp0Q3RxRXNzRHVWaEZONlo0cGVmV3pkZlIzMEdTQnZ5NndtOEphdEhVNTJzYU11NzgvaExISk9haks2cUIxSnZHdkZISWRWem41Wm9qZThDQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.169/Novsky-0.1.169-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFhMnVuc0I5ZFlETnU4a1IvVmJBSHJ5eFR0MmFLSUxaOUZSTE9hamNHUko3dEF2cmZwRWROb0V2YUNyaDk2UnF2WXBmREpWSHZUTklZQ2dyL3FzdWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzM1NzU4CWZpbGU6Tm92c2t5LTAuMS4xNjktYXJtNjQuYXBwLnRhci5negp6NFJvaFlVeFNSbG1yVlNtdzRNeW85MjdSTDJJUDhXVW0wZ25FeEJiOTZZcVdMMHhlV21EekZvSmZNWXJwZkVXVFFyZ1h4bW9oRzR2VzYrNFVPd09BZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.168/Novsky-0.1.168-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFWUDh1L2VHTzJQY2doQTZwU29ETll4aG9mV1I5ZWZvZEFXU3lMdG9qWUFjbThnUUFWdS9HNk9ReFdCTE1nMXhmMFVoeXR5QWlwK3RWczM2NHNQbkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzIxNjM2CWZpbGU6Tm92c2t5LTAuMS4xNjgteDY0LmFwcC50YXIuZ3oKR2tjWVFzSWdnWWlUeFB6NU9iZnpWSEdKaVJZd0pIRXN6cWNseDJnMUdsRmhQVjBXTUU4R1kxeEpVZ2tURGllaDVQWXFLQjBkSkFiZnFPb1BYRTBhQ0E9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.169/Novsky-0.1.169-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmgzNXdubDFsczV4bHM3dWUwWkRiWU1CMTllb1RoYm1ZZ2JadWt2OUJ5WURLdDFRVTczY3JUcHEvRUdnN291N2lOTWFPMDhrc3d6K2txMkZzdTR1ZGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzM2MDIxCWZpbGU6Tm92c2t5LTAuMS4xNjkteDY0LmFwcC50YXIuZ3oKcUZJOWxNOUV4ZnJUSEljZzBySVBBcnlqT2NDZzF5WWtOUWpONmUreVNuay9EK2dQaDFJMXdjb0M3SlJYWHdscFIrdjZpamRabXV1WE1ERHlqaUVWQnc9PQo="
     }
   }
 }
