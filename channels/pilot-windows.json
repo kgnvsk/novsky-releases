@@ -1,11 +1,11 @@
 {
-  "version": "0.1.168",
-  "notes": "Novsky 0.1.168\n\n- Вкладка «Задачи»: раздел «Заплановано» сворачивается кнопкой «Згорнути» и снова открывается кнопкой «Показати»; выбор запоминается. В заголовке видно, сколько задач запланировано.\n- Из «Заплановано» уходят напоминания, которые уже сработали. Раньше у агентов с большой перепиской они оставались там навсегда.\n\nОбновление существующих агентов этим выпуском не запускалось.\n",
-  "pub_date": "2026-10-18T11:16:05.174Z",
+  "version": "0.1.169",
+  "notes": "Novsky 0.1.169\n\n- Вкладка «Задачи» у агентов, подключённых без установки, снова показывает самые свежие задачи. После полного перечитывания истории там оставалась старая тысяча задач, а новые выпадали (у Кнопы было видно только сентябрь).\n- Чтобы пропавшие задачи вернулись, Новски один раз перечитает историю таких агентов. Пока перечитывание идёт, начатые задачи не помечаются прерванными.\n\nОбновление существующих агентов этим выпуском не запускалось.\n",
+  "pub_date": "2026-10-18T15:10:37.218Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.168/Novsky-0.1.168-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9SUWxmNFo3UjZzejVLSlJLU09mYkFBMXp0OFVCOERXVzRtZGpPK2NON3JCNHRtVVlaaFdibGIwaTJDRjhTTkZ0SXJmRG1wY1M3N2ovSFU1d0JiK2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzIyMTQxCWZpbGU6Tm92c2t5LTAuMS4xNjgtd2luZG93cy14NjQtc2V0dXAuZXhlCk1WR3FBN0Y5QlRtdEgxM0hTckh4VmRlSkRnQ3hiQy9pdjhETjN2bWNRWTZqaEtZdDBzcS8rV2hVSFM2Uzc1WU0zOUhhelEwTC9BT2ZWUHZCK002MEN3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.169/Novsky-0.1.169-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5jZDBYa3RoRE9WaHl3NkxsYUJEL2lKVHc5NUtLWi9rQjFGbkhpWEdBdCtCM2FxNXo4c1BGYWMvMFZRMUpMcTljcUJtcCtubGd1M3N3SDBXRlJBRnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzM2MTcyCWZpbGU6Tm92c2t5LTAuMS4xNjktd2luZG93cy14NjQtc2V0dXAuZXhlCmNPOXRsL1RNaEpoWkZxVlhPSWNOUGxjUjZhTXQraWt0TlpyVmtNQmZzWGxQK0wxTnZwVkMrSHZTeko3RjcvNlpWNGlkSTNxU2JnMGQ0cUpTdEpIdEFnPT0K"
     }
   }
 }
