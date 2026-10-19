@@ -1,11 +1,11 @@
 {
-  "version": "0.1.170",
-  "notes": "Novsky 0.1.170\n\n- Сборщик задач на сервере больше не загружает в память файлы и фото из корпоративных запросов, только их текст. У агентов с большим числом вложений (у одного было 317 МБ) он перестаёт падать по памяти, а вкладка «Задачи» обновляется без перебоев. Журнал его базы теперь обрезается до 64 МБ.\n- Проверка «занят ли агент» перед обновлением кита больше не считает работой забытые ответы, о которых уже отправлено уведомление и по которым ничего не происходит. Такие запросы остаются незакрытыми и видны, но обновление больше не ждёт их вечно.\n\nОбновление существующих агентов этим выпуском не запускалось.\n",
-  "pub_date": "2026-10-18T21:40:24.713Z",
+  "version": "0.1.171",
+  "notes": "**Novsky 0.1.171**\n\n- Платні модулі Premium: у візарді відміть модулі, які купив клієнт, і контакт для решти. Агент налаштовує й пропонує лише куплене, а про інше каже, що це окремий модуль, і називає контакт.\n- Налаштування агента → «Модулі»: куплене можна змінити, зміна йде оновленням кита.\n- Агенти, встановлені раніше, працюють як і досі, з усім комплектом.\n- Корпоративний режим: невдала активація більше не лишає бота вимкненим, навмисна пауза не губиться.\n- Правила власника не скидаються після повторного стискання розмови; локальні агенти отримують бібліотеки для документів і Excel.\n- Агенти Codex: правила продукту діють і в робочих, і в адмін-розмовах; Novsky знає новий кит 19.10, тож агенти на ньому не просять зайвого оновлення.\n",
+  "pub_date": "2026-10-19T04:11:17.611Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.170/Novsky-0.1.170-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnBaaGFFSnlMZC9DV2hyWGxjTHpZUWwxUWk4b1ZBbzZFZ2tLRHNnN2FxZWZNeDdGOFc4Z092bnh4cCs2KzkxQXAvSG43V3locS91aDZOVnlTQTE0NEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzU5NTczCWZpbGU6Tm92c2t5LTAuMS4xNzAtd2luZG93cy14NjQtc2V0dXAuZXhlCmVsd05ZK2hCdjZIUm11MkFHVnlMVElYdmV6SE9YK2puVHdURXA0djNnazhBUC9LSFpjNUJ0K3JnakMvSURiaUE3OFdiMDZNS2RRU00ycjlUVC9FL0RnPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.171/Novsky-0.1.171-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlCQ01wOCswaXRPNkdTcWRaWWFDeHdOSXBCWTMySWZJZ3ZZTldtVGN5L0dvcDFDdVZPVUhQMm9DLzhHTWxhclMzQkVPWDlUWjNrZmdVZ2NHZ1FQRUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzgzMDU0CWZpbGU6Tm92c2t5LTAuMS4xNzEtd2luZG93cy14NjQtc2V0dXAuZXhlCmE1WmJiVmdIbFh3QVBaUWNPaUdIQlpVandwbkg2azE0cU5vcW1FRkVDZ1hKQXZLMDZqdFpSSlNWOTZZUXpqdGNHT2c2ZGtqdHlPWUU5SmpveVljNkNnPT0K"
     }
   }
 }
