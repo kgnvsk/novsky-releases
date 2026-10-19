@@ -1,15 +1,15 @@
 {
-  "version": "0.1.170",
-  "notes": "Novsky 0.1.170\n\n- Сборщик задач на сервере больше не загружает в память файлы и фото из корпоративных запросов, только их текст. У агентов с большим числом вложений (у одного было 317 МБ) он перестаёт падать по памяти, а вкладка «Задачи» обновляется без перебоев. Журнал его базы теперь обрезается до 64 МБ.\n- Проверка «занят ли агент» перед обновлением кита больше не считает работой забытые ответы, о которых уже отправлено уведомление и по которым ничего не происходит. Такие запросы остаются незакрытыми и видны, но обновление больше не ждёт их вечно.\n\nОбновление существующих агентов этим выпуском не запускалось.\n",
-  "pub_date": "2026-10-18T21:37:49.449Z",
+  "version": "0.1.171",
+  "notes": "**Novsky 0.1.171**\n\n- Платні модулі Premium: у візарді відміть модулі, які купив клієнт, і контакт для решти. Агент налаштовує й пропонує лише куплене, а про інше каже, що це окремий модуль, і називає контакт.\n- Налаштування агента → «Модулі»: куплене можна змінити, зміна йде оновленням кита.\n- Агенти, встановлені раніше, працюють як і досі, з усім комплектом.\n- Корпоративний режим: невдала активація більше не лишає бота вимкненим, навмисна пауза не губиться.\n- Правила власника не скидаються після повторного стискання розмови; локальні агенти отримують бібліотеки для документів і Excel.\n- Агенти Codex: правила продукту діють і в робочих, і в адмін-розмовах; Novsky знає новий кит 19.10, тож агенти на ньому не просять зайвого оновлення.\n",
+  "pub_date": "2026-10-19T03:56:56.988Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.170/Novsky-0.1.170-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5NL2wwaXg1QmhYOXovUHFjL3Rsd2Q2cGZGK21XQnJyeXpwSmVpSkx5U3ZzR1hmTmNyNlVJUk5GdnBNdU9qbnJTaUg4MGNvbkZtdzNJalRzWGtyWHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzU5MDg5CWZpbGU6Tm92c2t5LTAuMS4xNzAtYXJtNjQuYXBwLnRhci5negp0dXUwbC9wMk1pQ0hPbGtSZkUwSDhLOEUxeUNqWmpFVWtZemF1TkxpOWNRL3JUSmlUQXVEbnNXbkczQ0kzandtMHBLSXNBUFdQdC9nQjk3RTRCME1Ddz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.171/Novsky-0.1.171-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxsQmNscnV5TjdsQUs5bE1YQXJpdnpPc2VQcHRkYjFrVmZKZGhFL1dZOTVlbDczRklvMjZZNTJPL3U3VVFtWjNRaHBMYVExTFh1TEo0aXU3Z2dtSEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzgwNzk5CWZpbGU6Tm92c2t5LTAuMS4xNzEtYXJtNjQuYXBwLnRhci5negprM01pWjdhSy9OTkZwVWx3ZkhTMTZqM3ZNd0s2dXJRWVZFbStUa011TFlzaGJpUTk1dGxsV3VWVEpSSkUwODN2TERNbFF5VnBQQTU5U2NLeFpETHNBZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.170/Novsky-0.1.170-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5LZW9CQXUxRnM3N090UzMwb2xTa01LTU11ZGZhSWw3Y0YvdHRHb1VZRTJzYjhlUlVVd0pSK2h1QjYwaHAxT1JQTE9mOEN0NmtlZmVoOGR2TlljUXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzU5NDI1CWZpbGU6Tm92c2t5LTAuMS4xNzAteDY0LmFwcC50YXIuZ3oKZ2FqQnZPdzNPdEdIQlB3VGFIbGlCc3JmOHc4NXIvalZWdXRNaFJFVE1DbXRLRHdqUmZTcit4UGE5ZWRaWTlVcTNkWE5GS21mRmRjYmZsQWxJU2tWQXc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.171/Novsky-0.1.171-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRPbThEcnJHVXplU0tWbUUrZjlsZ2F6b0hpYTd2TjR4Z3RLeEpWbUZPZ3lBb3psejBXNDNtQzV2NDQyZjI0eUtCVU1oTVpuTTJ1SktIZ1ErYmVUdHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzgwODgzCWZpbGU6Tm92c2t5LTAuMS4xNzEteDY0LmFwcC50YXIuZ3oKdDBaMld3cm5FeFRMaWxXeXhQaXdnaXFDVWtkRTBqQmZhc2dvZnJEamZtQUhnWFZicEgydFF4bW9nUnJoaFMrVDdGa1RVdG85RU9vcWZYcEl3RHF6Q3c9PQo="
     }
   }
 }
