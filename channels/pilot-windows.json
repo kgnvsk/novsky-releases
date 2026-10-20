@@ -1,11 +1,11 @@
 {
-  "version": "0.1.171",
-  "notes": "**Novsky 0.1.171**\n\n- Платні модулі Premium: у візарді відміть модулі, які купив клієнт, і контакт для решти. Агент налаштовує й пропонує лише куплене, а про інше каже, що це окремий модуль, і називає контакт.\n- Налаштування агента → «Модулі»: куплене можна змінити, зміна йде оновленням кита.\n- Агенти, встановлені раніше, працюють як і досі, з усім комплектом.\n- Корпоративний режим: невдала активація більше не лишає бота вимкненим, навмисна пауза не губиться.\n- Правила власника не скидаються після повторного стискання розмови; локальні агенти отримують бібліотеки для документів і Excel.\n- Агенти Codex: правила продукту діють і в робочих, і в адмін-розмовах; Novsky знає новий кит 19.10, тож агенти на ньому не просять зайвого оновлення.\n",
-  "pub_date": "2026-10-19T04:11:17.611Z",
+  "version": "0.1.172",
+  "notes": "**Novsky 0.1.172**\n\n- Novsky знає новий кит 20.10 (випуск 3 з безпекою): агенти, яких на ньому встановлять або оновлять, не просять зайвого оновлення інструментів, а агенти на попередньому киті працюють як і досі.\n- Інших змін немає: цей пілот виходить перед публікацією кита, щоб Novsky уже знав його файли.\n",
+  "pub_date": "2026-10-20T17:17:32.518Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.171/Novsky-0.1.171-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlCQ01wOCswaXRPNkdTcWRaWWFDeHdOSXBCWTMySWZJZ3ZZTldtVGN5L0dvcDFDdVZPVUhQMm9DLzhHTWxhclMzQkVPWDlUWjNrZmdVZ2NHZ1FQRUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzgzMDU0CWZpbGU6Tm92c2t5LTAuMS4xNzEtd2luZG93cy14NjQtc2V0dXAuZXhlCmE1WmJiVmdIbFh3QVBaUWNPaUdIQlpVandwbkg2azE0cU5vcW1FRkVDZ1hKQXZLMDZqdFpSSlNWOTZZUXpqdGNHT2c2ZGtqdHlPWUU5SmpveVljNkNnPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.172/Novsky-0.1.172-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxOV1J1NDNwd0locDhvSng2WmtsajhUNWdrUThlcnNDZTJ6WXlSUHEwK2NsM2FXVFhodHdGa3RkUjFsUkc5M2Z6aXFkUk1QQzY3aTZwbXNpem96dUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTE2NTk1CWZpbGU6Tm92c2t5LTAuMS4xNzItd2luZG93cy14NjQtc2V0dXAuZXhlClhmb3ZGQzVVQ20wMHYzZkQ1cHdURklHRm14c3FXRWRZRlBac3ludXNVWFNvMURicmNmS21RSGZyaWNCMUFtT2UvbzV4aVJ2M0NpWEtzN2tVU2V0VkNBPT0K"
     }
   }
 }
