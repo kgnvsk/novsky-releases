@@ -1,11 +1,11 @@
 {
-  "version": "0.1.172",
-  "notes": "**Novsky 0.1.172**\n\n- Novsky знає новий кит 20.10 (випуск 3 з безпекою): агенти, яких на ньому встановлять або оновлять, не просять зайвого оновлення інструментів, а агенти на попередньому киті працюють як і досі.\n- Інших змін немає: цей пілот виходить перед публікацією кита, щоб Novsky уже знав його файли.\n",
-  "pub_date": "2026-10-20T17:17:32.518Z",
+  "version": "0.1.173",
+  "notes": "Підтримка сумісності агентів із локальним Telegram API. Виправлено збирання програми: перевірений Codex runtime зберігається однаковим на Mac, Windows і Linux, щоб справні агенти не отримували зайву вимогу оновлення.\n",
+  "pub_date": "2026-10-21T16:58:16.059Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.172/Novsky-0.1.172-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxOV1J1NDNwd0locDhvSng2WmtsajhUNWdrUThlcnNDZTJ6WXlSUHEwK2NsM2FXVFhodHdGa3RkUjFsUkc5M2Z6aXFkUk1QQzY3aTZwbXNpem96dUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTE2NTk1CWZpbGU6Tm92c2t5LTAuMS4xNzItd2luZG93cy14NjQtc2V0dXAuZXhlClhmb3ZGQzVVQ20wMHYzZkQ1cHdURklHRm14c3FXRWRZRlBac3ludXNVWFNvMURicmNmS21RSGZyaWNCMUFtT2UvbzV4aVJ2M0NpWEtzN2tVU2V0VkNBPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.173/Novsky-0.1.173-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmg0VXgxQVRFNkJpMTZXUkVmaDI4M081VG5WYlVBdFBCN0VldFJTaHVjRXlJOW1lUVdzQmZ4Vmd2a3JiM216Vm04Ymo0ZzlYbnhCU2Mva0o2RjNZQ3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAxODQwCWZpbGU6Tm92c2t5LTAuMS4xNzMtd2luZG93cy14NjQtc2V0dXAuZXhlClRaeVF1Y2VVLytkdzBSYVozdlZqa2FwT2luaGNWaVRoQzJheVEzOThaZ3FYKzFJYTBWQzVzU3FsQmNXcVM3cUFsU3JwNFRxTWFxTVNjVHFHbzdtSkRBPT0K"
     }
   }
 }
