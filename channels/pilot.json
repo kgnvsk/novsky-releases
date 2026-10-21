@@ -1,15 +1,15 @@
 {
-  "version": "0.1.172",
-  "notes": "**Novsky 0.1.172**\n\n- Novsky знає новий кит 20.10 (випуск 3 з безпекою): агенти, яких на ньому встановлять або оновлять, не просять зайвого оновлення інструментів, а агенти на попередньому киті працюють як і досі.\n- Інших змін немає: цей пілот виходить перед публікацією кита, щоб Novsky уже знав його файли.\n",
-  "pub_date": "2026-10-20T17:06:05.452Z",
+  "version": "0.1.173",
+  "notes": "Підтримка сумісності агентів із локальним Telegram API. Виправлено збирання програми: перевірений Codex runtime зберігається однаковим на Mac, Windows і Linux, щоб справні агенти не отримували зайву вимогу оновлення.\n",
+  "pub_date": "2026-10-21T16:49:30.117Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.172/Novsky-0.1.172-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnAwbFdOT2Qrc2dJRnUvN2RhMkx0L1U0ZzJTMk9PakhLRXhJa1plQUFuaWZsV2p3ZkpoNmJ1ay9ZdUczRG1QSVo0NkZMWnNHWDdwd1c2emtTWVAwMXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTE1Nzg4CWZpbGU6Tm92c2t5LTAuMS4xNzItYXJtNjQuYXBwLnRhci5negprYlRxUnpSTmVQRVRRM01td1VVLytCc0hyb0FzeWY2aHIzWk9PR1grY3VlM2E4cEVOOWE4bWJYbTk0WHBLUHFvaEVKRCszakdNZS9jYjlUS1NsV2ZEZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.173/Novsky-0.1.173-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnBCNHJuRU93bGp1Sk9SMUJ2S3NOZDhOTzdNTGZLdHpyUHZ2Z2pxVHo5czE3TDJtNEhUTjgrck55UTFhdFduQkNuTGJqVEhqNDBsZE9rSmFRYjF2MGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAxMDU5CWZpbGU6Tm92c2t5LTAuMS4xNzMtYXJtNjQuYXBwLnRhci5negpZdDhtOHk0SGNpYUxxaXNNVkJCT1o2NSt4VnBlUWR2Rm5scXEyVHAzdUE1dVlHYnloU3h6Uk1VeVI4TDNXajBHekdaZDlTM04zQjRnVkVzTUxDN0ZEdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.172/Novsky-0.1.172-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtFdzFUa1liVTRSbkE4ZkswbVh0bkNvSWQ0WFRKMlp5YlpKRGJNMURLNFZTeGE3dVVWcENNUHVDVndWVDVzZm8rOEg4ZHVEU0ZucUZoWFNKOGQ1OGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTE1ODk5CWZpbGU6Tm92c2t5LTAuMS4xNzIteDY0LmFwcC50YXIuZ3oKYUtNUWNjMGg4OTVIY0Rsa2s0UngzU1h0YTk3MGQ0Y1VaUWVrL3Ara05iMTZkVW9rTCtZMUdRNWNBblN4RjI2RlZmejZUSkI0MGNNb0J3WFNsUys2QXc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.173/Novsky-0.1.173-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZZbEVlVkc1QUtIaFJ5OWdsSWpNVG9HdTZ5dVF5QmpreDZVSkFyWVMwZm90OEtJVENVeHBuYW5xeTUwZng1aFlycVpIVWh2SEQ0Smw4QnBUS3dTR1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAxMTQwCWZpbGU6Tm92c2t5LTAuMS4xNzMteDY0LmFwcC50YXIuZ3oKb1JjMW4xdlF4US9odW5RT1NqUVl0ZGRxZG1FMlZ3dEprYnN4b2U1NDZXMktGYndyNCtnV0hrYXduRGl0cnZESzNZTnd1eEtUa0xRcG1qdElITE03RFE9PQo="
     }
   }
 }
