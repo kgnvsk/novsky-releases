@@ -1,11 +1,11 @@
 {
-  "version": "0.1.173",
-  "notes": "Підтримка сумісності агентів із локальним Telegram API. Виправлено збирання програми: перевірений Codex runtime зберігається однаковим на Mac, Windows і Linux, щоб справні агенти не отримували зайву вимогу оновлення.\n",
-  "pub_date": "2026-10-21T16:58:16.059Z",
+  "version": "0.1.174",
+  "notes": "Novsky 0.1.174\n\n- Агент без колег більше не отримує тексту про делегування перед кожним інструментом: менше зайвого в його розмові й рідше стиснення контексту.\n- Містить усе з 0.1.173 (локальний Telegram API для голосових відправників у перевірці готовності).\n",
+  "pub_date": "2026-10-22T01:18:30.232Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.173/Novsky-0.1.173-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmg0VXgxQVRFNkJpMTZXUkVmaDI4M081VG5WYlVBdFBCN0VldFJTaHVjRXlJOW1lUVdzQmZ4Vmd2a3JiM216Vm04Ymo0ZzlYbnhCU2Mva0o2RjNZQ3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAxODQwCWZpbGU6Tm92c2t5LTAuMS4xNzMtd2luZG93cy14NjQtc2V0dXAuZXhlClRaeVF1Y2VVLytkdzBSYVozdlZqa2FwT2luaGNWaVRoQzJheVEzOThaZ3FYKzFJYTBWQzVzU3FsQmNXcVM3cUFsU3JwNFRxTWFxTVNjVHFHbzdtSkRBPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.174/Novsky-0.1.174-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNyVUNSOWhwdlF0Rml4R0pWdXN6MFBnNmI0bWowc2NydzMrMCtBOFlUalBUbm9sMWpBUWlRZWxkYS9QNHRIYm9QQ2M1YlBEQjNJQVNsazVaWEUzNUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjMxODg1CWZpbGU6Tm92c2t5LTAuMS4xNzQtd2luZG93cy14NjQtc2V0dXAuZXhlCjhFSWNVUTNZTVB6VDNTampqVmZtZVN6VmZjY0huWS8zYks3bEpSWFluYXNTRnlxc25DbDlueTRyOG5hZy9MckloVGRyc0FhOERTTnNaR0hZWUlkUkJ3PT0K"
     }
   }
 }
