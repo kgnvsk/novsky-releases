@@ -1,11 +1,11 @@
 {
-  "version": "0.1.174",
-  "notes": "Novsky 0.1.174\n\n- Агент без колег більше не отримує тексту про делегування перед кожним інструментом: менше зайвого в його розмові й рідше стиснення контексту.\n- Містить усе з 0.1.173 (локальний Telegram API для голосових відправників у перевірці готовності).\n",
-  "pub_date": "2026-10-22T01:18:30.232Z",
+  "version": "0.1.175",
+  "notes": "Novsky 0.1.175\n\n- Новий агент встановлюється на сервер поруч з основним агентом, який стоїть не з кита (наприклад, власна збірка агента): браузер, захист сервера й часовий пояс основного агента залишаються як є.\n- Агент на власному середовищі Claude Code керує агентами, які стоять нижче нього в оргструктурі: доручає їм задачі й отримує звіти, змінює їхній доступ (зміну підтверджує його власник одним натисканням). Решта серверів і агенти Codex цього оновлення не відчують.\n- Містить усе з 0.1.174.\n",
+  "pub_date": "2026-10-23T17:15:36.833Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.174/Novsky-0.1.174-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNyVUNSOWhwdlF0Rml4R0pWdXN6MFBnNmI0bWowc2NydzMrMCtBOFlUalBUbm9sMWpBUWlRZWxkYS9QNHRIYm9QQ2M1YlBEQjNJQVNsazVaWEUzNUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjMxODg1CWZpbGU6Tm92c2t5LTAuMS4xNzQtd2luZG93cy14NjQtc2V0dXAuZXhlCjhFSWNVUTNZTVB6VDNTampqVmZtZVN6VmZjY0huWS8zYks3bEpSWFluYXNTRnlxc25DbDlueTRyOG5hZy9MckloVGRyc0FhOERTTnNaR0hZWUlkUkJ3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.175/Novsky-0.1.175-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnBjYXY3bTNLbU03QWNJRDM2QmJLbDNvMktnQ0M2ajZBcE1DWGlzbm9aQ2tSRUpkU2hiMmwveFFLanNXdC90aHhIUHZNWDhQa1RLVFc1LzJiZDJ5U2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzc1NjgzCWZpbGU6Tm92c2t5LTAuMS4xNzUtd2luZG93cy14NjQtc2V0dXAuZXhlCng3ci91RjFzNkJPYTVMN1BWZTlxUk1UUDFHK2tUdUZ0SFZHdlpFMWtuZjhwT1pqMTVHUytvUmZnK3YweG1kTzU5alFvbWt2TWNIbjVwZ0F1RENOcER3PT0K"
     }
   }
 }
