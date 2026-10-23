@@ -1,11 +1,11 @@
 {
-  "version": "0.1.176",
-  "notes": "Novsky 0.1.176\n\n- Агент на власному середовищі Claude Code, який керує агентами нижче себе, тепер передає їм файли разом із задачею: копію бачить лише той агент, якому її передано, і вона зникає, коли задачу виконано.\n- Решта серверів і агенти Codex цього оновлення не відчують.\n- Містить усе з 0.1.175.\n",
-  "pub_date": "2026-10-23T18:41:03.583Z",
+  "version": "0.1.177",
+  "notes": "Novsky 0.1.177\n\n- Агент, який стоїть нижче іншого в оргструктурі, на початку кожної сесії знає свого керівника: хто це, що задачі від нього приходять через Novsky і що відповідь на задачу — це звіт керівнику.\n- Правила роботи в команді на початку сесії знову приходять повністю, без обрізання.\n- Сервери з агентами Codex цього оновлення не відчують.\n- Містить усе з 0.1.176.\n",
+  "pub_date": "2026-10-23T20:08:28.724Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.176/Novsky-0.1.176-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5GYkNGT2Q3NTE1a0ZxN1dBVDg5OGJOeWtmUUdVaUxQNVZJcHdlZXVmai85TE5COGpiZFBzeEFRVTF0enZHZlFEY2xwL0FwdjgrZlJMWlNkSDh6N3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzgwNzk3CWZpbGU6Tm92c2t5LTAuMS4xNzYtd2luZG93cy14NjQtc2V0dXAuZXhlClpKanhjWWpHZm5HMGh3aUVYUFEwTituTThzUGFsL1pmTGVNVzJ0NTJ5eEZlTGV3TjNiZXYra2xWbmIyNVgwRWs0SVRVekUvNklXVVE4L2E0TWR3akJBPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.177/Novsky-0.1.177-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnF5WmpwZytJamM0cXQxQ1g3bHRXTmRDSkNIejlpVHYwVnBBY0RwK1dTeHBYNXliMkpQN3lzTlF2ZUVUWWZOcTRzYjBFd0VFQ3JpeitsSmJVam4wT2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzg2MDg0CWZpbGU6Tm92c2t5LTAuMS4xNzctd2luZG93cy14NjQtc2V0dXAuZXhlCi9uSmc3cXlCYXJmWjdYQnp4WGl4R2xoSXJ2QUFxMTJuS29wZ3hMbWN6ZXFBREpYZ0dwT2xXSnVTU3RlVmk5cFZYcmZ5YkFGUnZTbTRIRGNzQzJxdERnPT0K"
     }
   }
 }
