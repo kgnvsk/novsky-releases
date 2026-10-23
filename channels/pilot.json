@@ -1,15 +1,15 @@
 {
-  "version": "0.1.174",
-  "notes": "Novsky 0.1.174\n\n- Агент без колег більше не отримує тексту про делегування перед кожним інструментом: менше зайвого в його розмові й рідше стиснення контексту.\n- Містить усе з 0.1.173 (локальний Telegram API для голосових відправників у перевірці готовності).\n",
-  "pub_date": "2026-10-22T01:04:12.006Z",
+  "version": "0.1.175",
+  "notes": "Novsky 0.1.175\n\n- Новий агент встановлюється на сервер поруч з основним агентом, який стоїть не з кита (наприклад, власна збірка агента): браузер, захист сервера й часовий пояс основного агента залишаються як є.\n- Агент на власному середовищі Claude Code керує агентами, які стоять нижче нього в оргструктурі: доручає їм задачі й отримує звіти, змінює їхній доступ (зміну підтверджує його власник одним натисканням). Решта серверів і агенти Codex цього оновлення не відчують.\n- Містить усе з 0.1.174.\n",
+  "pub_date": "2026-10-23T16:53:21.527Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.174/Novsky-0.1.174-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5qQ056ZWI4a0xJOEU1RXg4RGdVcC8zY3JoM3ZNYjh1QTA3NXpKVUQ1YWpxTlFSNHVaekZsOE4rMThUdWJGUzV2NVNrVWtZeHJuRUdqcGJEVDFYM1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjMwODgxCWZpbGU6Tm92c2t5LTAuMS4xNzQtYXJtNjQuYXBwLnRhci5negpYTFZNeGFQcGNIZlBKN2RYeFp5V0tvWTh1OHhIbjVhdC9id2NpRGh0VCtxOGw4TzcwRk9lUG4xbFJDZW94MGJiazFPVWorcWNTY0dyMm03aHcwRDhCZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.175/Novsky-0.1.175-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpRQkdvekdhNXJpQTVmOENUUXIxZ25mNXFReE84L2hSZG9DaFZvV21DOElwTTNwZTNxVjVTSDJGWTRpaGdudk5MbEp3OWRnMXBicTNXc1pzY0VqQkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzc0MjY3CWZpbGU6Tm92c2t5LTAuMS4xNzUtYXJtNjQuYXBwLnRhci5negphdHhzWTVYU2c1SFkwaDlWbmFpTENLQzhIMDRmZXZidE5jRmk4cG9rMExjSy94VVUwZTBqQVZQbkRNMzhpd1FDVERCUENEeURtS0szeWJmWkFNOGdCZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.174/Novsky-0.1.174-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5YNE5iTlVzOHk1YTNWbjFmZndVcU5mdUpoeWZydjIxZlBJY3R4bW1mZEgrbHM2eGZuT3FaVDl0WldUc3NhSmFNWUpBcHpDRkUvUUJrdFFEcnc2ZVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjMwOTYyCWZpbGU6Tm92c2t5LTAuMS4xNzQteDY0LmFwcC50YXIuZ3oKcDhNcTZHK0g2L3ZNQWt6dTJOeHhVVjBURTJwdFFzU08veUZ3VDFCNTBYNEJWVEhBR0VQN3U4VUM2aSt4cjFBa0k4U0dBYlBOQlJIZS9qcE9wTnF4REE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.175/Novsky-0.1.175-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnM4SlcrWUZYVEh4clpHYzRubmFEY1h3TmZPc1dUYzlmT0FOMWdiYVdCVWhHQWhJZ3dCNWZuOVlCZTRjbkNENEFxUkhxQUdPN0FRSVVzM1RJWkd1bUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzc0MzQ4CWZpbGU6Tm92c2t5LTAuMS4xNzUteDY0LmFwcC50YXIuZ3oKNzJmUHF0YUplcGxHblo4dHRYS05vRDM4SzBmT3UzM2pBbTRaaUM3RmZyaUl3d3poL2wvUXFzVS9TZy9QTmFUYkF5YTlEVDIrQkdKZVVkTC9LR1VaQlE9PQo="
     }
   }
 }
