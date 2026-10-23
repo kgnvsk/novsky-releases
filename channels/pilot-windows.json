@@ -1,11 +1,11 @@
 {
-  "version": "0.1.175",
-  "notes": "Novsky 0.1.175\n\n- Новий агент встановлюється на сервер поруч з основним агентом, який стоїть не з кита (наприклад, власна збірка агента): браузер, захист сервера й часовий пояс основного агента залишаються як є.\n- Агент на власному середовищі Claude Code керує агентами, які стоять нижче нього в оргструктурі: доручає їм задачі й отримує звіти, змінює їхній доступ (зміну підтверджує його власник одним натисканням). Решта серверів і агенти Codex цього оновлення не відчують.\n- Містить усе з 0.1.174.\n",
-  "pub_date": "2026-10-23T17:15:36.833Z",
+  "version": "0.1.176",
+  "notes": "Novsky 0.1.176\n\n- Агент на власному середовищі Claude Code, який керує агентами нижче себе, тепер передає їм файли разом із задачею: копію бачить лише той агент, якому її передано, і вона зникає, коли задачу виконано.\n- Решта серверів і агенти Codex цього оновлення не відчують.\n- Містить усе з 0.1.175.\n",
+  "pub_date": "2026-10-23T18:41:03.583Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.175/Novsky-0.1.175-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnBjYXY3bTNLbU03QWNJRDM2QmJLbDNvMktnQ0M2ajZBcE1DWGlzbm9aQ2tSRUpkU2hiMmwveFFLanNXdC90aHhIUHZNWDhQa1RLVFc1LzJiZDJ5U2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzc1NjgzCWZpbGU6Tm92c2t5LTAuMS4xNzUtd2luZG93cy14NjQtc2V0dXAuZXhlCng3ci91RjFzNkJPYTVMN1BWZTlxUk1UUDFHK2tUdUZ0SFZHdlpFMWtuZjhwT1pqMTVHUytvUmZnK3YweG1kTzU5alFvbWt2TWNIbjVwZ0F1RENOcER3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.176/Novsky-0.1.176-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5GYkNGT2Q3NTE1a0ZxN1dBVDg5OGJOeWtmUUdVaUxQNVZJcHdlZXVmai85TE5COGpiZFBzeEFRVTF0enZHZlFEY2xwL0FwdjgrZlJMWlNkSDh6N3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzgwNzk3CWZpbGU6Tm92c2t5LTAuMS4xNzYtd2luZG93cy14NjQtc2V0dXAuZXhlClpKanhjWWpHZm5HMGh3aUVYUFEwTituTThzUGFsL1pmTGVNVzJ0NTJ5eEZlTGV3TjNiZXYra2xWbmIyNVgwRWs0SVRVekUvNklXVVE4L2E0TWR3akJBPT0K"
     }
   }
 }
