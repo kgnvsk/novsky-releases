@@ -1,11 +1,11 @@
 {
-  "version": "0.1.178",
-  "notes": "Novsky 0.1.178\n\n- Підлеглого агента можна поставити окремою гілкою прямо з оргструктури або майстра: керівник і агент під ним працюють разом, а спільна команда сервера не змінюється.\n- Довга відповідь підлеглого доходить до керівника повністю, файлом, без обрізання.\n- Незавершене встановлення підлеглого або перший контакт із новим ботом більше не показуються як готові.\n- Новий агент Claude при першому встановленні отримує власний браузер зі своїм профілем; оновлення наявних агентів браузер не змінює.\n- Novsky розуміє новий кит Novsky Agent: після «Оновити кит» підключення не просять оновити інструменти.\n- Містить усе з 0.1.177.\n",
-  "pub_date": "2026-10-25T00:36:34.545Z",
+  "version": "0.1.179",
+  "notes": "Novsky 0.1.179\n\n- Завдання, яке керівник передає агенту своєї окремої гілки, тепер може шукати в пам'яті цього агента: пошук більше не падає через заблокований файл індексу.\n- Керівник окремої гілки знає, що нагадування агенту під ним можуть повторюватися: з інтервалом, часовим поясом, тихими годинами й кінцем. Окреме виконання завдання не має власного планувальника, тому нагадування ставляться через гілку.\n- Спільна команда сервера й агенти Codex не змінюються: оновлюється лише окрема гілка.\n- Містить усе з 0.1.178.\n",
+  "pub_date": "2026-10-25T04:32:48.344Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.178/Novsky-0.1.178-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnE0RURRZlE3eXA5NU9EM3dnMkhpallQVmtVMG5wdGlWdDBSQXZGMmpZcGtUTUhVc1B6NE4rRHE4ZVd0REtad29rcUU3aDMxU1JrcGx6d0RMd1pXZlFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODg4NTcxCWZpbGU6Tm92c2t5LTAuMS4xNzgtd2luZG93cy14NjQtc2V0dXAuZXhlCitEMWNuSWI5UmxMMjVrMkc4NFFqL3NrN0NTaW1CQ0xHanhLQU5YUnRLQ0hmT1hHOEN0TUpQV25CNzBmRjNsWDhhM09zN1I0S1Rrc09EcWF2SSs0SEJ3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.179/Novsky-0.1.179-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFQaVk3MWhDVktRQTBsZmZMMjREaGdOb1pFbGpoamlFaFdPOXdieFN5SGNNVjZpb3V2anNudDU3andGR2IwOVZid09ob1NpS3hLNUFCLzRrbHpSeHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTAyNzE3CWZpbGU6Tm92c2t5LTAuMS4xNzktd2luZG93cy14NjQtc2V0dXAuZXhlCnVGa1pzYTNmQWRPcXUvVGZzVjZoazFzK2loRnVTTERSSjZCaTBDelRqSDM2ZnhzeXpWNlZWMlY1SVNDd3BQVm1lTkJUVXFHZmF4TjFGaTVGZWdRMEF3PT0K"
     }
   }
 }
