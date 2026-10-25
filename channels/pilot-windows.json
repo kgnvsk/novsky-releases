@@ -1,11 +1,11 @@
 {
-  "version": "0.1.177",
-  "notes": "Novsky 0.1.177\n\n- Агент, який стоїть нижче іншого в оргструктурі, на початку кожної сесії знає свого керівника: хто це, що задачі від нього приходять через Novsky і що відповідь на задачу — це звіт керівнику.\n- Правила роботи в команді на початку сесії знову приходять повністю, без обрізання.\n- Сервери з агентами Codex цього оновлення не відчують.\n- Містить усе з 0.1.176.\n",
-  "pub_date": "2026-10-23T20:08:28.724Z",
+  "version": "0.1.178",
+  "notes": "Novsky 0.1.178\n\n- Підлеглого агента можна поставити окремою гілкою прямо з оргструктури або майстра: керівник і агент під ним працюють разом, а спільна команда сервера не змінюється.\n- Довга відповідь підлеглого доходить до керівника повністю, файлом, без обрізання.\n- Незавершене встановлення підлеглого або перший контакт із новим ботом більше не показуються як готові.\n- Новий агент Claude при першому встановленні отримує власний браузер зі своїм профілем; оновлення наявних агентів браузер не змінює.\n- Novsky розуміє новий кит Novsky Agent: після «Оновити кит» підключення не просять оновити інструменти.\n- Містить усе з 0.1.177.\n",
+  "pub_date": "2026-10-25T00:36:34.545Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.177/Novsky-0.1.177-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnF5WmpwZytJamM0cXQxQ1g3bHRXTmRDSkNIejlpVHYwVnBBY0RwK1dTeHBYNXliMkpQN3lzTlF2ZUVUWWZOcTRzYjBFd0VFQ3JpeitsSmJVam4wT2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzg2MDg0CWZpbGU6Tm92c2t5LTAuMS4xNzctd2luZG93cy14NjQtc2V0dXAuZXhlCi9uSmc3cXlCYXJmWjdYQnp4WGl4R2xoSXJ2QUFxMTJuS29wZ3hMbWN6ZXFBREpYZ0dwT2xXSnVTU3RlVmk5cFZYcmZ5YkFGUnZTbTRIRGNzQzJxdERnPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.178/Novsky-0.1.178-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnE0RURRZlE3eXA5NU9EM3dnMkhpallQVmtVMG5wdGlWdDBSQXZGMmpZcGtUTUhVc1B6NE4rRHE4ZVd0REtad29rcUU3aDMxU1JrcGx6d0RMd1pXZlFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODg4NTcxCWZpbGU6Tm92c2t5LTAuMS4xNzgtd2luZG93cy14NjQtc2V0dXAuZXhlCitEMWNuSWI5UmxMMjVrMkc4NFFqL3NrN0NTaW1CQ0xHanhLQU5YUnRLQ0hmT1hHOEN0TUpQV25CNzBmRjNsWDhhM09zN1I0S1Rrc09EcWF2SSs0SEJ3PT0K"
     }
   }
 }
