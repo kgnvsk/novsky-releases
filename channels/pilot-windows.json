@@ -1,11 +1,11 @@
 {
-  "version": "0.1.180",
-  "notes": "У підлеглих Claude-агентів прибрано обмеження у 30 кроків, через яке великий аналіз файлів міг обриватися без підсумку. Скасування завдання, ізоляція та чинний часовий контроль збережені. Рушій Codex не змінюється.\n",
-  "pub_date": "2026-10-26T04:53:22.686Z",
+  "version": "0.1.181",
+  "notes": "Novsky 0.1.181 дозволяє серверним агентам Claude завершувати довгі доручення без обмеження на 30 кроків або 15–16 хвилин. Задача продовжується до результату, скасування чи помилки виконання. Черга довгих доручень зберігається.\n\nОновлення стосується серверних команд Claude. Поточні агенти Codex і їхній опублікований рантайм збережені. Для macOS це pilot зі штатною підписаною доставкою оновлень, без нотаризації Apple.\n",
+  "pub_date": "2026-10-26T12:27:40.521Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.180/Novsky-0.1.180-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5ZSGxKZFNBdGU4NjFRUktQY3JIRXA0ZkdqdzNZdk5kRlJnV0pIQkJFK2xVaGRqTTZ0NXNycDVIY3dHcm5aTnF3UHR5MlE2WmdyaTZFWDBkUzZsREFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTkwMzc2CWZpbGU6Tm92c2t5LTAuMS4xODAtd2luZG93cy14NjQtc2V0dXAuZXhlClBIcXIyOUNPd3Ftam55VFp3bjFZR3M0SDNHMVgyVmowTUQ3aDlBb0RkWGN0QUs0aXVFdTNlOUZDK1VQdjJwdDIvZ0RWaWdRd1RES0YrZUNnNWJIZkFBPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.181/Novsky-0.1.181-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnM2eXppdmZlaHZaOFE1dnorYjkzQnA4WGVzZHBCZDVFOXZxck5ZWVdnaWZ1YW9rVWcxQ2FFZFZubTBYWVcwVkQ4S1gzSnlwQzljV1lvNWtEcmd0SWdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE3NTYzCWZpbGU6Tm92c2t5LTAuMS4xODEtd2luZG93cy14NjQtc2V0dXAuZXhlCnNSY2JWVktHRDFHQ3FweDljOVJlcXlrVXNtQ1pkUlA3VXYwZGRoV0RmbjQxdUwxRTJ1c0hWT0VJejdPTXF0enNSbEJBMGxSZ3o5U3ZGVDFXdzlzakNnPT0K"
     }
   }
 }
