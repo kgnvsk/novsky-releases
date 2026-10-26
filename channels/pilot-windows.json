@@ -1,11 +1,11 @@
 {
-  "version": "0.1.182",
-  "notes": "# Novsky 0.1.182\n\nСуперагент на Mac виконує окремі фонові задачі через Claude Code: працює з файлами, командами, навичками й підключеними інструментами. Можна продовжувати розмову, поки задачі працюють, уточнювати кожну окремо, призупиняти й отримувати готові файли.\n\nПісля виходу з Novsky задачі зберігаються для продовження. Ручна пауза залишається ручною; дія з невідомим результатом потребує перевірки перед повторенням. Зміна облікового запису або доступу до агента закриває попередній контекст.\n\nМіні-вікно зберігає розмову та чернетки, показує задачі й повертається до попереднього розміру. Інтеграція з наявними агентами збережена. Повний локальний виконавець наразі доступний лише на Mac; керування браузером і застосунками буде окремим наступним етапом.\n\nРантайм та оновлення Codex-агентів у цьому випуску не змінювалися.\n",
-  "pub_date": "2026-10-26T15:47:54.584Z",
+  "version": "0.1.183",
+  "notes": "Суперагент тепер можна викликати поверх іншого застосунку на Mac: Control+Option+Space або натисканням іконки Novsky у рядку меню. Приховування зберігає чернетку й не зупиняє фонові задачі; кнопка «У Novsky» переносить розмову, текст і файли у повне вікно.\n\nУ повному чаті правий сайдбар «Фонові задачі» можна згортати й розгортати. Порожній сайдбар спочатку згорнутий, а твій вибір запам’ятовується.\n",
+  "pub_date": "2026-10-26T19:41:21.425Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.182/Novsky-0.1.182-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnB0YkVVcGM4NGgxVERwR01XSnJkT1ZOM3lpWEJVKzlKaWFTMnphTHdXem9ZR0V2dUc4R0FzaXIzOVluYVhoeUNiL3FzVjIrL1hrZDlyMXQ2MWV6WGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDI5NjQxCWZpbGU6Tm92c2t5LTAuMS4xODItd2luZG93cy14NjQtc2V0dXAuZXhlCnU5OEV2Mk13THhOQkZLT3diOXN4b0RKdGlxTWdnWW1jb0Qya3NuTFhuaHdWR1htRlBCSWtoTEJaSmZ4T2pwTVF6VzI0T3BxL1FqUGthVW1wR1ZDc0FBPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.183/Novsky-0.1.183-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNOYlBqSUdpQXYrN252eTlwNDJ5dlhEcTNqUGoxMkVseUVqTnhOVXZGeS9JYUhSSVBnR1RrZmpacE5xeDVMMkdVVXRQeWVlUk0xOXFrN3RkME03NUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDQzNjE1CWZpbGU6Tm92c2t5LTAuMS4xODMtd2luZG93cy14NjQtc2V0dXAuZXhlClVpdkpPMzI2ZkVxMlo3RjBWcGFmZkJEOWcxTkVrUTRBS1FNbXRiZHhtZTREZkVON0JQNC9SUGdYRTlmUkJIUEpSQmh0UDRYQVpPZ3hnaHdTNUZUcENRPT0K"
     }
   }
 }
