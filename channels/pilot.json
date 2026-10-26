@@ -1,15 +1,15 @@
 {
-  "version": "0.1.183",
-  "notes": "Суперагент тепер можна викликати поверх іншого застосунку на Mac: Control+Option+Space або натисканням іконки Novsky у рядку меню. Приховування зберігає чернетку й не зупиняє фонові задачі; кнопка «У Novsky» переносить розмову, текст і файли у повне вікно.\n\nУ повному чаті правий сайдбар «Фонові задачі» можна згортати й розгортати. Порожній сайдбар спочатку згорнутий, а твій вибір запам’ятовується.\n",
-  "pub_date": "2026-10-26T19:37:36.868Z",
+  "version": "0.1.184",
+  "notes": "Віджет Суперагента тепер відкривається як компактна панель із системним склом macOS. Попередні відповіді та джерела залишаються в повній розмові.\n\n- Поле запиту, голос і вкладення доступні одразу.\n- Поточна відповідь розгортається за потреби та згортається назад.\n- Якщо сховати панель під час роботи, результат буде доступний після повернення.\n- Виправлено стискання панелі та залишки відкритих джерел після закриття.\n\nІсторія, чернетки, вкладення та інтеграції з агентами збережені. Рантайм Codex не оновлюється.\n",
+  "pub_date": "2026-10-26T21:17:48.154Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.183/Novsky-0.1.183-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZMMHJCNktGMTdBMEsyK2VYZVlGcjVHWTYraTFnMlRCK3Y0TDQyRFdWYXZkYTBaNzRVQ1Npa3U4M2xyaFc0RXdZVWF4ZGUvR0QwTlo4MndlT3cxV0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDQyOTQzCWZpbGU6Tm92c2t5LTAuMS4xODMtYXJtNjQuYXBwLnRhci5negplaGxIR2xaSGpVRmt5UlVLT3ZvMnIxb3ZZUEJuSXJFRXVObm9LT3ZBS0JveDVwNFFubjRqRlZCYXd4N1lORmR5QWYrdXA2Q2FrWjlLa3dVNUpoNHhCUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.184/Novsky-0.1.184-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRlQkg2RVdkMWpGZjFteWhyNTh1QnpWVFk5N05zcWI2RmFXSGxCNFRGOFpVandDUlRma0tBSnhyZDRERmdRaEtTaU9DMnBlMjlxdzFleERCWlV5dHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDQ5MTE0CWZpbGU6Tm92c2t5LTAuMS4xODQtYXJtNjQuYXBwLnRhci5negpMcUljZWx0T2VwNDdCbEZwSjkrVDN4R2dyNkE1NjFDNXMxVG9YVGl5KzM0UXpHTkhNbVBSWllYQWVoQWpKSTljOHJNVE45ZUtQVldoQzJvdGFHak9DQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.183/Novsky-0.1.183-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmttRGQyMlZXSkx5OExvYjcrc0NhN3UzbytMZ3JuWkpqV1U0MFRmUDFNY0RGOW1uR2dmS2pUSEpTM05zSlpVWEErMUVkZHpRUlh0bVdqdDRTREEzZ3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDQzMDQ5CWZpbGU6Tm92c2t5LTAuMS4xODMteDY0LmFwcC50YXIuZ3oKcDFaMDB2M0RmSDQ4R1hIdUNyVEJic0lwQzBvSEdMQUIyTERMT1kwS0QrbHdTSG4xeDJQZmRWTjNEWkNmbENiT2dIckhiU3Vwb3BFbW1la1pMK05QQVE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.184/Novsky-0.1.184-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnVjTjNyQ1Y3akhBUTVKRTJnNm9KVEpMTXM0elR1NThFTWkzekljNFdRRnNuZ2c4Mm5meFVjZmJYaXN0Z2IvQXh6WTdreFc2OHdhdXdPUlloWXorSXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDQ5MzA0CWZpbGU6Tm92c2t5LTAuMS4xODQteDY0LmFwcC50YXIuZ3oKUVZUU3NNVmxwc0tsMlZ0MWNhTHhLTy84RGZHUkVUL1QvcnZ2Y0xuaDhTWXRsQ3NMQjJtdWlyMExrd05peFpwdkR2L1M3NHlVM2k2b1lsNkhIZ1FUQUE9PQo="
     }
   }
 }
