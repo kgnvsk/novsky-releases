@@ -1,11 +1,11 @@
 {
-  "version": "0.1.179",
-  "notes": "Novsky 0.1.179\n\n- Завдання, яке керівник передає агенту своєї окремої гілки, тепер може шукати в пам'яті цього агента: пошук більше не падає через заблокований файл індексу.\n- Керівник окремої гілки знає, що нагадування агенту під ним можуть повторюватися: з інтервалом, часовим поясом, тихими годинами й кінцем. Окреме виконання завдання не має власного планувальника, тому нагадування ставляться через гілку.\n- Спільна команда сервера й агенти Codex не змінюються: оновлюється лише окрема гілка.\n- Містить усе з 0.1.178.\n",
-  "pub_date": "2026-10-25T04:32:48.344Z",
+  "version": "0.1.180",
+  "notes": "У підлеглих Claude-агентів прибрано обмеження у 30 кроків, через яке великий аналіз файлів міг обриватися без підсумку. Скасування завдання, ізоляція та чинний часовий контроль збережені. Рушій Codex не змінюється.\n",
+  "pub_date": "2026-10-26T04:53:22.686Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.179/Novsky-0.1.179-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFQaVk3MWhDVktRQTBsZmZMMjREaGdOb1pFbGpoamlFaFdPOXdieFN5SGNNVjZpb3V2anNudDU3andGR2IwOVZid09ob1NpS3hLNUFCLzRrbHpSeHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTAyNzE3CWZpbGU6Tm92c2t5LTAuMS4xNzktd2luZG93cy14NjQtc2V0dXAuZXhlCnVGa1pzYTNmQWRPcXUvVGZzVjZoazFzK2loRnVTTERSSjZCaTBDelRqSDM2ZnhzeXpWNlZWMlY1SVNDd3BQVm1lTkJUVXFHZmF4TjFGaTVGZWdRMEF3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.180/Novsky-0.1.180-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5ZSGxKZFNBdGU4NjFRUktQY3JIRXA0ZkdqdzNZdk5kRlJnV0pIQkJFK2xVaGRqTTZ0NXNycDVIY3dHcm5aTnF3UHR5MlE2WmdyaTZFWDBkUzZsREFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTkwMzc2CWZpbGU6Tm92c2t5LTAuMS4xODAtd2luZG93cy14NjQtc2V0dXAuZXhlClBIcXIyOUNPd3Ftam55VFp3bjFZR3M0SDNHMVgyVmowTUQ3aDlBb0RkWGN0QUs0aXVFdTNlOUZDK1VQdjJwdDIvZ0RWaWdRd1RES0YrZUNnNWJIZkFBPT0K"
     }
   }
 }
