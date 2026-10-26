@@ -1,15 +1,15 @@
 {
-  "version": "0.1.181",
-  "notes": "Novsky 0.1.181 дозволяє серверним агентам Claude завершувати довгі доручення без обмеження на 30 кроків або 15–16 хвилин. Задача продовжується до результату, скасування чи помилки виконання. Черга довгих доручень зберігається.\n\nОновлення стосується серверних команд Claude. Поточні агенти Codex і їхній опублікований рантайм збережені. Для macOS це pilot зі штатною підписаною доставкою оновлень, без нотаризації Apple.\n",
-  "pub_date": "2026-10-26T12:24:58.297Z",
+  "version": "0.1.182",
+  "notes": "# Novsky 0.1.182\n\nСуперагент на Mac виконує окремі фонові задачі через Claude Code: працює з файлами, командами, навичками й підключеними інструментами. Можна продовжувати розмову, поки задачі працюють, уточнювати кожну окремо, призупиняти й отримувати готові файли.\n\nПісля виходу з Novsky задачі зберігаються для продовження. Ручна пауза залишається ручною; дія з невідомим результатом потребує перевірки перед повторенням. Зміна облікового запису або доступу до агента закриває попередній контекст.\n\nМіні-вікно зберігає розмову та чернетки, показує задачі й повертається до попереднього розміру. Інтеграція з наявними агентами збережена. Повний локальний виконавець наразі доступний лише на Mac; керування браузером і застосунками буде окремим наступним етапом.\n\nРантайм та оновлення Codex-агентів у цьому випуску не змінювалися.\n",
+  "pub_date": "2026-10-26T16:11:28.517Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.181/Novsky-0.1.181-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmg5VUgrY05vaXhtcS9XQVRLMHNhRkJ3dVpuYndJL0lqSTJ6SlgvOUhmNStyTjFGZDVCZ1BnS3pDUHoxWDc4ZTFiUUoydHFEL3hGVzZISFpxWmhhdHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE2Mzc2CWZpbGU6Tm92c2t5LTAuMS4xODEtYXJtNjQuYXBwLnRhci5negp5YnhlODQ2R095RzNTM3d0SllQSi9NM1BuVDdZS0h0TDN2YmpvcDJFNXRiTGIrVXJRUFErZVRnOHJWZFdKSStsYTl1TFZNN2xkYm1ZUlVoeDdBaUdBZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.182/Novsky-0.1.182-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnV3ZndhbGhoSmZpTkljU05GVG4yQ2RwMkNvNWhhVTFiOUE1dEx0d1Fvd3hERVY1bG90b0JoaFUwK0xaQ1NaMTJWMHo1aFo4bzVWQ3B6THM1MHpzYVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDMwMTM5CWZpbGU6Tm92c2t5LTAuMS4xODItYXJtNjQuYXBwLnRhci5nego2VFU1ckNPMVlLQitaT2ZMNWlJMTllUW9IeGJlYlR0a3RRa1hHZzVJbDJ3YzB6NGNCUDczVGp4TnBDWll3N2szenZNR2J5Qjhqa0ZCQVFVWllaZWxEZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.181/Novsky-0.1.181-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtsc3ExbDNESHowUzlBaUNta1k1WFkyOEVYd2N3WnJHTHp1TkFuaVZmQ1VSdU1ac2hVZ2wzSmhkdDJpR3FBaVVMWmN5dEhoZGE4eFFYQzEzdSt6NlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE2NDg0CWZpbGU6Tm92c2t5LTAuMS4xODEteDY0LmFwcC50YXIuZ3oKTGtZelJOYklkbEhBbHVER0kwRURkc25zNmZrRk1IcmxVWG9iL3dNbGxFMC8yUE9IZ1BVTTE1Si9RRmlkbXNLeC95YnBZRnVnTERTR3UrMzNkMUR3QWc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.182/Novsky-0.1.182-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmkzN3l1eHdpQnM0aENLQk9pRitKSlNFdHlPTjFiK1I3MzBWN3hvRTdNbUdXTmxFOEg4WS9VVjNCdzkwaUJwT0VVRW5yRW4xeThTbGRpTjNwa0FwS3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDMwMzk3CWZpbGU6Tm92c2t5LTAuMS4xODIteDY0LmFwcC50YXIuZ3oKY3cvMW9mdSt4TllwbXpORmNxMXVxV2NPUTBFZHE1T1BZL2tHa3d4RVpXbVVmbzY1clVxSXVPRjV4aUk2WlF4cG1CTnh0S0xveFpnNWQ2N0swcEtOREE9PQo="
     }
   }
 }
