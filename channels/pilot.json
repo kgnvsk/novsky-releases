@@ -1,15 +1,15 @@
 {
-  "version": "0.1.180",
-  "notes": "У підлеглих Claude-агентів прибрано обмеження у 30 кроків, через яке великий аналіз файлів міг обриватися без підсумку. Скасування завдання, ізоляція та чинний часовий контроль збережені. Рушій Codex не змінюється.\n",
-  "pub_date": "2026-10-26T04:50:35.027Z",
+  "version": "0.1.181",
+  "notes": "Novsky 0.1.181 дозволяє серверним агентам Claude завершувати довгі доручення без обмеження на 30 кроків або 15–16 хвилин. Задача продовжується до результату, скасування чи помилки виконання. Черга довгих доручень зберігається.\n\nОновлення стосується серверних команд Claude. Поточні агенти Codex і їхній опублікований рантайм збережені. Для macOS це pilot зі штатною підписаною доставкою оновлень, без нотаризації Apple.\n",
+  "pub_date": "2026-10-26T12:24:58.297Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.180/Novsky-0.1.180-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmp4WXJiUU9RTk5Wd2Q5anppM250NG9maEw5WVl3c0U0bVJDNFpBOVhqeEdZWFdIOGVRTGNtM0VrNW90NE9XOURCK2wvcTNzZXFnR2VSYnZvMzVKMGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTg5Mzk1CWZpbGU6Tm92c2t5LTAuMS4xODAtYXJtNjQuYXBwLnRhci5negpJYlFGb2wyVUc1eURuanFiZW9GcElkQk5XQVNELzNLb0UvVjU5MDBwNkpQMlV4QmFyVkVPTitDS1EzeWVOSWVINVgybU04R3RtYlI3NjVxai9QVDlDUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.181/Novsky-0.1.181-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmg5VUgrY05vaXhtcS9XQVRLMHNhRkJ3dVpuYndJL0lqSTJ6SlgvOUhmNStyTjFGZDVCZ1BnS3pDUHoxWDc4ZTFiUUoydHFEL3hGVzZISFpxWmhhdHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE2Mzc2CWZpbGU6Tm92c2t5LTAuMS4xODEtYXJtNjQuYXBwLnRhci5negp5YnhlODQ2R095RzNTM3d0SllQSi9NM1BuVDdZS0h0TDN2YmpvcDJFNXRiTGIrVXJRUFErZVRnOHJWZFdKSStsYTl1TFZNN2xkYm1ZUlVoeDdBaUdBZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.180/Novsky-0.1.180-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtHQUU1aytITEdXWFRlS1F3VmRZT1VxRUl1RXU1elNZd2dVTkorSnpleXd5Sm5xMStwZCtnMzFoNDRZYmFaY1F5L0ZldVk0d3Q1WTJOTU9tS3llM1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTg5NTAzCWZpbGU6Tm92c2t5LTAuMS4xODAteDY0LmFwcC50YXIuZ3oKMS93b2tMWlRVazJENUhySzhNRHo0QnV1dHdXTjVJdzBtbnBJTk1NSUIxQUhoSlNCeHJLUFpsSEpiK3NsSWpWb1g4c3pkNnpKSkFJWkZRcXo4NlBXRGc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.181/Novsky-0.1.181-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtsc3ExbDNESHowUzlBaUNta1k1WFkyOEVYd2N3WnJHTHp1TkFuaVZmQ1VSdU1ac2hVZ2wzSmhkdDJpR3FBaVVMWmN5dEhoZGE4eFFYQzEzdSt6NlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE2NDg0CWZpbGU6Tm92c2t5LTAuMS4xODEteDY0LmFwcC50YXIuZ3oKTGtZelJOYklkbEhBbHVER0kwRURkc25zNmZrRk1IcmxVWG9iL3dNbGxFMC8yUE9IZ1BVTTE1Si9RRmlkbXNLeC95YnBZRnVnTERTR3UrMzNkMUR3QWc9PQo="
     }
   }
 }
