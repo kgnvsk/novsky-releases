@@ -1,11 +1,11 @@
 {
-  "version": "0.1.184",
-  "notes": "Віджет Суперагента тепер відкривається як компактна панель із системним склом macOS. Попередні відповіді та джерела залишаються в повній розмові.\n\n- Поле запиту, голос і вкладення доступні одразу.\n- Поточна відповідь розгортається за потреби та згортається назад.\n- Якщо сховати панель під час роботи, результат буде доступний після повернення.\n- Виправлено стискання панелі та залишки відкритих джерел після закриття.\n\nІсторія, чернетки, вкладення та інтеграції з агентами збережені. Рантайм Codex не оновлюється.\n",
-  "pub_date": "2026-10-26T21:33:18.168Z",
+  "version": "0.1.187",
+  "notes": "Оновлення агентів Claude Code стало надійнішим:\n\n- Після звичайного оновлення китa Novsky сам перевіряє роботу моделі та відновлює відповіді співробітникам. Нове повідомлення власника не потрібне.\n- Запити, отримані під час оновлення, зберігаються і виконуються після нього.\n- Перерване з'єднання більше не залишає завершене оновлення на паузі. Відкат зберігає попередні налаштування.\n- Оновлено перевірку готовності нового Claude Premium-кита.\n- Виправлено тінь віджета на macOS.\n\nРантайм та встановлення агентів Codex у цьому випуску не змінюються.\n",
+  "pub_date": "2026-10-27T11:47:14.182Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.184/Novsky-0.1.184-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJhU2M1QTRvRkZ3SHhROXE2c0FhUk5QdFU4cnVtYndZNVJGRkQ0MWlDaEhTVHZQRUkyenprYTJ3eTN0eW5vc0pLMW5va2RSWmlpc24rSExCS2J3Z0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDUwMzA0CWZpbGU6Tm92c2t5LTAuMS4xODQtd2luZG93cy14NjQtc2V0dXAuZXhlClhWUGQ4ODNsWXRzV2FUbE1VajB2MDFRby9ISkU5MkxtYXlmN3pKSjZRQ2U5SW01b2lkd2ZkMmNPeDdKRDQ0V05iejBKVmxXNnpWMWRwL3VGZE5rWkR3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.187/Novsky-0.1.187-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZoOXpyL1JaQU81V0ptQkN0cmtYN1psbVRqUDVuTVNGKzVWRlZsdVZ2YUh0QmdNNnFZbEh3Tlh0WTlNdi81UHdEazE2M2podnJuM2lVMkdKd3VyOGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTAxNTA0CWZpbGU6Tm92c2t5LTAuMS4xODctd2luZG93cy14NjQtc2V0dXAuZXhlCm9kR3ZoTmYyd3RhaUlVZGhsUExWb1l4QytYSUhHVlZCUEduNUltTjZSeDJDU2hDTGZhQmhQSTVobU1qdWJudFd5T0pIR1pyYzVKTU5GYTVEbjhqSURRPT0K"
     }
   }
 }
