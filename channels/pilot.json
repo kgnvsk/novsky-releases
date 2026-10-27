@@ -1,15 +1,15 @@
 {
-  "version": "0.1.185",
-  "notes": "Віджет Суперагента можна перетягувати за назву, ядро та вільне місце в заголовку. Вибрана позиція зберігається для кожного дисплея та відновлюється після перезапуску; зміна висоти відповіді більше не центрує панель. Вимкнений зовнішній прямокутний контур фокуса WebView, підсвітка окремих елементів збережена.\n",
-  "pub_date": "2026-10-26T22:49:01.946Z",
+  "version": "0.1.187",
+  "notes": "Оновлення агентів Claude Code стало надійнішим:\n\n- Після звичайного оновлення китa Novsky сам перевіряє роботу моделі та відновлює відповіді співробітникам. Нове повідомлення власника не потрібне.\n- Запити, отримані під час оновлення, зберігаються і виконуються після нього.\n- Перерване з'єднання більше не залишає завершене оновлення на паузі. Відкат зберігає попередні налаштування.\n- Оновлено перевірку готовності нового Claude Premium-кита.\n- Виправлено тінь віджета на macOS.\n\nРантайм та встановлення агентів Codex у цьому випуску не змінюються.\n",
+  "pub_date": "2026-10-27T11:30:33.998Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.185/Novsky-0.1.185-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnVRVnphRDZIZGNjc2ROMWNDWVBYVk5vRyt6TVdFN0pDVkxtWFFmOHVDUVVKaXlpdGdBcjB2b1NZRnQxMzlNNGswSzBhbDZOM0gybjAzQlZlZUhXUXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDUzNzcxCWZpbGU6Tm92c2t5LTAuMS4xODUtYXJtNjQuYXBwLnRhci5negovSi8wbmdHczJDeGE4anZENkVkVnhvL21HQU9TdTVjZXFoS3FpbHIrUHZTbFgxVThKRHJTT0ZCMkxURXMwL2xVYXJQbE1QRGY3N1JnbjJZaGJXakJEZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.187/Novsky-0.1.187-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmg5R0ZwQ2tTeGZsRS9MTndHYUhDRzJRL0JhUWovZlBISlo1K2ZQSlg5QmxvcUswTXoybHRnTG54ZVhSVzZ0aE9Md21Qei9jNUtjR1R6NzNPRVhhcndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDk5MzAyCWZpbGU6Tm92c2t5LTAuMS4xODctYXJtNjQuYXBwLnRhci5negpTMFpyYnhhdmlDdlo3QjRmWnE3bHF6QmloUFYyVVk2TFFaeUc0OWZUbWZDbWYvODlEQXNHZmRxbTlkYkY1cW05ZzlGRnM5VnRFTTlEZTIzT1NCaUxCdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.185/Novsky-0.1.185-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnN0VGRMUFZxVEhqbW5YL0hhMWxFd2Q1U3MzMDhMdVFoNFU4aVZER25pdGNkMEJyR21VeWVpL2FRN2M2aFlPSEdzYitaOVlybE5aa05ZQURDQ3JqcmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDU0ODcyCWZpbGU6Tm92c2t5LTAuMS4xODUteDY0LmFwcC50YXIuZ3oKa3ZkWWNhY0NUbnBjTysxVGk3K3pwODNKOEY5dENZb05xZVBwZXhPY0V5Ti9pZ0JZWVIzSlliTW1WVVpzTklOc3RuUDF5RyswZ1R0REVVeFZ2Y1RHQkE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.187/Novsky-0.1.187-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmwzZTYrUEhmNHVPTEwwMFZiODhzaFhoUVdhbmRkSnA3VzU2enhCa3huMlYrUFFlTkpWc09WeWx1ejVJc1FwRDZhRm4wcDgrem1Jc3kzeXpCOXAwamd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDk5NDUxCWZpbGU6Tm92c2t5LTAuMS4xODcteDY0LmFwcC50YXIuZ3oKckhNYWE5d096bXZMU0p5OEk2K2VjbmhNU2Z4aDNyM1Bic01pbDJBdnhWN3dIdUpZZElnbDFtUnFpd01LdDgzKzFiVDBEVWw1emtNZGczbHpZUkRZQlE9PQo="
     }
   }
 }
