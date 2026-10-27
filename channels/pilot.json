@@ -1,15 +1,15 @@
 {
-  "version": "0.1.187",
-  "notes": "Оновлення агентів Claude Code стало надійнішим:\n\n- Після звичайного оновлення китa Novsky сам перевіряє роботу моделі та відновлює відповіді співробітникам. Нове повідомлення власника не потрібне.\n- Запити, отримані під час оновлення, зберігаються і виконуються після нього.\n- Перерване з'єднання більше не залишає завершене оновлення на паузі. Відкат зберігає попередні налаштування.\n- Оновлено перевірку готовності нового Claude Premium-кита.\n- Виправлено тінь віджета на macOS.\n\nРантайм та встановлення агентів Codex у цьому випуску не змінюються.\n",
-  "pub_date": "2026-10-27T11:30:33.998Z",
+  "version": "0.1.188",
+  "notes": "Оновлення агентів на власному Telegram-сервері:\n\n- Novsky тепер правильно завершує оновлення агента, який працює через власний (локальний) Telegram Bot API для великих файлів. Раніше справне оновлення зависало на останньому кроці й чекало ручного завершення.\n- Хмарні агенти оновлюються так само, як і раніше.\n- Якщо Novsky на Mac не може запуститися, вікно тепер показує причину й кнопку повтору, а не висить на заставці.\n\nРантайм та встановлення агентів Codex у цьому випуску не змінюються.\n",
+  "pub_date": "2026-10-27T22:27:07.704Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.187/Novsky-0.1.187-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmg5R0ZwQ2tTeGZsRS9MTndHYUhDRzJRL0JhUWovZlBISlo1K2ZQSlg5QmxvcUswTXoybHRnTG54ZVhSVzZ0aE9Md21Qei9jNUtjR1R6NzNPRVhhcndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDk5MzAyCWZpbGU6Tm92c2t5LTAuMS4xODctYXJtNjQuYXBwLnRhci5negpTMFpyYnhhdmlDdlo3QjRmWnE3bHF6QmloUFYyVVk2TFFaeUc0OWZUbWZDbWYvODlEQXNHZmRxbTlkYkY1cW05ZzlGRnM5VnRFTTlEZTIzT1NCaUxCdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.188/Novsky-0.1.188-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRwZnJRZUVBOU1NbVJPMTUxQ2xPTldTUHgwcnVaK0lWUStQZlhvUXNLOXFWOENLWTdmbkc5bzJWa1FYOG1sTStRZjFYVGFYYmNSaGFXZHFRdVk3NXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTM5NTM2CWZpbGU6Tm92c2t5LTAuMS4xODgtYXJtNjQuYXBwLnRhci5negpJd29ienZ1ODEzNEw4NnR4VnNURk5vejZGdFBBVjM5VEhNUGhVV05seFFDSEdEOStnQi95N2FTUCs1dVhzM1I5azlaeWRXZTlrVUJjMU96RDNGVllDdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.187/Novsky-0.1.187-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmwzZTYrUEhmNHVPTEwwMFZiODhzaFhoUVdhbmRkSnA3VzU2enhCa3huMlYrUFFlTkpWc09WeWx1ejVJc1FwRDZhRm4wcDgrem1Jc3kzeXpCOXAwamd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDk5NDUxCWZpbGU6Tm92c2t5LTAuMS4xODcteDY0LmFwcC50YXIuZ3oKckhNYWE5d096bXZMU0p5OEk2K2VjbmhNU2Z4aDNyM1Bic01pbDJBdnhWN3dIdUpZZElnbDFtUnFpd01LdDgzKzFiVDBEVWw1emtNZGczbHpZUkRZQlE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.188/Novsky-0.1.188-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnR1dFVoampDY2lQM2lHQ2pDQy96bDZBZFd5R25GSG9ZeFlWZGVQUEZCVFZVQUt1d1dhZU1LUHdacDVvOVVYa2ZQNkFEWitVK3EvdkFqRzU2cTlTaUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTM5OTk2CWZpbGU6Tm92c2t5LTAuMS4xODgteDY0LmFwcC50YXIuZ3oKSG5ZSjgyREdSbHpnaUhNUEkxZWtIVTRpc2Fsbm52U1l0RDZkWDQzYjRaaytxdXQwWnBuQXJTQUo3aTNwT1VCOTFKOEx3Vm9mMlJlUEFMNi9EL25iREE9PQo="
     }
   }
 }
