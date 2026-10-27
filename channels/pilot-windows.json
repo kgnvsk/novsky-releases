@@ -1,11 +1,11 @@
 {
-  "version": "0.1.187",
-  "notes": "Оновлення агентів Claude Code стало надійнішим:\n\n- Після звичайного оновлення китa Novsky сам перевіряє роботу моделі та відновлює відповіді співробітникам. Нове повідомлення власника не потрібне.\n- Запити, отримані під час оновлення, зберігаються і виконуються після нього.\n- Перерване з'єднання більше не залишає завершене оновлення на паузі. Відкат зберігає попередні налаштування.\n- Оновлено перевірку готовності нового Claude Premium-кита.\n- Виправлено тінь віджета на macOS.\n\nРантайм та встановлення агентів Codex у цьому випуску не змінюються.\n",
-  "pub_date": "2026-10-27T11:47:14.182Z",
+  "version": "0.1.188",
+  "notes": "Оновлення агентів на власному Telegram-сервері:\n\n- Novsky тепер правильно завершує оновлення агента, який працює через власний (локальний) Telegram Bot API для великих файлів. Раніше справне оновлення зависало на останньому кроці й чекало ручного завершення.\n- Хмарні агенти оновлюються так само, як і раніше.\n- Якщо Novsky на Mac не може запуститися, вікно тепер показує причину й кнопку повтору, а не висить на заставці.\n\nРантайм та встановлення агентів Codex у цьому випуску не змінюються.\n",
+  "pub_date": "2026-10-27T22:18:13.094Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.187/Novsky-0.1.187-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZoOXpyL1JaQU81V0ptQkN0cmtYN1psbVRqUDVuTVNGKzVWRlZsdVZ2YUh0QmdNNnFZbEh3Tlh0WTlNdi81UHdEazE2M2podnJuM2lVMkdKd3VyOGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTAxNTA0CWZpbGU6Tm92c2t5LTAuMS4xODctd2luZG93cy14NjQtc2V0dXAuZXhlCm9kR3ZoTmYyd3RhaUlVZGhsUExWb1l4QytYSUhHVlZCUEduNUltTjZSeDJDU2hDTGZhQmhQSTVobU1qdWJudFd5T0pIR1pyYzVKTU5GYTVEbjhqSURRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.188/Novsky-0.1.188-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlkSHpCRmlmanBwb0ZFNndya0ZnTzNQTHo1NHRMaTV2aWd3bDdHT0hqNW9BM01ndVpMNmh5dWtNUGt3cmtKYnNiZjViV0FCQzJxL2JUcFREWDA0VVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTM5NDYzCWZpbGU6Tm92c2t5LTAuMS4xODgtd2luZG93cy14NjQtc2V0dXAuZXhlCjFOSmlyMWJDaEpJeCtHNWxEdFJuUS9jV1pqT2Qrc3R2dyt0cTBBV2x3V2FTeit2NDFBMXUyNG9CUjhCek1aUmovdzBmdU9IeUUrNzVuN0dKMUtQQkR3PT0K"
     }
   }
 }
