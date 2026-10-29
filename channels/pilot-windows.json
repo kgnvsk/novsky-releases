@@ -1,11 +1,11 @@
 {
-  "version": "0.1.188",
-  "notes": "Оновлення агентів на власному Telegram-сервері:\n\n- Novsky тепер правильно завершує оновлення агента, який працює через власний (локальний) Telegram Bot API для великих файлів. Раніше справне оновлення зависало на останньому кроці й чекало ручного завершення.\n- Хмарні агенти оновлюються так само, як і раніше.\n- Якщо Novsky на Mac не може запуститися, вікно тепер показує причину й кнопку повтору, а не висить на заставці.\n\nРантайм та встановлення агентів Codex у цьому випуску не змінюються.\n",
-  "pub_date": "2026-10-27T22:18:13.094Z",
+  "version": "0.1.189",
+  "notes": "Novsky Agent V2:\n\n- Novsky знає новий кит Novsky Agent (V2): агенти, оновлені до нього, показуються готовими до підключень, а не «потрібне оновлення». Агенти на попередніх китах теж лишаються готовими.\n- Файли між агентами Claude передаються цілими, будь-якого розміру й кількості: без обмеження в 5 файлів і 50 МБ.\n\nРантайм та встановлення агентів Codex у цьому випуску не змінюються.\n",
+  "pub_date": "2026-10-29T06:59:20.170Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.188/Novsky-0.1.188-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlkSHpCRmlmanBwb0ZFNndya0ZnTzNQTHo1NHRMaTV2aWd3bDdHT0hqNW9BM01ndVpMNmh5dWtNUGt3cmtKYnNiZjViV0FCQzJxL2JUcFREWDA0VVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTM5NDYzCWZpbGU6Tm92c2t5LTAuMS4xODgtd2luZG93cy14NjQtc2V0dXAuZXhlCjFOSmlyMWJDaEpJeCtHNWxEdFJuUS9jV1pqT2Qrc3R2dyt0cTBBV2x3V2FTeit2NDFBMXUyNG9CUjhCek1aUmovdzBmdU9IeUUrNzVuN0dKMUtQQkR3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.189/Novsky-0.1.189-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnVFSTI3NW9Oemw5VDFkcStmeTRqNWFENERHOGs1TWMxR3hTbmwvakY3YjNreENnZUY2NE1MWGN2aFB1UXZLRkg0Zzc2V2c1WmJIMnFoTlcxM1p3RmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjU3MTM0CWZpbGU6Tm92c2t5LTAuMS4xODktd2luZG93cy14NjQtc2V0dXAuZXhlClp3aVZvSVhlUFRzb0NVS0lwTUN3ZUlPcFE1ampxTmk4UVZ4eTE5cUVzZFUwM0pUR3JQL1JzR1A4eFVObkNjTGVCQnk5WVE1V0FmT2xqWXZsV2VTTENnPT0K"
     }
   }
 }
