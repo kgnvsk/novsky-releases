@@ -1,11 +1,11 @@
 {
-  "version": "0.1.190",
-  "notes": "Оновлення кита для агентів з WhatsApp:\n\n- «Оновити кит» більше не відкочується на агентах, у яких підключено особистий WhatsApp. Міст WhatsApp сам не завершується, тож оновлення чекало на нього, доки не спливав час. Тепер у вікні оновлення міст коректно зупиняється, а після оновлення перевірка стану агента запускає його знову з тією самою сесією WhatsApp.\n- Секретар особистих переписок, як і раніше, не зупиняється: поки він працює, оновлення не починається.\n\nРантайм та встановлення агентів Codex у цьому випуску не змінюються.\n",
-  "pub_date": "2026-10-30T00:47:27.335Z",
+  "version": "0.1.191",
+  "notes": "Делеговані завдання між агентами Claude Code:\n\n- Помічник, якому агент передає важке завдання (наприклад, монтаж відео з великого вихідника), більше не обривається на 2 ГБ пам'яті. Усі помічники разом, як і раніше, обмежені половиною пам'яті сервера, тож самі агенти завжди мають другу половину.\n\nПомічники агентів Codex і їхні обмеження в цьому випуску не змінюються.\n",
+  "pub_date": "2026-10-30T03:26:06.612Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.190/Novsky-0.1.190-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmcxRi9qY1c3eGZhcVh6Y3BjMmpWVGhtWFFEWUxiZGlSTUNMUVNoamhNVEs2WFBJVTNFZkMyY2VnUkJxZ21acnRjOWZYWXlQSzJQZ3QvcTVObVZsZ2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzIxMjIzCWZpbGU6Tm92c2t5LTAuMS4xOTAtd2luZG93cy14NjQtc2V0dXAuZXhlCldBUi9wUWorUnczemd1eHovcGk3b2tGK0JjMFRzUlpFL09SRUNOKytleDQ1ZXVmLzI2RmJLSHJ0eHhmdHVDVzZNbjRtU2dKakV4cWFCWWFWb3BPekJRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.191/Novsky-0.1.191-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxDNGloQmxYclVSM1RaaUdlOU9TNWhOL1lWNnNUenc5TG1pTGN2L2preWlteEtFYjdYRmtianBRTi9zMmpiRGRiWmZwc01oR1lmdzFDOEhnRzhoTlE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzMwNzE5CWZpbGU6Tm92c2t5LTAuMS4xOTEtd2luZG93cy14NjQtc2V0dXAuZXhlCk01THVqMjFiekpNTnh1WlpKdGVvbWxITEZMazJHOWV2TWI3UERUSHlDUHllMmJQa0RteVRjYjZheHhGTk1ZY0ZKRU8yQ1RJemRSUHJmL1BoOGpPYUJnPT0K"
     }
   }
 }
