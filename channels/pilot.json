@@ -1,15 +1,15 @@
 {
-  "version": "0.1.191",
-  "notes": "Делеговані завдання між агентами Claude Code:\n\n- Помічник, якому агент передає важке завдання (наприклад, монтаж відео з великого вихідника), більше не обривається на 2 ГБ пам'яті. Усі помічники разом, як і раніше, обмежені половиною пам'яті сервера, тож самі агенти завжди мають другу половину.\n\nПомічники агентів Codex і їхні обмеження в цьому випуску не змінюються.\n",
-  "pub_date": "2026-10-30T03:07:50.778Z",
+  "version": "0.1.192",
+  "notes": "Оновлення агентів з корпоративним режимом:\n\n- Оновлення кита, яке перервали посеред вікна й повторили пізніше, більше не застрягає. Повтор поновлює паузу перезапуску перед встановленням ядра, тож кит не відмовляє через прострочену паузу.\n- Якщо оновлення вже зупинилося в безпечному стані, «Оновити кит» тепер робить те, що просить саме повідомлення: відкочує його або доводить до кінця, а не повторює стару помилку на етапі «Ядро агента».\n- Відкат більше нічого не відновлює зі знімка, поки служба агента працює або має заплановане завдання: це перевіряється під тим самим замком, під яким сторожі вирішують перезапуск.\n\nРантайм та встановлення агентів Codex у цьому випуску не змінюються.\n",
+  "pub_date": "2026-10-30T11:44:34.296Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.191/Novsky-0.1.191-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRBYXdPOVk4L0hKM0NxS3d2aXE2aUM3Z250WHFZVFZ2NDBBKzhpQ25Xc1hiUWg2eDhYcUd3TG1kcHpzdFRmOWs2cEJCNHIxQ3BTb0h0ZmxYNlRCVFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzI5NTM5CWZpbGU6Tm92c2t5LTAuMS4xOTEtYXJtNjQuYXBwLnRhci5nego4WGZPclZJU212MTVIVU03TEI5RWVqbnRjOHMyUTF3NmJ0emErYnozNm5UOC9HR20zTzR4TmRXcFlmTFhFSytmOTZTMElPNWtFbGpZNFhzaWE3NStDQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.192/Novsky-0.1.192-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFsOWl1bzVhcXM3eTBOY2hDSC9SVjRGOHRSSEpxUGR0eXFSYmhiTFpLVXc0YStmN3Q1OWRjTWpISnd5RWV5alE3QnBxWmc5ajBBR0JLN01xNDMyb3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzYwNTUzCWZpbGU6Tm92c2t5LTAuMS4xOTItYXJtNjQuYXBwLnRhci5negpyNWVhSHZnVXhJbHpMNGdqQ3NJSFBEQityNEQxZ0hjc2RDd1NEcW9DbUs5dXFJVGhOeDhob2lTYWdKV2ZsdVg4cWFjQ3doamJYcnA5RUdLTWQ4ZXRDQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.191/Novsky-0.1.191-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9DcTAyKzIrVVZSSUNTY3lscWMzdG50bWVOVnp1eU1CV3lkTWo5UXJIL3QySVBEbXZNRlVISmp4MVVVRG5qK0dvQUM3WHNnalhNYlFwV2E2R2N2Z2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzI5NjUxCWZpbGU6Tm92c2t5LTAuMS4xOTEteDY0LmFwcC50YXIuZ3oKbW5oY3VTQ1ZuSlYyVVNVMDlzWVBHcHg2N3pIVU9aV2NlbmdBUmRXcllEdlJoYWhsY0dKbnI5bWJZVVluOHR6eDFQZ1Q4cFRVVGdOOTZRMlBic0ZFRFE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.192/Novsky-0.1.192-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9rZC94bjZkQnUwRlhlb0lFZHVHM2JzdUZ1Zkttb0xPZ0lha2MwbW5qWVJpRkthem9sZERvZWpFa096OXNDMjBJUmpQaWlJTnFSNS9OOVN1eGQ3eWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzYwNjM5CWZpbGU6Tm92c2t5LTAuMS4xOTIteDY0LmFwcC50YXIuZ3oKbUpFTDgvSWw4Q3pFTnQ1SzgvN285SzdTdkxTaU9aYUxwZnlvcCtLOWxTVGtEbklvZWJjdG1jdG0rdUw3Z2tvWFdMTnBOcmF0dUlTZThGTklRVkxhQnc9PQo="
     }
   }
 }
