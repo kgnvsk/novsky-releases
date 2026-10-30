@@ -1,11 +1,11 @@
 {
-  "version": "0.1.191",
-  "notes": "Делеговані завдання між агентами Claude Code:\n\n- Помічник, якому агент передає важке завдання (наприклад, монтаж відео з великого вихідника), більше не обривається на 2 ГБ пам'яті. Усі помічники разом, як і раніше, обмежені половиною пам'яті сервера, тож самі агенти завжди мають другу половину.\n\nПомічники агентів Codex і їхні обмеження в цьому випуску не змінюються.\n",
-  "pub_date": "2026-10-30T03:26:06.612Z",
+  "version": "0.1.192",
+  "notes": "Оновлення агентів з корпоративним режимом:\n\n- Оновлення кита, яке перервали посеред вікна й повторили пізніше, більше не застрягає. Повтор поновлює паузу перезапуску перед встановленням ядра, тож кит не відмовляє через прострочену паузу.\n- Якщо оновлення вже зупинилося в безпечному стані, «Оновити кит» тепер робить те, що просить саме повідомлення: відкочує його або доводить до кінця, а не повторює стару помилку на етапі «Ядро агента».\n- Відкат більше нічого не відновлює зі знімка, поки служба агента працює або має заплановане завдання: це перевіряється під тим самим замком, під яким сторожі вирішують перезапуск.\n\nРантайм та встановлення агентів Codex у цьому випуску не змінюються.\n",
+  "pub_date": "2026-10-30T11:57:43.907Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.191/Novsky-0.1.191-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxDNGloQmxYclVSM1RaaUdlOU9TNWhOL1lWNnNUenc5TG1pTGN2L2preWlteEtFYjdYRmtianBRTi9zMmpiRGRiWmZwc01oR1lmdzFDOEhnRzhoTlE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzMwNzE5CWZpbGU6Tm92c2t5LTAuMS4xOTEtd2luZG93cy14NjQtc2V0dXAuZXhlCk01THVqMjFiekpNTnh1WlpKdGVvbWxITEZMazJHOWV2TWI3UERUSHlDUHllMmJQa0RteVRjYjZheHhGTk1ZY0ZKRU8yQ1RJemRSUHJmL1BoOGpPYUJnPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.192/Novsky-0.1.192-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnVSb2JQQnlEQUpWUGorWHNmbE9GZ0FGS2tUMnF1SmFwQm1SNG9NZkgwbnFyWG5yUmZVNU5aVlJ0d3VEaGtNa2UyeHoyZ0xPOUQ0ME1ldG9lbTJqY1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzYxNDM4CWZpbGU6Tm92c2t5LTAuMS4xOTItd2luZG93cy14NjQtc2V0dXAuZXhlCmVTejRXRjZ4N1VNV3E2UVB1RVd4QUZsbkdxUnFuUEl5MUhsblFHSEdZNWJhVDFrb1NpaXhOSWNZQmpRNVI5bjhYOUNxdDhxQ0xNVUdjdXNqOEF4Q0JBPT0K"
     }
   }
 }
