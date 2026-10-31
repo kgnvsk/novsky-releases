@@ -1,15 +1,15 @@
 {
-  "version": "0.1.193",
-  "notes": "Novsky 0.1.193\n\n- Якщо сервер пускає лише за SSH-ключем, Novsky так і скаже й підкаже, як увійти, замість «Сервер не прийняв пароль».\n- У майстрі встановлення й на екрані повтору є поле «SSH-ключ»: можна увійти своїм приватним ключем, нічого не змінюючи в налаштуваннях SSH на сервері. Novsky входить ним один раз, одразу додає на сервер свій ключ і далі входить ним. Твій ключ Novsky не зберігає.\n- Якщо сервер не прийняв пароль root, підказка нагадує, що на Ubuntu вхід root за паролем часто вимкнено, і пропонує користувача з правами sudo або ключ.\n- Сервер, який вимагає одразу і ключ, і пароль, Novsky називає прямо й нічого на ньому не запускає.\n- Містить усе з 0.1.192.\n",
-  "pub_date": "2026-10-30T22:46:27.444Z",
+  "version": "0.1.194",
+  "notes": "Novsky 0.1.194\n\n- Другий агент на тому самому сервері з китом V2 встановлюється без браузера й більше не зупиняє та не перезапускає основного агента. Раніше його встановлення перезапускало основного бота й падало на перевірці браузера.\n- Якщо встановлення повторюють пізно, коли вхід у Claude вже майже закінчився або закінчився, Novsky спершу продовжує вхід, як це робить кит, а не повторює без кінця «Вхід у Claude саме оновлюється».\n- Новий ключ Novsky для сервера видаляє старий ключ лише зі своєї папки ключів, ніколи з чужої.\n- Містить усе з 0.1.193.\n",
+  "pub_date": "2026-10-31T05:04:38.484Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.193/Novsky-0.1.193-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnF2RHp2M3czdHdUQmMwcUVQcXFjOFNsNTUySS9xblFJd2JMTUEySDJmSk9TYnFML05XdTJudHlJM2JrdmNwTzF0S2RTckxPbG4vUVltdzcwZVY3ZkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDAwMTYzCWZpbGU6Tm92c2t5LTAuMS4xOTMtYXJtNjQuYXBwLnRhci5negpEbURNUWliSkhDc1pobTNvU0xDUjNvYXNQWmNFdXhEc0M1Wktab3UvSmUwVkdMaXNwY05sV1FmRHF6TFNHbjVRQk1WbGNVOXROTmJ0aytmQmozeWdCZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.194/Novsky-0.1.194-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmx5Y205cE5jMlI4QnhGS2g4WG9pcUxOVWdEVEpxbFE5b21xOWd6KzZKN2tXT1gvN0U4ay9acE5MS3NueWFSWVN5YjdmK3A0aEVoTHhGa2x3aTdBb2dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDIyOTI4CWZpbGU6Tm92c2t5LTAuMS4xOTQtYXJtNjQuYXBwLnRhci5negpneTlXYWgrblhGaXAva1hsQUR0VlhPQzkwazh4VTBMSzh4SW1ycUlIeFJLTElpWnk5c0N6Wm9ZT2hmbDg3UWwxU2RLUnQ2M0xuYkljL3BKODB2OGhCQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.193/Novsky-0.1.193-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmt4eWlnVTZmd1JTMkpUQVdhcWJXOUJjT0k1Q0FzdU5jeGFGdnBMbUxKMlV5UTA0c0pOUHU3U1RVSkdsOXZLbXVQM1RNZWZPWGF2OXlOMmZRbDRkeHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDAwMzI5CWZpbGU6Tm92c2t5LTAuMS4xOTMteDY0LmFwcC50YXIuZ3oKbFN4NCsrMlZwVmpCeUVGOGZPdGFGZVowUUdGdFY5N1ZFV3hzenViQnNZNjRTNW44ZDd0UFQxRmhrU0hMR1lLa0I5cFFhVzFKK0RCZ1RrWjJ3cEEyQnc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.194/Novsky-0.1.194-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmthMWpjYzZzQlhkTk5QcldnMjh3aytYZE5kRGdwUHRQUWdoMU5YRFRFQ1BQb3laYXRjWnZTa0t2SkNPZXZVTDcvYXI2Z1QreDk0VEtvVUF6cE1XL1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDIzMDQ0CWZpbGU6Tm92c2t5LTAuMS4xOTQteDY0LmFwcC50YXIuZ3oKN1Z0MXdhcnVLckw4NDhNTUFYaUJXUEFMQVNRS3N0dzhZUlZ0K1dURmZKblBzb1BzSDhEREg3Yk5wdlF5U2g3U0ROZlhGRGxHbkwwRU4wWmdKUWVtRGc9PQo="
     }
   }
 }
