@@ -1,15 +1,15 @@
 {
-  "version": "0.1.195",
-  "notes": "Novsky 0.1.195\n\n- Якщо для встановлення вказано користувача без прав sudo, Novsky прямо пише «Користувач … не має прав sudo» і підказує два виходи: почати встановлення заново з користувачем root (зі своїм SSH-ключем, якщо root пускають лише за ключем) або від root виконати `usermod -aG sudo …` і натиснути «Повторити». Раніше була лише загальна фраза про sudo.\n- Містить усе з 0.1.194.\n",
-  "pub_date": "2026-10-31T08:51:37.579Z",
+  "version": "0.1.196",
+  "notes": "Novsky 0.1.196\n\n- Головний агент передає знання своїй команді просто з промпта: скажи йому «запиши в спільні знання команди: …», і агенти під ним отримують їх на початку кожної розмови й кожної задачі. Нічого не обрізається: якщо все не вміщується, агент бачить назви нотаток і читає потрібну цілком.\n- Так працює кожна команда агентів на Claude на одному сервері, зокрема головний агент і маркетинговий агент під ним. Сервери з агентом на Codex не змінюються.\n- Містить усе з 0.1.195.\n",
+  "pub_date": "2026-11-02T19:29:09.979Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.195/Novsky-0.1.195-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhqYVhaNDZ1dGpUMUo1QTZGMC9yWFBKU05mTkF2eG9ncFpKaytrMXNNWkdyYk1UWlpIN0x4dm1CbFlnL3ZjVEc5WU9weUppZ3Joa2V4ZEhrY21vSndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDM2NTU0CWZpbGU6Tm92c2t5LTAuMS4xOTUtYXJtNjQuYXBwLnRhci5negp5cXRiOWc4QkZnWVYzd3R6SWNybWw2aFF0UHo2cnBtOWUwblNCbnM5WjdwSW5nZytMM0Y0ZUgrSFJuREVIZVFSbnFIMW9lZFpzSWRZcWxvSmhmT1lEdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.196/Novsky-0.1.196-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnVla3lKRm5wamZ1dVZ2WXZNSEViVURrTnRleU9VeklOWGpRMzlISzVDY2Z4aGFiL3VyQjJQZ1dYam9TOWZyVHNDZjN6ZW9EbU1tWVVyckp2NDRZNUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjQ3NDkzCWZpbGU6Tm92c2t5LTAuMS4xOTYtYXJtNjQuYXBwLnRhci5negphMGFrVzZDMThsWHh2dFFGSHVHLzg0b01mTEtzV0VLb3FTMW5oV0ZReC9pcUJ6aUJmaVdnR3E3Z0dXZjY0bnFUNUhFVkV4UUp5aXVxT2RiY050cVpDQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.195/Novsky-0.1.195-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlNVDA4SHhOYUl5UzBVL3NPVE11Wms4UDJwWkYvVTEzbXpreUJzdVFEeXB5KzdPaGJHenZCaFlGT2FIckU2V08xd292M0dJZ2duM1dSWjZ5YTUvaFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDM2NjcyCWZpbGU6Tm92c2t5LTAuMS4xOTUteDY0LmFwcC50YXIuZ3oKNmNKZkhaNzNJU2d1MEdJcnZTbm9lUjJNK08zeWY0R05jOHo5SExERjViUWt1LzdxZURqVGJZWGUzbTJFVmtOWG5oTDJ2Nll5cXVJMTlTV2tCUGlGQ0E9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.196/Novsky-0.1.196-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9Sd2VseFIwVXczbVJuejcvUFFrK0VoTC96eVVQRFpCa0dRcm00TFlNZXc2N3U1dm5vUFdMdi9aRW1MTGlkWGh1U0xrYWgzMXE3WWx3b0huRC9PQXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjQ3NjA1CWZpbGU6Tm92c2t5LTAuMS4xOTYteDY0LmFwcC50YXIuZ3oKNkN6U2RRdmdFL2JFY3JweUF6NXo0WDN4M29IdHI3YnEwNlBlVjI2VlYzY2d3OEJxeXEzL084Y3duQUZhYWJDdGhLS0RDZjE5cWIyZTRJOExqNE4xQlE9PQo="
     }
   }
 }
