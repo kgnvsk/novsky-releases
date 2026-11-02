@@ -1,11 +1,11 @@
 {
-  "version": "0.1.196",
-  "notes": "Novsky 0.1.196\n\n- Головний агент передає знання своїй команді просто з промпта: скажи йому «запиши в спільні знання команди: …», і агенти під ним отримують їх на початку кожної розмови й кожної задачі. Нічого не обрізається: якщо все не вміщується, агент бачить назви нотаток і читає потрібну цілком.\n- Так працює кожна команда агентів на Claude на одному сервері, зокрема головний агент і маркетинговий агент під ним. Сервери з агентом на Codex не змінюються.\n- Містить усе з 0.1.195.\n",
-  "pub_date": "2026-11-02T19:46:58.287Z",
+  "version": "0.1.197",
+  "notes": "Novsky 0.1.197\n\n- Novsky знає нову версію інструмента резервних копій агента: копія більше не відмовляє через посилання на новини чи нотатки, у назвах яких трапляється «sk-» (наприклад «…zapusk-…», «…Pokrovsk-…»). Справжні ключі доступу, як і раніше, у копію не потрапляють.\n- Містить усе з 0.1.196.\n",
+  "pub_date": "2026-11-02T20:14:09.151Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.196/Novsky-0.1.196-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNqM3ZWNEVFUy9nbkxtVGcwNHdBZ0NmWnIyNk9xYnJXMlNkbVEveHUxUlBkU2hHR0JhZE5IQklQZDA0STVNRDFaUjFMdE1aWDRsYkU0NXBkbnpxMGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjQ4NzYyCWZpbGU6Tm92c2t5LTAuMS4xOTYtd2luZG93cy14NjQtc2V0dXAuZXhlCnk4a1dtNnJvS2VTUERyU1NaazUyZ05rZldZWGl4OTMvUTltd1JXVW03dTQ0Vml5alEwTDNwcjBSemdMUnpHWk1IMmJnZWsvVUUveFhsQ3ZaZUZhZkRBPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.197/Novsky-0.1.197-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpMSWVubzVlMGhqeDk1VCs4Tm5iWC94bFhnN3ZXbG5oTDRNY09DVkJBdXFsZFRYOWR0WHBQU2xVd3VRd0lKMHV5bSt1YVBvZmV5MTk2Z09GVlVSUXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjUwNDIzCWZpbGU6Tm92c2t5LTAuMS4xOTctd2luZG93cy14NjQtc2V0dXAuZXhlCjVqK1FteGNrczB3amc3a2RzT3F1Sld4dElqRlBoMUxXOGI2aUlxY1pmOXNCSThDU0RuTlI5cWlPRDdKZ2J0Zjk5Q1pob2w1bS9DRGx6MHNLT0FvYkRRPT0K"
     }
   }
 }
