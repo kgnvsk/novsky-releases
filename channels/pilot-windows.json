@@ -1,11 +1,11 @@
 {
-  "version": "0.1.195",
-  "notes": "Novsky 0.1.195\n\n- Якщо для встановлення вказано користувача без прав sudo, Novsky прямо пише «Користувач … не має прав sudo» і підказує два виходи: почати встановлення заново з користувачем root (зі своїм SSH-ключем, якщо root пускають лише за ключем) або від root виконати `usermod -aG sudo …` і натиснути «Повторити». Раніше була лише загальна фраза про sudo.\n- Містить усе з 0.1.194.\n",
-  "pub_date": "2026-10-31T09:02:06.300Z",
+  "version": "0.1.196",
+  "notes": "Novsky 0.1.196\n\n- Головний агент передає знання своїй команді просто з промпта: скажи йому «запиши в спільні знання команди: …», і агенти під ним отримують їх на початку кожної розмови й кожної задачі. Нічого не обрізається: якщо все не вміщується, агент бачить назви нотаток і читає потрібну цілком.\n- Так працює кожна команда агентів на Claude на одному сервері, зокрема головний агент і маркетинговий агент під ним. Сервери з агентом на Codex не змінюються.\n- Містить усе з 0.1.195.\n",
+  "pub_date": "2026-11-02T19:46:58.287Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.195/Novsky-0.1.195-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFDNFVHdFgwSlV4Zko2OE5CZkU4UGxXYTcxUWx4K0djMVl5NUVYcm8xNVpOcUtoMk1pbHg5MmFDdHhGNzBURnRWUjQ4S3RXcWJIeWNENXp1TzRBeXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDM3MjcxCWZpbGU6Tm92c2t5LTAuMS4xOTUtd2luZG93cy14NjQtc2V0dXAuZXhlCkJxZTJ3d3d2eW16SVN6d1B3ZWZOV0RIVnduTThacEN4d2FTVWYxTjhXbnRoMmh0L3VFY3JDOGhwS25GTHpKYURoNVl2eDcvSm40dUVmV1EvejZvV0FRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.196/Novsky-0.1.196-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNqM3ZWNEVFUy9nbkxtVGcwNHdBZ0NmWnIyNk9xYnJXMlNkbVEveHUxUlBkU2hHR0JhZE5IQklQZDA0STVNRDFaUjFMdE1aWDRsYkU0NXBkbnpxMGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjQ4NzYyCWZpbGU6Tm92c2t5LTAuMS4xOTYtd2luZG93cy14NjQtc2V0dXAuZXhlCnk4a1dtNnJvS2VTUERyU1NaazUyZ05rZldZWGl4OTMvUTltd1JXVW03dTQ0Vml5alEwTDNwcjBSemdMUnpHWk1IMmJnZWsvVUUveFhsQ3ZaZUZhZkRBPT0K"
     }
   }
 }
