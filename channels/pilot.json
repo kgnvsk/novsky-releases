@@ -1,15 +1,15 @@
 {
-  "version": "0.1.197",
-  "notes": "Novsky 0.1.197\n\n- Novsky знає нову версію інструмента резервних копій агента: копія більше не відмовляє через посилання на новини чи нотатки, у назвах яких трапляється «sk-» (наприклад «…zapusk-…», «…Pokrovsk-…»). Справжні ключі доступу, як і раніше, у копію не потрапляють.\n- Містить усе з 0.1.196.\n",
-  "pub_date": "2026-11-02T19:54:04.716Z",
+  "version": "0.1.198",
+  "notes": "Novsky 0.1.198\n\n- Завдання з групи знову показують лише те, що написав власник: службова примітка для моделі («Authenticated primary owner request in Telegram…») більше не з'являється в назві й картці завдання.\n- Містить усе з 0.1.197.\n",
+  "pub_date": "2026-11-03T00:49:38.212Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.197/Novsky-0.1.197-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnMzT1dYOVd5cWR2YkliNExEYmVIbGpGaXJhRGlKUU1FUWd1c2M0VEltYXJzSm1CRTFPVVVYRXY3SXNyYTNob0hTSE85SzZNTmJidjBmMGxhNS94c1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjQ5MDkzCWZpbGU6Tm92c2t5LTAuMS4xOTctYXJtNjQuYXBwLnRhci5negpkcVFJS0FJbUM5UnRoMVV0TU5LdmN3cjhTYjJQMDNIdmpVbWUwb21iVElCYnR6ZkZUeW9lTkpnMVIvK3BRb2NEMlhXZURkMTZCK1FnZVdtTTl4eWpDQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.198/Novsky-0.1.198-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1VdU9aQUtqTFBVcWpQYWNTODg2R1g5UDlkYWNETlNXOVcyRndkcFJ3ZUdOYm1BcklYMURQYmFid0Q5ZVpEWjBkZVk0STBlSzJTT1ViaU53UmQ4Tmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjY2ODE3CWZpbGU6Tm92c2t5LTAuMS4xOTgtYXJtNjQuYXBwLnRhci5negppaVJleWV4YkdIRk9PWXV6NS9YZjZzYWdYU2x6THZocExXM0tGSm1EWjVzcGpIRSs5ampvVzdQZ2M3UXJ3TEFYMHRCcHJmekJyZEtKY1B1MDdPZGNCQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.197/Novsky-0.1.197-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnVOUTlxc3BMaVh0MHpmWkVnWUE2RzlWV2VybVIxZGJiWnRwSXdVUG9ocDJqTXhnU0J4eXB6ZkU4VEpua0lWQWRJalNHZ0pXcTdyeWI3RS81MmROckFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjQ5MTc1CWZpbGU6Tm92c2t5LTAuMS4xOTcteDY0LmFwcC50YXIuZ3oKcDh2LzNXUytPUXpYRTBtOUF4cllCN3hidG1yYWxUazFvdW53UEdwdUpocytZMkxCMXZJc1l2UXlxTlBFd0xXMC9DN3lPYzBPYytNa21paVVUaktCQ3c9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.198/Novsky-0.1.198-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm96Wkc0ZFZZQ1E2cGQ1cTUvOWVuQ2QyQUM4MEM1a3VTQTVWcXErbjAwQi9zaGE5Z2RDelNwa3pEZ2JkU0ZtSWJGUTl4NUFkVGZtUHhxdmRpMkVjUFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjY2OTMwCWZpbGU6Tm92c2t5LTAuMS4xOTgteDY0LmFwcC50YXIuZ3oKeVByT1dsV2JNKzdqRzdxWDlIR3R6RkRtMWxXWUMxbmhXdVpUVXo5VVF4SUhEdm9mb1Yyc204V2JTRXBLVGpZOUNuQXFYY0JIK2YyVHUwR1ZZRXZyRFE9PQo="
     }
   }
 }
