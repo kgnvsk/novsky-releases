@@ -1,11 +1,11 @@
 {
-  "version": "0.1.197",
-  "notes": "Novsky 0.1.197\n\n- Novsky знає нову версію інструмента резервних копій агента: копія більше не відмовляє через посилання на новини чи нотатки, у назвах яких трапляється «sk-» (наприклад «…zapusk-…», «…Pokrovsk-…»). Справжні ключі доступу, як і раніше, у копію не потрапляють.\n- Містить усе з 0.1.196.\n",
-  "pub_date": "2026-11-02T20:14:09.151Z",
+  "version": "0.1.198",
+  "notes": "Novsky 0.1.198\n\n- Завдання з групи знову показують лише те, що написав власник: службова примітка для моделі («Authenticated primary owner request in Telegram…») більше не з'являється в назві й картці завдання.\n- Містить усе з 0.1.197.\n",
+  "pub_date": "2026-11-03T01:09:37.095Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.197/Novsky-0.1.197-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpMSWVubzVlMGhqeDk1VCs4Tm5iWC94bFhnN3ZXbG5oTDRNY09DVkJBdXFsZFRYOWR0WHBQU2xVd3VRd0lKMHV5bSt1YVBvZmV5MTk2Z09GVlVSUXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjUwNDIzCWZpbGU6Tm92c2t5LTAuMS4xOTctd2luZG93cy14NjQtc2V0dXAuZXhlCjVqK1FteGNrczB3amc3a2RzT3F1Sld4dElqRlBoMUxXOGI2aUlxY1pmOXNCSThDU0RuTlI5cWlPRDdKZ2J0Zjk5Q1pob2w1bS9DRGx6MHNLT0FvYkRRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.198/Novsky-0.1.198-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJTQzFJNlBsTzhrK2FpUllZYU92MnRESGg2c1RYZVVIN090b0FqTU9ZaERNZmlkcWhLek9EVFhrR24vM0VnOGF2VVdTaXo2U3J4TjU5MW12K2Z5VlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjY4MTIyCWZpbGU6Tm92c2t5LTAuMS4xOTgtd2luZG93cy14NjQtc2V0dXAuZXhlCkJiN1pnZnNBTVVUS2gvYmEvWVRHTU1QdmE1YzNnRkZyOExXc0I5SW1LQm55bzhZTDV3RHI4NkNENHNQYVE0UFduS0JvczJubmdNVVEybHhhbGQvTERBPT0K"
     }
   }
 }
