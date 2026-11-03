@@ -1,11 +1,11 @@
 {
-  "version": "0.1.198",
-  "notes": "Novsky 0.1.198\n\n- Завдання з групи знову показують лише те, що написав власник: службова примітка для моделі («Authenticated primary owner request in Telegram…») більше не з'являється в назві й картці завдання.\n- Містить усе з 0.1.197.\n",
-  "pub_date": "2026-11-03T01:09:37.095Z",
+  "version": "0.1.199",
+  "notes": "Novsky 0.1.199\n\n- Помічник Novsky тепер повноцінний Claude Code. Він сам виконує команди на цьому комп’ютері й на серверах агентів, читає й виправляє файли, шукає в інтернеті і не питає дозволу на кожен крок. Лагодить установки, сервери, агентів і сам Novsky (коли в налаштуваннях помічника вибрано Claude).\n- Єдине, чого помічник не робить: не встановлює агентів без ключа і не копіює наявних. Новий агент додається лише через «Додати агента» з ключем покупки.\n- Помічник лагодить і сервер, де працює приватний агент, але не відкриває його розмов і пам’яті.\n- У задачах агента замість «Ти» видно ім’я того, хто написав: власника агента, співробітника чи учасника групи.\n- Містить усе з 0.1.198.\n",
+  "pub_date": "2026-11-03T01:46:20.787Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.198/Novsky-0.1.198-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJTQzFJNlBsTzhrK2FpUllZYU92MnRESGg2c1RYZVVIN090b0FqTU9ZaERNZmlkcWhLek9EVFhrR24vM0VnOGF2VVdTaXo2U3J4TjU5MW12K2Z5VlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjY4MTIyCWZpbGU6Tm92c2t5LTAuMS4xOTgtd2luZG93cy14NjQtc2V0dXAuZXhlCkJiN1pnZnNBTVVUS2gvYmEvWVRHTU1QdmE1YzNnRkZyOExXc0I5SW1LQm55bzhZTDV3RHI4NkNENHNQYVE0UFduS0JvczJubmdNVVEybHhhbGQvTERBPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.199/Novsky-0.1.199-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRlMjdHUW14bldNbTE1R3JTNmZpZHU5REdUQ2RxeE9mS0xjQ1l4ZnpYMHBpUHJYUDlkbEV2TlFjWXJURGtQcnJubE91a0pqYVE4cFRyMHpHS21hVHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjcwMzU0CWZpbGU6Tm92c2t5LTAuMS4xOTktd2luZG93cy14NjQtc2V0dXAuZXhlCmdyT1ZML0FRekJvMk9lRHdtSzh2SG9sRWtqZXVvV29KTllXL0hIVnQveVBZMHlWYjdxNUJENG1Ia2kyZ2JBaFlneFhKVC9UTk8wc1hKR2JLY3JrQ0R3PT0K"
     }
   }
 }
