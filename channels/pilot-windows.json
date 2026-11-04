@@ -1,11 +1,11 @@
 {
-  "version": "0.1.202",
-  "notes": "Novsky 0.1.202\n\n- Оновлення агента більше не чекає без кінця, коли агент лише здається зайнятим. Фонові команди, які агент запустив сам, без запиту людини, і старі відкладені запити, робота за якими вже закінчилась, більше не рахуються як зайнятість. Після перезапуску агент знову бачить ці запити.\n- Якщо файли корпоративного модуля агента змінено вручну, оновлення другого агента відмовляє одразу, ще до паузи: бот працює як і раніше, нічого не змінено. Раніше ця відмова наставала в самому кінці встановлення, і бот лишався зупиненим.\n",
-  "pub_date": "2026-11-04T00:54:13.655Z",
+  "version": "0.1.203",
+  "notes": "Novsky 0.1.203\n\n- Черга доручень між агентами більше не застрягає після збою: якщо помічник не прибрався за собою, служба команди сама повторює прибирання кожні 5 хвилин, і наступні доручення того самого агента йдуть далі без перезапуску.\n- Агент вище бачить усе в агентів під ним на тому самому сервері — листування з усіма, що вони робили, файли, розклад — лише для читання. Змінити там щось так не можна. Паролі й токени в тексті доручень приходять прибраними.\n",
+  "pub_date": "2026-11-04T14:04:48.363Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.202/Novsky-0.1.202-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5oRnJxWUdkNkZLU1dCVldYNWhNVFBnUmRuY2ZxVkFqN2VoUVl2MDJyUnl1OTJwRGhJSXR5UFdKZzlhOEtadXpZVUF4dEg5TWpsVHp5cHdkaHB5QndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzUzNTk5CWZpbGU6Tm92c2t5LTAuMS4yMDItd2luZG93cy14NjQtc2V0dXAuZXhlClYvV3hUSnNqT2xxS3hhZGJzRC9ud3BQRW80TWJSZ2U4WWpyY3NlVUJ5cVJzMGNIV3ZySElYUG5SL2czS011Rit3UGh3OUFMOEkrZlpoL0VLQVN4dkN3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.203/Novsky-0.1.203-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5IUit4Tnd1c1RGVW1pTWMvbUVxTEl5bndFOUlrSWJhaUloRHhmWkM4TzcwZGM5S050dEYvZ3QzbW01NUZobXNmR0FMRWNWVEREZHpuaS9qNiszdEEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODAxMDI1CWZpbGU6Tm92c2t5LTAuMS4yMDMtd2luZG93cy14NjQtc2V0dXAuZXhlCmdWcFZuRmZZV0w1SUw2VHRJZGk3dHExRHc4dzQvV3graWdYeWt3OFZrRnRyZTd5cDQ4ZjlhZkFCUllSTW1DRllURWhzYklJT20zNHFYaFpkdzRLS0JRPT0K"
     }
   }
 }
