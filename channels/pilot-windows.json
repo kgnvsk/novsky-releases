@@ -1,11 +1,11 @@
 {
-  "version": "0.1.206",
-  "notes": "Novsky 0.1.206\n\nСтарший Claude-агент керує агентами нижче нього в оргструктурі: бачить їхню переписку і роботу, змінює робочі файли та розклад, скасовує доручення і відновлює службу. Зміни доступів проходять через звичне підтвердження власника. Спільну розмову старшого агента переносити не потрібно.\n\nКерування обмежене своєю гілкою. Вбудовані фонові задачі Claude доступні для точної зупинки лише там, де поточний рантайм підтримує цей протокол.\n",
-  "pub_date": "2026-11-05T19:45:26.522Z",
+  "version": "0.1.207",
+  "notes": "Novsky 0.1.207\n\n- Якщо Telegram-бот уже використовувався, установник пояснює причину й пропонує «Обнулити й використати повторно». Перед обнуленням Novsky перевіряє бота та зберігає архів попереднього агента. Сусідні агенти залишаються на місці.\n- Локальний помічник на Claude або Codex отримав штатні інструменти для команд, файлів, навичок і підключень разом з інструментами роботи з агентами Novsky. Прибрано фіксований час ходу та ліміт викликів інструментів помічника.\n- Нових агентів, як і раніше, встановлюють через Novsky з ключем. Прямий обхід установника та копіювання ідентичності агента блокуються.\n\nСерверні агенти на Codex не оновлюються цим випуском. Сторонні hooks Claude поки не підключаються; продовження нативних фонових завдань після перезапуску Novsky у цей випуск не входить.\n",
+  "pub_date": "2026-11-05T20:52:03.278Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.206/Novsky-0.1.206-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpKNlhyOWNWcEI2T2dPV3NrVHVsaTE2M3pLRllISG4xY3VzcG9BWHJhQmtaQ1RBYWxNQ3dVTjhiQ3dLd0VDOGhZeFlMSkkyLzZmUTJLVDFla3pZM2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTA3NzU3CWZpbGU6Tm92c2t5LTAuMS4yMDYtd2luZG93cy14NjQtc2V0dXAuZXhlCjNUb3ovUkFTa04weHF6MGRWYnlmUjFQN2dqeS9PY0M0OFhteW5hcTh0UE1oMEg2QUFEMlhUdWx5RXA5dHhEMTBqTVAwcWNVK3NGRnk5eFo3ZGNoL0FRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.207/Novsky-0.1.207-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdjdmJwMUtrMlFMSnRpQms4S21DZE10WWt1dUlkZkJmTSs3akFBMml1NVhmcjk0TG9wTlhDZGhoQjNpWk8vc2tzWjhUT25NSk9QQmpNZVFDdFN2REFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTExODk2CWZpbGU6Tm92c2t5LTAuMS4yMDctd2luZG93cy14NjQtc2V0dXAuZXhlCmI2cStZV2ZCMzYrTGpSekhvRS9CSWNDRDRWS2QySURybDV1OUhqQjAxdWpBWUNOQTl1SDNGZ0Z5ZzlOK1pFVlk5eVEvbFAwVHEzWktVTHMrTmNlUUNnPT0K"
     }
   }
 }
