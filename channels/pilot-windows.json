@@ -1,11 +1,11 @@
 {
-  "version": "0.1.205",
-  "notes": "Кнопа та інші головні агенти бачать роботу підопічних: переписки, завдання, файли, розклад і стан. Читання визначається ієрархією команди; наявні бесіди зберігаються.\n\nВиправлено завершення оновлення служб команди: часткова помилка системного сигналу більше не спричиняє повторні перезапуски. Активні завдання, як і раніше, захищені від переривання.\n",
-  "pub_date": "2026-11-05T17:00:54.568Z",
+  "version": "0.1.206",
+  "notes": "Novsky 0.1.206\n\nСтарший Claude-агент керує агентами нижче нього в оргструктурі: бачить їхню переписку і роботу, змінює робочі файли та розклад, скасовує доручення і відновлює службу. Зміни доступів проходять через звичне підтвердження власника. Спільну розмову старшого агента переносити не потрібно.\n\nКерування обмежене своєю гілкою. Вбудовані фонові задачі Claude доступні для точної зупинки лише там, де поточний рантайм підтримує цей протокол.\n",
+  "pub_date": "2026-11-05T19:45:26.522Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.205/Novsky-0.1.205-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnQvYmQ5R0s3S0Y5cyttVGZsQlVTQjRqaC9GVzJ0UHRIVXRVcTZZL2JQN3BUSTRUejg3Q1lzRDQ0WjN4akxRMDNad1FjYUE5ZXFhbTkvT1Vma0k2WUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODk3OTY0CWZpbGU6Tm92c2t5LTAuMS4yMDUtd2luZG93cy14NjQtc2V0dXAuZXhlCkpGSU9vTmVOd0pNdXoxQzN6ZjFLM1dlR3JWeVVIOVhtelorU2ZnTmpxSWdCTlNxcEtKVDdZL2h2Lzh6YXVLMnhsVDJPV3UrTzZGUG1rZzVsN3FDZURRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.206/Novsky-0.1.206-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpKNlhyOWNWcEI2T2dPV3NrVHVsaTE2M3pLRllISG4xY3VzcG9BWHJhQmtaQ1RBYWxNQ3dVTjhiQ3dLd0VDOGhZeFlMSkkyLzZmUTJLVDFla3pZM2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTA3NzU3CWZpbGU6Tm92c2t5LTAuMS4yMDYtd2luZG93cy14NjQtc2V0dXAuZXhlCjNUb3ovUkFTa04weHF6MGRWYnlmUjFQN2dqeS9PY0M0OFhteW5hcTh0UE1oMEg2QUFEMlhUdWx5RXA5dHhEMTBqTVAwcWNVK3NGRnk5eFo3ZGNoL0FRPT0K"
     }
   }
 }
