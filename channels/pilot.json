@@ -1,15 +1,15 @@
 {
-  "version": "0.1.205",
-  "notes": "Кнопа та інші головні агенти бачать роботу підопічних: переписки, завдання, файли, розклад і стан. Читання визначається ієрархією команди; наявні бесіди зберігаються.\n\nВиправлено завершення оновлення служб команди: часткова помилка системного сигналу більше не спричиняє повторні перезапуски. Активні завдання, як і раніше, захищені від переривання.\n",
-  "pub_date": "2026-11-05T16:37:37.802Z",
+  "version": "0.1.206",
+  "notes": "Novsky 0.1.206\n\nСтарший Claude-агент керує агентами нижче нього в оргструктурі: бачить їхню переписку і роботу, змінює робочі файли та розклад, скасовує доручення і відновлює службу. Зміни доступів проходять через звичне підтвердження власника. Спільну розмову старшого агента переносити не потрібно.\n\nКерування обмежене своєю гілкою. Вбудовані фонові задачі Claude доступні для точної зупинки лише там, де поточний рантайм підтримує цей протокол.\n",
+  "pub_date": "2026-11-05T19:18:58.567Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.205/Novsky-0.1.205-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZ5YXA1cDdMc2RTVFJYc0dzUFV6b0ljakFPNVFvaXM0RU9wU3RxUjkweXlFOEpBL2pOdzM3dG8yS0hwSGZGSnh3TFVveVZGSVF0TkR4NUNWTE5kVWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODk2NDkxCWZpbGU6Tm92c2t5LTAuMS4yMDUtYXJtNjQuYXBwLnRhci5negpyRWF2dUhDNm4zVXd1em5JUEszNWJ6WGRmRmhTMlFkb1Y5WmxEZXRDVzdOT2RHMGJMR0FrcVZuK2J3czZydEpZMXB5cnovOE8yV2Y4Wnk5dVZORzhCQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.206/Novsky-0.1.206-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpKTFpPbzJnWDlDcUxzbFBIRG9CMWF4cU9FSlh2VVZRQXhyZEhwUWtrUkQrc29UNWJWU1J1cjV3bVFoK2ZUUUs2b2d5TkNCSDRJUCtDdStjMktIa0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTA2MDg5CWZpbGU6Tm92c2t5LTAuMS4yMDYtYXJtNjQuYXBwLnRhci5negpBejdNMEh0eVpiRTRCUHdaWVMrNTNMSy9YL2VyeUE2QWYwYlJlLzQ1VThYbDJVS3lXSzlhbHhIaTdiajhoUW81aStwWU5BQXRjTGwrTi9jQVdIenFEQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.205/Novsky-0.1.205-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZ5cGZFUk8yNG9jUzJtamZuYUtKVktRUndSWTdWa3FHMG5ERTBWZ0VxTUM0NG93d2pEZnV5WEZ1eU9RdlN1eGlVSFpOakZEck1OdVhLSHRQL0FCRncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODk2NTk4CWZpbGU6Tm92c2t5LTAuMS4yMDUteDY0LmFwcC50YXIuZ3oKczN0eE5pVCsyNWdlWkQ1bXdXUEdwbU5VQmJPc2hPVG9DUGpsZG1YeWVsZlJyVUhiRzJDeHQ3ZEFlUXphYWU4UW1rcmgzWFozdjlZYSs2ZG1QZEQvQUE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.206/Novsky-0.1.206-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZxM1dtaGtFMlQ5b2hPV2swTjdRRTRUbjlvUWszN3hzQUd5SUg4dFVuMmVDNktvS2pFN25LQjRqOGdVU2ZQMytid0VkaUc0dE1nRExOZEFZOVIrVXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTA2MjUyCWZpbGU6Tm92c2t5LTAuMS4yMDYteDY0LmFwcC50YXIuZ3oKc3dOZjlPQ1RKRVYxeUN2WkNEc0hndktZTm5MZ2kvTy9mUnRTNEZPQ2l2enBKREg0cy9oZFJVTGp2RXlqRFpsVmVmZXFENmg1amVoY1NDZWVTemdTQWc9PQo="
     }
   }
 }
