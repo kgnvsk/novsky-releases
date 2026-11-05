@@ -1,15 +1,15 @@
 {
-  "version": "0.1.203",
-  "notes": "Novsky 0.1.203\n\n- Черга доручень між агентами більше не застрягає після збою: якщо помічник не прибрався за собою, служба команди сама повторює прибирання кожні 5 хвилин, і наступні доручення того самого агента йдуть далі без перезапуску.\n- Агент вище бачить усе в агентів під ним на тому самому сервері — листування з усіма, що вони робили, файли, розклад — лише для читання. Змінити там щось так не можна. Паролі й токени в тексті доручень приходять прибраними.\n",
-  "pub_date": "2026-11-04T14:01:23.388Z",
+  "version": "0.1.204",
+  "notes": "# Novsky 0.1.204\n\nАгент-керівник, підключений до Novsky зі своїм середовищем, тепер може перевіряти роботу агентів нижче нього: їхні розмови, задачі, результати, файли та розклад. Доступ визначає оргструктура Novsky; окремий відкритий запит у приватному чаті не потрібен.\n\nВласні чати та налаштування агента-керівника зберігаються. Зміни доступів і налаштувань підлеглих залишаються зі штатним підтвердженням.\n",
+  "pub_date": "2026-11-05T16:05:23.475Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.203/Novsky-0.1.203-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRHY3k1ZmYwVlVNUnhLMTVuaEFFWkxxdXhhelZHSjBWTkk1V3BTSGVmT1hFODdTbHo4Q2p4VklwZGgwTjNpVXRNRnFwc2dqdnZiR0pQeURicVpWYXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzk5MjE4CWZpbGU6Tm92c2t5LTAuMS4yMDMtYXJtNjQuYXBwLnRhci5negowUzFIdit4M3RyWmg4eWNldVFxdDF3LzlkYS9GUzVxL3FuSVdyaklvWndqUm5QQ0liTzk5Z1FZZGNDbVkyR1pqOHlodE9sd3doZHZEdVkrTDVJenVBdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.204/Novsky-0.1.204-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJmKzRwYy84TnVQbXR0OEVMdWgxK0dsam5LRGprL0VTVFYvcjNreElRTmo0MURkS3RoYU8rNVZ6T0d6ZFMvajcrRXk0Q09kWDl4QXc4aFZja0lFSmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODk0Mjc2CWZpbGU6Tm92c2t5LTAuMS4yMDQtYXJtNjQuYXBwLnRhci5negpZRVFHc2pHRCtrK0RlVUF3QTFFTG9NZVpRUUdyd3B4clZQV1daYUNDcER0V205MFhQQmdCVGliaGRtemF5ZTkvZVkzUU8zL1BxZnlZc1k4VTUrNGdEdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.203/Novsky-0.1.203-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxLR0lSTjNGYTVsZE1ka0tSRnFDckxWZkxnd2dyR1RxbE9OejJ5THcwT2Z1SnRvd1MyTlBNUUN4cHhkbTZhVWNpOEJZSlNtdE9mTDBZYk9KQk5zRlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzk5MzMwCWZpbGU6Tm92c2t5LTAuMS4yMDMteDY0LmFwcC50YXIuZ3oKd2lDQVFxd3I2VW5ZOHdkMWlKQTZsZ3NLWW8rMGZGdGlzYitiVnhiZXJ1eHVDaURTUWJjcmp0dzVpQjBoNzB1VEFoZDZyWG1kZDJKOTZtdStSUVVMQVE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.204/Novsky-0.1.204-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpPOWs3UnV2anpLUzJFWDlyZm83UDZQZTNLaEJIMXh1SkY5OHRMUThqQWdnSVh1N2FzcVp5cWRTdy9ram9SdDZOdXVWanlXZ25JSXBRdmVERDkyUGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODk0NjIxCWZpbGU6Tm92c2t5LTAuMS4yMDQteDY0LmFwcC50YXIuZ3oKTDByWHJZMVQ0NDFuK0F3WkhFMEZob29CSnpYcWd6ZUxtYzNaRXZqU1dIbjluQnpjRzBPY3hBR21DYmhDNjdWTjJNUDhZbTFEaUZyNDhjcTlucG45QUE9PQo="
     }
   }
 }
