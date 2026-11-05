@@ -1,11 +1,11 @@
 {
-  "version": "0.1.203",
-  "notes": "Novsky 0.1.203\n\n- Черга доручень між агентами більше не застрягає після збою: якщо помічник не прибрався за собою, служба команди сама повторює прибирання кожні 5 хвилин, і наступні доручення того самого агента йдуть далі без перезапуску.\n- Агент вище бачить усе в агентів під ним на тому самому сервері — листування з усіма, що вони робили, файли, розклад — лише для читання. Змінити там щось так не можна. Паролі й токени в тексті доручень приходять прибраними.\n",
-  "pub_date": "2026-11-04T14:04:48.363Z",
+  "version": "0.1.205",
+  "notes": "Кнопа та інші головні агенти бачать роботу підопічних: переписки, завдання, файли, розклад і стан. Читання визначається ієрархією команди; наявні бесіди зберігаються.\n\nВиправлено завершення оновлення служб команди: часткова помилка системного сигналу більше не спричиняє повторні перезапуски. Активні завдання, як і раніше, захищені від переривання.\n",
+  "pub_date": "2026-11-05T17:00:54.568Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.203/Novsky-0.1.203-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5IUit4Tnd1c1RGVW1pTWMvbUVxTEl5bndFOUlrSWJhaUloRHhmWkM4TzcwZGM5S050dEYvZ3QzbW01NUZobXNmR0FMRWNWVEREZHpuaS9qNiszdEEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODAxMDI1CWZpbGU6Tm92c2t5LTAuMS4yMDMtd2luZG93cy14NjQtc2V0dXAuZXhlCmdWcFZuRmZZV0w1SUw2VHRJZGk3dHExRHc4dzQvV3graWdYeWt3OFZrRnRyZTd5cDQ4ZjlhZkFCUllSTW1DRllURWhzYklJT20zNHFYaFpkdzRLS0JRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.205/Novsky-0.1.205-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnQvYmQ5R0s3S0Y5cyttVGZsQlVTQjRqaC9GVzJ0UHRIVXRVcTZZL2JQN3BUSTRUejg3Q1lzRDQ0WjN4akxRMDNad1FjYUE5ZXFhbTkvT1Vma0k2WUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODk3OTY0CWZpbGU6Tm92c2t5LTAuMS4yMDUtd2luZG93cy14NjQtc2V0dXAuZXhlCkpGSU9vTmVOd0pNdXoxQzN6ZjFLM1dlR3JWeVVIOVhtelorU2ZnTmpxSWdCTlNxcEtKVDdZL2h2Lzh6YXVLMnhsVDJPV3UrTzZGUG1rZzVsN3FDZURRPT0K"
     }
   }
 }
