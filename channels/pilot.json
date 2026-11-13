@@ -1,15 +1,15 @@
 {
-  "version": "0.1.208",
-  "notes": "Novsky 0.1.208\r\n\r\n- Агент, якому колега доручив завдання, тепер може сам написати своєму власнику: наприклад, «продовжимо тут, у моєму чаті». Повідомлення надсилає власний бот цього агента після завершення завдання, а колега дізнається, чи воно дійшло. Якщо власник ще ніколи не писав цьому боту, Telegram не дозволить написати першим, і колега отримає саме таку відповідь.\r\n- Командний шар на серверах з агентами Claude оновиться сам після оновлення Novsky.\r\n\r\nСерверні агенти на Codex не оновлюються цим випуском.\r\n",
-  "pub_date": "2026-11-12T00:43:04.058Z",
+  "version": "0.1.209",
+  "notes": "Novsky 0.1.209\n\n- Під час встановлення агента на Claude можна вибрати кит: Premium (як і раніше, за замовчуванням) або Premium Individual Kit. Ключ той самий.\n- Premium Individual Kit — одна сесія для власника, без режиму компанії. Такий агент оновлюється через «Оновити кит» без режиму компанії, і перевстановлення його не вмикає.\n- Агенти на Premium працюють як раніше.\n\nСерверні агенти на Codex не оновлюються цим випуском.\n",
+  "pub_date": "2026-11-13T01:56:41.010Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.208/Novsky-0.1.208-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm5MZjlKRnpqa1lJVllTanpPZ1NIUjBwSlRRd3l2UzVka243NjN0SWcrVVNHMVoyK3J3dlFzcGp6S3E3cG1iVHNLRS9DV3EycjhCSFduQkt0YmdFRndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQ0MTY2CWZpbGU6Tm92c2t5LTAuMS4yMDgtYXJtNjQuYXBwLnRhci5negpNUW8xbUVDSEN5VDEvRlpxZllZc2NkajJRazBtVExJcHV5L0NYSWZjUWhuc3J3OHFaZnpsL21UNlNZQUtmc0VSbEVkcHNnZVd3V2xMbmtmN1ZqK0lCdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.209/Novsky-0.1.209-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpyMnVBU2Vpd0J0a1dVakc0Tzhna21SdjViUWp5cEEvclI1a0hscHJzNm1zcVQ4R3NadU1VTEJmR0RWaDJZU0NFb1RaWEpVaTNBM2VOd3p0YTI1YmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTM0OTk0CWZpbGU6Tm92c2t5LTAuMS4yMDktYXJtNjQuYXBwLnRhci5negpqOFMyd0x4SlA4eWJ5SzNYNk01MmJ4elBjK2c1VTFHQ3NqTE1hOTU5ZEJqLzQxdDRNNzdIc0RCNXQvbGpLZ1E3cWViNWl0ajdxcjQ3WHl5T1pTL2pBUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.208/Novsky-0.1.208-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZIcGhkT0M4S3IrYkIwUUtTeGdaV1p1d3YzQXVKUGYveG9xVjRCbUgrTWlMdW00SmNPUCt1WUMvWFgwL2lFa3pnaVo1dG9uNExqVmVmWVlLT2ltendRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQ0MTY2CWZpbGU6Tm92c2t5LTAuMS4yMDgteDY0LmFwcC50YXIuZ3oKbTFURzZkYVpxdXJOTTh1Z1N1MTZkQUkyclFhVXFwMXJyUVBGd0t3Wit2OGFhTlNuY0tOQkErSnp6aHNzbUdlWUdvS1VEQmZwc3NlMTN0STdyNmJJRGc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.209/Novsky-0.1.209-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZkYmZVL2RiUnUxUmJtajF5VTdyZnFUOG93L2p2Z0kvaGJGTEdDblNid0d0K0pQZ1AzeXJNSTBidGN5ZkwycGNmZEJkcTdmRHRKTlBSVWlOQWZrZ3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTM0OTk0CWZpbGU6Tm92c2t5LTAuMS4yMDkteDY0LmFwcC50YXIuZ3oKUnRIZ1g0LzRuaytkVkY3R2hkY3F4VlhBdXFCOHFLSlB5aTRmNVRldDlKNWY2bnRZM1VuTC9yWlIxOThGMmVlajIwWEo0amNCeEZTUWlWSzhJTklSQUE9PQo="
     }
   }
 }
