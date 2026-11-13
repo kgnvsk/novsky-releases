@@ -1,11 +1,11 @@
 {
-  "version": "0.1.208",
-  "notes": "Novsky 0.1.208\n\n- Агент, якому колега доручив завдання, тепер може сам написати своєму власнику: наприклад, «продовжимо тут, у моєму чаті». Повідомлення надсилає власний бот цього агента після завершення завдання, а колега дізнається, чи воно дійшло. Якщо власник ще ніколи не писав цьому боту, Telegram не дозволить написати першим, і колега отримає саме таку відповідь.\n- Командний шар на серверах з агентами Claude оновиться сам після оновлення Novsky.\n\nСерверні агенти на Codex не оновлюються цим випуском. Збірка лише для Windows.\n",
-  "pub_date": "2026-11-12T00:10:40.819Z",
+  "version": "0.1.209",
+  "notes": "Novsky 0.1.209\n\n- Під час встановлення агента на Claude можна вибрати кит: Premium (як і раніше, за замовчуванням) або Premium Individual Kit. Ключ той самий.\n- Premium Individual Kit — одна сесія для власника, без режиму компанії. Такий агент оновлюється через «Оновити кит» без режиму компанії, і перевстановлення його не вмикає.\n- Агенти на Premium працюють як раніше.\n\nСерверні агенти на Codex не оновлюються цим випуском.\n",
+  "pub_date": "2026-11-13T01:56:22.643Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.208/Novsky-0.1.208-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhNbXlHdWgwcjdBbHFnMk9md2V5eGtTNmxudUFpUGNwN1NzM1lKM2tSa0VYSC9CM1ZyTDYveEVKY1RMWlhoWmtUaVVRL0s0b2ZLM2loU0VmK0NVd1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDQyMTgyCWZpbGU6Tm92c2t5LTAuMS4yMDgtd2luZG93cy14NjQtc2V0dXAuZXhlCmJvcTZjRTQ4WmJIN1FYcGFLajhKaWkxNGNHTlFIaEEwS1F5NTNFclFNZ3lESmNHeEQvWnovMmhMN2dxcFBRcHhHOEgwS0JrZTJLQ2VKZElpa0pyV0N3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.209/Novsky-0.1.209-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhsRFFyT1cvQU5BWTRJR2gvYjhKaEhiZ1lmM0IrS0RvV0xaSWtRVUtMTWNoc29CNEgxNVpCY3I2UStXSVNVeE9QeVRCNndqd21EUjdKNks3c1NaVmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTM0OTMyCWZpbGU6Tm92c2t5LTAuMS4yMDktd2luZG93cy14NjQtc2V0dXAuZXhlCjBObUwrRUh6NVhSZ1d2T09wTWlJU3FQOUxPUWJGdHVySnEwZGQwa1UrN1FiSHNHdTdQU01FUkZqUUpMejdacFh3dTVTRWpvUFh5M09tR2lVMUhMZ0F3PT0K"
     }
   }
 }
