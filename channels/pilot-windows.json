@@ -1,11 +1,11 @@
 {
-  "version": "0.1.210",
-  "notes": "Novsky 0.1.210\n\n- Агента на Claude тепер можна перевести на іншого Telegram-бота: «Налаштування» агента → «Telegram-бот». Вставте токен нового бота від @BotFather, і Novsky сам дізнається його імʼя. Агент переходить разом із памʼяттю та історією розмов, кит оновлюється. Після переходу відкрийте нового бота й натисніть Start. Для агентів у режимі компанії, на Codex і на цьому компʼютері перехід поки недоступний.\n- Оновлення кита більше не зупиняється, коли до кінця входу в Claude лишається 10–20 хвилин: Novsky чекає, доки вхід можна поновити, і поновлює його сам.\n- Якщо під час оновлення агента в режимі компанії повернути попередню версію не вдається, Novsky завершує вже встановлене оновлення й запускає бота, а не лишає його зупиненим.\n\nСерверні агенти на Codex не оновлюються цим випуском.\n",
-  "pub_date": "2026-11-15T23:34:54.115Z",
+  "version": "0.1.211",
+  "notes": "Novsky 0.1.211\n\n- Перехід агента на іншого Telegram-бота тепер працює й для агентів зі старішою установкою. Раніше такий перехід зупинявся з повідомленням «Магазин не знає покупки кита для старого бота»: магазин ще не знав старого бота за його токеном. Тепер Novsky спершу підтверджує покупку на сервері агента, як це робить звичайне оновлення кита, і лише потім переносить агента.\n\nСерверні агенти на Codex не оновлюються цим випуском.\n",
+  "pub_date": "2026-11-16T14:28:42.652Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.210/Novsky-0.1.210-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFKdkhOMXhYdVlvNSttR2wyNy9WcFYvWjhHNFFQakpMVGZ4U1JLM1h0NExmNlRVbm8yVkpZUDBEMFV2aVEvK1pNVnIxaUVMMFduTVlaZy8xZXVpdEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Nzg1NjY2CWZpbGU6Tm92c2t5LTAuMS4yMTAtd2luZG93cy14NjQtc2V0dXAuZXhlCnJrNG5LdU53VGtNN0E0UWhWM1dNZStsdUp6Nm8rWWxpV1ZWUWJwUnJFZ280dEJldFU5cWpKMkRJWHpRMVA5amdlOFBDOFJQT2syRUZBUHVycWZjQ0N3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.211/Novsky-0.1.211-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmg4dkx4RENBK1ZnZ3l1OHlnTjF1K0x6dGh4VmhzN2lLQ1hWbklVc0c2Y2JwUXRoZm9uSUdqSDlSOElsVE54S004RXZ1YSt5Q3Z2ejlpYUFkRDZXOGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODM5MjkzCWZpbGU6Tm92c2t5LTAuMS4yMTEtd2luZG93cy14NjQtc2V0dXAuZXhlCkp2UGxWSHRCdS82WUp3RWI5WFFjMkFQOFBNRGxHdU0zV01KMFd4UDhVNHZYMGpnaElVejkrY21Ba245VWcwODh1QTN6czA0cXdVdWtiNkJweTczY0J3PT0K"
     }
   }
 }
