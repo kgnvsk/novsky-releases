@@ -1,11 +1,11 @@
 {
-  "version": "0.1.211",
-  "notes": "Novsky 0.1.211\n\n- Перехід агента на іншого Telegram-бота тепер працює й для агентів зі старішою установкою. Раніше такий перехід зупинявся з повідомленням «Магазин не знає покупки кита для старого бота»: магазин ще не знав старого бота за його токеном. Тепер Novsky спершу підтверджує покупку на сервері агента, як це робить звичайне оновлення кита, і лише потім переносить агента.\n\nСерверні агенти на Codex не оновлюються цим випуском.\n",
-  "pub_date": "2026-11-16T14:28:42.652Z",
+  "version": "0.1.212",
+  "notes": "Novsky 0.1.212\n\n- У списках серверів сервер без назви тепер показано з іменем його основного агента, а потім адресою, так само як уже показано сервери з назвою. Основний агент — бот першого користувача сервера `claude`, а якщо такого немає, найперший бот на сервері. Назва, яку ти сам дав серверу, лишається як є. «Цей компʼютер» і сервери без агентів показано як раніше.\n\nАгентів на серверах цей випуск не змінює: змінилося лише те, як Novsky показує сервери.\n",
+  "pub_date": "2026-11-16T15:41:37.800Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.211/Novsky-0.1.211-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmg4dkx4RENBK1ZnZ3l1OHlnTjF1K0x6dGh4VmhzN2lLQ1hWbklVc0c2Y2JwUXRoZm9uSUdqSDlSOElsVE54S004RXZ1YSt5Q3Z2ejlpYUFkRDZXOGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODM5MjkzCWZpbGU6Tm92c2t5LTAuMS4yMTEtd2luZG93cy14NjQtc2V0dXAuZXhlCkp2UGxWSHRCdS82WUp3RWI5WFFjMkFQOFBNRGxHdU0zV01KMFd4UDhVNHZYMGpnaElVejkrY21Ba245VWcwODh1QTN6czA0cXdVdWtiNkJweTczY0J3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.212/Novsky-0.1.212-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtJYWJRejBuRlMyQS9uVTRuR3Z3VmhQRjVQNnFIaWhKM2FVcFJRNHpVd3JiMTAvTHdtWFNhKzlFNmlUK2g1Y0JLczJJcFdJSUhLMnhiSXV2Mmo0S1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODQzNjY4CWZpbGU6Tm92c2t5LTAuMS4yMTItd2luZG93cy14NjQtc2V0dXAuZXhlCkFQTEwzdHFjc3g2cW1QYUJwMlRhSHZmQTZHNFN2TG53MHQ1UUtabHY5VUlEZHBXbUdGclFxRXp0dituNmwwTTBacFExa2tlQXBKVWNtTk5HaEVXSURRPT0K"
     }
   }
 }
