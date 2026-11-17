@@ -1,11 +1,11 @@
 {
-  "version": "0.1.212",
-  "notes": "Novsky 0.1.212\n\n- У списках серверів сервер без назви тепер показано з іменем його основного агента, а потім адресою, так само як уже показано сервери з назвою. Основний агент — бот першого користувача сервера `claude`, а якщо такого немає, найперший бот на сервері. Назва, яку ти сам дав серверу, лишається як є. «Цей компʼютер» і сервери без агентів показано як раніше.\n\nАгентів на серверах цей випуск не змінює: змінилося лише те, як Novsky показує сервери.\n",
-  "pub_date": "2026-11-16T15:41:37.800Z",
+  "version": "0.1.213",
+  "notes": "Novsky 0.1.213\n\n- Оновлення кита більше не відкочується через Instagram агента. Якщо модуль Instagram запущено з cron агента (приймач повідомлень і тунель), Novsky на час оновлення зупиняє рівно ці процеси, а після оновлення cron запускає їх знову. Тунель отримує нову адресу, і агент сам прописує її в Meta.\n\nАгентів на серверах цей випуск сам не оновлює: зміна працює, коли ти натискаєш «Оновити кит».\n",
+  "pub_date": "2026-11-17T11:43:47.517Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.212/Novsky-0.1.212-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmtJYWJRejBuRlMyQS9uVTRuR3Z3VmhQRjVQNnFIaWhKM2FVcFJRNHpVd3JiMTAvTHdtWFNhKzlFNmlUK2g1Y0JLczJJcFdJSUhLMnhiSXV2Mmo0S1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODQzNjY4CWZpbGU6Tm92c2t5LTAuMS4yMTItd2luZG93cy14NjQtc2V0dXAuZXhlCkFQTEwzdHFjc3g2cW1QYUJwMlRhSHZmQTZHNFN2TG53MHQ1UUtabHY5VUlEZHBXbUdGclFxRXp0dituNmwwTTBacFExa2tlQXBKVWNtTk5HaEVXSURRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.213/Novsky-0.1.213-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhLZUdQblphcTJ6MDI4VkxobzJMdnFGUXhYV0Z2M2YwM2hTY2R3WTJRVXh1cVNGUVoxT3N3LzNzQTFKaEs2M0FVT2YrMEZyM1FZNUhtbE5JTVBsTmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTE1NzcwCWZpbGU6Tm92c2t5LTAuMS4yMTMtd2luZG93cy14NjQtc2V0dXAuZXhlCnRMeXZBR1E2MVFhQ1NDaStvSW5XaEFheW5SMy9nb2Rtdlhzd3RTKzExb21RaGFBdjhOL09mSm52MzZSKzVCL0Y0aVNNWHVDcE0zajJ2QXpyS0ltZkNRPT0K"
     }
   }
 }
