@@ -1,11 +1,11 @@
 {
-  "version": "0.1.213",
-  "notes": "Novsky 0.1.213\n\n- Оновлення кита більше не відкочується через Instagram агента. Якщо модуль Instagram запущено з cron агента (приймач повідомлень і тунель), Novsky на час оновлення зупиняє рівно ці процеси, а після оновлення cron запускає їх знову. Тунель отримує нову адресу, і агент сам прописує її в Meta.\n\nАгентів на серверах цей випуск сам не оновлює: зміна працює, коли ти натискаєш «Оновити кит».\n",
-  "pub_date": "2026-11-17T11:43:47.517Z",
+  "version": "0.1.214",
+  "notes": "Novsky 0.1.214 для Windows\n\n- Кнопка «Оновити» на Windows тепер справді оновлює Novsky. Раніше оновлення щоразу зупинялося з «Пакет не завантажено або він не пройшов перевірку»: Novsky читав номер версії завантаженого інсталятора, поки сам ще тримав цей файл відкритим, і Windows номер не віддавала.\n- У версії 0.1.213 і старіших кнопка ще не працює. Один раз встанови 0.1.214 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.214/Novsky-0.1.214-windows-x64-setup.exe — закрий Novsky і запусти його. Дані й агенти лишаються на місці, далі оновлення йтимуть кнопкою.\n\nЦей випуск лише для Windows: для Mac і Linux змін немає. Агентів на серверах він не оновлює.\n",
+  "pub_date": "2026-11-17T12:48:57.725Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.213/Novsky-0.1.213-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhLZUdQblphcTJ6MDI4VkxobzJMdnFGUXhYV0Z2M2YwM2hTY2R3WTJRVXh1cVNGUVoxT3N3LzNzQTFKaEs2M0FVT2YrMEZyM1FZNUhtbE5JTVBsTmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTE1NzcwCWZpbGU6Tm92c2t5LTAuMS4yMTMtd2luZG93cy14NjQtc2V0dXAuZXhlCnRMeXZBR1E2MVFhQ1NDaStvSW5XaEFheW5SMy9nb2Rtdlhzd3RTKzExb21RaGFBdjhOL09mSm52MzZSKzVCL0Y0aVNNWHVDcE0zajJ2QXpyS0ltZkNRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.214/Novsky-0.1.214-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmx2dWtLNWluSlVES0QxRGZuWVNrSHF6YVg3NUd1MUVGazVWTlhuVFljNzRZRFBJS0RrN21RelF6VWluYndhVWZ6cVpzN3hVN1hrak1ITVRwVzVCVmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTE5NzA3CWZpbGU6Tm92c2t5LTAuMS4yMTQtd2luZG93cy14NjQtc2V0dXAuZXhlCkRqTUlBcEkvNnMvR3FzWFlwYm16RnRuZGswY25CWEVGMkpYbDYyTHkyUDE1Sjl1V1VnNnNDNUFWZnByVm9hRWM1NTF2UHh5T2hGWlpQMThSRGtzMUFRPT0K"
     }
   }
 }
