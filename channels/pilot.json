@@ -1,15 +1,15 @@
 {
-  "version": "0.1.213",
-  "notes": "Novsky 0.1.213\n\n- Оновлення кита більше не відкочується через Instagram агента. Якщо модуль Instagram запущено з cron агента (приймач повідомлень і тунель), Novsky на час оновлення зупиняє рівно ці процеси, а після оновлення cron запускає їх знову. Тунель отримує нову адресу, і агент сам прописує її в Meta.\n\nАгентів на серверах цей випуск сам не оновлює: зміна працює, коли ти натискаєш «Оновити кит».\n",
-  "pub_date": "2026-11-17T11:45:28.640Z",
+  "version": "0.1.215",
+  "notes": "Novsky 0.1.215\n\n- Спільна робота агентів більше не зупиняється після оновлення Novsky на серверах з Ubuntu 26.04. Раніше Novsky, оновлюючи службу спільної роботи, «заморожував» її перед перезапуском, а нова версія системи таку службу вже не запускала: агенти на сервері не могли передавати одне одному задачі, доки сервер не перезавантажили. Тепер Novsky нічого не заморожує.\n- Novsky для Windows більше не перезапускає службу спільної роботи під час кожного застосування звʼязків. Через різні переводи рядків він щоразу вважав код служби зміненим; тепер Novsky для Windows і для Mac кладуть на сервер однакові файли.\n- Помічник Novsky правильно відповідає про зміну Telegram-бота: агента переводять на іншого бота у «Налаштування» → «Telegram-бот», а не встановлюють як нового.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.215 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.215/Novsky-0.1.215-windows-x64-setup.exe — закрий Novsky і запусти його. Дані й агенти лишаються на місці.\n\nАгентів на серверах цей випуск не оновлює. Після оновлення Novsky сам один раз оновить на серверах лише свій допоміжний файл служби спільної роботи, без її перезапуску.\n",
+  "pub_date": "2026-11-17T21:22:38.451Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.213/Novsky-0.1.213-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnVQd2p3NTd5MGxQeEhwWFlTVy9mZWJrVm95OWRzOVV2MEVBV2lIWWU5NjRtZW81eWpGTXIwbzVQT1loTlBuN1VyaGFpR3pYakk2T2thTmhBZ2QxQmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTE1OTI4CWZpbGU6Tm92c2t5LTAuMS4yMTMtYXJtNjQuYXBwLnRhci5negp2Y25XaGNMSklkcml2Z1JYRkFWK2lUM3E1dkhST0I2aFdZZGp1UTZ0anhiRENnUjRqQllqdVUycWZpT0s1a1V6YnVxMXZNUWZCTWFnZ0RaZjNrdFRCUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.215/Novsky-0.1.215-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm82Vlp6ZjkvQ3ArdjhSMEJoODNtMVJWaHZYRzh6UEhBREFzRWRpdlE2TXZCc3FzTk5weWU0UzBkR0JWZG1zanRWSWdVZTFMV2dkTlhNYWszNHRxMnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTUwNTU3CWZpbGU6Tm92c2t5LTAuMS4yMTUtYXJtNjQuYXBwLnRhci5negovSGd2MXRhWWNiM0M0WmJld0NMYTBldGFMZGQ1c0lNN3dIZ1pCRkJNNkRqY2IvUjBhbXlLN0pxR1ZEVnROWWI1Um9EaXJ1eFpmSFV3b2hQQU1jbE5CUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.213/Novsky-0.1.213-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmdOaHlhL2NZU2lmRG5GTDBUWUJUY1pDU0cvd2NJa210T1VQdzBqbkpleDIyRSticmx4ZDE1MTFNbHluMTlkZWx0QWRudEp3SlF0WE1nQ2JiL1lJaXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTE1OTI4CWZpbGU6Tm92c2t5LTAuMS4yMTMteDY0LmFwcC50YXIuZ3oKNDJ5cnJLTGUwci9xUE9lYzlpT2Y4RDk1Rm5RRUpBaFNZcnNYd2xnb0hBUXJxWjRMeEFsSmdnbFBjQ2txeDQxYzJRZms1V2loVGdGM3FNdGFFVFVLRGc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.215/Novsky-0.1.215-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmhRT3ZRazlxbGdaRGJsZVhyQWZnMUErZ0k2bGJHWVUzRHZ4ckFWS3ZpVE56bEJ3L1ZDa3Q0N3hBR1NFUDhQYnd5dnJTZ0pEZGRycTBZbVVnWVYxY1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTUwNTU3CWZpbGU6Tm92c2t5LTAuMS4yMTUteDY0LmFwcC50YXIuZ3oKc3QvVDhCZnN0d1VXTmxKYnR5REtPMzBKL3RKLy9NR2xnU1NuZU1hVi9yZVc1clBiMTErcjA4c2FyUm5FZ2pvODROM3Z0TmVQRmlheWNXWjVoeWR3Q3c9PQo="
     }
   }
 }
