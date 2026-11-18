@@ -1,15 +1,15 @@
 {
-  "version": "0.1.218",
-  "notes": "Novsky 0.1.218\n\n- Перехід агента на іншого Telegram-бота («Налаштування» → «Telegram-бот») більше не зупиняється зі словами «Telegram за 2 хв не прийняв бота…», коли бот насправді вже працює. Novsky чекав на рядок у журналі агента, якого свіжий Claude Code туди не пише, і через це скасовував вдалий перехід та писав, що й попередній бот «не підтвердив роботу». Тепер Novsky дивиться, з яким ботом запущено сам процес агента на сервері. Якщо перехід уже зупинився з цими словами, агент лишився на попередньому боті й працює: онови Novsky і натисни «Повторити з цього етапу».\n",
-  "pub_date": "2026-11-18T16:01:13.432Z",
+  "version": "0.1.219",
+  "notes": "Novsky 0.1.219\n\n- Якщо старого Telegram-бота агента вже видалено в @BotFather (або його токен перевипущено), перехід на нового бота («Налаштування» → «Telegram-бот») більше не зупиняється через те, що старого бота не вдається підтвердити в Telegram. Агент переходить на нового бота й працює. Після цього Novsky окремо каже, що покупка кита лишилася за старим ботом і як її відновити; коли покупку привʼязано до нового бота, натисни «Повторити з цього етапу», і оновлення кита завершиться.\n- Якщо на новому боті агент не запустився, а старого бота вже немає, Novsky більше не повертає агента на бота, якого не існує: сервер лишається як є, а повтор етапу завершує перехід.\n",
+  "pub_date": "2026-11-18T17:26:53.323Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.218/Novsky-0.1.218-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRzZEZzbzdEL1ZSZUxmaHFycjBoZUlKWHFqWTNoMmtiMEthb2JkYlB2ejNyV28vcDRwSVRzdUFoaFFDdGlnQUJyY3VYYm9DaWRMdWwyZVcwNlNOY0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDE3NjY1CWZpbGU6Tm92c2t5LTAuMS4yMTgtYXJtNjQuYXBwLnRhci5negpKNStQMjdYNCtRcmR5VW5hdVhJUWw0MU44bThGRGh6bTRlK2p5MUxxQktUV3NOZnVEZ28xbXdEMmVZY213Y2szQkd5eXRNVTZDMzd6UUdDQ08zZTFEZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.219/Novsky-0.1.219-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmoxUXR0Uy9IaXhveTlaaVVWWmxVMWdHRi9scVVvT1VEbGdTM29FUnhOZ2h5RnpZYVFZaHp0d3pJYlJRKzRsTXdKYmRJYmxIU2gvZ054V01KTWVmblFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDIyODA2CWZpbGU6Tm92c2t5LTAuMS4yMTktYXJtNjQuYXBwLnRhci5negp2R3QxcTNFeXpuSC83V0tFOHJxeUhIV3pSdjNKNUhqMWdSWXAwRi8zMzUzMDBHNGFUN2M4VXM1elJwNFdJV2JXTE42MlVuVFVkcnE1Z2kwSElvZ1lBZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.218/Novsky-0.1.218-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1jaHNxZFZVTy92d2prTisvN0dpSThVYTJQazFmaHBzdm1VNzRVbDVCeHF2ZGhuL2JQcVpoTjVWRTVoVnBOOG5yK0pZb0lMV09TSSs4N3NmYzY3dVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDE3NjY1CWZpbGU6Tm92c2t5LTAuMS4yMTgteDY0LmFwcC50YXIuZ3oKY1ZFU0N2MHAxN0piQ2FPUlhnL3lWc2lRUEdSeUZzVldLdTlqNkFzWnFGM3NXYjNWbDlPQUNRNGVxcFUyMWF1UEJQTXV1ckI4ZnVMTHppUXB2UWFFQWc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.219/Novsky-0.1.219-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZRdnQ1R2pjcjNjbE9VN3RXbVQvYjhRQWswVVZyR1FpdG5FVFZGUC9YUDFHRkRINGE0bTRxQUhFOHQyeFowVmRiRnNOdkhpMndXZDNJRC9sS013S1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDIyODA2CWZpbGU6Tm92c2t5LTAuMS4yMTkteDY0LmFwcC50YXIuZ3oKbDYvMzhhRDBaWGNETytTM3NSUmhFQXljRlpTZSt1Rk5wZHBjTnZwb2RLVFc1eTRTMk0yTE0zQjNOUVhOWmFxTldNRUpUTDNCY2tWYUpoQ3pjZStCQ3c9PQo="
     }
   }
 }
