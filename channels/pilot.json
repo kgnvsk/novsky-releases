@@ -1,15 +1,15 @@
 {
-  "version": "0.1.217",
-  "notes": "Novsky 0.1.217\n\n- Агента в режимі компанії тепер можна перевести на іншого Telegram-бота («Налаштування» → «Telegram-бот»). Раніше перехід зупинявся на етапі «Перехід на нового Telegram-бота» зі словами «Агент працює в режимі компанії… зміна бота для нього поки недоступна». Разом з агентом переходять права співробітників і груп, памʼять їхніх розмов, розклади й виконана робота. Після переходу кожен співробітник має натиснути Start у новому боті, а в робочі групи нового бота треба додати замість старого, з тими самими правами. Картки, що чекали підтвердження в старому боті, закриваються: попроси агента надіслати їх ще раз. Якщо перехід уже зупинився з цими словами, онови Novsky і натисни «Повторити з цього етапу».\n- Якщо на сервері кілька агентів, оновлення другого агента одразу після зміни бота більше не зупиняється зі словами «збережені налаштування не відповідають агенту». Якщо це вже сталося, почни перехід із налаштувань агента ще раз: сервер уже на новому боті, тож перехід лише завершиться, і оновлення пройде.\n",
-  "pub_date": "2026-11-18T10:59:17.623Z",
+  "version": "0.1.218",
+  "notes": "Novsky 0.1.218\n\n- Перехід агента на іншого Telegram-бота («Налаштування» → «Telegram-бот») більше не зупиняється зі словами «Telegram за 2 хв не прийняв бота…», коли бот насправді вже працює. Novsky чекав на рядок у журналі агента, якого свіжий Claude Code туди не пише, і через це скасовував вдалий перехід та писав, що й попередній бот «не підтвердив роботу». Тепер Novsky дивиться, з яким ботом запущено сам процес агента на сервері. Якщо перехід уже зупинився з цими словами, агент лишився на попередньому боті й працює: онови Novsky і натисни «Повторити з цього етапу».\n",
+  "pub_date": "2026-11-18T16:01:13.432Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.217/Novsky-0.1.217-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZpNm9CVlBWdE1jMHliTlFtcmRySVNhb1FtM05RdTRheVFaT3NsOUJiamRmbnExRkpLV3F0Z3gwVWJYbWlNRFhjVHlZdGZENjRYY1gzNU1kZG5veVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTk5MDcxCWZpbGU6Tm92c2t5LTAuMS4yMTctYXJtNjQuYXBwLnRhci5negpHZHNZN2lSWGN4cG55bnBEZ1pmeVdmdHd0R3Exa05uR053cU9xRm9JM09MQjFKQUFGM3F1TVhyYUxCK0JyelcwVlJwVlVmdHREWld3WFBwa3RtemVDZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.218/Novsky-0.1.218-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRzZEZzbzdEL1ZSZUxmaHFycjBoZUlKWHFqWTNoMmtiMEthb2JkYlB2ejNyV28vcDRwSVRzdUFoaFFDdGlnQUJyY3VYYm9DaWRMdWwyZVcwNlNOY0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDE3NjY1CWZpbGU6Tm92c2t5LTAuMS4yMTgtYXJtNjQuYXBwLnRhci5negpKNStQMjdYNCtRcmR5VW5hdVhJUWw0MU44bThGRGh6bTRlK2p5MUxxQktUV3NOZnVEZ28xbXdEMmVZY213Y2szQkd5eXRNVTZDMzd6UUdDQ08zZTFEZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.217/Novsky-0.1.217-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJhUmNhTU1IUHIrRk5CL2NVTFEvOHY0NmNQcjd1MHo1akk3QWJOc1l2L3NMQkJzQmVjUE1Uc3NZRlVjYWtaNW5YdjFQeVQxSEc0SGc3b0JWd2k0eEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTk5MDcxCWZpbGU6Tm92c2t5LTAuMS4yMTcteDY0LmFwcC50YXIuZ3oKRFpUcGgzdU5mYmRqeDBObFJSd0hUbmFEY0QyQkVxcitYRlNuT3Z2Z0JzaUFTcVlrZWtQU2hmZlphOEMvZTFraE01REgzRGk3OHJMU1JXOXlaaVoxREE9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.218/Novsky-0.1.218-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1jaHNxZFZVTy92d2prTisvN0dpSThVYTJQazFmaHBzdm1VNzRVbDVCeHF2ZGhuL2JQcVpoTjVWRTVoVnBOOG5yK0pZb0lMV09TSSs4N3NmYzY3dVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDE3NjY1CWZpbGU6Tm92c2t5LTAuMS4yMTgteDY0LmFwcC50YXIuZ3oKY1ZFU0N2MHAxN0piQ2FPUlhnL3lWc2lRUEdSeUZzVldLdTlqNkFzWnFGM3NXYjNWbDlPQUNRNGVxcFUyMWF1UEJQTXV1ckI4ZnVMTHppUXB2UWFFQWc9PQo="
     }
   }
 }
