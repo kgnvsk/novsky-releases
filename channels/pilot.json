@@ -1,15 +1,15 @@
 {
-  "version": "0.1.221",
-  "notes": "Novsky 0.1.221\n\n- Оновлення кита агента в режимі компанії більше не зупиняє бота, якщо власник агента в записі Novsky не той, що на сервері (так буває, коли агента встановлювала одна людина, а власником на сервері стала інша). Раніше це зʼясовувалося вже після зупинки бота: оновлення зупинялося зі словами «Не вдалося прочитати digest попереднього кита для відкату», бот повертався на попередньому киті, але без розкладу і з паузою для співробітників, поки це не полагодять вручну. Тепер Novsky перевіряє це до паузи й зупинки та каже причину словами; бот працює далі.\n",
-  "pub_date": "2026-11-18T20:50:32.708Z",
+  "version": "0.1.222",
+  "notes": "Novsky 0.1.222\n\n- Преміум-агент — це агент компанії, тож режим компанії в нього вмикається одразу під час встановлення. Етап «Корпоративні сесії» більше не можна пропустити після помилки: раніше так можна було лишити преміум-агента, який відповідає тільки власникові, а всім іншим пише «Корпоративний режим тимчасово недоступний».\n- Увімкнений режим компанії тепер записується і в збережені налаштування агента, тож жодне оновлення вже не вимкне його, зібравши робочі налаштування зі збережених.\n\nАгентів на серверах цей випуск не оновлює.\n",
+  "pub_date": "2026-11-18T21:08:57.588Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.221/Novsky-0.1.221-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm8vN0h4VmtJblRNcE8wdU9XZEY5Q0ZoYlFwaHIzZnBpRHdWWXk3aENqTUFPVXdFVm1BbStRL01KamUzV1FjRkJNWUJ1RnJBbHpWWlhjSlkveVF5TVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM1MDE5CWZpbGU6Tm92c2t5LTAuMS4yMjEtYXJtNjQuYXBwLnRhci5negozczJxNFpUak9qNVlkVWVaWkM0QUVoZlpObFpnOGd1Y1dZQWo0WU9kZ0I5ZTdUbmNOZ2VzOWliMyt1UEk5L2JvQW1BSXFoNER1KzhLbkQ0cE9waTVCQT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.222/Novsky-0.1.222-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm4rZDdsQUVEb2pkekNKQ0FBSjAxSkNmUGl2MHJLWmxaWTl5eThTN1c5M0hTdDBKT1hQbmZPUnV6cFQvenJCZ056MjBiNlNBbUk3Y0ZrRkQrSHJCdUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM2MTIxCWZpbGU6Tm92c2t5LTAuMS4yMjItYXJtNjQuYXBwLnRhci5negpQSmd1V3lrMHA1TlArSUtsVnY1MGI3bTNwSUxsYU1PbHowV01UNVE1UkhObmNoUlV5bDIvVzUzZnBMRlVGVVRIdzZsWDdkQnZ3WTZGN0hFNnZMU3NEdz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.221/Novsky-0.1.221-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1iLzh0VldUVUgyWXpFaTcxejJmRnM1bG0xNkNxU0hiVWhBWDhMREloUG9LaDFtVDFtN3MyRU9SbmlNeFBVbXdNNG16ZHo2emthOFE2Mjk1c1UvM1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM1MDE5CWZpbGU6Tm92c2t5LTAuMS4yMjEteDY0LmFwcC50YXIuZ3oKNVhlRVNKc256UG8zU2tRM2Zkek5RSTIwMEcxSDhOMGpISW9mNUpKcWJYSzhSN3hUczJPQkxNdm9mQmNkV1NUQVd0VVlsaGQ0WTZkd0tDamM4bk9aQWc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.222/Novsky-0.1.222-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnR3QWRPUWRLVnhaTS9xYVV2SnFVOXJhTU9QSWxDSU1meTVFeXgvZmwzMHE0cTRnR0FLUkpzWFh6RjBqQmlJTEQwVHZkb1VUWkp4WEdIME01L2lVN2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM2MTIyCWZpbGU6Tm92c2t5LTAuMS4yMjIteDY0LmFwcC50YXIuZ3oKYzVCZStiZ3FGMkNJZG9qSDg0Uk5RdEg0Qi9GcHhuTUIvVGIzdkJObzVwaFViRjhCN2FibXg2K3lMQ1c3M09UODlncHlVQkd0VEc5ajd6aTVqeE13Q0E9PQo="
     }
   }
 }
