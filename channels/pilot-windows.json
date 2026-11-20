@@ -1,11 +1,11 @@
 {
-  "version": "0.1.224",
-  "notes": "Novsky 0.1.224\n\n- «Оновити кит» для агента в режимі компанії ставить спільний браузер, якщо його не було або він не працює (browser-doctor не проходить). Раніше таке оновлення лише писало «спільний браузер не змінюється», і агент, встановлений без браузера, так його й не отримував.\n- Браузер ставиться лише тоді, коли до оновлення входу в Claude лишається понад двадцять хвилин, як і плагіни; агент на ключі API проходить одразу.\n- Якщо після відкату кит, відкладений убік, не вдалося прибрати, це видно в журналі оновлення.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.224 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.224/Novsky-0.1.224-windows-x64-setup.exe\n\nАгентів на серверах цей випуск не оновлює.\n",
-  "pub_date": "2026-11-20T17:12:47.324Z",
+  "version": "0.1.225",
+  "notes": "Novsky 0.1.225\n\n- Агенти нижче в оргструктурі тепер звітують своєму керівнику самі, а не лише у відповідь на його задачу: про результат, проблему чи ризик, рішення або прохання свого власника чи працівників, що стосується команди. Звіт — текст і до п'яти файлів зі своєї теки outbox; повтор того самого звіту не дублюється.\n- Керівник бачить непрочитані звіти разом із файлами й позначає прочитане. Агент кита, в якого є хтось нижче, дізнається про нові звіти з наступним повідомленням; ведучий агент, прийнятий у Novsky, — через свій навик команди: на початку роботи й коли власник питає про команду чи звіти.\n- Працює на кожному сервері, де всі агенти на Claude. Делеговані задачі звітів не надсилають і не читають.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.225 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.225/Novsky-0.1.225-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює. Шар команди на серверах, де всі агенти на Claude, Novsky застосує сам після оновлення.\n",
+  "pub_date": "2026-11-20T19:48:37.922Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.224/Novsky-0.1.224-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmt5QVNvRjQrdXFOeFJnYTNub2ZCd3Z6blN4OE9HNkl0Y1FxaURxek5jeDNBcVdwSkR2RFE3QzdyQ21mOVZFb25xNEJsYTlldE1BQTFMWTBlekV0VWdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTk0NzM3CWZpbGU6Tm92c2t5LTAuMS4yMjQtd2luZG93cy14NjQtc2V0dXAuZXhlCituUnVGN0FLbGpTNHpXU1pFTmI2cGdPUzVBZVptU3hFREQ2VEhmU0JIWjNrNEZaU1BweHBoNXExUHE3UFZQRXpuY21MUXJ0akJzaitLKzROaEx1bERnPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.225/Novsky-0.1.225-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZJaTZveGlzcDBrY2J2enRVT1BZNDNleS9sbDc3bHdRaExLdlBFR3lVMFhHWkxvdjd1Uk9BWGQ1N0JhZTJKY3h1ZHF5NC82Q3dkUW5YTzAwRWJndnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjA0MDY3CWZpbGU6Tm92c2t5LTAuMS4yMjUtd2luZG93cy14NjQtc2V0dXAuZXhlCjExWFNpV0lhOFNzaU5EZVYwWjRPWk9ob2EvellJUDdIR0s3MlRiWHRjQTBDamxEZytxS3pPOHc3czdBbWhpQXNSSVdqWmpVeHdDODVqazFQNFhUTkF3PT0K"
     }
   }
 }
