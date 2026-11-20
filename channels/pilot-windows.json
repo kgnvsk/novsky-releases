@@ -1,11 +1,11 @@
 {
-  "version": "0.1.225",
-  "notes": "Novsky 0.1.225\n\n- Агенти нижче в оргструктурі тепер звітують своєму керівнику самі, а не лише у відповідь на його задачу: про результат, проблему чи ризик, рішення або прохання свого власника чи працівників, що стосується команди. Звіт — текст і до п'яти файлів зі своєї теки outbox; повтор того самого звіту не дублюється.\n- Керівник бачить непрочитані звіти разом із файлами й позначає прочитане. Агент кита, в якого є хтось нижче, дізнається про нові звіти з наступним повідомленням; ведучий агент, прийнятий у Novsky, — через свій навик команди: на початку роботи й коли власник питає про команду чи звіти.\n- Працює на кожному сервері, де всі агенти на Claude. Делеговані задачі звітів не надсилають і не читають.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.225 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.225/Novsky-0.1.225-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює. Шар команди на серверах, де всі агенти на Claude, Novsky застосує сам після оновлення.\n",
-  "pub_date": "2026-11-20T19:48:37.922Z",
+  "version": "0.1.226",
+  "notes": "Novsky 0.1.226\n\n- Керівник тепер відкриває файли, які агент нижче прикладає до свого звіту. У 0.1.225 звіт доходив, але папка звіту на сервері лишалася закритою, і файл не читався. Знайдено живою перевіркою на сервері.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.226 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.226/Novsky-0.1.226-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює. Шар команди на серверах, де всі агенти на Claude, Novsky застосує сам після оновлення.\n",
+  "pub_date": "2026-11-20T21:09:06.417Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.225/Novsky-0.1.225-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZJaTZveGlzcDBrY2J2enRVT1BZNDNleS9sbDc3bHdRaExLdlBFR3lVMFhHWkxvdjd1Uk9BWGQ1N0JhZTJKY3h1ZHF5NC82Q3dkUW5YTzAwRWJndnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjA0MDY3CWZpbGU6Tm92c2t5LTAuMS4yMjUtd2luZG93cy14NjQtc2V0dXAuZXhlCjExWFNpV0lhOFNzaU5EZVYwWjRPWk9ob2EvellJUDdIR0s3MlRiWHRjQTBDamxEZytxS3pPOHc3czdBbWhpQXNSSVdqWmpVeHdDODVqazFQNFhUTkF3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.226/Novsky-0.1.226-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpBTWJZY2FKN2pEdnlSQVppOXBmNGIvYnBwMUtjTWlWYlhlbE1KQk0yaW1tKy92NERBWU1zTGZYY1FybDRHNkJqRERKODRaaTQ2Q2N0NDRNeHYzcWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjA4OTE4CWZpbGU6Tm92c2t5LTAuMS4yMjYtd2luZG93cy14NjQtc2V0dXAuZXhlCjYyREdRN1FIankwbERuQnFwVkQ1L2RoNlMxckU4RW1ZOHFoZG5PdTJJcVVXN29XUXNaQlA2OHY5N2lqL3lsZG04UEYvK01ZK1R3d2Njem8rM0lIUkR3PT0K"
     }
   }
 }
