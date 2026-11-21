@@ -1,11 +1,11 @@
 {
-  "version": "0.1.226",
-  "notes": "Novsky 0.1.226\n\n- Керівник тепер відкриває файли, які агент нижче прикладає до свого звіту. У 0.1.225 звіт доходив, але папка звіту на сервері лишалася закритою, і файл не читався. Знайдено живою перевіркою на сервері.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.226 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.226/Novsky-0.1.226-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює. Шар команди на серверах, де всі агенти на Claude, Novsky застосує сам після оновлення.\n",
-  "pub_date": "2026-11-20T21:09:06.417Z",
+  "version": "0.1.227",
+  "notes": "Novsky 0.1.227\n\n- Помічник Novsky сам готує собі Claude Code. Якщо на компʼютері Claude Code немає або він старіший за 2.1.263, помічник завантажує лише сам рушій потрібної версії й звіряє його контрольну суму: спершу з npm, а якщо не вийде, з сервера Anthropic. Без Node.js, Python і sudo; твій власний claude у Терміналі лишається як був. Обірване чи зависле завантаження помічник повторює сам і пише, що робить. Якщо встановити все ж не вдалося, він називає справжню причину (немає звʼязку, мало місця на диску й скільки саме, застаріла macOS) і одну дію перед «Повторити» замість «Спробуй ще раз». Раніше помічник ставив собі ще й Node.js, Python та бібліотеки, і на Mac партнера це обривалося загальною помилкою.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.227 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.227/Novsky-0.1.227-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює.\n",
+  "pub_date": "2026-11-21T00:18:41.232Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.226/Novsky-0.1.226-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmpBTWJZY2FKN2pEdnlSQVppOXBmNGIvYnBwMUtjTWlWYlhlbE1KQk0yaW1tKy92NERBWU1zTGZYY1FybDRHNkJqRERKODRaaTQ2Q2N0NDRNeHYzcWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjA4OTE4CWZpbGU6Tm92c2t5LTAuMS4yMjYtd2luZG93cy14NjQtc2V0dXAuZXhlCjYyREdRN1FIankwbERuQnFwVkQ1L2RoNlMxckU4RW1ZOHFoZG5PdTJJcVVXN29XUXNaQlA2OHY5N2lqL3lsZG04UEYvK01ZK1R3d2Njem8rM0lIUkR3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.227/Novsky-0.1.227-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmcxTm93MGFsclNoVFRJenBLVysydjNUV2JWUkdMd3NvSzFDUWttWk9yb2VKcGMzU3AzcmdIdTRVUEVKN3VlOEhCdGMrS3NPUkMxb2xaczJvQVRtQWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjIwMjkxCWZpbGU6Tm92c2t5LTAuMS4yMjctd2luZG93cy14NjQtc2V0dXAuZXhlCnhicEw3Vis5eldQL3gwRStyVWR1Tlk2YzNnMzhaTHVrZUZEL1o3K282amNOcDI2b0tpY1hjcmt3QTVMbXJFMmtOUm40SWJtSnQxWGpuUWczVldjM0NBPT0K"
     }
   }
 }
