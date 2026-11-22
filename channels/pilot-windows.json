@@ -1,11 +1,11 @@
 {
-  "version": "0.1.228",
-  "notes": "Novsky 0.1.228\n\n- Відкрите вікно Novsky більше не навантажує мережу й диск. Раніше вкладка «Активність» і дошка кожні ~12 секунд заново читали всі сервери агентів: близько 10 ГБ за годину мережею, десятки гігабайтів запису на диск і стрибки пінгу до 180 мс, поки вікно просто було відкрите. Тепер активність усього парку оновлюється раз на 30 секунд, сторінка одного агента — як і раніше, раз на кілька секунд. Вікно за грою чи іншою програмою нічого не питає й одразу оновлюється, щойно до нього повертаєшся. Історія агентів, підключених без встановлення, як і раніше дочитується у фоні раз на хвилину, але в базу пишеться лише те, що змінилося.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.228 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.228/Novsky-0.1.228-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює.\n",
-  "pub_date": "2026-11-22T14:09:51.699Z",
+  "version": "0.1.229",
+  "notes": "Novsky 0.1.229\n\n- «Підключення» приймають новий інструмент пам’яті агента: з кита від 22.11 пошук по пам’яті бачить усю історію Telegram, а не лише 5 000 останніх повідомлень. Без цього випуску агент, оновлений на такий кит, показував би «Спочатку онови інструменти агента». Агенти на попередніх китах і далі вважаються готовими.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.229 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.229/Novsky-0.1.229-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює.\n",
+  "pub_date": "2026-11-22T18:27:15.659Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.228/Novsky-0.1.228-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnYwNmE5Y2NYSzJ3Tnl3YzBSVWwyUTlEMjVSQ2VhWEw1aUR6dXNQM1IyR0luVFNkZy9HK0pwcUZJZ2IvaEplNldOUy84YmFESHhYV085RFg4TkI5K2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzU2NTI4CWZpbGU6Tm92c2t5LTAuMS4yMjgtd2luZG93cy14NjQtc2V0dXAuZXhlCktQVDNNUzFPc05nalQrMjlhNE9XWXVSeG5VSllnYzdTVjQxSDc1OW1JaUFJa2J1U05nSStRdFJCVys0ZTVnNm1WS3NIRXhxSXZVT25TRCtuZVBMQkRRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.229/Novsky-0.1.229-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFVeXFkcm5qMEJFVCtmRnIvdUwzbUtCQjFyeUFrZzl2QUNXMDVpVW9HZ093TmIzSFl0bDRFZGt4NnBLMW1icW5tcllaVHc2N2MvZ3c0bWZ2R1NlQ2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzcyMDA4CWZpbGU6Tm92c2t5LTAuMS4yMjktd2luZG93cy14NjQtc2V0dXAuZXhlClFyRTRlMWVSc0FuN0hJeVV6MG9MVXhZQVN2bm9CdXppSXp0YlZ2cmZtTVhUUCtIc3hwVnVOVElPV3JOUVZSMU5jOG03OG9NNEc0Z3JNTkZCY09PR0N3PT0K"
     }
   }
 }
