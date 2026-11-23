@@ -1,11 +1,11 @@
 {
-  "version": "0.1.230",
-  "notes": "Novsky 0.1.230\n\n- Оновлення кита проходить і на сервері, куди Novsky входить не від root, а sudo там просить пароль: допоміжний скрипт кроку розкладки кита тепер передається стиснутим, тож команда вкладається в межу Linux для одного аргументу. Раніше таке оновлення зупинялося на «Argument list too long» ще до зупинки бота. Для решти агентів нічого не змінюється.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.230 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.230/Novsky-0.1.230-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює.\n",
-  "pub_date": "2026-11-23T11:27:03.953Z",
+  "version": "0.1.231",
+  "notes": "Novsky 0.1.231\n\n- Оргструктура: праворуч тепер лише те, що стосується вибраного сервера. Раніше там могла висіти помилка спільної роботи агентів з іншого сервера. «Повторити» під такою помилкою повторює лише цей сервер.\n- Оргструктура: Delete видаляє вибраний ще не встановлений блок (запланованого агента). Раніше блок зникав і одразу повертався.\n- Оргструктура: Delete на встановленому агенті більше нічого не робить. Раніше він непомітно розривав усі звʼязки цього агента з керівником, підлеглими й колегами. Вибраний звʼязок Delete чи Backspace видаляє, як і раніше.\n- Модулі: «Повна версія» вмикає всі модулі одним кліком — у майстрі нового агента і в налаштуваннях модулів агента.\n- Майстер: агент, якого ставиш на сервер його керівника, більше не пропонує «Додати ключ Novsky на сервер» і захист сервера (ufw, fail2ban) — сервер уже налаштований. Під пунктом ChatGPT/Codex пояснено, що вхід у кожного агента свій.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.231 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.231/Novsky-0.1.231-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює.\n",
+  "pub_date": "2026-11-23T17:09:12.234Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.230/Novsky-0.1.230-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlxMXpjY2gwOTQyUDNKdjI0bi9qYmEwOUpsMk1qbXE4YVI2emgrL2I5bmRUUExLZG03V0l1dVJRb0RkYnd1bzRJbmtwN3U5aVJGaHhLQW0zNEpPRXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDMzMTk1CWZpbGU6Tm92c2t5LTAuMS4yMzAtd2luZG93cy14NjQtc2V0dXAuZXhlCnlLd2FzQ1RDcFplOGtyYllyWnpucTRIamFnL3BrMlhJampBR014dmMwSDJRb1hUeVdicHBDK3F4eVQyK3NndXdCbXlPSDNIUzVOUTBzdXR3bkZMUERRPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.231/Novsky-0.1.231-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxGaURRZzNoU2NDb1RZbnYzVGdaTGxVV21tS0t6aVd5WHBDeUFRemp4Q0J1VFI1N1JNS09NSk03dGs4STIxUGhkT2IwUytGaWMreHZ6TGk2MFVXWmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDUzNjk0CWZpbGU6Tm92c2t5LTAuMS4yMzEtd2luZG93cy14NjQtc2V0dXAuZXhlClc4ZStqMEpudUp0UVdGTGdqRmVEbHoxcEFsSmo5WXkvcFpIVk9kNW1WMHU3YXY1NnozcXFNUmJXZm1qUnFFamhyalByUk0vd3NqRUVqYUt5NWkxWkR3PT0K"
     }
   }
 }
