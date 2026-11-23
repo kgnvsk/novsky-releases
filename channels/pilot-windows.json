@@ -1,11 +1,11 @@
 {
-  "version": "0.1.229",
-  "notes": "Novsky 0.1.229\n\n- «Підключення» приймають новий інструмент пам’яті агента: з кита від 22.11 пошук по пам’яті бачить усю історію Telegram, а не лише 5 000 останніх повідомлень. Без цього випуску агент, оновлений на такий кит, показував би «Спочатку онови інструменти агента». Агенти на попередніх китах і далі вважаються готовими.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.229 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.229/Novsky-0.1.229-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює.\n",
-  "pub_date": "2026-11-22T18:27:15.659Z",
+  "version": "0.1.230",
+  "notes": "Novsky 0.1.230\n\n- Оновлення кита проходить і на сервері, куди Novsky входить не від root, а sudo там просить пароль: допоміжний скрипт кроку розкладки кита тепер передається стиснутим, тож команда вкладається в межу Linux для одного аргументу. Раніше таке оновлення зупинялося на «Argument list too long» ще до зупинки бота. Для решти агентів нічого не змінюється.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.230 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.230/Novsky-0.1.230-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює.\n",
+  "pub_date": "2026-11-23T11:27:03.953Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.229/Novsky-0.1.229-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFVeXFkcm5qMEJFVCtmRnIvdUwzbUtCQjFyeUFrZzl2QUNXMDVpVW9HZ093TmIzSFl0bDRFZGt4NnBLMW1icW5tcllaVHc2N2MvZ3c0bWZ2R1NlQ2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzcyMDA4CWZpbGU6Tm92c2t5LTAuMS4yMjktd2luZG93cy14NjQtc2V0dXAuZXhlClFyRTRlMWVSc0FuN0hJeVV6MG9MVXhZQVN2bm9CdXppSXp0YlZ2cmZtTVhUUCtIc3hwVnVOVElPV3JOUVZSMU5jOG03OG9NNEc0Z3JNTkZCY09PR0N3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.230/Novsky-0.1.230-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmlxMXpjY2gwOTQyUDNKdjI0bi9qYmEwOUpsMk1qbXE4YVI2emgrL2I5bmRUUExLZG03V0l1dVJRb0RkYnd1bzRJbmtwN3U5aVJGaHhLQW0zNEpPRXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDMzMTk1CWZpbGU6Tm92c2t5LTAuMS4yMzAtd2luZG93cy14NjQtc2V0dXAuZXhlCnlLd2FzQ1RDcFplOGtyYllyWnpucTRIamFnL3BrMlhJampBR014dmMwSDJRb1hUeVdicHBDK3F4eVQyK3NndXdCbXlPSDNIUzVOUTBzdXR3bkZMUERRPT0K"
     }
   }
 }
