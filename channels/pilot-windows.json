@@ -1,11 +1,11 @@
 {
-  "version": "0.1.236",
-  "notes": "Novsky 0.1.236\n\n- Майстер нового агента: у «Тип агента» тепер три картки — «Базовий» (без ключа), «Individual Kit» і «Premium Kit». Раніше Individual Kit ховався другим списком під карткою Premium, і його легко було не помітити. Individual Kit, як і раніше, ставиться з того самого ключа Premium і лише для агентів на Claude.\n- «Спеціаліста» з майстра прибрано разом із рольовими шаблонами, і в локальній збірці теж. Ключ рольового шаблону майстер тепер не приймає й пише, що нових агентів ставимо лише з ключем Premium.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.236 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.236/Novsky-0.1.236-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює.\n",
-  "pub_date": "2026-11-24T14:10:31.616Z",
+  "version": "0.1.237",
+  "notes": "Novsky 0.1.237\n\n- Помічник Novsky: вхід у Claude більше не зависає. Якщо браузер не відкрився сам, у вікні входу є «Відкрити сторінку входу», «Скопіювати посилання» і поле для коду зі сторінки — як під час встановлення агента. Те саме тепер і під час входу в Claude для агента на цьому компʼютері.\n- Помічник працює з тим самим оточенням, що й термінал цього компʼютера. Раніше на Windows через урізане оточення Claude Code помічника не міг навіть відкрити браузер, а його команди працювали гірше, ніж у звичайному терміналі. Не передаються лише змінні іншої сесії Claude і налаштування API, щоб помічник лишався на твоїй підписці.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.237 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.237/Novsky-0.1.237-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює.\n",
+  "pub_date": "2026-11-25T17:43:17.358Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.236/Novsky-0.1.236-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9QYk9DazlSeGVPOXpYTW5iLzRPcXcxdGVucURUV3JQQmJWSjh5MjdMQ096QmYrQkk1Y1ZVM1g5a3hQY2k3NHR0R0xzSDVLeFhhWWN6NXFrSFMweUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTI5Mzk5CWZpbGU6Tm92c2t5LTAuMS4yMzYtd2luZG93cy14NjQtc2V0dXAuZXhlCksrcHZMeU5DYys0V1hUVldZZDluTkJWaFl0Nk5QTm9RMW1XWDR5QzRySWNoOG9zdU5rMUpvZWFNN0JwZ0JmdnZRSmZObkJCRExISTIyWXk1WGdZY0J3PT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.237/Novsky-0.1.237-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnRWVCtKZDd5Ny9seWREWmpPVjRkNmhCa2xMRkJOUDNzYk84V2JPZG4zZFJvSkhZekgzVkFWSDB2OWVCYzAvN09wckFJNmp4V1Jkd3dUTDVsODM3TlE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjI4NTY1CWZpbGU6Tm92c2t5LTAuMS4yMzctd2luZG93cy14NjQtc2V0dXAuZXhlCkNrVUkvTC80WlhqR3IvbWlRN2p4QjF2Q0srYzh0WmEyd1kwNE56ZzBJekNobmJhZEJzVUFHcUgxZytiTEpqZUs0dFVOc1ZGRUZubWJMTENUdjQvS0RBPT0K"
     }
   }
 }
