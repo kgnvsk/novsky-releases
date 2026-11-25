@@ -1,15 +1,15 @@
 {
-  "version": "0.1.237",
-  "notes": "Novsky 0.1.237\n\n- Помічник Novsky: вхід у Claude більше не зависає. Якщо браузер не відкрився сам, у вікні входу є «Відкрити сторінку входу», «Скопіювати посилання» і поле для коду зі сторінки — як під час встановлення агента. Те саме тепер і під час входу в Claude для агента на цьому компʼютері.\n- Помічник працює з тим самим оточенням, що й термінал цього компʼютера. Раніше на Windows через урізане оточення Claude Code помічника не міг навіть відкрити браузер, а його команди працювали гірше, ніж у звичайному терміналі. Не передаються лише змінні іншої сесії Claude і налаштування API, щоб помічник лишався на твоїй підписці.\n\nКит агентів цей випуск не оновлює.\n",
-  "pub_date": "2026-11-25T17:36:41.113Z",
+  "version": "0.1.238",
+  "notes": "Novsky 0.1.238\n\n- «Люди і ролі»: людей тепер можна додавати просто з Novsky. Вписуєш Telegram ID, обираєш роль — оператор, адміністратор або суперадмін — і тиснеш «Додати». Людину можна прибрати кнопкою «Прибрати». Оператор може писати боту, адміністратор ще й керує ним, суперадмін має права власника, крім його особистого листування з ботом, профілю й особистих нотаток.\n- Суперадміна можна призначити лише там, де кит агента підтримує цю роль (корпоративний агент на Premium-киті); в Individual Kit суперадмінів немає. Додавати й прибирати людей можна в агентів на Claude; для інших агентів розділ показує список без кнопок.\n- Novsky не змінює ролі, коли не впевнений, хто власник агента: поки передача власника не підтверджена або коли власник на сервері не той, що в записі Novsky. Так справжнього власника не прибереш випадково.\n- Кожна зміна ролі з Novsky лишає запис у журналі доступу самого агента, як і зміна з чату.\n- Агенти-керівники: команди перегляду підлеглих більше не зависають, якщо викликати їх із «--help» або без запиту, а великий запит читається повністю.\n\nКит агентів цей випуск не оновлює.\n",
+  "pub_date": "2026-11-25T23:17:22.021Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.237/Novsky-0.1.237-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScmxVRnBvQkZSRXFEL3YwdjBPQzNuYTEwY0ZVdE5lQTNXVjFVSE0wRVFNSE9RdFk1eFhSVC9zT25qZlRERGpDUFEwVUpWNGVKMEo1eWpLWFdrUlVJU0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjI4MTkyCWZpbGU6Tm92c2t5LTAuMS4yMzctYXJtNjQuYXBwLnRhci5negpnRk1lNVUvdkxNMHVKK0pUSnpYWGNnNFFIMWJ2V2RZc0JRaTE4b1g1RFlWeE9kRFErZUx0eHRyeHpaQzNwUTdOR0E2ZXlwVFQvVVJqOUFqSmJNWHZEdz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.238/Novsky-0.1.238-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1ieFV6Zkd0OHBEK0FmbUxkb3RnWW9WR2ZhS2JjUURrdEJzV0M0TGdQd0pMVThja1pEQWh6eGdiZERoVXNJM0hYSGhJVk5YM2RlVnVGamFqbmVjVmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjQ4NjMzCWZpbGU6Tm92c2t5LTAuMS4yMzgtYXJtNjQuYXBwLnRhci5negovSW1kOU5NampFWkk4dTlDc3R0akdLRGtCdnNwL1h1WlVyOW5pV044MTBXQ1VoZjFNNXdLSjZTeTdjc3BpNWlRaUFmL1Mwc3VtSHFETFZtWnYzdW9DZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.237/Novsky-0.1.237-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNzOFRIOWtrL0RtNnJTTHIvMHUwTzJiTlFndGd1aFY3N3VZeVNXTjF6N1cyYTJVeGxDQSt3d2lueitqQnNMQ2ltMkRZZTFaTHk3QkpxY0dHL05aWUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjI4MTkzCWZpbGU6Tm92c2t5LTAuMS4yMzcteDY0LmFwcC50YXIuZ3oKQTg3TktnMXBCS1lRQjBBR01TNVY1TXNram1OVkd0eDQ1Yzl2Uyt1b2lYQ0wvS3hDM1VHMnpsbWNYNkFMKzB5dk9OcWU4ZzNZbWxyUWhtckwwYTl4Q2c9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.238/Novsky-0.1.238-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNNTEFqdzRTUDdoaTdHa2duR1pBeVN2SzczaG54Y1ZsY0NWSnR0Ty9WNUtYaDRBQmd4dEdORGJXSHFDTEtyTVpRTS9MWis0ZUJIUDZ0V2NWMzFEbkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjQ4NjM0CWZpbGU6Tm92c2t5LTAuMS4yMzgteDY0LmFwcC50YXIuZ3oKenJvUVU3cnE4ZSt2VWd1SEJWR3RDbXhOcDRpcVV5bmFxZ0RLcFNNcTR5VisrMVZVOURWUzk0VEMxYjhvMWtuaFRYWUtqalh3ZS9IRWlLWjc4Ny9nQnc9PQo="
     }
   }
 }
