@@ -1,15 +1,15 @@
 {
-  "version": "0.1.238",
-  "notes": "Novsky 0.1.238\n\n- «Люди і ролі»: людей тепер можна додавати просто з Novsky. Вписуєш Telegram ID, обираєш роль — оператор, адміністратор або суперадмін — і тиснеш «Додати». Людину можна прибрати кнопкою «Прибрати». Оператор може писати боту, адміністратор ще й керує ним, суперадмін має права власника, крім його особистого листування з ботом, профілю й особистих нотаток.\n- Суперадміна можна призначити лише там, де кит агента підтримує цю роль (корпоративний агент на Premium-киті); в Individual Kit суперадмінів немає. Додавати й прибирати людей можна в агентів на Claude; для інших агентів розділ показує список без кнопок.\n- Novsky не змінює ролі, коли не впевнений, хто власник агента: поки передача власника не підтверджена або коли власник на сервері не той, що в записі Novsky. Так справжнього власника не прибереш випадково.\n- Кожна зміна ролі з Novsky лишає запис у журналі доступу самого агента, як і зміна з чату.\n- Агенти-керівники: команди перегляду підлеглих більше не зависають, якщо викликати їх із «--help» або без запиту, а великий запит читається повністю.\n\nКит агентів цей випуск не оновлює.\n",
-  "pub_date": "2026-11-25T23:17:22.021Z",
+  "version": "0.1.239",
+  "notes": "Novsky 0.1.239\n\n- «Люди і ролі»: роль «Оператор» тепер називається «Користувач». Права ті самі: людина може писати боту, але не керує ним. Назва змінилася у списку людей, у виборі ролі, у підказці й у тексті відмови сервера.\n\nКит агентів цей випуск не оновлює.\n",
+  "pub_date": "2026-11-26T11:40:27.909Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.238/Novsky-0.1.238-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm1ieFV6Zkd0OHBEK0FmbUxkb3RnWW9WR2ZhS2JjUURrdEJzV0M0TGdQd0pMVThja1pEQWh6eGdiZERoVXNJM0hYSGhJVk5YM2RlVnVGamFqbmVjVmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjQ4NjMzCWZpbGU6Tm92c2t5LTAuMS4yMzgtYXJtNjQuYXBwLnRhci5negovSW1kOU5NampFWkk4dTlDc3R0akdLRGtCdnNwL1h1WlVyOW5pV044MTBXQ1VoZjFNNXdLSjZTeTdjc3BpNWlRaUFmL1Mwc3VtSHFETFZtWnYzdW9DZz09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.239/Novsky-0.1.239-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm83eVZFRmRyclVzREVhWGtQN1plUmh1RzJPR0NhUDFwUTMxN0RHVjg2Y1gwcTZZdVlZd1dhbFRwSmtQaHdZVFRsTStUS0YrSVAvV3hPdXJFTjA1TlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjkzMjAwCWZpbGU6Tm92c2t5LTAuMS4yMzktYXJtNjQuYXBwLnRhci5nego3eHdiR2djS0Z2SlZ6SE1NZTB4Q01Ca2w2TFFFYTdkdHJDc0Q3UGZqb25NYTVJRXM1bjVhcEkwR3BKTldNN0R6cjlta3M3SHN0eFhhY1hsUVIwM2pCUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.238/Novsky-0.1.238-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnNNTEFqdzRTUDdoaTdHa2duR1pBeVN2SzczaG54Y1ZsY0NWSnR0Ty9WNUtYaDRBQmd4dEdORGJXSHFDTEtyTVpRTS9MWis0ZUJIUDZ0V2NWMzFEbkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjQ4NjM0CWZpbGU6Tm92c2t5LTAuMS4yMzgteDY0LmFwcC50YXIuZ3oKenJvUVU3cnE4ZSt2VWd1SEJWR3RDbXhOcDRpcVV5bmFxZ0RLcFNNcTR5VisrMVZVOURWUzk0VEMxYjhvMWtuaFRYWUtqalh3ZS9IRWlLWjc4Ny9nQnc9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.239/Novsky-0.1.239-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnJXL2drMFdZaDZyTXFJSTFOSmovaUM1VWc1bG0vUExUUlBSclo1NEZuS3I3SkhmTVpWYjM4N2E2WmFOQkZvcGZYeWVqR0Z2MGErSTdsUVFmaW5ORWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjkzMjAxCWZpbGU6Tm92c2t5LTAuMS4yMzkteDY0LmFwcC50YXIuZ3oKZUhRRlNsOXZnWERjYnFCQVJ0eUkwK255bjcrN0hqRVdxd25ibllVSkdJNmpxeHR0OE56K0dqMnlML0wrd1ppdlAzRFhGeDNSYUQxMnVhcFNubWU2QWc9PQo="
     }
   }
 }
