@@ -1,11 +1,11 @@
 {
-  "version": "0.1.240",
-  "notes": "Novsky 0.1.240\n\n- Встановлення агента через VPN. Якщо напряму до Telegram, каталогу чи завантажень не достукатися, Novsky тепер пробує ще й через системний проксі комп’ютера: так працюють VPN на кшталт Clash і V2Ray. Раніше там, де Telegram відкривається лише через VPN, встановлення не починалося («Не вдалося перевірити Telegram із цього комп’ютера»), хоча браузер працював. macOS і Windows.\n- Там, де все працювало, нічого не змінюється: спершу Novsky іде напряму, як і раніше, а до проксі звертається, лише коли напряму не вийшло або відповіді немає дві секунди. Активація ключа й оплата йдуть лише напряму, як і раніше.\n- Перевірка бота в Telegram перед встановленням робить ще одну спробу за IPv4-адресою Telegram, а якщо зв’язку все одно немає, підказує, що зробити з VPN.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.240 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.240/Novsky-0.1.240-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює.\n",
-  "pub_date": "2026-11-27T12:03:16.681Z",
+  "version": "0.1.241",
+  "notes": "Novsky 0.1.241\n\n- Привітання після встановлення. Власник агента отримує перше привітання мовою, яку обрано для агента під час встановлення (українська, російська, польська або англійська). Раніше Novsky завжди вітав українською. Розробник, який встановлює агента для іншої людини, як і раніше отримує привітання українською.\n\nWindows: з 0.1.214 оновлення йде кнопкою «Оновити». Якщо стоїть 0.1.213 або старіша, один раз встанови 0.1.241 інсталятором: https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.241/Novsky-0.1.241-windows-x64-setup.exe\n\nКит агентів цей випуск не оновлює.\n",
+  "pub_date": "2026-11-27T13:35:35.566Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.240/Novsky-0.1.240-windows-x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnZBRXFEdVJiVEYwNnM1WFV2RDNOYVlncmFGWFY5bUVDQjQyYzZnOU4xaWhRUEJnb3IwaTNWbHVwdUJ1S29IUzNCSVdGb3I5ZEY3VkpBL0I5NnpVNlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzgwOTM0CWZpbGU6Tm92c2t5LTAuMS4yNDAtd2luZG93cy14NjQtc2V0dXAuZXhlClpNK2QrYk1zTmcyRG54UVRxZnpoQWJueTgvdy93dS81OTFOc25nYjF3eDRxaTM5ZXFSK2dESlk2ckMzYUdPdXp3MUw1S0hicVQwMkliSVdiQkVXRURnPT0K"
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-windows-v0.1.241/Novsky-0.1.241-windows-x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFJVk9OV1NyNDZaVWtjU3F4VzJpVzl4dHNRajAwb0xxTHppdDU1STVGMU1raTh1MEp6bmFMOWh4UmRVdkk3QmhBOXZNYUpFSVJLNWJuNWFmZEdNN2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzg2NDgyCWZpbGU6Tm92c2t5LTAuMS4yNDEtd2luZG93cy14NjQtc2V0dXAuZXhlCnpGditIcUxJNXFiT1l0UU1WZTN6TFpNOThUY2IrK3p6Y1U0WGFJMktDek42a1lQTDl3TVBYQnRPM0VRZDROemhzeGxmWVZFcTI1OXRHaW0xMDllSER3PT0K"
     }
   }
 }
