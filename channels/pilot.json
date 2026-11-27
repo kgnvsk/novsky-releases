@@ -1,15 +1,15 @@
 {
-  "version": "0.1.240",
-  "notes": "Novsky 0.1.240\n\n- Встановлення агента через VPN. Якщо напряму до Telegram, каталогу чи завантажень не достукатися, Novsky тепер пробує ще й через системний проксі комп’ютера: так працюють VPN на кшталт Clash і V2Ray. Раніше там, де Telegram відкривається лише через VPN, встановлення не починалося («Не вдалося перевірити Telegram із цього комп’ютера»), хоча браузер працював. macOS і Windows.\n- Там, де все працювало, нічого не змінюється: спершу Novsky іде напряму, як і раніше, а до проксі звертається, лише коли напряму не вийшло або відповіді немає дві секунди. Активація ключа й оплата йдуть лише напряму, як і раніше.\n- Перевірка бота в Telegram перед встановленням робить ще одну спробу за IPv4-адресою Telegram, а якщо зв’язку все одно немає, підказує, що зробити з VPN.\n\nКит агентів цей випуск не оновлює.\n",
-  "pub_date": "2026-11-27T11:58:13.355Z",
+  "version": "0.1.241",
+  "notes": "Novsky 0.1.241\n\n- Привітання після встановлення. Власник агента отримує перше привітання мовою, яку обрано для агента під час встановлення (українська, російська, польська або англійська). Раніше Novsky завжди вітав українською. Розробник, який встановлює агента для іншої людини, як і раніше отримує привітання українською.\n\nКит агентів цей випуск не оновлює.\n",
+  "pub_date": "2026-11-27T13:30:40.123Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.240/Novsky-0.1.240-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnV2bzh5RkNjU0dzRnA4WmRHTEcvcW5pMm8vSlJqNmFxdGtuWmxkdnBzcVJSRzhPMmU4bkpuUjY3WCtVUTFPRVZjWVRJT0hsODJPU3p2RTVJVDhEendVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzgwNjg2CWZpbGU6Tm92c2t5LTAuMS4yNDAtYXJtNjQuYXBwLnRhci5negpETVlWT2w4bmM4ZTNNV3UxaXBibVBmT3BWYm9TdktCNXBmNFhnU1ZRN1FWRXMrU015ZlNEVWgwWXRjSisxZGtzNFZpQ0wxTkxNemxtVmlYZnRvSlVEUT09Cg=="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.241/Novsky-0.1.241-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnFCRHpldEhZZ0V6YzFRNSsyMkVqbmt6SGFDYXBZZmFnZ09SSmNHS1dpUFg1cTdUWVZmQ2d1NXF3bFg4bHA3eWVoeHlHUWExdkVJa2E5ZzlvTGYxeEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzg2MjEwCWZpbGU6Tm92c2t5LTAuMS4yNDEtYXJtNjQuYXBwLnRhci5negpvN2hDOGJvYlBwbDYrQ0ozZW5ZYUhpeGJTTC85eHZRcWMvYUxCbmFBYk9HVTZWTTFjMGZMaThROFplMlpzdVFXbHZYUUNnQzcwNTlPNWhnMlpJQmpCUT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.240/Novsky-0.1.240-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScm9VTGE0c0JLMzVLUVN4N3E5V3Q0U0FxUXhhUUVHM21BajlqNGpmV2lGUEN3ZDM2R0M4WnQ0eTVCVER6RGI1SGRCMTdMY05EMUs4eW1WY3RmNC9ya2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzgwNjg2CWZpbGU6Tm92c2t5LTAuMS4yNDAteDY0LmFwcC50YXIuZ3oKNEx5cnJxQ0lqV0dMVnRtcXdQQ0NqZFRxbHBjWUkyS0IzYlhSNmYva3Rtd09pNitaS2xvVzZqdndYQWQ3U0thUjE0dmN0aEdCUkVybXgwTTdMY3AxQ1E9PQo="
+      "url": "https://github.com/kgnvsk/novsky-releases/releases/download/pilot-v0.1.241/Novsky-0.1.241-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVST2ViMCtpZXdScnB0bWJaTldVdHRUS3l6azRHMzh3NWV1RzFXNTN5SjZnZzJjT2FMUGJaNzZ4Sk5vNFBQMlZ1YlhMY1dLMVVvVi9CRnFwbWdRQVE5MytWZHhLU0JvZkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Nzg2MjEwCWZpbGU6Tm92c2t5LTAuMS4yNDEteDY0LmFwcC50YXIuZ3oKaDVNOVBqMHRqVmtFSkRzdU1qaFdOdzBvTTdTNkdKY1doMWdZVU9rdnR1T1FodVhWbnNGSjBZcytJM09CRXZid2V6emlhRWU1NkYyTTl0bWNPeXJjQmc9PQo="
     }
   }
 }
